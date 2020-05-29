@@ -1,0 +1,15 @@
+name: CI
+on:
+  push:
+    branches-ignore:
+      - index
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Validate registry
+        shell: pwsh
+        run: echo "TODO registry YAML validation"

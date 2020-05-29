@@ -1,0 +1,105 @@
+name: Update index
+on:
+  schedule:
+    - cron: '0 * * * *' # every hour
+  push:
+    branches:
+      - master
+    paths:
+      - 'registry/**'
+      - '.github/**'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GALLERY_JSON: bsdata.catpkg-gallery.json
+      RELEASE_TAG: index-v1
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          path: master
+      - name: Checkout index
+        uses: actions/checkout@v2
+        with:
+          ref: index
+          path: index
+      - name: Compile index
+        uses: ./master/.github/actions/compile-index
+        id: compile
+        with:
+          index-path: ./index
+          registry-path: ./master/registry
+          gallery-json-path: ${{ env.GALLERY_JSON }}
+      - name: Upload gallery-json as workflow artifact
+        if: success() || failure()
+        uses: actions/upload-artifact@v1
+        with:
+          name: 'bsdata.catpkg-gallery.json'
+          path: ${{ env.GALLERY_JSON }}
+        continue-on-error: true
+      - name: Commit and push any index changes
+        id: push
+        shell: pwsh
+        working-directory: ./index
+        run: |
+          "master-sha: $env:GITHUB_SHA" > master-sha.yml # save master's SHA to associate branches
+          $pkgids = @((git status --porcelain | % { $_.Substring(3) } | Split-Path -Leaf) -replace '\.catpkg\.yml$','')
+          if ($pkgids.Length -eq 0) {
+            Write-Host 'No changes in the index' -ForegroundColor Green
+            exit 0
+          }
+          $summary = if ($pkgids.Length -eq 1) {
+            $pkgids
+          } else {
+            "{0} (+{1} more)" -f $pkgids[0],($pkgids.Length - 1)
+          }
+          @"
+          Changed: $summary
+
+          $($pkgids -join "`n")
+          "@ > ../commit.txt
+          git add -A
+          git config user.email "BSData-bot@users.noreply.github.com"
+          git config user.name "BSData-bot"
+          git commit -F ../commit.txt
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          git push
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          Write-Host "::set-output name=pushed::true"
+      - name: Get release upload_url (and delete old asset if found)
+        uses: actions/github-script@0.4.0
+        if: steps.push.outputs.pushed
+        id: get-upload-url
+        with:
+          github-token: ${{ github.token }}
+          result-encoding: string
+          script: |
+            const { data: release } = await github.repos.getReleaseByTag({
+              ...context.repo,
+              tag: '${{ env.RELEASE_TAG }}'
+            });
+            console.log('Release retrieved');
+            const assetName = '${{ env.GALLERY_JSON }}';
+            const previousIndex = release.assets.find(x => x.name === assetName);
+            if (previousIndex) {
+              console.log('Deleting existing asset');
+              await github.repos.deleteReleaseAsset({
+                ...context.repo,
+                asset_id: previousIndex.id
+              });
+            }
+            console.log('Done');
+            return release.upload_url;
+      - name: Upload gallery index
+        uses: actions/upload-release-asset@v1.0.1
+        if: steps.push.outputs.pushed
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        with:
+          upload_url: ${{ steps.get-upload-url.outputs.result }}
+          asset_path: ${{ env.GALLERY_JSON }}
+          asset_name: ${{ env.GALLERY_JSON }}
+          asset_content_type: application/json
