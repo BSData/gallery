@@ -1,0 +1,12 @@
+location:
+  github: BSData/battlefleetgothic
+latest-release:
+  api-response-headers:
+    Last-Modified: Sat, 27 Jul 2019 05:56:37 GMT
+  api-response-content:
+    tag_name: 2.4.1
+    name: Armada Imperialis Fixes
+    published_at: 2019-07-27T05:56:37.0000000Z
+  index-response-error:
+    code: 404
+

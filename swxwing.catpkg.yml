@@ -1,0 +1,12 @@
+location:
+  github: BSData/swxwing
+latest-release:
+  api-response-headers:
+    Last-Modified: Sat, 28 Sep 2019 22:11:24 GMT
+  api-response-content:
+    tag_name: 1.4.2
+    name: Wave 5 Release
+    published_at: 2019-09-28T22:11:24.0000000Z
+  index-response-error:
+    code: 404
+

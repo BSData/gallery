@@ -1,0 +1,12 @@
+location:
+  github: BSData/harry-potter
+latest-release:
+  api-response-headers:
+    Last-Modified: Mon, 25 Nov 2019 12:03:30 GMT
+  api-response-content:
+    tag_name: "13"
+    name: Fixed minor bugs
+    published_at: 2019-11-25T12:03:30.0000000Z
+  index-response-error:
+    code: 404
+

@@ -1,0 +1,23 @@
+location:
+  github: BSData/warhammer-armies-project
+latest-release:
+  api-response-headers:
+    Last-Modified: Sun, 17 May 2020 18:45:27 GMT
+  api-response-content:
+    tag_name: v1.9.0
+    name: Magic Items + Bug Fixes
+    published_at: 2020-05-17T18:45:27.0000000Z
+  index:
+    name: warhammer-armies-project
+    description: Warhammer Armies Project
+    battleScribeVersion: "2.03"
+    version: v1.9.0
+    lastUpdated: 2020-05-17T18:45:27.0000000Z
+    lastUpdateDescription: Magic Items + Bug Fixes
+    indexUrl: https://github.com/BSData/warhammer-armies-project/releases/latest/download/warhammer-armies-project.latest.bsi
+    repositoryUrl: https://github.com/BSData/warhammer-armies-project/releases/latest/download/warhammer-armies-project.catpkg.json
+    githubUrl: https://github.com/BSData/warhammer-armies-project
+    feedUrl: https://github.com/BSData/warhammer-armies-project/releases.atom
+    bugTrackerUrl: https://github.com/BSData/warhammer-armies-project/issues
+    reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-armies-project
+

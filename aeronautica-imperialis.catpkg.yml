@@ -1,0 +1,12 @@
+location:
+  github: BSData/aeronautica-imperialis
+latest-release:
+  api-response-headers:
+    Last-Modified: Fri, 18 Oct 2019 20:24:02 GMT
+  api-response-content:
+    tag_name: V1.4
+    name: Imperial weapons and aces fixes and limitation of upgrades per aircraft
+    published_at: 2019-10-18T20:24:02.0000000Z
+  index-response-error:
+    code: 404
+

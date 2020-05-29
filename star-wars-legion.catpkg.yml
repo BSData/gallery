@@ -1,0 +1,23 @@
+location:
+  github: BSData/star-wars-legion
+latest-release:
+  api-response-headers:
+    Last-Modified: Thu, 02 Apr 2020 23:01:19 GMT
+  api-response-content:
+    tag_name: 1.5.9
+    name: March 2020 Announcements
+    published_at: 2020-04-02T23:01:19.0000000Z
+  index:
+    name: star-wars-legion
+    description: 'Star Wars: Legion'
+    battleScribeVersion: "2.03"
+    version: 1.5.9
+    lastUpdated: 2020-04-02T23:01:19.0000000Z
+    lastUpdateDescription: March 2020 Announcements
+    indexUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.latest.bsi
+    repositoryUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.catpkg.json
+    githubUrl: https://github.com/BSData/star-wars-legion
+    feedUrl: https://github.com/BSData/star-wars-legion/releases.atom
+    bugTrackerUrl: https://github.com/BSData/star-wars-legion/issues
+    reportBugUrl: http://battlescribedata.appspot.com/#/repo/star-wars-legion
+

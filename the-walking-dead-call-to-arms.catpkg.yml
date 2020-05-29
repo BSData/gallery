@@ -1,0 +1,12 @@
+location:
+  github: BSData/the-walking-dead-call-to-arms
+latest-release:
+  api-response-headers:
+    Last-Modified: Wed, 27 Nov 2019 19:15:09 GMT
+  api-response-content:
+    tag_name: 1.5.7
+    name: Saviors
+    published_at: 2019-11-27T19:15:09.0000000Z
+  index-response-error:
+    code: 404
+

@@ -1,0 +1,12 @@
+location:
+  github: BSData/gates-of-antares
+latest-release:
+  api-response-headers:
+    Last-Modified: Fri, 06 Sep 2019 05:54:19 GMT
+  api-response-content:
+    tag_name: "1.18"
+    name: More changes
+    published_at: 2019-09-06T05:54:19.0000000Z
+  index-response-error:
+    code: 404
+

@@ -1,0 +1,23 @@
+location:
+  github: BSData/wh40k
+latest-release:
+  api-response-headers:
+    Last-Modified: Thu, 21 May 2020 11:49:50 GMT
+  api-response-content:
+    tag_name: v1.4.20
+    name: Murder Clowns Attack!
+    published_at: 2020-05-21T11:49:50.0000000Z
+  index:
+    name: wh40k
+    description: Warhammer 40,000
+    battleScribeVersion: "2.03"
+    version: v1.4.20
+    lastUpdated: 2020-05-21T11:49:50.0000000Z
+    lastUpdateDescription: Murder Clowns Attack!
+    indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
+    repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
+    githubUrl: https://github.com/BSData/wh40k
+    feedUrl: https://github.com/BSData/wh40k/releases.atom
+    bugTrackerUrl: https://github.com/BSData/wh40k/issues
+    reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k
+

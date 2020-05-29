@@ -1,0 +1,12 @@
+location:
+  github: BSData/punkapocalyptic
+latest-release:
+  api-response-headers:
+    Last-Modified: Mon, 13 May 2019 16:42:08 GMT
+  api-response-content:
+    tag_name: 1.0.2
+    name: Punkapocalyptic v1.0.2 ESP
+    published_at: 2019-05-13T16:42:08.0000000Z
+  index-response-error:
+    code: 404
+

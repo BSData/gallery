@@ -1,0 +1,12 @@
+location:
+  github: BSData/deadzone
+latest-release:
+  api-response-headers:
+    Last-Modified: Tue, 26 Nov 2019 08:30:44 GMT
+  api-response-content:
+    tag_name: 4.0.4
+    name: 'Deadzone: Escalation'
+    published_at: 2019-11-26T08:30:44.0000000Z
+  index-response-error:
+    code: 404
+

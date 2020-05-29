@@ -1,0 +1,12 @@
+location:
+  github: BSData/rumbleslam
+latest-release:
+  api-response-headers:
+    Last-Modified: Sat, 27 Apr 2019 18:12:09 GMT
+  api-response-content:
+    tag_name: v1.0.2
+    name: ""
+    published_at: 2019-04-27T18:12:09.0000000Z
+  index-response-error:
+    code: 404
+

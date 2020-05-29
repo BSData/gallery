@@ -1,0 +1,23 @@
+location:
+  github: BSData/wh40k-killteam
+latest-release:
+  api-response-headers:
+    Last-Modified: Fri, 15 May 2020 08:33:04 GMT
+  api-response-content:
+    tag_name: v1.4.19
+    name: That's illegal!
+    published_at: 2020-05-15T08:33:04.0000000Z
+  index:
+    name: wh40k-killteam
+    description: 'Warhammer 40,000: Kill Team (2018)'
+    battleScribeVersion: "2.03"
+    version: v1.4.19
+    lastUpdated: 2020-05-15T08:33:04.0000000Z
+    lastUpdateDescription: That's illegal!
+    indexUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.latest.bsi
+    repositoryUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json
+    githubUrl: https://github.com/BSData/wh40k-killteam
+    feedUrl: https://github.com/BSData/wh40k-killteam/releases.atom
+    bugTrackerUrl: https://github.com/BSData/wh40k-killteam/issues
+    reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-killteam
+

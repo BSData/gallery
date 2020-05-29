@@ -1,0 +1,12 @@
+location:
+  github: BSData/bloodbowl
+latest-release:
+  api-response-headers:
+    Last-Modified: Thu, 19 Dec 2019 15:13:11 GMT
+  api-response-content:
+    tag_name: 2.0.5
+    name: 'Spike #8'
+    published_at: 2019-12-16T13:34:01.0000000Z
+  index-response-error:
+    code: 404
+

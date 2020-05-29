@@ -1,0 +1,12 @@
+location:
+  github: BSData/dc-universe
+latest-release:
+  api-response-headers:
+    Last-Modified: Thu, 29 Aug 2019 11:56:49 GMT
+  api-response-content:
+    tag_name: 2.0.6
+    name: Added new characters
+    published_at: 2019-08-29T11:56:49.0000000Z
+  index-response-error:
+    code: 404
+

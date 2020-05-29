@@ -1,0 +1,12 @@
+location:
+  github: BSData/warlords-of-erehwon
+latest-release:
+  api-response-headers:
+    Last-Modified: Mon, 24 Feb 2020 10:28:07 GMT
+  api-response-content:
+    tag_name: v1.5.8
+    name: QoL changes for Dwarven list
+    published_at: 2020-02-24T10:28:07.0000000Z
+  index-response-error:
+    code: 404
+

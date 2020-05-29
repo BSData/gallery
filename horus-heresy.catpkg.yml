@@ -1,0 +1,23 @@
+location:
+  github: BSData/horus-heresy
+latest-release:
+  api-response-headers:
+    Last-Modified: Tue, 26 May 2020 18:09:47 GMT
+  api-response-content:
+    tag_name: v13.019a
+    name: Couple of fixes and a load of Mournival
+    published_at: 2020-05-26T18:06:56.0000000Z
+  index:
+    name: horus-heresy
+    description: Horus Heresy
+    battleScribeVersion: "2.03"
+    version: v13.019a
+    lastUpdated: 2020-05-26T18:06:56.0000000Z
+    lastUpdateDescription: Couple of fixes and a load of Mournival (a)
+    indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
+    repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
+    githubUrl: https://github.com/BSData/horus-heresy
+    feedUrl: https://github.com/BSData/horus-heresy/releases.atom
+    bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
+    reportBugUrl: http://battlescribedata.appspot.com/#/repo/horus-heresy
+

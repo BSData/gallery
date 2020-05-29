@@ -1,0 +1,12 @@
+location:
+  github: BSData/cav-strike-operations
+latest-release:
+  api-response-headers:
+    Last-Modified: Wed, 26 Jun 2019 05:09:41 GMT
+  api-response-content:
+    tag_name: V1.2
+    name: Faction Limits and Doctrines
+    published_at: 2019-06-26T05:09:41.0000000Z
+  index-response-error:
+    code: 404
+

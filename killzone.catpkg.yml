@@ -1,0 +1,12 @@
+location:
+  github: BSData/killzone
+latest-release:
+  api-response-headers:
+    Last-Modified: Sat, 16 Nov 2019 16:31:50 GMT
+  api-response-content:
+    tag_name: 1.0.3
+    name: Corrections for cost of Heroes (Scavangers)
+    published_at: 2019-11-16T16:31:50.0000000Z
+  index-response-error:
+    code: 404
+

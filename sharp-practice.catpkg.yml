@@ -1,0 +1,12 @@
+location:
+  github: BSData/sharp-practice
+latest-release:
+  api-response-headers:
+    Last-Modified: Tue, 17 Sep 2019 17:39:26 GMT
+  api-response-content:
+    tag_name: "1.3"
+    name: Union Infantry Fixed
+    published_at: 2019-09-17T17:39:26.0000000Z
+  index-response-error:
+    code: 404
+
