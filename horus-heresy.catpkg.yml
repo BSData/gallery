@@ -2,18 +2,18 @@ location:
   github: BSData/horus-heresy
 latest-release:
   api-response-headers:
-    Last-Modified: Mon, 01 Jun 2020 08:25:40 GMT
+    Last-Modified: Mon, 01 Jun 2020 09:36:09 GMT
   api-response-content:
-    tag_name: v13.021
-    name: More, More, Mournival
-    published_at: 2020-06-01T08:25:40.0000000Z
+    tag_name: v13.022
+    name: More, More, Mournival (extra fixes)
+    published_at: 2020-06-01T09:36:09.0000000Z
   index:
     name: horus-heresy
     description: Horus Heresy
     battleScribeVersion: "2.03"
-    version: v13.021
-    lastUpdated: 2020-06-01T08:25:40.0000000Z
-    lastUpdateDescription: More, More, Mournival
+    version: v13.022
+    lastUpdated: 2020-06-01T09:36:09.0000000Z
+    lastUpdateDescription: More, More, Mournival (extra fixes)
     indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
     repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
     githubUrl: https://github.com/BSData/horus-heresy
