@@ -2,20 +2,22 @@ location:
   github: BSData/horus-heresy
 latest-release:
   api-response-headers:
-    Last-Modified: Tue, 02 Jun 2020 15:42:44 GMT
+    Last-Modified: Wed, 03 Jun 2020 15:46:22 GMT
   api-response-content:
-    tag_name: v13.023
-    name: Last of the Mournival RoW
-    published_at: 2020-06-02T15:42:44.0000000Z
+    tag_name: v13.024
+    name: Fixes for Heavy Destroyer (Mournival)
+    published_at: 2020-06-03T15:46:22.0000000Z
   index:
     name: horus-heresy
     description: Horus Heresy
     battleScribeVersion: "2.03"
-    version: v13.023
-    lastUpdated: 2020-06-02T15:42:44.0000000Z
-    lastUpdateDescription: Last of the Mournival RoW
+    version: v13.024
+    lastUpdated: 2020-06-03T15:45:38.0000000Z
+    lastUpdateDescription: Fixes for Heavy Destroyer (Mournival)
     indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
     repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
+    repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
+    repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.024/horus-heresy.v13.024.bsr
     githubUrl: https://github.com/BSData/horus-heresy
     feedUrl: https://github.com/BSData/horus-heresy/releases.atom
     bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
