@@ -2,20 +2,22 @@ location:
   github: BSData/wh40k
 latest-release:
   api-response-headers:
-    Last-Modified: Sat, 30 May 2020 13:43:45 GMT
+    Last-Modified: Thu, 04 Jun 2020 21:36:25 GMT
   api-response-content:
-    tag_name: v1.4.21
-    name: It was as if millions of SM voices all cried out in terror...
-    published_at: 2020-05-30T13:43:45.0000000Z
+    tag_name: v1.4.22
+    name: Is this a stand up fight sir, or a bug hunt?
+    published_at: 2020-06-04T21:36:25.0000000Z
   index:
     name: wh40k
     description: Warhammer 40,000
     battleScribeVersion: "2.03"
-    version: v1.4.21
-    lastUpdated: 2020-05-30T13:43:45.0000000Z
-    lastUpdateDescription: It was as if millions of SM voices all cried out in terror...
+    version: v1.4.22
+    lastUpdated: 2020-06-04T21:29:36.0000000Z
+    lastUpdateDescription: Is this a stand up fight sir, or a bug hunt?
     indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
     repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
+    repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
+    repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v1.4.22/wh40k.v1.4.22.bsr
     githubUrl: https://github.com/BSData/wh40k
     feedUrl: https://github.com/BSData/wh40k/releases.atom
     bugTrackerUrl: https://github.com/BSData/wh40k/issues
