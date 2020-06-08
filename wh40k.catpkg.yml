@@ -2,22 +2,22 @@ location:
   github: BSData/wh40k
 latest-release:
   api-response-headers:
-    Last-Modified: Sat, 06 Jun 2020 13:31:56 GMT
+    Last-Modified: Mon, 08 Jun 2020 19:27:22 GMT
   api-response-content:
-    tag_name: v1.5.0
-    name: 01010111 01100001 01110010
-    published_at: 2020-06-06T13:30:31.0000000Z
+    tag_name: v1.5.1
+    name: 01010111 01110010 01100001 01110100 01101000
+    published_at: 2020-06-08T19:27:01.0000000Z
   index:
     name: wh40k
     description: Warhammer 40,000
     battleScribeVersion: "2.03"
-    version: v1.5.0
-    lastUpdated: 2020-06-05T17:42:04.0000000Z
-    lastUpdateDescription: 01010111 01100001 01110010
+    version: v1.5.1
+    lastUpdated: 2020-06-08T13:38:23.0000000Z
+    lastUpdateDescription: 01010111 01110010 01100001 01110100 01101000
     indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
     repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
     repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-    repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v1.5.0/wh40k.v1.5.0.bsr
+    repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v1.5.1/wh40k.v1.5.1.bsr
     githubUrl: https://github.com/BSData/wh40k
     feedUrl: https://github.com/BSData/wh40k/releases.atom
     bugTrackerUrl: https://github.com/BSData/wh40k/issues
