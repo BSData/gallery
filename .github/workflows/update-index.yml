@@ -1,13 +1,13 @@
 name: Update index
 on:
   schedule:
-    - cron: '0 * * * *' # every hour
+    - cron: "0 * * * *" # every hour
   push:
     branches:
       - master
     paths:
-      - 'registry/**'
-      - '.github/**'
+      - "registry/**"
+      - ".github/**"
 
 jobs:
   update:
@@ -21,54 +21,78 @@ jobs:
         with:
           ref: master
           path: master
+
       - name: Checkout index
         uses: actions/checkout@v2
         with:
           ref: index
           path: index
+
       - name: Compile index
-        uses: ./master/.github/actions/compile-index
+        uses: Amadevus/pwsh-script@v1
         id: compile
         with:
-          index-path: ./index
-          registry-path: ./master/registry
-          gallery-json-path: ${{ env.GALLERY_JSON }}
+          script: |
+            $ErrorActionPreference = 'Stop'
+            $buildArgs = @{
+              IndexPath = Resolve-Path ./index
+              RegistryPath = Resolve-Path ./master/registry
+              GalleryJsonPath = env:GALLERY_JSON
+              Token = $github.token
+            }
+            ./master/.github/actions/compile-index/action.ps1 @buildArgs
+
       - name: Upload gallery-json as workflow artifact
         if: success() || failure()
         uses: actions/upload-artifact@v1
         with:
-          name: 'bsdata.catpkg-gallery.json'
+          name: ${{ env.GALLERY_JSON }}
           path: ${{ env.GALLERY_JSON }}
         continue-on-error: true
-      - name: Commit and push any index changes
-        id: push
-        shell: pwsh
-        working-directory: ./index
-        run: |
-          "master-sha: $env:GITHUB_SHA" > master-sha.yml # save master's SHA to associate branches
-          $pkgids = @((git status --porcelain | % { $_.Substring(3) } | Split-Path -Leaf) -replace '\.catpkg\.yml$','')
-          if ($pkgids.Length -eq 0) {
-            Write-Host 'No changes in the index' -ForegroundColor Green
-            exit 0
-          }
-          $summary = if ($pkgids.Length -eq 1) {
-            $pkgids
-          } else {
-            "{0} (+{1} more)" -f $pkgids[0],($pkgids.Length - 1)
-          }
-          @"
-          Changed: $summary
 
-          $($pkgids -join "`n")
-          "@ > ../commit.txt
-          git add -A
-          git config user.email "BSData-bot@users.noreply.github.com"
-          git config user.name "BSData-bot"
-          git commit -F ../commit.txt
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          git push
-          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
-          Write-Host "::set-output name=pushed::true"
+      - name: Commit and push any index changes
+        uses: Amadevus/pwsh-script@v1
+        id: push
+        with:
+          script: |
+            Set-Location ./index
+            function Invoke-Native ([scriptblock]$native) {
+              $LASTEXITCODE = 0
+              & $native
+              if ($LASTEXITCODE) {
+                throw "Native call failed: $native"
+              }
+            }
+            # save master's SHA to associate branches
+            "master-sha: $env:GITHUB_SHA" > master-sha.yml
+
+            # get list of changed files
+            $pkgids = @((git status --porcelain | % { $_.Substring(3) } | Split-Path -Leaf) -replace '\.catpkg\.yml$','')
+            if ($pkgids.Length -eq 0) {
+              Write-Host 'No changes in the index' -ForegroundColor Green
+              return
+            }
+
+            # create commit message
+            $summary = if ($pkgids.Length -eq 1) {
+              $pkgids
+            } else {
+              "{0} (+{1} more)" -f $pkgids[0],($pkgids.Length - 1)
+            }
+            @"
+            Changed: $summary
+            $($pkgids -join "`n")
+            "@ > ../commit.txt
+
+            # git operations
+            Invoke-Native { git add -A }
+            Invoke-Native { git config user.email "BSData-bot@users.noreply.github.com" }
+            Invoke-Native { git config user.name "BSData-bot" }
+            Invoke-Native { git commit -F ../commit.txt }
+            Invoke-Native { git push }
+
+            Set-ActionOutput pushed true
+
       - name: Get release upload_url (and delete old asset if found)
         uses: actions/github-script@0.4.0
         if: steps.push.outputs.pushed
@@ -93,6 +117,7 @@ jobs:
             }
             console.log('Done');
             return release.upload_url;
+
       - name: Upload gallery index
         uses: actions/upload-release-asset@v1.0.1
         if: steps.push.outputs.pushed
