@@ -37,7 +37,7 @@ jobs:
             $buildArgs = @{
               IndexPath = Resolve-Path ./index
               RegistryPath = Resolve-Path ./master/registry
-              GalleryJsonPath = env:GALLERY_JSON
+              GalleryJsonPath = $env:GALLERY_JSON
               Token = $github.token
             }
             ./master/.github/actions/compile-index/action.ps1 @buildArgs
