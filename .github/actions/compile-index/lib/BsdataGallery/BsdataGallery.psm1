@@ -193,7 +193,7 @@ function Update-BsdataGalleryIndex {
       name         = $_.Name
       registryFile = $_
     }
-  } | Group-Object name -AsHashTable
+  } | Group-Object name -AsString -AsHashTable
   # zip entries with existing index entries
   Get-ChildItem $IndexPath *.catpkg.yml | ForEach-Object {
     $entry = $registry[$_.Name]
