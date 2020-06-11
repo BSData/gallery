@@ -188,31 +188,24 @@ function Update-BsdataGalleryIndex {
   )
   
   # read registry entries
-  $registry = Get-ChildItem $RegistrationsPath *.catpkg.yml | Sort-Object Name | ForEach-Object {
-    return @{
+  $registry = [ordered]@{ }
+  Get-ChildItem $RegistrationsPath *.catpkg.yml | Sort-Object Name | ForEach-Object {
+    $registry[$_.Name] = @{
       name         = $_.Name
       registryFile = $_
+      # if there's an index file, set it
+      indexFile    = Get-ChildItem $IndexPath $_.Name
     }
-  } | Group-Object name -AsString -AsHashTable
-  # zip entries with existing index entries
-  Get-ChildItem $IndexPath *.catpkg.yml | ForEach-Object {
-    $entry = $registry[$_.Name]
-    if ($null -eq $entry) {
-      $entry = @{ name = $_.Name }
-      $registry[$_.Name] = $entry
-    }
-    $entry.indexFile = $_
   }
+  # remove index files no longer in registry
+  Get-ChildItem $IndexPath *.catpkg.yml
+  | Where-Object { -not $registry.ContainsKey($_.Name) }
+  | Remove-Item
 
   # process all entries
-  return $registry.Values | Sort-Object name | ForEach-Object {
+  return $registry.Values | ForEach-Object {
     Write-Host ("-> Processing: " + $_.name)
-    if (-not $_.registryFile) {
-      Write-Verbose "Index entry not in registry, removing."
-      Remove-Item $_.indexFile
-      return
-    }
-    $registration = $_.registryFile | Get-Content -Raw | ConvertFrom-Yaml -Ordered
+    $registration = Get-Content $_.registryFile -Raw | ConvertFrom-Yaml -Ordered
     if ($_.indexFile) {
       Write-Verbose "Reading index entry."
       $index = $_.indexFile | Get-Content -Raw | ConvertFrom-Yaml -Ordered
@@ -224,7 +217,6 @@ function Update-BsdataGalleryIndex {
       $index = $registration
     }
     $repository = $index.location.github
-    $owner, $repoName = $repository -split '/'
     Write-Verbose "Getting latest release info."
     $latestRelease = Get-LatestReleaseInfo $repository -SavedRelease $index.'latest-release' -Token $Token -ErrorAction:Continue
     if ($latestRelease -ne $index.'latest-release') {
