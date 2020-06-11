@@ -199,7 +199,7 @@ function Update-BsdataGalleryIndex {
   }
   # remove index files no longer in registry
   Get-ChildItem $IndexPath *.catpkg.yml
-  | Where-Object { -not $registry.ContainsKey($_.Name) }
+  | Where-Object { -not $registry[$_.Name] }
   | Remove-Item
 
   # process all entries
