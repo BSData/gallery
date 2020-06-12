@@ -2,22 +2,22 @@ location:
   github: BSData/horus-heresy
 latest-release:
   api-response-headers:
-    Last-Modified: Wed, 10 Jun 2020 15:07:22 GMT
+    Last-Modified: Fri, 12 Jun 2020 11:54:17 GMT
   api-response-content:
-    tag_name: v13.026
-    name: Panoply and Mourn
-    published_at: 2020-06-10T15:07:22.0000000Z
+    tag_name: v13.027
+    name: Minor fixes and Tweeks
+    published_at: 2020-06-12T11:54:17.0000000Z
   index:
     name: horus-heresy
     description: Horus Heresy
     battleScribeVersion: "2.03"
-    version: v13.026
-    lastUpdated: 2020-06-10T15:06:51.0000000Z
-    lastUpdateDescription: Panoply and Mourn
+    version: v13.027
+    lastUpdated: 2020-06-12T11:53:14.0000000Z
+    lastUpdateDescription: Minor fixes and Tweeks
     indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
     repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
     repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-    repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.026/horus-heresy.v13.026.bsr
+    repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.027/horus-heresy.v13.027.bsr
     githubUrl: https://github.com/BSData/horus-heresy
     feedUrl: https://github.com/BSData/horus-heresy/releases.atom
     bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
