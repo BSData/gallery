@@ -2,22 +2,22 @@ location:
   github: BSData/warhammer-age-of-sigmar
 latest-release:
   api-response-headers:
-    Last-Modified: Tue, 16 Jun 2020 12:46:01 GMT
+    Last-Modified: Wed, 17 Jun 2020 14:25:02 GMT
   api-response-content:
-    tag_name: v2.1.31
-    name: I promise, this release actually has a bugfix ... 1 bugfix.
-    published_at: 2020-06-16T12:46:01.0000000Z
+    tag_name: v2.1.32
+    name: A lot more than 1 bugfix this time!
+    published_at: 2020-06-17T14:25:02.0000000Z
   index:
     name: warhammer-age-of-sigmar
     description: 'Warhammer: Age of Sigmar'
     battleScribeVersion: "2.03"
-    version: v2.1.31
-    lastUpdated: 2020-06-16T12:41:50.0000000Z
-    lastUpdateDescription: I promise, this release actually has a bugfix ... 1 bugfix.
+    version: v2.1.32
+    lastUpdated: 2020-06-17T14:22:59.0000000Z
+    lastUpdateDescription: A lot more than 1 bugfix this time!
     indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
     repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
     repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-    repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.1.31/warhammer-age-of-sigmar.v2.1.31.bsr
+    repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.1.32/warhammer-age-of-sigmar.v2.1.32.bsr
     githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
     feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
     bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
