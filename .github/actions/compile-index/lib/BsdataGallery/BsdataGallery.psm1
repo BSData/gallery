@@ -9,15 +9,15 @@ function Get-BsdataGalleryCatpkg {
   )
   $entries = Get-ChildItem $IndexPath *.catpkg.yml | Sort-Object Name
 
-  $entriesWithRelease = $entries | Where-Object { $null -ne $_.'latest-release' -and $null -ne $_.'latest-release'.index }
-  $entryIndexes = @($entriesWithRelease.'latest-release'.index)
+  $entriesWithRelease = $entries | Where-Object { $null -ne $_.'latest-release' -and $null -ne $_.'latest-release'.catpkg }
+  $catkpgs = @($entriesWithRelease.'latest-release'.catpkg)
   $galleryJsonContent = [ordered]@{
     '$schema'           = 'https://raw.githubusercontent.com/BSData/schemas/master/src/catpkg.schema.json'
     name                = $GallerySettings.name
     description         = $GallerySettings.description
-    battleScribeVersion = ($entryIndexes.battleScribeVersion | Sort-Object -Bottom 1) -as [string]
+    battleScribeVersion = ($catkpgs.battleScribeVersion | Sort-Object -Bottom 1) -as [string]
   } + $GallerySettings.urls + @{
-    repositories = $entryIndexes
+    repositories = $catkpgs
   }
   return $galleryJsonContent
 }
@@ -52,49 +52,51 @@ function Get-LatestReleaseInfo {
     [Parameter()]
     [string] $Token
   )
-  $owner, $repoName = $Repository -split '/'
-  $requestHeaders = @{ }
-  if ($Token) {
-    $requestHeaders['Authorization'] = "token $Token"
-  }
-  $savedHeaders = $SavedRelease.'api-response-headers'
-  if ($savedHeaders.'Last-Modified') {
-    $requestHeaders['If-Modified-Since'] = $savedHeaders.'Last-Modified'
-  }
-  # ETags, turns out, change all the time in github api (at least for latest releases)
-  # if ($savedHeaders.'ETag') {
-  #   $requestHeaders['If-None-Match'] = $savedHeaders.'ETag'
-  # }
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+  # Get latest release API object
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
   # get latest release object from API, but only if newer than what we've got already
-  $latestParams = @{
-    Uri                     = "https://api.github.com/repos/$Repository/releases/latest"
-    Headers                 = $requestHeaders
-    ResponseHeadersVariable = 'releaseResponseHeaders'
-    StatusCodeVariable      = 'latestReleaseStatusCode'
-    SkipHttpErrorCheck      = $true
-  }
   try {
+    $latestParams = @{
+      Uri                     = "https://api.github.com/repos/$Repository/releases/latest"
+      ResponseHeadersVariable = 'releaseResponseHeaders'
+      StatusCodeVariable      = 'latestReleaseStatusCode'
+      SkipHttpErrorCheck      = $true
+      Headers                 = & {
+        $requestHeaders = @{ }
+        if ($Token) {
+          $requestHeaders['Authorization'] = "token $Token"
+        }
+        $savedLastModified = $SavedRelease.'api-response-headers'.'Last-Modified'
+        if ($savedLastModified) {
+          $requestHeaders['If-Modified-Since'] = $savedLastModified
+        }
+        return $requestHeaders
+      }
+    }
     # we have to employ custom retry logic because Invoke-RestMethod retries HTTP 304 NotModified
     $attempts = 0
-    $retryInterval = 5
     do {
-      if ($attempts -gt 0) {
-        Write-Verbose "Retrying request in $retryInterval sec"
-        Start-Sleep -Seconds $retryInterval
-      }
       $time = Measure-Command {
         $latestRelease = Invoke-RestMethod @latestParams
         $latestRelease | Out-Null # to avoid PSUseDeclaredVarsMoreThanAssignments, Justification: scriptblock is executed in current scope
       }
       Write-Verbose ("Request finished in {0:c}" -f $time)
       # repeat until 3rd attempt or success (200 or 304 is success)
-    } while (++$attempts -lt 3 -and $latestReleaseStatusCode -notin @(200, 304))
+      $repeat = ++$attempts -lt 3 -and $latestReleaseStatusCode -notin @(200, 304)
+      if ($repeat) {
+        $retryInterval = 5
+        Write-Verbose "Retrying request in $retryInterval sec"
+        Start-Sleep -Seconds $retryInterval
+      }
+    } while ($repeat)
   }
   catch {
     # exception during request
     Write-Error -Exception $_.Exception
     return [ordered]@{
-      'api-response-error' = [ordered]@{
+      'api-request-error' = [ordered]@{
         'exception' = $_.Exception.Message
       }
     }
@@ -117,22 +119,26 @@ function Get-LatestReleaseInfo {
   # status code 200 OK
   Write-Verbose "Latest release changed: $Repository"
   # prepare result object with release data: headers and content
-  $resultHeaders = [ordered]@{ }
-  if ($releaseResponseHeaders.'Last-Modified') {
-    $resultHeaders.'Last-Modified' = $releaseResponseHeaders.'Last-Modified' -as [string]
-  }
-  # if ($releaseResponseHeaders.ETag) {
-  #   $resultHeaders.'ETag' = $releaseResponseHeaders.ETag -as [string]
-  # }
   $result = [ordered]@{ }
-  if ($resultHeaders.Count -gt 0) {
-    $result['api-response-headers'] = $resultHeaders
+  $lastModified = $releaseResponseHeaders.'Last-Modified' -as [string]
+  if ($lastModified) {
+    $result['api-response-headers'] = @{
+      'Last-Modified' = $lastModified
+    }
   }
   $result['api-response-content'] = $latestRelease | Select-Object 'tag_name', 'name', 'published_at'
+
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+  # Get catpkg.json from the latest release
+  # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
   # get content of the new catpkg.json
+  $repoName = ($Repository -split '/')[1]
   $assetName = Get-EscapedAssetName "$repoName.catpkg.json"
+  $catpkgAsset = $latestRelease.assets | Where-Object name -Match '\.catpkg\.json$' | Select-Object -First 1
+  $catpkgAssetUri = $catpkgAsset.browser_download_url ?? "https://github.com/$Repository/releases/latest/download/$assetName"
   $getIndexParams = @{
-    Uri                = "https://github.com/$Repository/releases/latest/download/$assetName"
+    Uri                = $catpkgAssetUri
     StatusCodeVariable = 'catpkgStatusCode'
     SkipHttpErrorCheck = $true
     # retry 3 times (4 attempts) every 15 seconds. This is mostly so that when a new release
@@ -150,20 +156,20 @@ function Get-LatestReleaseInfo {
   catch {
     # exception during request
     Write-Error -Exception $_.Exception
-    $result['index-response-error'] = [ordered]@{
+    $result['catpkg-request-error'] = [ordered]@{
       'exception' = $_.Exception.Message
     }
     return $result
   }
   if ($catpkgStatusCode -eq [System.Net.HttpStatusCode]::OK) {
     # currently needed because of a couple of fields like battleScribeVersion:
-    $result['index'] = $catpkgJson | Select-Object * -ExcludeProperty '$schema', 'repositoryFiles'
+    $result['catpkg'] = $catpkgJson | Select-Object * -ExcludeProperty '$schema', 'repositoryFiles'
   }
   else {
     # error received
     Write-Warning "catpkg.json request failed with HTTP $([int]$catpkgStatusCode) $($catpkgStatusCode -as [System.Net.HttpStatusCode])"
     $catpkgJson | ConvertTo-Json | Write-Warning
-    $result['index-response-error'] = [ordered]@{
+    $result['catpkg-response-error'] = [ordered]@{
       'code' = $catpkgStatusCode -as [int]
     }
   }
