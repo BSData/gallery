@@ -2,24 +2,11 @@ location:
   github: BSData/aeronautica-imperialis
 latest-release:
   api-response-headers:
-    Last-Modified: Fri, 19 Jun 2020 13:08:04 GMT
+    Last-Modified: Tue, 23 Jun 2020 02:38:24 GMT
   api-response-content:
-    tag_name: "1.5"
-    name: Taros Air War update!
-    published_at: 2020-06-19T13:08:04.0000000Z
-  index:
-    name: aeronautica-imperialis
-    description: Aeronautica Imperialis
-    battleScribeVersion: "2.03"
-    version: "1.5"
-    lastUpdated: 2020-06-19T12:40:03.0000000Z
-    lastUpdateDescription: Taros Air War update!
-    indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
-    repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
-    repositoryGzipUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json.gz
-    repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/1.5/aeronautica-imperialis.1.5.bsr
-    githubUrl: https://github.com/BSData/aeronautica-imperialis
-    feedUrl: https://github.com/BSData/aeronautica-imperialis/releases.atom
-    bugTrackerUrl: https://github.com/BSData/aeronautica-imperialis/issues
-    reportBugUrl: http://battlescribedata.appspot.com/#/repo/aeronautica-imperialis
+    tag_name: V1.5.1
+    name: Put Rudok Redz back in his grot bomb
+    published_at: 2020-06-23T02:38:24.0000000Z
+  catpkg-response-error:
+    code: 404
 
