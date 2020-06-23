@@ -6,13 +6,13 @@ latest-release:
   api-response-content:
     tag_name: 1.6.0
     name: Wave Six models and cards
-    published_at: 2020-06-02T16:19:11.0000000Z
+    published_at: 2020-06-02T16:19:11.0000000+00:00
   index:
     name: the-walking-dead-call-to-arms
     description: 'The Walking Dead: Call To Arms'
     battleScribeVersion: "2.03"
     version: 1.6.0
-    lastUpdated: 2020-06-02T16:19:11.0000000Z
+    lastUpdated: 2020-06-02T16:19:11.0000000+00:00
     lastUpdateDescription: Wave Six models and cards
     indexUrl: https://github.com/BSData/the-walking-dead-call-to-arms/releases/latest/download/the-walking-dead-call-to-arms.latest.bsi
     repositoryUrl: https://github.com/BSData/the-walking-dead-call-to-arms/releases/latest/download/the-walking-dead-call-to-arms.catpkg.json
@@ -20,4 +20,27 @@ latest-release:
     feedUrl: https://github.com/BSData/the-walking-dead-call-to-arms/releases.atom
     bugTrackerUrl: https://github.com/BSData/the-walking-dead-call-to-arms/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/the-walking-dead-call-to-arms
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: 1.6.0
+      name: Wave Six models and cards
+      published_at: 2020-06-02T16:19:11.0000000Z
+  catpkg:
+    properties:
+      name: the-walking-dead-call-to-arms
+      description: 'The Walking Dead: Call To Arms'
+      battleScribeVersion: "2.03"
+      version: 1.6.0
+      lastUpdated: 2020-06-02T16:19:11.0000000Z
+      lastUpdateDescription: Wave Six models and cards
+      indexUrl: https://github.com/BSData/the-walking-dead-call-to-arms/releases/latest/download/the-walking-dead-call-to-arms.latest.bsi
+      repositoryUrl: https://github.com/BSData/the-walking-dead-call-to-arms/releases/latest/download/the-walking-dead-call-to-arms.catpkg.json
+      githubUrl: https://github.com/BSData/the-walking-dead-call-to-arms
+      feedUrl: https://github.com/BSData/the-walking-dead-call-to-arms/releases.atom
+      bugTrackerUrl: https://github.com/BSData/the-walking-dead-call-to-arms/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/the-walking-dead-call-to-arms
 

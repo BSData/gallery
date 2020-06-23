@@ -6,7 +6,19 @@ latest-release:
   api-response-content:
     tag_name: 2.4.1
     name: Armada Imperialis Fixes
-    published_at: 2019-07-27T05:56:37.0000000Z
+    published_at: 2019-07-27T05:56:37.0000000+00:00
   index-response-error:
     code: 404
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: 2.4.1
+      name: Armada Imperialis Fixes
+      published_at: 2019-07-27T05:56:37.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
 

@@ -6,13 +6,13 @@ latest-release:
   api-response-content:
     tag_name: v13.030
     name: Bike fix + More Custom Chars stuff
-    published_at: 2020-06-19T17:08:21.0000000Z
+    published_at: 2020-06-19T17:08:21.0000000+00:00
   index:
     name: horus-heresy
     description: Horus Heresy
     battleScribeVersion: "2.03"
     version: v13.030
-    lastUpdated: 2020-06-19T17:07:47.0000000Z
+    lastUpdated: 2020-06-19T17:07:47.0000000+00:00
     lastUpdateDescription: Bike fix + More Custom Chars stuff
     indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
     repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
@@ -22,4 +22,29 @@ latest-release:
     feedUrl: https://github.com/BSData/horus-heresy/releases.atom
     bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/horus-heresy
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: v13.030
+      name: Bike fix + More Custom Chars stuff
+      published_at: 2020-06-19T17:08:21.0000000Z
+  catpkg:
+    properties:
+      name: horus-heresy
+      description: Horus Heresy
+      battleScribeVersion: "2.03"
+      version: v13.030
+      lastUpdated: 2020-06-19T17:07:47.0000000Z
+      lastUpdateDescription: Bike fix + More Custom Chars stuff
+      indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
+      repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.030/horus-heresy.v13.030.bsr
+      githubUrl: https://github.com/BSData/horus-heresy
+      feedUrl: https://github.com/BSData/horus-heresy/releases.atom
+      bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/horus-heresy
 

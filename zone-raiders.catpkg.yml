@@ -6,13 +6,13 @@ latest-release:
   api-response-content:
     tag_name: v1.0
     name: Zone Raiders core rules v1
-    published_at: 2020-03-25T11:47:55.0000000Z
+    published_at: 2020-03-25T11:47:55.0000000+00:00
   index:
     name: zone-raiders
     description: Zone Raiders
     battleScribeVersion: "2.03"
     version: v1.0
-    lastUpdated: 2020-03-25T11:47:55.0000000Z
+    lastUpdated: 2020-03-25T11:47:55.0000000+00:00
     lastUpdateDescription: Zone Raiders core rules v1
     indexUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.latest.bsi
     repositoryUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.catpkg.json
@@ -20,4 +20,27 @@ latest-release:
     feedUrl: https://github.com/BSData/zone-raiders/releases.atom
     bugTrackerUrl: https://github.com/BSData/zone-raiders/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/zone-raiders
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: v1.0
+      name: Zone Raiders core rules v1
+      published_at: 2020-03-25T11:47:55.0000000Z
+  catpkg:
+    properties:
+      name: zone-raiders
+      description: Zone Raiders
+      battleScribeVersion: "2.03"
+      version: v1.0
+      lastUpdated: 2020-03-25T11:47:55.0000000Z
+      lastUpdateDescription: Zone Raiders core rules v1
+      indexUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.latest.bsi
+      repositoryUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.catpkg.json
+      githubUrl: https://github.com/BSData/zone-raiders
+      feedUrl: https://github.com/BSData/zone-raiders/releases.atom
+      bugTrackerUrl: https://github.com/BSData/zone-raiders/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/zone-raiders
 

@@ -6,7 +6,19 @@ latest-release:
   api-response-content:
     tag_name: 1.2.6
     name: Bug Fixes
-    published_at: 2019-09-18T15:24:10.0000000Z
+    published_at: 2019-09-18T15:24:10.0000000+00:00
   index-response-error:
     code: 404
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: 1.2.6
+      name: Bug Fixes
+      published_at: 2019-09-18T15:24:10.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
 

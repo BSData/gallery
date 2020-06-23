@@ -6,7 +6,19 @@ latest-release:
   api-response-content:
     tag_name: v2.0.0
     name: Resistance
-    published_at: 2019-06-26T21:56:01.0000000Z
+    published_at: 2019-06-26T21:56:01.0000000+00:00
   index-response-error:
     code: 404
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: v2.0.0
+      name: Resistance
+      published_at: 2019-06-26T21:56:01.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
 

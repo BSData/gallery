@@ -6,7 +6,19 @@ latest-release:
   api-response-content:
     tag_name: 3.2.246
     name: (Free Dwarf fix) The wait is over! Please, report errors on GitHub or by emailing me directly. PEACE
-    published_at: 2020-02-12T00:39:10.0000000Z
+    published_at: 2020-02-12T00:39:10.0000000+00:00
   index-response-error:
     code: 404
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: 3.2.246
+      name: (Free Dwarf fix) The wait is over! Please, report errors on GitHub or by emailing me directly. PEACE
+      published_at: 2020-02-12T00:39:10.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
 

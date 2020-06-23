@@ -6,7 +6,19 @@ latest-release:
   api-response-content:
     tag_name: 1.2.2
     name: Rialto Assassin & Hybrid
-    published_at: 2019-05-03T17:37:11.0000000Z
+    published_at: 2019-05-03T17:37:11.0000000+00:00
   index-response-error:
     code: 404
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: 1.2.2
+      name: Rialto Assassin & Hybrid
+      published_at: 2019-05-03T17:37:11.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
 

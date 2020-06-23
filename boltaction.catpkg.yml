@@ -6,7 +6,19 @@ latest-release:
   api-response-content:
     tag_name: "5.02"
     name: Added compulsory units
-    published_at: 2019-07-24T06:09:00.0000000Z
+    published_at: 2019-07-24T06:09:00.0000000+00:00
   index-response-error:
     code: 404
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: "5.02"
+      name: Added compulsory units
+      published_at: 2019-07-24T06:09:00.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
 

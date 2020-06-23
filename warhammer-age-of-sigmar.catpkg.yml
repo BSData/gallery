@@ -6,13 +6,13 @@ latest-release:
   api-response-content:
     tag_name: v2.1.33
     name: Chaos Bug Fixes
-    published_at: 2020-06-20T01:46:02.0000000Z
+    published_at: 2020-06-20T01:46:02.0000000+00:00
   index:
     name: warhammer-age-of-sigmar
     description: 'Warhammer: Age of Sigmar'
     battleScribeVersion: "2.03"
     version: v2.1.33
-    lastUpdated: 2020-06-20T01:44:14.0000000Z
+    lastUpdated: 2020-06-20T01:44:14.0000000+00:00
     lastUpdateDescription: Chaos Bug Fixes
     indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
     repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
@@ -22,4 +22,29 @@ latest-release:
     feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
     bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-age-of-sigmar
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    properties:
+      tag_name: v2.1.33
+      name: Chaos Bug Fixes
+      published_at: 2020-06-20T01:46:02.0000000Z
+  catpkg:
+    properties:
+      name: warhammer-age-of-sigmar
+      description: 'Warhammer: Age of Sigmar'
+      battleScribeVersion: "2.03"
+      version: v2.1.33
+      lastUpdated: 2020-06-20T01:44:14.0000000Z
+      lastUpdateDescription: Chaos Bug Fixes
+      indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
+      repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.1.33/warhammer-age-of-sigmar.v2.1.33.bsr
+      githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
+      feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
+      bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-age-of-sigmar
 
