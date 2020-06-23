@@ -1,14 +1,16 @@
 location:
   github: BSData/mordheim
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 30 Oct 2019 08:47:39 GMT
     properties:
       tag_name: v0.2.4
       name: Data format update
-      published_at: 2019-10-30T09:47:39.0000000+01:00
+      published_at: 2019-10-30T08:47:39.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

@@ -1,21 +1,23 @@
 location:
   github: BSData/wh40k
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 10 Jun 2020 00:32:08 GMT
     properties:
       tag_name: v1.5.2
       name: I heard you like Primaris Lieutenants?
-      published_at: 2020-06-10T02:32:08.0000000+02:00
+      published_at: 2020-06-10T00:32:08.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v1.5.2
-      lastUpdated: 2020-06-10T02:16:52.0000000+02:00
+      lastUpdated: 2020-06-10T00:16:52.0000000+00:00
       lastUpdateDescription: I heard you like Primaris Lieutenants?
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json

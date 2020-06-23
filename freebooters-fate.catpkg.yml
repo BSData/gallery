@@ -1,21 +1,23 @@
 location:
   github: BSData/freebooters-fate
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sun, 29 Mar 2020 11:07:26 GMT
     properties:
       tag_name: v2,4,2
       name: Ausrüstung
-      published_at: 2020-03-29T13:07:26.0000000+02:00
+      published_at: 2020-03-29T11:07:26.0000000+00:00
   catpkg:
     properties:
       name: freebooters-fate
       description: Freebooter's Fate
       battleScribeVersion: "2.03"
       version: v2,4,2
-      lastUpdated: 2020-03-29T13:07:26.0000000+02:00
+      lastUpdated: 2020-03-29T11:07:26.0000000+00:00
       lastUpdateDescription: Ausrüstung
       indexUrl: https://github.com/BSData/freebooters-fate/releases/latest/download/freebooters-fate.latest.bsi
       repositoryUrl: https://github.com/BSData/freebooters-fate/releases/latest/download/freebooters-fate.catpkg.json

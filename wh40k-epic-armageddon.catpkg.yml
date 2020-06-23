@@ -1,21 +1,23 @@
 location:
   github: BSData/wh40k-epic-armageddon
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Mon, 08 Jun 2020 17:55:26 GMT
     properties:
       tag_name: 34.00.163.336
       name: Talons of the Emperor, Ministorum Home World, Dark Mechanicum
-      published_at: 2020-06-08T19:55:26.0000000+02:00
+      published_at: 2020-06-08T17:55:26.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
       version: 34.00.163.336
-      lastUpdated: 2020-06-07T21:15:05.0000000+02:00
+      lastUpdated: 2020-06-07T19:15:05.0000000+00:00
       lastUpdateDescription: Talons of the Emperor, Ministorum Home World, Dark Mechanicum
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json

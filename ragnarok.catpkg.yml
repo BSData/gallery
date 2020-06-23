@@ -1,14 +1,16 @@
 location:
   github: BSData/ragnarok
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Fri, 07 Feb 2020 15:00:45 GMT
     properties:
       tag_name: "0.2"
       name: More Features Added
-      published_at: 2020-02-07T16:00:45.0000000+01:00
+      published_at: 2020-02-07T15:00:45.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

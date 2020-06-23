@@ -1,14 +1,16 @@
 location:
   github: BSData/warlords-of-erehwon
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Mon, 24 Feb 2020 10:28:07 GMT
     properties:
       tag_name: v1.5.8
       name: QoL changes for Dwarven list
-      published_at: 2020-02-24T11:28:07.0000000+01:00
+      published_at: 2020-02-24T10:28:07.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

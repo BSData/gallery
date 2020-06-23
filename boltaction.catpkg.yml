@@ -1,14 +1,16 @@
 location:
   github: BSData/boltaction
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 24 Jul 2019 06:09:00 GMT
     properties:
       tag_name: "5.02"
       name: Added compulsory units
-      published_at: 2019-07-24T08:09:00.0000000+02:00
+      published_at: 2019-07-24T06:09:00.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

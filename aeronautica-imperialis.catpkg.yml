@@ -1,21 +1,23 @@
 location:
   github: BSData/aeronautica-imperialis
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Tue, 23 Jun 2020 08:18:21 GMT
     properties:
       tag_name: V1.5.1
       name: Put Rudok Redz back in his grot bomb
-      published_at: 2020-06-23T04:38:24.0000000+02:00
+      published_at: 2020-06-23T02:38:24.0000000+00:00
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
       version: V1.5.1
-      lastUpdated: 2020-06-20T08:10:33.0000000+02:00
+      lastUpdated: 2020-06-20T06:10:33.0000000+00:00
       lastUpdateDescription: Put Rudok Redz back in his grot bomb
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json

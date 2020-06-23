@@ -1,14 +1,16 @@
 location:
   github: BSData/rumbleslam
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sat, 27 Apr 2019 18:12:09 GMT
     properties:
       tag_name: v1.0.2
       name: ""
-      published_at: 2019-04-27T20:12:09.0000000+02:00
+      published_at: 2019-04-27T18:12:09.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

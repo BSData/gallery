@@ -1,14 +1,16 @@
 location:
   github: BSData/monsterpocalypse
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sat, 13 Apr 2019 13:47:48 GMT
     properties:
       tag_name: 1.1.2
       name: Update 3
-      published_at: 2019-04-13T15:47:48.0000000+02:00
+      published_at: 2019-04-13T13:47:48.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

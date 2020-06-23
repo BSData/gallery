@@ -1,21 +1,23 @@
 location:
   github: BSData/middle-earth
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sun, 15 Mar 2020 17:38:35 GMT
     properties:
       tag_name: v2.2.2
       name: March 2020 Bug Fixes
-      published_at: 2020-03-15T18:38:35.0000000+01:00
+      published_at: 2020-03-15T17:38:35.0000000+00:00
   catpkg:
     properties:
       name: middle-earth
       description: "Middle-earthâ\x84¢"
       battleScribeVersion: "2.03"
       version: v2.2.2
-      lastUpdated: 2020-03-15T18:38:35.0000000+01:00
+      lastUpdated: 2020-03-15T17:38:35.0000000+00:00
       lastUpdateDescription: March 2020 Bug Fixes
       indexUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.latest.bsi
       repositoryUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json

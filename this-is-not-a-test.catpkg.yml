@@ -1,21 +1,23 @@
 location:
   github: BSData/this-is-not-a-test
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sat, 07 Mar 2020 20:11:01 GMT
     properties:
       tag_name: V1.0.2
       name: Settler bug fixed
-      published_at: 2020-03-07T21:11:01.0000000+01:00
+      published_at: 2020-03-07T20:11:01.0000000+00:00
   catpkg:
     properties:
       name: this-is-not-a-test
       description: This is Not a Test
       battleScribeVersion: "2.03"
       version: V1.0.2
-      lastUpdated: 2020-03-07T21:11:01.0000000+01:00
+      lastUpdated: 2020-03-07T20:11:01.0000000+00:00
       lastUpdateDescription: Settler bug fixed
       indexUrl: https://github.com/BSData/this-is-not-a-test/releases/latest/download/this-is-not-a-test.latest.bsi
       repositoryUrl: https://github.com/BSData/this-is-not-a-test/releases/latest/download/this-is-not-a-test.catpkg.json

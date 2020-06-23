@@ -1,21 +1,23 @@
 location:
   github: BSData/warhammer-age-of-sigmar-warcry
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sat, 07 Mar 2020 02:09:33 GMT
     properties:
       tag_name: v26
       name: Dragon Ogor fix again
-      published_at: 2020-03-07T03:09:33.0000000+01:00
+      published_at: 2020-03-07T02:09:33.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
       version: v26
-      lastUpdated: 2020-03-07T03:09:33.0000000+01:00
+      lastUpdated: 2020-03-07T02:09:33.0000000+00:00
       lastUpdateDescription: Dragon Ogor fix again
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json

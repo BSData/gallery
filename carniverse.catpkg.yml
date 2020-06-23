@@ -1,14 +1,16 @@
 location:
   github: BSData/carniverse
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Mon, 04 Nov 2019 23:43:41 GMT
     properties:
       tag_name: V1.2.0
       name: Surival Nut Updated
-      published_at: 2019-11-05T00:43:41.0000000+01:00
+      published_at: 2019-11-04T23:43:41.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

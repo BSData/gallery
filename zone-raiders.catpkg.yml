@@ -1,21 +1,23 @@
 location:
   github: BSData/zone-raiders
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 25 Mar 2020 11:47:55 GMT
     properties:
       tag_name: v1.0
       name: Zone Raiders core rules v1
-      published_at: 2020-03-25T12:47:55.0000000+01:00
+      published_at: 2020-03-25T11:47:55.0000000+00:00
   catpkg:
     properties:
       name: zone-raiders
       description: Zone Raiders
       battleScribeVersion: "2.03"
       version: v1.0
-      lastUpdated: 2020-03-25T12:47:55.0000000+01:00
+      lastUpdated: 2020-03-25T11:47:55.0000000+00:00
       lastUpdateDescription: Zone Raiders core rules v1
       indexUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.latest.bsi
       repositoryUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.catpkg.json

@@ -1,14 +1,16 @@
 location:
   github: BSData/wh40k-apocalypse
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Tue, 04 Feb 2020 00:21:17 GMT
     properties:
       tag_name: v1.1.4
       name: Apparently, there's a new Sisters PDF?
-      published_at: 2020-02-04T01:21:17.0000000+01:00
+      published_at: 2020-02-04T00:21:17.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

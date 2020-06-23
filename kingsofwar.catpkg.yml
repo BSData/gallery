@@ -1,14 +1,16 @@
 location:
   github: BSData/kingsofwar
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 12 Feb 2020 00:39:10 GMT
     properties:
       tag_name: 3.2.246
       name: (Free Dwarf fix) The wait is over! Please, report errors on GitHub or by emailing me directly. PEACE
-      published_at: 2020-02-12T01:39:10.0000000+01:00
+      published_at: 2020-02-12T00:39:10.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

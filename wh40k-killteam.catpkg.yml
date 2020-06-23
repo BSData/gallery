@@ -1,21 +1,23 @@
 location:
   github: BSData/wh40k-killteam
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 17 Jun 2020 14:03:38 GMT
     properties:
       tag_name: v1.4.22
       name: Sometimes you have to ask twice.
-      published_at: 2020-06-17T16:03:38.0000000+02:00
+      published_at: 2020-06-17T14:03:38.0000000+00:00
   catpkg:
     properties:
       name: wh40k-killteam
       description: 'Warhammer 40,000: Kill Team (2018)'
       battleScribeVersion: "2.03"
       version: v1.4.22
-      lastUpdated: 2020-06-17T15:59:10.0000000+02:00
+      lastUpdated: 2020-06-17T13:59:10.0000000+00:00
       lastUpdateDescription: Sometimes you have to ask twice.
       indexUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json

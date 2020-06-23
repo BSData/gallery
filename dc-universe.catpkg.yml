@@ -1,14 +1,16 @@
 location:
   github: BSData/dc-universe
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Thu, 29 Aug 2019 11:56:49 GMT
     properties:
       tag_name: 2.0.6
       name: Added new characters
-      published_at: 2019-08-29T13:56:49.0000000+02:00
+      published_at: 2019-08-29T11:56:49.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

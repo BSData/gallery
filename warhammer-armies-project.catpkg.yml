@@ -1,21 +1,23 @@
 location:
   github: BSData/warhammer-armies-project
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Mon, 08 Jun 2020 16:28:35 GMT
     properties:
       tag_name: v1.9.2
       name: Update Wave
-      published_at: 2020-06-08T18:28:35.0000000+02:00
+      published_at: 2020-06-08T16:28:35.0000000+00:00
   catpkg:
     properties:
       name: warhammer-armies-project
       description: Warhammer Armies Project
       battleScribeVersion: "2.03"
       version: v1.9.2
-      lastUpdated: 2020-06-08T18:21:08.0000000+02:00
+      lastUpdated: 2020-06-08T16:21:08.0000000+00:00
       lastUpdateDescription: Update Wave
       indexUrl: https://github.com/BSData/warhammer-armies-project/releases/latest/download/warhammer-armies-project.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-armies-project/releases/latest/download/warhammer-armies-project.catpkg.json

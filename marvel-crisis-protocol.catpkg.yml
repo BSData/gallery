@@ -1,21 +1,23 @@
 location:
   github: BSData/marvel-crisis-protocol
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 10 Jun 2020 20:16:43 GMT
     properties:
       tag_name: 1.5.8
       name: Thanos!!!!!
-      published_at: 2020-06-10T22:16:43.0000000+02:00
+      published_at: 2020-06-10T20:16:43.0000000+00:00
   catpkg:
     properties:
       name: marvel-crisis-protocol
       description: Marvel Crisis Protocol
       battleScribeVersion: "2.03"
       version: 1.5.8
-      lastUpdated: 2020-06-10T22:12:52.0000000+02:00
+      lastUpdated: 2020-06-10T20:12:52.0000000+00:00
       lastUpdateDescription: Thanos!!!!!
       indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
       repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json

@@ -1,14 +1,16 @@
 location:
   github: BSData/punkapocalyptic
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Mon, 13 May 2019 16:42:08 GMT
     properties:
       tag_name: 1.0.2
       name: Punkapocalyptic v1.0.2 ESP
-      published_at: 2019-05-13T18:42:08.0000000+02:00
+      published_at: 2019-05-13T16:42:08.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

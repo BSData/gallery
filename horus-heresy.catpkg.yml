@@ -1,21 +1,23 @@
 location:
   github: BSData/horus-heresy
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Fri, 19 Jun 2020 17:08:21 GMT
     properties:
       tag_name: v13.030
       name: Bike fix + More Custom Chars stuff
-      published_at: 2020-06-19T19:08:21.0000000+02:00
+      published_at: 2020-06-19T17:08:21.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.030
-      lastUpdated: 2020-06-19T19:07:47.0000000+02:00
+      lastUpdated: 2020-06-19T17:07:47.0000000+00:00
       lastUpdateDescription: Bike fix + More Custom Chars stuff
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json

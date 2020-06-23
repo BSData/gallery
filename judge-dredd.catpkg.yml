@@ -1,21 +1,23 @@
 location:
   github: BSData/judge-dredd
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Tue, 05 May 2020 13:46:20 GMT
     properties:
       tag_name: "2.1"
       name: Updates to JDMG (MP2014)
-      published_at: 2020-05-05T15:46:20.0000000+02:00
+      published_at: 2020-05-05T13:46:20.0000000+00:00
   catpkg:
     properties:
       name: judge-dredd
       description: Judge Dredd
       battleScribeVersion: "2.03"
       version: "2.1"
-      lastUpdated: 2020-05-05T15:46:20.0000000+02:00
+      lastUpdated: 2020-05-05T13:46:20.0000000+00:00
       lastUpdateDescription: Updates to JDMG (MP2014)
       indexUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.latest.bsi
       repositoryUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.catpkg.json

@@ -1,14 +1,16 @@
 location:
   github: BSData/necromunda-gang-war
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Thu, 30 Aug 2018 03:22:17 GMT
     properties:
       tag_name: v1.5.0
       name: '"Cawdor ... Cawdor ... Come out to Play ..." edition'
-      published_at: 2018-08-30T05:22:17.0000000+02:00
+      published_at: 2018-08-30T03:22:17.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

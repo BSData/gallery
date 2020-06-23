@@ -1,21 +1,23 @@
 location:
   github: BSData/harry-potter
 cache:
-  repo: {}
+  repo:
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Mon, 15 Jun 2020 09:25:23 GMT
     properties:
       tag_name: "14"
       name: Added all new releases
-      published_at: 2020-06-15T11:25:23.0000000+02:00
+      published_at: 2020-06-15T09:25:23.0000000+00:00
   catpkg:
     properties:
       name: harry-potter
       description: Harry Potter Miniatures Adventure Game
       battleScribeVersion: "2.03"
       version: "14"
-      lastUpdated: 2020-06-10T15:23:26.0000000+02:00
+      lastUpdated: 2020-06-10T13:23:26.0000000+00:00
       lastUpdateDescription: Added all new releases
       indexUrl: https://github.com/BSData/harry-potter/releases/latest/download/harry-potter.latest.bsi
       repositoryUrl: https://github.com/BSData/harry-potter/releases/latest/download/harry-potter.catpkg.json
