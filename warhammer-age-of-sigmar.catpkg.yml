@@ -23,10 +23,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-age-of-sigmar
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Sat, 20 Jun 2020 01:46:02 GMT
     properties:
       tag_name: v2.1.33
       name: Chaos Bug Fixes

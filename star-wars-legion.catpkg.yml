@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/star-wars-legion/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/star-wars-legion
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Thu, 02 Apr 2020 23:01:19 GMT
     properties:
       tag_name: 1.5.9
       name: March 2020 Announcements

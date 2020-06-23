@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Thu, 29 Aug 2019 11:56:49 GMT
     properties:
       tag_name: 2.0.6
       name: Added new characters

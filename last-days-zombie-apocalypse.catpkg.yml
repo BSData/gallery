@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/last-days-zombie-apocalypse/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/last-days-zombie-apocalypse
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 29 Apr 2020 14:21:16 GMT
     properties:
       tag_name: V3.0.0
       name: Campaign system added

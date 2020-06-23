@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 18 Sep 2019 15:24:10 GMT
     properties:
       tag_name: 1.2.6
       name: Bug Fixes

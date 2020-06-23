@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 30 Oct 2019 08:47:39 GMT
     properties:
       tag_name: v0.2.4
       name: Data format update

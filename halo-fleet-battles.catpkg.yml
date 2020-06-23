@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/halo-fleet-battles/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/halo-fleet-battles
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Fri, 17 Apr 2020 14:47:17 GMT
     properties:
       tag_name: V4.03
       name: Correction of Halycon BR

@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/middle-earth/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/middle-earth
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Sun, 15 Mar 2020 17:38:35 GMT
     properties:
       tag_name: v2.2.2
       name: March 2020 Bug Fixes

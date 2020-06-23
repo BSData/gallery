@@ -23,10 +23,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/horus-heresy
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Fri, 19 Jun 2020 17:08:21 GMT
     properties:
       tag_name: v13.030
       name: Bike fix + More Custom Chars stuff

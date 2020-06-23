@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Mon, 24 Feb 2020 10:28:07 GMT
     properties:
       tag_name: v1.5.8
       name: QoL changes for Dwarven list

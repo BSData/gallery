@@ -23,10 +23,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/bloodbowl/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/bloodbowl
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 17 Jun 2020 18:22:46 GMT
     properties:
       tag_name: v2.1
       name: Blood Bowl 2016 v2.0 - Nuffle Strikes Back

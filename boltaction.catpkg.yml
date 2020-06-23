@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 24 Jul 2019 06:09:00 GMT
     properties:
       tag_name: "5.02"
       name: Added compulsory units

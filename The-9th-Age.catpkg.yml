@@ -23,10 +23,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/The-9th-Age/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/The-9th-Age
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Mon, 08 Jun 2020 11:07:38 GMT
     properties:
       tag_name: 2.2.15
       name: Nippon arrives

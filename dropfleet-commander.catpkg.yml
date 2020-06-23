@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 26 Jun 2019 21:56:01 GMT
     properties:
       tag_name: v2.0.0
       name: Resistance

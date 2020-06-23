@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/zone-raiders/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/zone-raiders
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 25 Mar 2020 11:47:55 GMT
     properties:
       tag_name: v1.0
       name: Zone Raiders core rules v1

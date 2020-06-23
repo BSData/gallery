@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Thu, 30 Aug 2018 03:22:17 GMT
     properties:
       tag_name: v1.5.0
       name: '"Cawdor ... Cawdor ... Come out to Play ..." edition'

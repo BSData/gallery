@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/freebooters-fate/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/freebooters-fate
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Sun, 29 Mar 2020 11:07:26 GMT
     properties:
       tag_name: v2,4,2
       name: Ausrüstung

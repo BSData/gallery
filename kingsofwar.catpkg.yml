@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 12 Feb 2020 00:39:10 GMT
     properties:
       tag_name: 3.2.246
       name: (Free Dwarf fix) The wait is over! Please, report errors on GitHub or by emailing me directly. PEACE

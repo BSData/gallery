@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/judge-dredd/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/judge-dredd
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Tue, 05 May 2020 13:46:20 GMT
     properties:
       tag_name: "2.1"
       name: Updates to JDMG (MP2014)

@@ -23,10 +23,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/wh40k-killteam/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-killteam
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 17 Jun 2020 14:03:38 GMT
     properties:
       tag_name: v1.4.22
       name: Sometimes you have to ask twice.

@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/adeptus-titanicus
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 18 Mar 2020 08:02:40 GMT
     properties:
       tag_name: v4.2.0
       name: '[Trevelyan Release] Toggle Structure, Legio Specific Strategems, S&I Strategems'

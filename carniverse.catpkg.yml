@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Mon, 04 Nov 2019 23:43:41 GMT
     properties:
       tag_name: V1.2.0
       name: Surival Nut Updated

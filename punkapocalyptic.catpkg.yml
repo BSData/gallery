@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Mon, 13 May 2019 16:42:08 GMT
     properties:
       tag_name: 1.0.2
       name: Punkapocalyptic v1.0.2 ESP

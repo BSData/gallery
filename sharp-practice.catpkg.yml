@@ -23,10 +23,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/sharp-practice/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/sharp-practice
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Thu, 04 Jun 2020 15:59:10 GMT
     properties:
       tag_name: "1.4"
       name: 1.4 Added Support Options - AWI Americans

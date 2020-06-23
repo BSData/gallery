@@ -23,10 +23,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/wh40k/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 10 Jun 2020 00:32:08 GMT
     properties:
       tag_name: v1.5.2
       name: I heard you like Primaris Lieutenants?

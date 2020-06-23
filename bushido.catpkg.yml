@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/bushido/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/bushido
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Mon, 18 May 2020 18:30:05 GMT
     properties:
       tag_name: v1.1.0
       name: Cycle of the Risen Sun Edition

@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Tue, 26 Nov 2019 08:30:44 GMT
     properties:
       tag_name: 4.0.4
       name: 'Deadzone: Escalation'

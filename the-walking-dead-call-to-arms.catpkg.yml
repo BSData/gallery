@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/the-walking-dead-call-to-arms/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/the-walking-dead-call-to-arms
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Tue, 02 Jun 2020 16:19:11 GMT
     properties:
       tag_name: 1.6.0
       name: Wave Six models and cards

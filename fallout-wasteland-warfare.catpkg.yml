@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/fallout-wasteland-warfare/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/fallout-wasteland-warfare
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Fri, 17 Apr 2020 13:19:02 GMT
     properties:
       tag_name: v1.3.2
       name: More optimizations

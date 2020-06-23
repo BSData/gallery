@@ -23,10 +23,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/aeronautica-imperialis/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/aeronautica-imperialis
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Tue, 23 Jun 2020 08:18:21 GMT
     properties:
       tag_name: V1.5.1
       name: Put Rudok Redz back in his grot bomb

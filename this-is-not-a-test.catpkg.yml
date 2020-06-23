@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/this-is-not-a-test/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/this-is-not-a-test
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Sat, 07 Mar 2020 20:11:01 GMT
     properties:
       tag_name: V1.0.2
       name: Settler bug fixed

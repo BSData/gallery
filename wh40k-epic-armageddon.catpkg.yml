@@ -23,10 +23,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/wh40k-epic-armageddon/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Mon, 08 Jun 2020 17:55:26 GMT
     properties:
       tag_name: 34.00.163.336
       name: Talons of the Emperor, Ministorum Home World, Dark Mechanicum

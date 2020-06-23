@@ -10,10 +10,10 @@ latest-release:
   index-response-error:
     code: 404
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Tue, 04 Feb 2020 00:21:17 GMT
     properties:
       tag_name: v1.1.4
       name: Apparently, there's a new Sisters PDF?

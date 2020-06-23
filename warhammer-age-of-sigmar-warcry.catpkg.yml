@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-age-of-sigmar-warcry
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Sat, 07 Mar 2020 02:09:33 GMT
     properties:
       tag_name: v26
       name: Dragon Ogor fix again

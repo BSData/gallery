@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/the-walking-dead/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/the-walking-dead
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Tue, 26 May 2020 18:47:24 GMT
     properties:
       tag_name: "3.2"
       name: Fixed missing items

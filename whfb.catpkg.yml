@@ -21,10 +21,10 @@ latest-release:
     bugTrackerUrl: https://github.com/BSData/whfb/issues
     reportBugUrl: http://battlescribedata.appspot.com/#/repo/whfb
 cache:
-  repo:
-    properties:
-      archived: false
+  repo: {}
   latestRelease:
+    apiHeaders:
+      LastModified: Wed, 25 Mar 2020 11:43:29 GMT
     properties:
       tag_name: 0.2.52
       name: '"Death and Chaos are coming! ... again?" edition'
