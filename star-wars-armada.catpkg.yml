@@ -1,14 +1,5 @@
 location:
   github: BSData/star-wars-armada
-latest-release:
-  api-response-headers:
-    Last-Modified: Fri, 13 Sep 2019 07:54:27 GMT
-  api-response-content:
-    tag_name: 1.5.9
-    name: Rebellion in the Rim Upgrades and Super Star Destroyer
-    published_at: 2019-09-13T07:54:27.0000000+00:00
-  index-response-error:
-    code: 404
 cache:
   repo: {}
   latestRelease:
@@ -17,7 +8,7 @@ cache:
     properties:
       tag_name: 1.5.9
       name: Rebellion in the Rim Upgrades and Super Star Destroyer
-      published_at: 2019-09-13T07:54:27.0000000Z
+      published_at: 2019-09-13T09:54:27.0000000+02:00
   catpkg:
     apiResponseError:
       code: 404

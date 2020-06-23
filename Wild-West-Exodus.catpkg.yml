@@ -1,14 +1,5 @@
 location:
   github: BSData/Wild-West-Exodus
-latest-release:
-  api-response-headers:
-    Last-Modified: Sat, 18 May 2019 12:25:13 GMT
-  api-response-content:
-    tag_name: 2.1.4
-    name: Warrior Nation Units
-    published_at: 2019-05-18T12:25:13.0000000+00:00
-  index-response-error:
-    code: 404
 cache:
   repo: {}
   latestRelease:
@@ -17,7 +8,7 @@ cache:
     properties:
       tag_name: 2.1.4
       name: Warrior Nation Units
-      published_at: 2019-05-18T12:25:13.0000000Z
+      published_at: 2019-05-18T14:25:13.0000000+02:00
   catpkg:
     apiResponseError:
       code: 404

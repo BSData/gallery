@@ -1,25 +1,5 @@
 location:
   github: BSData/whfb
-latest-release:
-  api-response-headers:
-    Last-Modified: Wed, 25 Mar 2020 11:43:29 GMT
-  api-response-content:
-    tag_name: 0.2.52
-    name: '"Death and Chaos are coming! ... again?" edition'
-    published_at: 2020-03-25T11:43:29.0000000+00:00
-  index:
-    name: whfb
-    description: Warhammer Fantasy
-    battleScribeVersion: "2.03"
-    version: 0.2.52
-    lastUpdated: 2020-03-25T11:43:29.0000000+00:00
-    lastUpdateDescription: '"Death and Chaos are coming! ... again?" edition'
-    indexUrl: https://github.com/BSData/whfb/releases/latest/download/whfb.latest.bsi
-    repositoryUrl: https://github.com/BSData/whfb/releases/latest/download/whfb.catpkg.json
-    githubUrl: https://github.com/BSData/whfb
-    feedUrl: https://github.com/BSData/whfb/releases.atom
-    bugTrackerUrl: https://github.com/BSData/whfb/issues
-    reportBugUrl: http://battlescribedata.appspot.com/#/repo/whfb
 cache:
   repo: {}
   latestRelease:
@@ -28,14 +8,14 @@ cache:
     properties:
       tag_name: 0.2.52
       name: '"Death and Chaos are coming! ... again?" edition'
-      published_at: 2020-03-25T11:43:29.0000000Z
+      published_at: 2020-03-25T12:43:29.0000000+01:00
   catpkg:
     properties:
       name: whfb
       description: Warhammer Fantasy
       battleScribeVersion: "2.03"
       version: 0.2.52
-      lastUpdated: 2020-03-25T11:43:29.0000000Z
+      lastUpdated: 2020-03-25T12:43:29.0000000+01:00
       lastUpdateDescription: '"Death and Chaos are coming! ... again?" edition'
       indexUrl: https://github.com/BSData/whfb/releases/latest/download/whfb.latest.bsi
       repositoryUrl: https://github.com/BSData/whfb/releases/latest/download/whfb.catpkg.json

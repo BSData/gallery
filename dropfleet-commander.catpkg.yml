@@ -1,14 +1,5 @@
 location:
   github: BSData/dropfleet-commander
-latest-release:
-  api-response-headers:
-    Last-Modified: Wed, 26 Jun 2019 21:56:01 GMT
-  api-response-content:
-    tag_name: v2.0.0
-    name: Resistance
-    published_at: 2019-06-26T21:56:01.0000000+00:00
-  index-response-error:
-    code: 404
 cache:
   repo: {}
   latestRelease:
@@ -17,7 +8,7 @@ cache:
     properties:
       tag_name: v2.0.0
       name: Resistance
-      published_at: 2019-06-26T21:56:01.0000000Z
+      published_at: 2019-06-26T23:56:01.0000000+02:00
   catpkg:
     apiResponseError:
       code: 404

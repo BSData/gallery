@@ -1,25 +1,5 @@
 location:
   github: BSData/kings-of-war-vanguard
-latest-release:
-  api-response-headers:
-    Last-Modified: Mon, 06 Apr 2020 11:54:56 GMT
-  api-response-content:
-    tag_name: 1.9.0
-    name: Abyssal Dwarfs
-    published_at: 2020-04-06T11:54:56.0000000+00:00
-  index:
-    name: kings-of-war-vanguard
-    description: 'Kings of War: Vanguard'
-    battleScribeVersion: "2.03"
-    version: 1.9.0
-    lastUpdated: 2020-04-06T11:54:56.0000000+00:00
-    lastUpdateDescription: Abyssal Dwarfs
-    indexUrl: https://github.com/BSData/kings-of-war-vanguard/releases/latest/download/kings-of-war-vanguard.latest.bsi
-    repositoryUrl: https://github.com/BSData/kings-of-war-vanguard/releases/latest/download/kings-of-war-vanguard.catpkg.json
-    githubUrl: https://github.com/BSData/kings-of-war-vanguard
-    feedUrl: https://github.com/BSData/kings-of-war-vanguard/releases.atom
-    bugTrackerUrl: https://github.com/BSData/kings-of-war-vanguard/issues
-    reportBugUrl: http://battlescribedata.appspot.com/#/repo/kings-of-war-vanguard
 cache:
   repo: {}
   latestRelease:
@@ -28,14 +8,14 @@ cache:
     properties:
       tag_name: 1.9.0
       name: Abyssal Dwarfs
-      published_at: 2020-04-06T11:54:56.0000000Z
+      published_at: 2020-04-06T13:54:56.0000000+02:00
   catpkg:
     properties:
       name: kings-of-war-vanguard
       description: 'Kings of War: Vanguard'
       battleScribeVersion: "2.03"
       version: 1.9.0
-      lastUpdated: 2020-04-06T11:54:56.0000000Z
+      lastUpdated: 2020-04-06T13:54:56.0000000+02:00
       lastUpdateDescription: Abyssal Dwarfs
       indexUrl: https://github.com/BSData/kings-of-war-vanguard/releases/latest/download/kings-of-war-vanguard.latest.bsi
       repositoryUrl: https://github.com/BSData/kings-of-war-vanguard/releases/latest/download/kings-of-war-vanguard.catpkg.json

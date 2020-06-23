@@ -1,14 +1,5 @@
 location:
   github: BSData/black-seas
-latest-release:
-  api-response-headers:
-    Last-Modified: Fri, 14 Feb 2020 00:32:44 GMT
-  api-response-content:
-    tag_name: v1.05
-    name: Names Completed
-    published_at: 2020-02-14T00:32:44.0000000+00:00
-  index-response-error:
-    code: 404
 cache:
   repo: {}
   latestRelease:
@@ -17,7 +8,7 @@ cache:
     properties:
       tag_name: v1.05
       name: Names Completed
-      published_at: 2020-02-14T00:32:44.0000000Z
+      published_at: 2020-02-14T01:32:44.0000000+01:00
   catpkg:
     apiResponseError:
       code: 404
