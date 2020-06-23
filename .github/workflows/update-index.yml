@@ -40,7 +40,7 @@ jobs:
               GalleryJsonPath = $env:GALLERY_JSON
               Token = $github.token
             }
-            ./master/.github/actions/compile-index/action.ps1 @buildArgs
+            ./master/.github/actions/compile-index/action.ps1 @buildArgs -Verbose
 
       - name: Upload gallery-json as workflow artifact
         if: success() || failure()

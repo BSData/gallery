@@ -287,7 +287,7 @@ function Update-BsdataGalleryIndex {
 
   # process all entries
   return $registry.Values | ForEach-Object {
-    Write-Host ("-> Processing: " + $_.name)
+    Write-Host ("-> Processing: " + $_.name) -ForegroundColor Cyan
     $registration = Get-Content $_.registryFile -Raw | ConvertFrom-Yaml -Ordered
     if ($_.indexFile) {
       Write-Verbose "Reading index entry."
@@ -307,7 +307,7 @@ function Update-BsdataGalleryIndex {
     $index.cache = $cache
     $indexYmlPath = (Join-Path $IndexPath $_.name)
     $index | ConvertTo-Yaml | Set-Content $indexYmlPath -Force
-    Write-Verbose "Entry updated." -ForegroundColor Cyan
+    Write-Verbose "Entry updated."
 
     return $index
   }
