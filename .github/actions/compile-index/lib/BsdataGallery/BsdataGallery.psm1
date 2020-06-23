@@ -7,16 +7,18 @@ function Get-BsdataGalleryCatpkg {
     [Parameter(Mandatory)]
     [System.Collections.IDictionary]$GallerySettings
   )
-  $entries = Get-ChildItem $IndexPath *.catpkg.yml | Sort-Object Name | Get-Content -Raw | ConvertFrom-Yaml -Ordered
-
-  $caches = $entries | Where-Object { $null -ne $_.cache -and $null -ne $_.cache.catpkg } | Select-Object -ExpandProperty cache
+  $entries = Get-ChildItem $IndexPath *.catpkg.yml
+  | Sort-Object Name
+  | Get-Content -Raw
+  | ConvertFrom-Yaml -Ordered
+  | Where-Object { $null -ne $_.cache -and $null -ne $_.cache.catpkg }
   $galleryJsonContent = [ordered]@{
     '$schema'           = 'https://raw.githubusercontent.com/BSData/schemas/master/src/catpkg.schema.json'
     name                = $GallerySettings.name
     description         = $GallerySettings.description
-    battleScribeVersion = (@($caches.catpkg).battleScribeVersion | Sort-Object -Bottom 1) -as [string]
+    battleScribeVersion = ($entries.cache.catpkg.battleScribeVersion | Sort-Object -Bottom 1) -as [string]
   } + $GallerySettings.urls + @{
-    repositories = @($caches | ForEach-Object {
+    repositories = @($entries.cache | ForEach-Object {
         $_.catpkg.archived = $_.repo.archived -eq $true
         $_.catpkg
       })
