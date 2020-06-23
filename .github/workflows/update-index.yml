@@ -83,6 +83,7 @@ jobs:
             Changed: $summary
             $($pkgids -join "`n")
             "@ > ../commit.txt
+            Get-Content ../commit.txt -Raw | Write-Host
 
             # git operations
             Invoke-Native { git add -A }

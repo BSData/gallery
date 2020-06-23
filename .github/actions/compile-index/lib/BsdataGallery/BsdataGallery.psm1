@@ -30,7 +30,7 @@ function Get-BsdataGalleryCatpkg {
 function Get-EscapedAssetName {
   param (
     [Parameter(Mandatory, Position = 0)]
-    [string] $Name
+    [string]$Name
   )
   # according to https://developer.github.com/v3/repos/releases/#upload-a-release-asset
   # GitHub renames asset filenames that have special characters, non-alphanumeric characters, and leading or trailing periods.
@@ -143,13 +143,13 @@ function Get-UpdatedCache {
   [CmdletBinding()]
   param (
     [Parameter(Mandatory, Position = 0)]
-    [string] $Repository,
+    [string]$Repository,
 
     [Parameter()]
-    [System.Collections.IDictionary] $Cache,
+    [System.Collections.IDictionary]$Cache,
 
     [Parameter()]
-    [string] $Token
+    [string]$Token
   )
 
   # prepare result object
@@ -206,10 +206,6 @@ function Get-UpdatedCache {
     $result.latestRelease.properties = $apiLatestRelease.apiResult | Select-Object 'tag_name', 'name', 'published_at'
   }
 
-  # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-  # Get catpkg.json from the latest release
-  # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
   # get content of the new catpkg.json
   try {
     $getIndexParams = @{
@@ -258,13 +254,11 @@ function Update-BsdataGalleryIndex {
   param (
     # Path to registry entries directory (registrations)
     [Parameter(Mandatory)]
-    [string]
-    $RegistrationsPath,
+    [string]$RegistrationsPath,
 
     # Path to index entries directory
     [Parameter(Mandatory)]
-    [string]
-    $IndexPath,
+    [string]$IndexPath,
     
     [Parameter(Mandatory)]
     [string]$Token
