@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.2
       name: March 2020 Bug Fixes
-      published_at: 2020-03-15T17:38:35.0000000Z
+      published_at: 2020-03-15T17:38:35.0000000+00:00
   catpkg:
     properties:
       name: middle-earth
       description: Middle-earth™
       battleScribeVersion: "2.03"
       version: v2.2.2
-      lastUpdated: 2020-03-15T15:41:27.0000000Z
+      lastUpdated: 2020-03-15T15:41:27.0000000+00:00
       lastUpdateDescription: March 2020 Bug Fixes
       indexUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.latest.bsi
       repositoryUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json

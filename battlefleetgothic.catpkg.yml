@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 27 Jul 2019 05:56:37 GMT
+      LastModified: Tue, 23 Jun 2020 14:40:58 GMT
     properties:
-      tag_name: 2.4.1
+      tag_name: v2.4.2
       name: Armada Imperialis Fixes
-      published_at: 2019-07-27T05:56:37.0000000+00:00
+      published_at: 2020-06-23T14:40:58.0000000Z
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: battlefleetgothic
+      description: Battlefleet Gothic
+      battleScribeVersion: "2.02"
+      version: v2.4.2
+      lastUpdated: 2020-06-23T14:39:50.0000000Z
+      lastUpdateDescription: Armada Imperialis Fixes
+      indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
+      repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.4.2/battlefleetgothic.v2.4.2.bsr
+      githubUrl: https://github.com/BSData/battlefleetgothic
+      feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
+      bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/battlefleetgothic
 
