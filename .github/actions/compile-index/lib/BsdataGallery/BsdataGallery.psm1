@@ -175,8 +175,7 @@ function Get-UpdatedCache {
     # error
     $result.repo = $apiRepo
   }
-  elseif ($apiRepo.apiResult.archived -ne $Cache.repo.properties.archived) {
-    # archived value changed
+  else {
     if ($apiRepo.apiResult.archived) {
       # only if repo is archived, save the LastModified header, so we only update the entry after it's unarchived
       $result.repo.apiHeaders = $apiRepo.apiHeaders
