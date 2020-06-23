@@ -7,7 +7,7 @@ function Get-BsdataGalleryCatpkg {
     [Parameter(Mandatory)]
     [System.Collections.IDictionary]$GallerySettings
   )
-  $entries = Get-ChildItem $IndexPath *.catpkg.yml | Sort-Object Name
+  $entries = Get-ChildItem $IndexPath *.catpkg.yml | Sort-Object Name | Get-Content -Raw | ConvertFrom-Yaml -Ordered
 
   $caches = $entries | Where-Object { $null -ne $_.cache -and $null -ne $_.cache.catpkg } | Select-Object -ExpandProperty cache
   $galleryJsonContent = [ordered]@{
