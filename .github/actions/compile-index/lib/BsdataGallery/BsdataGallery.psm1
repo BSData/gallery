@@ -17,9 +17,9 @@ function Get-BsdataGalleryCatpkg {
     battleScribeVersion = (@($caches.catpkg).battleScribeVersion | Sort-Object -Bottom 1) -as [string]
   } + $GallerySettings.urls + @{
     repositories = @($caches | ForEach-Object {
-      $_.catpkg.archived = $_.repo.archived -eq $true
-      $_.catpkg
-    })
+        $_.catpkg.archived = $_.repo.archived -eq $true
+        $_.catpkg
+      })
   }
   return $galleryJsonContent
 }
@@ -202,6 +202,7 @@ function Get-UpdatedCache {
   }
   else {
     # latest release changed
+    $result.latestRelease.apiHeaders = $apiLatestRelease.apiHeaders
     $result.latestRelease.properties = $apiLatestRelease.apiResult | Select-Object 'tag_name', 'name', 'published_at'
   }
 
@@ -221,10 +222,9 @@ function Get-UpdatedCache {
       }
       StatusCodeVariable = 'catpkgStatusCode'
       SkipHttpErrorCheck = $true
-      # retry 3 times (4 attempts) every 15 seconds. This is mostly so that when a new release
-      # is created, the publish-catpkg action will take approx. 1 minute until assets are uploaded.
-      RetryIntervalSec   = 15
-      MaximumRetryCount  = 3
+      # retry twice, max 15s per repo. Dropping from gallery isn't critical if we update every hour.
+      RetryIntervalSec   = 5
+      MaximumRetryCount  = 2
     }
     $time = Measure-Command {
       $catpkgJson = Invoke-RestMethod @getIndexParams
