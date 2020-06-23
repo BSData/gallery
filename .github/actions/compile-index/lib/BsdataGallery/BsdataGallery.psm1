@@ -9,15 +9,17 @@ function Get-BsdataGalleryCatpkg {
   )
   $entries = Get-ChildItem $IndexPath *.catpkg.yml | Sort-Object Name
 
-  $entriesWithRelease = $entries | Where-Object { $null -ne $_.'latest-release' -and $null -ne $_.'latest-release'.catpkg }
-  $catkpgs = @($entriesWithRelease.'latest-release'.catpkg)
+  $caches = $entries | Where-Object { $null -ne $_.cache -and $null -ne $_.cache.catpkg } | Select-Object -ExpandProperty cache
   $galleryJsonContent = [ordered]@{
     '$schema'           = 'https://raw.githubusercontent.com/BSData/schemas/master/src/catpkg.schema.json'
     name                = $GallerySettings.name
     description         = $GallerySettings.description
-    battleScribeVersion = ($catkpgs.battleScribeVersion | Sort-Object -Bottom 1) -as [string]
+    battleScribeVersion = (@($caches.catpkg).battleScribeVersion | Sort-Object -Bottom 1) -as [string]
   } + $GallerySettings.urls + @{
-    repositories = $catkpgs
+    repositories = @($caches | ForEach-Object {
+      $_.catpkg.archived = $_.repo.archived -eq $true
+      $_.catpkg
+    })
   }
   return $galleryJsonContent
 }
@@ -39,38 +41,45 @@ function Get-EscapedAssetName {
   return $periodsOnly.Trim('.')
 }
 
-# get latest release info as a ready-to-save hashtable
-function Get-LatestReleaseInfo {
+# Get an object that contains details about GitHub API call
+function Get-GHApiUpdatedResult {
   [CmdletBinding()]
   param (
-    [Parameter(Mandatory, Position = 0)]
-    [string] $Repository,
+    [Parameter(Mandatory)]
+    [string]$Endpoint,
 
     [Parameter()]
-    [System.Collections.IDictionary] $SavedRelease,
+    [string]$ApiBaseUrl = "https://api.github.com",
 
     [Parameter()]
-    [string] $Token
+    [AllowNull()]
+    [AllowEmptyString()]
+    [string]$LastModified,
+
+    [Parameter()]
+    [string]$Token,
+
+    [Parameter()]
+    [int]$MaximumRetryCount = 3,
+
+    [Parameter()]
+    [int]$RetryIntervalSec = 5
   )
-  # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-  # Get latest release API object
-  # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-
-  # get latest release object from API, but only if newer than what we've got already
+  
+  # get object from API, but only if newer than what we've got already
   try {
-    $latestParams = @{
-      Uri                     = "https://api.github.com/repos/$Repository/releases/latest"
-      ResponseHeadersVariable = 'releaseResponseHeaders'
-      StatusCodeVariable      = 'latestReleaseStatusCode'
+    $apiArgs = @{
+      Uri                     = $ApiBaseUrl.TrimEnd('/') + '/' + $Endpoint.TrimStart('/')
+      ResponseHeadersVariable = 'respHeaders'
+      StatusCodeVariable      = 'httpStatus'
       SkipHttpErrorCheck      = $true
       Headers                 = & {
         $requestHeaders = @{ }
         if ($Token) {
           $requestHeaders['Authorization'] = "token $Token"
         }
-        $savedLastModified = $SavedRelease.'api-response-headers'.'Last-Modified'
-        if ($savedLastModified) {
-          $requestHeaders['If-Modified-Since'] = $savedLastModified
+        if ($LastModified) {
+          $requestHeaders['If-Modified-Since'] = $LastModified
         }
         return $requestHeaders
       }
@@ -79,16 +88,15 @@ function Get-LatestReleaseInfo {
     $attempts = 0
     do {
       $time = Measure-Command {
-        $latestRelease = Invoke-RestMethod @latestParams
-        $latestRelease | Out-Null # to avoid PSUseDeclaredVarsMoreThanAssignments, Justification: scriptblock is executed in current scope
+        $apiResult = Invoke-RestMethod @apiArgs
+        $apiResult | Out-Null # to avoid PSUseDeclaredVarsMoreThanAssignments, Justification: scriptblock is executed in current scope
       }
       Write-Verbose ("Request finished in {0:c}" -f $time)
       # repeat until 3rd attempt or success (200 or 304 is success)
-      $repeat = ++$attempts -lt 3 -and $latestReleaseStatusCode -notin @(200, 304)
+      $repeat = ++$attempts -lt $MaximumRetryCount -and $httpStatus -notin @(200, 304)
       if ($repeat) {
-        $retryInterval = 5
-        Write-Verbose "Retrying request in $retryInterval sec"
-        Start-Sleep -Seconds $retryInterval
+        Write-Verbose "Retrying request in $RetryIntervalSec sec"
+        Start-Sleep -Seconds $RetryIntervalSec
       }
     } while ($repeat)
   }
@@ -96,57 +104,128 @@ function Get-LatestReleaseInfo {
     # exception during request
     Write-Error -Exception $_.Exception
     return [ordered]@{
-      'api-request-error' = [ordered]@{
-        'exception' = $_.Exception.Message
+      apiRequestError = [ordered]@{
+        exception = $_.Exception.Message
       }
     }
   }
-  if ($latestReleaseStatusCode -eq [System.Net.HttpStatusCode]::NotModified) {
+  if ($httpStatus -eq [System.Net.HttpStatusCode]::NotModified) {
     # not modified
-    Write-Verbose "Up to date: $Repository"
-    return $SavedRelease
+    Write-Verbose "Up to date: $Endpoint"
+    return [ordered]@{ apiUpToDate = $true }
   }
-  if ($latestReleaseStatusCode -ne [System.Net.HttpStatusCode]::OK) {
+  if ($httpStatus -ne [System.Net.HttpStatusCode]::OK) {
     # error received
-    Write-Warning "Latest release request failed with HTTP $([int]$latestReleaseStatusCode) $($latestReleaseStatusCode -as [System.Net.HttpStatusCode])"
-    $latestRelease | ConvertTo-Json | Write-Warning
+    Write-Warning "GET $Endpoint failed with HTTP $([int]$httpStatus) $($httpStatus -as [System.Net.HttpStatusCode])"
+    $apiResult | ConvertTo-Json | Write-Warning
     return [ordered]@{
-      'api-response-error' = [ordered]@{
-        'code' = $latestReleaseStatusCode -as [int]
+      apiResponseError = [ordered]@{
+        code = $httpStatus -as [int]
       }
     }
   }
   # status code 200 OK
-  Write-Verbose "Latest release changed: $Repository"
+  Write-Verbose "Changed: $Endpoint"
   # prepare result object with release data: headers and content
   $result = [ordered]@{ }
-  $lastModified = $releaseResponseHeaders.'Last-Modified' -as [string]
+  $lastModified = $respHeaders.'Last-Modified' -as [string]
   if ($lastModified) {
-    $result['api-response-headers'] = @{
-      'Last-Modified' = $lastModified
+    $result.apiHeaders = @{
+      LastModified = $lastModified
     }
   }
-  $result['api-response-content'] = $latestRelease | Select-Object 'tag_name', 'name', 'published_at'
+  $result.apiResult = $apiResult
+  return $result
+}
+
+# get latest release info as a ready-to-save hashtable
+function Get-UpdatedCache {
+  [CmdletBinding()]
+  param (
+    [Parameter(Mandatory, Position = 0)]
+    [string] $Repository,
+
+    [Parameter()]
+    [System.Collections.IDictionary] $Cache,
+
+    [Parameter()]
+    [string] $Token
+  )
+
+  # prepare result object
+  $result = [ordered]@{
+    repo          = [ordered]@{}
+    latestRelease = [ordered]@{}
+    catpkg        = [ordered]@{}
+  }
+
+  # check repository - if changed, check archived flag
+  $apiRepoArgs = @{
+    Endpoint     = "/repos/$Repository"
+    LastModified = $Cache.repo.apiHeaders.LastModified
+    Token        = $Token
+  }
+  $apiRepo = Get-GHApiUpdatedResult @apiRepoArgs
+  if ($apiRepo.apiUpToDate) {
+    $result.repo = $Cache.repo
+  }
+  elseif (-not $apiRepo.apiResult) {
+    # error
+    $result.repo = $apiRepo
+  }
+  elseif ($apiRepo.apiResult.archived -ne $Cache.repo.properties.archived) {
+    # archived value changed
+    if ($apiRepo.apiResult.archived) {
+      # only if repo is archived, save the LastModified header, so we only update the entry after it's unarchived
+      $result.repo.apiHeaders = $apiRepo.apiHeaders
+    }
+    $result.repo.properties = $apiRepo.apiResult | Select-Object 'archived'
+  }
+
+  # check latest release - if changed, get catpk.json
+  $apiLatestReleaseArgs = @{
+    Endpoint     = "/repos/$Repository/releases/latest"
+    LastModified = $Cache.latestRelease.apiHeaders.LastModified
+    Token        = $Token
+  }
+  $apiLatestRelease = Get-GHApiUpdatedResult @apiLatestReleaseArgs
+  if ($apiLatestRelease.apiUpToDate) {
+    # latest release not changed, catpkg update not necessary
+    $result.latestRelease = $Cache.latestRelease
+    $result.catpkg = $Cache.catpkg
+    return $result
+  }
+  elseif (-not $apiLatestRelease.apiResult) {
+    # no apiResult means an error
+    $result.latestRelease = $apiLatestRelease
+    return $result
+  }
+  else {
+    # latest release changed
+    $result.latestRelease.properties = $apiLatestRelease.apiResult | Select-Object 'tag_name', 'name', 'published_at'
+  }
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   # Get catpkg.json from the latest release
   # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
   # get content of the new catpkg.json
-  $repoName = ($Repository -split '/')[1]
-  $assetName = Get-EscapedAssetName "$repoName.catpkg.json"
-  $catpkgAsset = $latestRelease.assets | Where-Object name -Match '\.catpkg\.json$' | Select-Object -First 1
-  $catpkgAssetUri = $catpkgAsset.browser_download_url ?? "https://github.com/$Repository/releases/latest/download/$assetName"
-  $getIndexParams = @{
-    Uri                = $catpkgAssetUri
-    StatusCodeVariable = 'catpkgStatusCode'
-    SkipHttpErrorCheck = $true
-    # retry 3 times (4 attempts) every 15 seconds. This is mostly so that when a new release
-    # is created, the publish-catpkg action will take approx. 1 minute until assets are uploaded.
-    RetryIntervalSec   = 15
-    MaximumRetryCount  = 3
-  }
   try {
+    $getIndexParams = @{
+      Uri                = & {
+        $repoName = ($Repository -split '/')[1]
+        $assetName = Get-EscapedAssetName "$repoName.catpkg.json"
+        $catpkgAsset = $apiLatestRelease.apiResult.assets | Where-Object name -Match '\.catpkg\.json$' | Select-Object -First 1
+        $fallbackUri = "https://github.com/$Repository/releases/latest/download/$assetName"
+        return $catpkgAsset.browser_download_url ?? $fallbackUri
+      }
+      StatusCodeVariable = 'catpkgStatusCode'
+      SkipHttpErrorCheck = $true
+      # retry 3 times (4 attempts) every 15 seconds. This is mostly so that when a new release
+      # is created, the publish-catpkg action will take approx. 1 minute until assets are uploaded.
+      RetryIntervalSec   = 15
+      MaximumRetryCount  = 3
+    }
     $time = Measure-Command {
       $catpkgJson = Invoke-RestMethod @getIndexParams
       $catpkgJson | Out-Null # to avoid PSUseDeclaredVarsMoreThanAssignments, Justification: scriptblock is executed in current scope
@@ -156,23 +235,21 @@ function Get-LatestReleaseInfo {
   catch {
     # exception during request
     Write-Error -Exception $_.Exception
-    $result['catpkg-request-error'] = [ordered]@{
+    $result.catpkg.apiRequestError = [ordered]@{
       'exception' = $_.Exception.Message
     }
     return $result
   }
-  if ($catpkgStatusCode -eq [System.Net.HttpStatusCode]::OK) {
-    # currently needed because of a couple of fields like battleScribeVersion:
-    $result['catpkg'] = $catpkgJson | Select-Object * -ExcludeProperty '$schema', 'repositoryFiles'
-  }
-  else {
+  if ($catpkgStatusCode -ne [System.Net.HttpStatusCode]::OK) {
     # error received
     Write-Warning "catpkg.json request failed with HTTP $([int]$catpkgStatusCode) $($catpkgStatusCode -as [System.Net.HttpStatusCode])"
     $catpkgJson | ConvertTo-Json | Write-Warning
-    $result['catpkg-response-error'] = [ordered]@{
+    $result.catpkg.apiResponseError = [ordered]@{
       'code' = $catpkgStatusCode -as [int]
     }
+    return $result
   }
+  $result.catpkg.properties = $catpkgJson | Select-Object * -ExcludeProperty '$schema', 'repositoryFiles'
   return $result
 }
 
@@ -223,15 +300,15 @@ function Update-BsdataGalleryIndex {
       $index = $registration
     }
     $repository = $index.location.github
-    Write-Verbose "Getting latest release info."
-    $latestRelease = Get-LatestReleaseInfo $repository -SavedRelease $index.'latest-release' -Token $Token -ErrorAction:Continue
-    if ($latestRelease -ne $index.'latest-release') {
-      Write-Verbose "Saving latest release info."
-      $index.'latest-release' = $latestRelease
-      $indexYmlPath = (Join-Path $IndexPath $_.name)
-      $index | ConvertTo-Yaml | Set-Content $indexYmlPath -Force
-      Write-Host "Entry updated." -ForegroundColor Cyan
-    }
+    Write-Verbose "Updating index cache."
+    $cache = Get-UpdatedCache $repository -Cache $index.cache -Token $Token -ErrorAction:Continue
+
+    Write-Verbose "Saving updated cache."
+    $index.cache = $cache
+    $indexYmlPath = (Join-Path $IndexPath $_.name)
+    $index | ConvertTo-Yaml | Set-Content $indexYmlPath -Force
+    Write-Verbose "Entry updated." -ForegroundColor Cyan
+
     return $index
   }
 }
