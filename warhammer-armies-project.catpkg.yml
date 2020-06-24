@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.9.3
       name: Bug fixes
-      published_at: 2020-06-24T13:43:22.0000000Z
+      published_at: 2020-06-24T13:43:22.0000000+00:00
   catpkg:
     properties:
       name: warhammer-armies-project
       description: Warhammer Armies Project
       battleScribeVersion: "2.03"
       version: v1.9.3
-      lastUpdated: 2020-06-24T13:41:44.0000000Z
+      lastUpdated: 2020-06-24T13:41:44.0000000+00:00
       lastUpdateDescription: Bug fixes
       indexUrl: https://github.com/BSData/warhammer-armies-project/releases/latest/download/warhammer-armies-project.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-armies-project/releases/latest/download/warhammer-armies-project.catpkg.json
