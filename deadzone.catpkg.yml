@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 26 Nov 2019 08:30:44 GMT
+      LastModified: Wed, 24 Jun 2020 06:49:12 GMT
     properties:
-      tag_name: 4.0.4
-      name: 'Deadzone: Escalation'
-      published_at: 2019-11-26T08:30:44.0000000+00:00
+      tag_name: v4.0.5
+      name: Year of the rat
+      published_at: 2020-06-24T06:49:12.0000000Z
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: deadzone
+      description: Deadzone 2nd Edition
+      battleScribeVersion: "2.03"
+      version: v4.0.5
+      lastUpdated: 2020-06-23T21:28:37.0000000Z
+      lastUpdateDescription: Year of the rat
+      indexUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.latest.bsi
+      repositoryUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/deadzone/releases/download/v4.0.5/deadzone.v4.0.5.bsr
+      githubUrl: https://github.com/BSData/deadzone
+      feedUrl: https://github.com/BSData/deadzone/releases.atom
+      bugTrackerUrl: https://github.com/BSData/deadzone/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/deadzone
 
