@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.032
       name: Jetbikes and Dominus Bombard
-      published_at: 2020-06-25T13:18:35.0000000Z
+      published_at: 2020-06-25T13:18:35.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.032
-      lastUpdated: 2020-06-25T13:17:50.0000000Z
+      lastUpdated: 2020-06-25T13:17:50.0000000+00:00
       lastUpdateDescription: Jetbikes and Dominus Bombard
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
