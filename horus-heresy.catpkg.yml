@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 23 Jun 2020 19:35:04 GMT
+      LastModified: Thu, 25 Jun 2020 13:18:35 GMT
     properties:
-      tag_name: v13.031
-      name: Quick Fixes and more Custom Char stuff
-      published_at: 2020-06-23T19:35:04.0000000+00:00
+      tag_name: v13.032
+      name: Jetbikes and Dominus Bombard
+      published_at: 2020-06-25T13:18:35.0000000Z
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v13.031
-      lastUpdated: 2020-06-23T19:34:21.0000000+00:00
-      lastUpdateDescription: Quick Fixes and more Custom Char stuff
+      version: v13.032
+      lastUpdated: 2020-06-25T13:17:50.0000000Z
+      lastUpdateDescription: Jetbikes and Dominus Bombard
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.031/horus-heresy.v13.031.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.032/horus-heresy.v13.032.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
