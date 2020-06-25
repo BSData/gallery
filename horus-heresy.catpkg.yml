@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.033
       name: Salamanders Praetor Mastercrafted
-      published_at: 2020-06-25T18:47:01.0000000Z
+      published_at: 2020-06-25T18:47:01.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.033
-      lastUpdated: 2020-06-25T18:45:50.0000000Z
+      lastUpdated: 2020-06-25T18:45:50.0000000+00:00
       lastUpdateDescription: Salamanders Praetor Mastercrafted
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
