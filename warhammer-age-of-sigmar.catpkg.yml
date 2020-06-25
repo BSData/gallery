@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 24 Jun 2020 21:46:57 GMT
+      LastModified: Thu, 25 Jun 2020 15:52:32 GMT
     properties:
-      tag_name: v2.1.34
-      name: Chaos Bug Fixes
-      published_at: 2020-06-24T21:46:57.0000000+00:00
+      tag_name: v2.1.35
+      name: Exalted Greater Daemon point updates
+      published_at: 2020-06-25T15:52:32.0000000Z
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.1.34
-      lastUpdated: 2020-06-24T21:44:50.0000000+00:00
-      lastUpdateDescription: Chaos Bug Fixes
+      version: v2.1.35
+      lastUpdated: 2020-06-25T15:51:29.0000000Z
+      lastUpdateDescription: Exalted Greater Daemon point updates
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.1.34/warhammer-age-of-sigmar.v2.1.34.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.1.35/warhammer-age-of-sigmar.v2.1.35.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
