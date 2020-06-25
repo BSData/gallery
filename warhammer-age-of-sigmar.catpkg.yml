@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.1.35
       name: Exalted Greater Daemon point updates
-      published_at: 2020-06-25T15:52:32.0000000Z
+      published_at: 2020-06-25T15:52:32.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
       version: v2.1.35
-      lastUpdated: 2020-06-25T15:51:29.0000000Z
+      lastUpdated: 2020-06-25T15:51:29.0000000+00:00
       lastUpdateDescription: Exalted Greater Daemon point updates
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
