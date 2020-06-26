@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 25 Jun 2020 18:47:01 GMT
+      LastModified: Fri, 26 Jun 2020 09:14:53 GMT
     properties:
-      tag_name: v13.033
-      name: Salamanders Praetor Mastercrafted
-      published_at: 2020-06-25T18:47:01.0000000+00:00
+      tag_name: v13.034
+      name: Toxi contemptors and Speeder squads
+      published_at: 2020-06-26T09:14:53.0000000Z
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v13.033
-      lastUpdated: 2020-06-25T18:45:50.0000000+00:00
-      lastUpdateDescription: Salamanders Praetor Mastercrafted
+      version: v13.034
+      lastUpdated: 2020-06-26T09:14:00.0000000Z
+      lastUpdateDescription: Toxi contemptors and Speeder squads
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.033/horus-heresy.v13.033.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.034/horus-heresy.v13.034.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
