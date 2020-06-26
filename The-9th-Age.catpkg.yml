@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 2.2.16
       name: 2020-06 Update
-      published_at: 2020-06-26T10:44:55.0000000Z
+      published_at: 2020-06-26T10:44:55.0000000+00:00
   catpkg:
     properties:
       name: The-9th-Age
       description: 'Fantasy Battles: The 9th Age'
       battleScribeVersion: "2.03"
       version: 2.2.16
-      lastUpdated: 2020-06-26T10:36:01.0000000Z
+      lastUpdated: 2020-06-26T10:36:01.0000000+00:00
       lastUpdateDescription: 2020-06 Update
       indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
       repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
