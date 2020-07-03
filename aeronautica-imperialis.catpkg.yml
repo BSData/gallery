@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: V1.5.3
       name: Gave bommas more dakka
-      published_at: 2020-07-03T11:01:13.0000000Z
+      published_at: 2020-07-03T11:01:13.0000000+00:00
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
       version: V1.5.3
-      lastUpdated: 2020-07-03T10:48:38.0000000Z
+      lastUpdated: 2020-07-03T10:48:38.0000000+00:00
       lastUpdateDescription: Gave bommas more dakka
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
