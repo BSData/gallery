@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: V1.5.2
       name: The Finally Answered Questions update
-      published_at: 2020-07-03T06:33:04.0000000Z
+      published_at: 2020-07-03T06:33:04.0000000+00:00
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
       version: V1.5.2
-      lastUpdated: 2020-07-03T06:20:27.0000000Z
+      lastUpdated: 2020-07-03T06:20:27.0000000+00:00
       lastUpdateDescription: The Finally Answered Questions update
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
