@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 26 Jun 2020 16:18:55 GMT
+      LastModified: Sat, 04 Jul 2020 14:21:53 GMT
     properties:
-      tag_name: v13.035
-      name: Arquitor Bombard fix
-      published_at: 2020-06-26T16:18:55.0000000+00:00
+      tag_name: v13.036
+      name: More Mournival Custom Character work (10/26 complete)
+      published_at: 2020-07-04T14:21:53.0000000Z
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v13.035
-      lastUpdated: 2020-06-26T16:17:01.0000000+00:00
-      lastUpdateDescription: Arquitor Bombard fix
+      version: v13.036
+      lastUpdated: 2020-07-04T14:21:03.0000000Z
+      lastUpdateDescription: More Mournival Custom Character work (10/26 complete)
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.035/horus-heresy.v13.035.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.036/horus-heresy.v13.036.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
