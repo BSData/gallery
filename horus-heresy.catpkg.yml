@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.036
       name: More Mournival Custom Character work (10/26 complete)
-      published_at: 2020-07-04T14:21:53.0000000Z
+      published_at: 2020-07-04T14:21:53.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.036
-      lastUpdated: 2020-07-04T14:21:03.0000000Z
+      lastUpdated: 2020-07-04T14:21:03.0000000+00:00
       lastUpdateDescription: More Mournival Custom Character work (10/26 complete)
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
