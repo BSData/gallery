@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.1.5
       name: Some stuff got fixed
-      published_at: 2020-07-07T08:39:59.0000000Z
+      published_at: 2020-07-07T08:39:59.0000000+00:00
   catpkg:
     properties:
       name: wh40k-apocalypse
       description: Warhammer 40,000 Apocalypse
       battleScribeVersion: "2.03"
       version: v1.1.5
-      lastUpdated: 2020-07-07T08:36:30.0000000Z
+      lastUpdated: 2020-07-07T08:36:30.0000000+00:00
       lastUpdateDescription: Some stuff got fixed
       indexUrl: https://github.com/BSData/wh40k-apocalypse/releases/latest/download/wh40k-apocalypse.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-apocalypse/releases/latest/download/wh40k-apocalypse.catpkg.json
