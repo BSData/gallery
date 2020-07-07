@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.037
       name: Primaris-Lightning Strike Fighter fix
-      published_at: 2020-07-07T20:55:01.0000000Z
+      published_at: 2020-07-07T20:55:01.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.037
-      lastUpdated: 2020-07-07T20:54:08.0000000Z
+      lastUpdated: 2020-07-07T20:54:08.0000000+00:00
       lastUpdateDescription: Primaris-Lightning Strike Fighter fix
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
