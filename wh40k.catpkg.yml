@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.5.4
       name: Pariah Is Here!
-      published_at: 2020-07-07T18:24:25.0000000Z
+      published_at: 2020-07-07T18:24:25.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v1.5.4
-      lastUpdated: 2020-07-07T18:22:18.0000000Z
+      lastUpdated: 2020-07-07T18:22:18.0000000+00:00
       lastUpdateDescription: Pariah Is Here!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
