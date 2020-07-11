@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.1.36
       name: Chaos fixes, Tzeentch and StD
-      published_at: 2020-07-11T16:36:47.0000000Z
+      published_at: 2020-07-11T16:36:47.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
       version: v2.1.36
-      lastUpdated: 2020-07-11T16:35:07.0000000Z
+      lastUpdated: 2020-07-11T16:35:07.0000000+00:00
       lastUpdateDescription: Chaos fixes, Tzeentch and StD
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
