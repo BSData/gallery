@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 10 Jun 2020 20:16:43 GMT
+      LastModified: Thu, 16 Jul 2020 19:35:50 GMT
     properties:
-      tag_name: 1.5.8
-      name: Thanos!!!!!
-      published_at: 2020-06-10T20:16:43.0000000+00:00
+      tag_name: "1.6"
+      name: Miles Morales and All Webbed Up added
+      published_at: 2020-07-16T19:35:50.0000000Z
   catpkg:
     properties:
       name: marvel-crisis-protocol
       description: Marvel Crisis Protocol
       battleScribeVersion: "2.03"
-      version: 1.5.8
-      lastUpdated: 2020-06-10T20:12:52.0000000+00:00
-      lastUpdateDescription: Thanos!!!!!
+      version: "1.6"
+      lastUpdated: 2020-07-16T19:19:08.0000000Z
+      lastUpdateDescription: Miles Morales and All Webbed Up added
       indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
       repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/1.5.8/marvel-crisis-protocol.1.5.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/1.6/marvel-crisis-protocol.1.6.bsr
       githubUrl: https://github.com/BSData/marvel-crisis-protocol
       feedUrl: https://github.com/BSData/marvel-crisis-protocol/releases.atom
       bugTrackerUrl: https://github.com/BSData/marvel-crisis-protocol/issues
