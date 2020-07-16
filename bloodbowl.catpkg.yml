@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.1
       name: Spike Issue 9 - 2nd Attempt!
-      published_at: 2020-07-16T19:08:40.0000000Z
+      published_at: 2020-07-16T19:08:40.0000000+00:00
   catpkg:
     properties:
       name: bloodbowl
       description: Blood Bowl
       battleScribeVersion: "2.03"
       version: v2.2.1
-      lastUpdated: 2020-07-16T19:06:18.0000000Z
+      lastUpdated: 2020-07-16T19:06:18.0000000+00:00
       lastUpdateDescription: Spike Issue 9 - 2nd Attempt!
       indexUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.latest.bsi
       repositoryUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.catpkg.json

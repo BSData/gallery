@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: "1.6"
       name: Miles Morales and All Webbed Up added
-      published_at: 2020-07-16T19:35:50.0000000Z
+      published_at: 2020-07-16T19:35:50.0000000+00:00
   catpkg:
     properties:
       name: marvel-crisis-protocol
       description: Marvel Crisis Protocol
       battleScribeVersion: "2.03"
       version: "1.6"
-      lastUpdated: 2020-07-16T19:19:08.0000000Z
+      lastUpdated: 2020-07-16T19:19:08.0000000+00:00
       lastUpdateDescription: Miles Morales and All Webbed Up added
       indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
       repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
