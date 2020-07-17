@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: V1.5.4
       name: Fixed Avenger Bolt Cannon profile
-      published_at: 2020-07-17T01:47:47.0000000Z
+      published_at: 2020-07-17T01:47:47.0000000+00:00
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
       version: V1.5.4
-      lastUpdated: 2020-07-17T01:45:01.0000000Z
+      lastUpdated: 2020-07-17T01:45:01.0000000+00:00
       lastUpdateDescription: Fixed Avenger Bolt Cannon profile
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
