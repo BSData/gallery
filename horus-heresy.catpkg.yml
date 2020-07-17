@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 07 Jul 2020 20:55:01 GMT
+      LastModified: Fri, 17 Jul 2020 21:32:08 GMT
     properties:
-      tag_name: v13.037
-      name: Primaris-Lightning Strike Fighter fix
-      published_at: 2020-07-07T20:55:01.0000000+00:00
+      tag_name: v13.038
+      name: Hardened armour
+      published_at: 2020-07-17T21:32:08.0000000Z
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v13.037
-      lastUpdated: 2020-07-07T20:54:08.0000000+00:00
-      lastUpdateDescription: Primaris-Lightning Strike Fighter fix
+      version: v13.038
+      lastUpdated: 2020-07-17T21:31:22.0000000Z
+      lastUpdateDescription: Hardened armour
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.037/horus-heresy.v13.037.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.038/horus-heresy.v13.038.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
