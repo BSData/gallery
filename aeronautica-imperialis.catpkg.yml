@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 03 Jul 2020 11:01:13 GMT
+      LastModified: Fri, 17 Jul 2020 01:47:47 GMT
     properties:
-      tag_name: V1.5.3
-      name: Gave bommas more dakka
-      published_at: 2020-07-03T11:01:13.0000000+00:00
+      tag_name: V1.5.4
+      name: Fixed Avenger Bolt Cannon profile
+      published_at: 2020-07-17T01:47:47.0000000Z
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
-      version: V1.5.3
-      lastUpdated: 2020-07-03T10:48:38.0000000+00:00
-      lastUpdateDescription: Gave bommas more dakka
+      version: V1.5.4
+      lastUpdated: 2020-07-17T01:45:01.0000000Z
+      lastUpdateDescription: Fixed Avenger Bolt Cannon profile
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/V1.5.3/aeronautica-imperialis.V1.5.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/V1.5.4/aeronautica-imperialis.V1.5.4.bsr
       githubUrl: https://github.com/BSData/aeronautica-imperialis
       feedUrl: https://github.com/BSData/aeronautica-imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/aeronautica-imperialis/issues
