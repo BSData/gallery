@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.038
       name: Hardened armour
-      published_at: 2020-07-17T21:32:08.0000000Z
+      published_at: 2020-07-17T21:32:08.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.038
-      lastUpdated: 2020-07-17T21:31:22.0000000Z
+      lastUpdated: 2020-07-17T21:31:22.0000000+00:00
       lastUpdateDescription: Hardened armour
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
