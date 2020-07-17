@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v8.5.5
       name: The End of 8th Edition
-      published_at: 2020-07-17T13:00:14.0000000Z
+      published_at: 2020-07-17T13:00:14.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v8.5.5
-      lastUpdated: 2020-07-17T12:13:12.0000000Z
+      lastUpdated: 2020-07-17T12:13:12.0000000+00:00
       lastUpdateDescription: The End of 8th Edition
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
