@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: 35.00.164.337
       name: updates for Imperial Guard, Horus Heresy & various others
-      published_at: 2020-07-18T17:05:06.0000000Z
+      published_at: 2020-07-18T17:05:06.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
