@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 11 Jul 2020 16:36:47 GMT
+      LastModified: Sat, 18 Jul 2020 19:56:27 GMT
     properties:
-      tag_name: v2.1.36
-      name: Chaos fixes, Tzeentch and StD
-      published_at: 2020-07-11T16:36:47.0000000+00:00
+      tag_name: v2.2.0
+      name: 'GHB 2020: Points and Realm of Battle updates'
+      published_at: 2020-07-18T19:56:27.0000000Z
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.1.36
-      lastUpdated: 2020-07-11T16:35:07.0000000+00:00
-      lastUpdateDescription: Chaos fixes, Tzeentch and StD
+      version: v2.2.0
+      lastUpdated: 2020-07-18T19:55:11.0000000Z
+      lastUpdateDescription: 'GHB 2020: Points and Realm of Battle updates'
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.1.36/warhammer-age-of-sigmar.v2.1.36.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.0/warhammer-age-of-sigmar.v2.2.0.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
