@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.2
       name: Smashin Da Orc Bugs!
-      published_at: 2020-07-18T21:13:37.0000000Z
+      published_at: 2020-07-18T21:13:37.0000000+00:00
   catpkg:
     properties:
       name: bloodbowl
       description: Blood Bowl
       battleScribeVersion: "2.03"
       version: v2.2.2
-      lastUpdated: 2020-07-18T21:12:16.0000000Z
+      lastUpdated: 2020-07-18T21:12:16.0000000+00:00
       lastUpdateDescription: Smashin Da Orc Bugs!
       indexUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.latest.bsi
       repositoryUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.catpkg.json

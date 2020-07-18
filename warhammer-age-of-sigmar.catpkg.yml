@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.1
       name: GHB 2020 Take 2, Sylvaneth now Included!
-      published_at: 2020-07-18T21:30:52.0000000Z
+      published_at: 2020-07-18T21:30:52.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
       version: v2.2.1
-      lastUpdated: 2020-07-18T21:29:50.0000000Z
+      lastUpdated: 2020-07-18T21:29:50.0000000+00:00
       lastUpdateDescription: GHB 2020 Take 2, Sylvaneth now Included!
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json

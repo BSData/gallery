@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.039
       name: Command Bikes, Playtest Stuff and Mournival
-      published_at: 2020-07-18T21:52:42.0000000Z
+      published_at: 2020-07-18T21:52:42.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.039
-      lastUpdated: 2020-07-18T21:51:46.0000000Z
+      lastUpdated: 2020-07-18T21:51:46.0000000+00:00
       lastUpdateDescription: Command Bikes, Playtest Stuff and Mournival
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
