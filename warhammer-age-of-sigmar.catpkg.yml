@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.2
       name: GHB rd 2, Chaos Fixes
-      published_at: 2020-07-19T20:41:09.0000000Z
+      published_at: 2020-07-19T20:41:09.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
       version: v2.2.2
-      lastUpdated: 2020-07-19T20:35:45.0000000Z
+      lastUpdated: 2020-07-19T20:35:45.0000000+00:00
       lastUpdateDescription: GHB rd 2, Chaos Fixes
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
