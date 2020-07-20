@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v0.2.53
       name: May the Fourth Be with You!
-      published_at: 2020-07-20T21:49:11.0000000Z
+      published_at: 2020-07-20T21:49:11.0000000+00:00
   catpkg:
     properties:
       name: whfb
       description: Warhammer Fantasy
       battleScribeVersion: "2.03"
       version: v0.2.53
-      lastUpdated: 2020-07-20T15:16:12.0000000Z
+      lastUpdated: 2020-07-20T15:16:12.0000000+00:00
       lastUpdateDescription: May the Fourth Be with You!
       indexUrl: https://github.com/BSData/whfb/releases/latest/download/whfb.latest.bsi
       repositoryUrl: https://github.com/BSData/whfb/releases/latest/download/whfb.catpkg.json
