@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.6.0
       name: ARC Trooper Preview and Spring/Summer Releases
-      published_at: 2020-07-19T23:00:23.0000000Z
+      published_at: 2020-07-19T23:00:23.0000000+00:00
   catpkg:
     properties:
       name: star-wars-legion
       description: 'Star Wars: Legion'
       battleScribeVersion: "2.03"
       version: 1.6.0
-      lastUpdated: 2020-07-19T22:58:22.0000000Z
+      lastUpdated: 2020-07-19T22:58:22.0000000+00:00
       lastUpdateDescription: ARC Trooper Preview and Spring/Summer Releases
       indexUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.latest.bsi
       repositoryUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.catpkg.json
