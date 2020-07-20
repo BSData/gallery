@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.3
       name: Post GHB2020 Errata Points
-      published_at: 2020-07-20T15:57:16.0000000Z
+      published_at: 2020-07-20T15:57:16.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
       version: v2.2.3
-      lastUpdated: 2020-07-20T15:56:08.0000000Z
+      lastUpdated: 2020-07-20T15:56:08.0000000+00:00
       lastUpdateDescription: Post GHB2020 Errata Points
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
