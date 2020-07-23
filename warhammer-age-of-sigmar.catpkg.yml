@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.5
       name: OBR Fix, We Really Mean It This Time
-      published_at: 2020-07-23T17:08:00.0000000Z
+      published_at: 2020-07-23T17:08:00.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
       version: v2.2.5
-      lastUpdated: 2020-07-23T17:04:46.0000000Z
+      lastUpdated: 2020-07-23T17:04:46.0000000+00:00
       lastUpdateDescription: OBR Fix, We Really Mean It This Time
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
