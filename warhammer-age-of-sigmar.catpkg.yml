@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.4
       name: OBR Morghast Points Fix
-      published_at: 2020-07-22T22:43:04.0000000Z
+      published_at: 2020-07-22T22:43:04.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
       version: v2.2.4
-      lastUpdated: 2020-07-22T22:41:08.0000000Z
+      lastUpdated: 2020-07-22T22:41:08.0000000+00:00
       lastUpdateDescription: OBR Morghast Points Fix
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
