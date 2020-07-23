@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 22 Jul 2020 22:43:04 GMT
+      LastModified: Thu, 23 Jul 2020 17:08:00 GMT
     properties:
-      tag_name: v2.2.4
-      name: OBR Morghast Points Fix
-      published_at: 2020-07-22T22:43:04.0000000+00:00
+      tag_name: v2.2.5
+      name: OBR Fix, We Really Mean It This Time
+      published_at: 2020-07-23T17:08:00.0000000Z
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.4
-      lastUpdated: 2020-07-22T22:41:08.0000000+00:00
-      lastUpdateDescription: OBR Morghast Points Fix
+      version: v2.2.5
+      lastUpdated: 2020-07-23T17:04:46.0000000Z
+      lastUpdateDescription: OBR Fix, We Really Mean It This Time
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.4/warhammer-age-of-sigmar.v2.2.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.5/warhammer-age-of-sigmar.v2.2.5.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
