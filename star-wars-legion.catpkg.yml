@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.6.2
       name: BX Commando Droid Preview
-      published_at: 2020-07-24T01:09:48.0000000Z
+      published_at: 2020-07-24T01:09:48.0000000+00:00
   catpkg:
     properties:
       name: star-wars-legion
       description: 'Star Wars: Legion'
       battleScribeVersion: "2.03"
       version: 1.6.2
-      lastUpdated: 2020-07-24T01:08:45.0000000Z
+      lastUpdated: 2020-07-24T01:08:45.0000000+00:00
       lastUpdateDescription: BX Commando Droid Preview
       indexUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.latest.bsi
       repositoryUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.catpkg.json
