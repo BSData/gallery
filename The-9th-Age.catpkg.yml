@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 07 Jul 2020 08:23:30 GMT
+      LastModified: Fri, 24 Jul 2020 09:02:36 GMT
     properties:
-      tag_name: 2.2.17
-      name: Cultist Update
-      published_at: 2020-07-07T08:23:30.0000000+00:00
+      tag_name: 2.2.18
+      name: Infernal Dwarves Beta 2 Update
+      published_at: 2020-07-24T09:02:36.0000000Z
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: The-9th-Age
+      description: 'Fantasy Battles: The 9th Age'
+      battleScribeVersion: "2.03"
+      version: 2.2.18
+      lastUpdated: 2020-07-24T09:00:57.0000000Z
+      lastUpdateDescription: Infernal Dwarves Beta 2 Update
+      indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
+      repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2.2.18/The-9th-Age.2.2.18.bsr
+      githubUrl: https://github.com/BSData/The-9th-Age
+      feedUrl: https://github.com/BSData/The-9th-Age/releases.atom
+      bugTrackerUrl: https://github.com/BSData/The-9th-Age/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/The-9th-Age
 
