@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 2.2.18
       name: Infernal Dwarves Beta 2 Update
-      published_at: 2020-07-24T09:02:36.0000000Z
+      published_at: 2020-07-24T09:02:36.0000000+00:00
   catpkg:
     properties:
       name: The-9th-Age
       description: 'Fantasy Battles: The 9th Age'
       battleScribeVersion: "2.03"
       version: 2.2.18
-      lastUpdated: 2020-07-24T09:00:57.0000000Z
+      lastUpdated: 2020-07-24T09:00:57.0000000+00:00
       lastUpdateDescription: Infernal Dwarves Beta 2 Update
       indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
       repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
