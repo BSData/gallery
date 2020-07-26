@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.1.6
       name: Sentinel weapon cost fix
-      published_at: 2020-07-26T21:02:19.0000000Z
+      published_at: 2020-07-26T21:02:19.0000000+00:00
   catpkg:
     properties:
       name: wh40k-apocalypse
       description: Warhammer 40,000 Apocalypse
       battleScribeVersion: "2.03"
       version: v1.1.6
-      lastUpdated: 2020-07-26T21:00:48.0000000Z
+      lastUpdated: 2020-07-26T21:00:48.0000000+00:00
       lastUpdateDescription: Sentinel weapon cost fix
       indexUrl: https://github.com/BSData/wh40k-apocalypse/releases/latest/download/wh40k-apocalypse.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-apocalypse/releases/latest/download/wh40k-apocalypse.catpkg.json
