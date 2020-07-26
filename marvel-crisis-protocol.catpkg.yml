@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: 1.6.2
       name: Ghost-Spider, Green Goblins and Well-Laid Plans
-      published_at: 2020-07-26T20:07:01.0000000Z
+      published_at: 2020-07-26T20:07:01.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
