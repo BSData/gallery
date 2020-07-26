@@ -6,25 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 16 Jul 2020 19:35:50 GMT
+      LastModified: Sun, 26 Jul 2020 20:07:01 GMT
     properties:
-      tag_name: "1.6"
-      name: Miles Morales and All Webbed Up added
-      published_at: 2020-07-16T19:35:50.0000000+00:00
+      tag_name: 1.6.2
+      name: Ghost-Spider, Green Goblins and Well-Laid Plans
+      published_at: 2020-07-26T20:07:01.0000000Z
   catpkg:
-    properties:
-      name: marvel-crisis-protocol
-      description: Marvel Crisis Protocol
-      battleScribeVersion: "2.03"
-      version: "1.6"
-      lastUpdated: 2020-07-16T19:19:08.0000000+00:00
-      lastUpdateDescription: Miles Morales and All Webbed Up added
-      indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
-      repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/1.6/marvel-crisis-protocol.1.6.bsr
-      githubUrl: https://github.com/BSData/marvel-crisis-protocol
-      feedUrl: https://github.com/BSData/marvel-crisis-protocol/releases.atom
-      bugTrackerUrl: https://github.com/BSData/marvel-crisis-protocol/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/marvel-crisis-protocol
+    apiResponseError:
+      code: 404
 
