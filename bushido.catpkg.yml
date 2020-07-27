@@ -6,21 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 18 May 2020 18:30:05 GMT
+      LastModified: Mon, 27 Jul 2020 14:17:10 GMT
     properties:
-      tag_name: v1.1.0
-      name: Cycle of the Risen Sun Edition
-      published_at: 2020-05-05T07:52:06.0000000+00:00
+      tag_name: v1.2
+      name: Maximoto Edition
+      published_at: 2020-07-27T14:17:10.0000000Z
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: 1.1.0
-      lastUpdated: 2020-05-05T07:52:06.0000000+00:00
-      lastUpdateDescription: Cycle of the Risen Sun Edition
+      version: v1.2
+      lastUpdated: 2020-07-27T14:10:54.0000000Z
+      lastUpdateDescription: Maximoto Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.2/bushido.v1.2.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
