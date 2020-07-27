@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.0
       name: Initial 9th Edition Release
-      published_at: 2020-07-27T03:20:18.0000000Z
+      published_at: 2020-07-27T03:20:18.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.00
-      lastUpdated: 2020-07-27T00:21:30.0000000Z
+      lastUpdated: 2020-07-27T00:21:30.0000000+00:00
       lastUpdateDescription: Initial 9th Edition Release
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
