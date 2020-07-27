@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 26 Jul 2020 22:04:31 GMT
+      LastModified: Mon, 27 Jul 2020 04:00:55 GMT
     properties:
-      tag_name: 9.0.0
-      name: '9th Edition Presents: MUCH Smaller Armies'
-      published_at: 2020-07-26T22:04:31.0000000+00:00
+      tag_name: v9.0.0
+      name: Initial 9th Edition Release
+      published_at: 2020-07-27T03:20:18.0000000Z
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: 9.0.0
-      lastUpdated: 2020-07-26T22:04:13.0000000+00:00
-      lastUpdateDescription: '9th Edition Presents: MUCH Smaller Armies'
+      version: v9.00
+      lastUpdated: 2020-07-27T00:21:30.0000000Z
+      lastUpdateDescription: Initial 9th Edition Release
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/9.0.0/wh40k.9.0.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.00/wh40k.v9.00.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
