@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.1
       name: Fuc it! Well do it live!
-      published_at: 2020-07-28T01:42:17.0000000Z
+      published_at: 2020-07-28T01:42:17.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.1
-      lastUpdated: 2020-07-28T00:21:04.0000000Z
+      lastUpdated: 2020-07-28T00:21:04.0000000+00:00
       lastUpdateDescription: Fuc it! Well do it live!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
