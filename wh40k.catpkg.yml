@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.2
       name: The Only Good Bug Is A Dead Bug! Join Battlescribe Today! Would You Like To Know More?
-      published_at: 2020-07-29T00:26:03.0000000Z
+      published_at: 2020-07-29T00:26:03.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.2
-      lastUpdated: 2020-07-29T00:08:19.0000000Z
+      lastUpdated: 2020-07-29T00:08:19.0000000+00:00
       lastUpdateDescription: The Only Good Bug Is A Dead Bug! Join Battlescribe Today! Would You Like To Know More?
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
