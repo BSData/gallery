@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 18 Jul 2020 21:52:42 GMT
+      LastModified: Wed, 29 Jul 2020 09:47:22 GMT
     properties:
-      tag_name: v13.039
-      name: Command Bikes, Playtest Stuff and Mournival
-      published_at: 2020-07-18T21:52:42.0000000+00:00
+      tag_name: v13.040
+      name: Tormentor fix
+      published_at: 2020-07-29T09:47:22.0000000Z
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v13.039
-      lastUpdated: 2020-07-18T21:51:46.0000000+00:00
-      lastUpdateDescription: Command Bikes, Playtest Stuff and Mournival
+      version: v13.040
+      lastUpdated: 2020-07-29T09:46:24.0000000Z
+      lastUpdateDescription: Tormentor fix
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.039/horus-heresy.v13.039.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.040/horus-heresy.v13.040.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
