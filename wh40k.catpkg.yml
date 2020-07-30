@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.3
       name: https://www.youtube.com/watch?v=5wQSXBhnxl8
-      published_at: 2020-07-30T00:52:57.0000000Z
+      published_at: 2020-07-30T00:52:57.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.3
-      lastUpdated: 2020-07-30T00:49:50.0000000Z
+      lastUpdated: 2020-07-30T00:49:50.0000000+00:00
       lastUpdateDescription: https://www.youtube.com/watch?v=5wQSXBhnxl8
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
