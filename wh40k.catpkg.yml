@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 31 Jul 2020 01:28:29 GMT
+      LastModified: Sat, 01 Aug 2020 01:48:47 GMT
     properties:
-      tag_name: v9.0.4
-      name: My name is Señor Supremo, You killed my Phaeron. Prepare to Die.
-      published_at: 2020-07-31T01:28:29.0000000+00:00
+      tag_name: v9.0.5
+      name: Hello. My Name Is Joe And Java 8 Kicked My Ass.
+      published_at: 2020-08-01T01:48:47.0000000Z
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.0.4
-      lastUpdated: 2020-07-31T01:19:46.0000000+00:00
-      lastUpdateDescription: My name is Señor Supremo, You killed my Phaeron. Prepare to Die.
+      version: v9.0.5
+      lastUpdated: 2020-08-01T01:37:00.0000000Z
+      lastUpdateDescription: Hello. My Name Is Joe And Java 8 Kicked My Ass.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.4/wh40k.v9.0.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.5/wh40k.v9.0.5.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
