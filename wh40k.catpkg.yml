@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.5
       name: Hello. My Name Is Joe And Java 8 Kicked My Ass.
-      published_at: 2020-08-01T01:48:47.0000000Z
+      published_at: 2020-08-01T01:48:47.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.5
-      lastUpdated: 2020-08-01T01:37:00.0000000Z
+      lastUpdated: 2020-08-01T01:37:00.0000000+00:00
       lastUpdateDescription: Hello. My Name Is Joe And Java 8 Kicked My Ass.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
