@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.6
       name: '*Racks Minigun* Oh, I **know** what the Wargamers like.'
-      published_at: 2020-08-02T00:39:08.0000000Z
+      published_at: 2020-08-02T00:39:08.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.6
-      lastUpdated: 2020-08-02T00:29:52.0000000Z
+      lastUpdated: 2020-08-02T00:29:52.0000000+00:00
       lastUpdateDescription: '*Racks Minigun* Oh, I **know** what the Wargamers like.'
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
