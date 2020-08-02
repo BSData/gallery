@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 01 Aug 2020 01:48:47 GMT
+      LastModified: Sun, 02 Aug 2020 00:39:08 GMT
     properties:
-      tag_name: v9.0.5
-      name: Hello. My Name Is Joe And Java 8 Kicked My Ass.
-      published_at: 2020-08-01T01:48:47.0000000+00:00
+      tag_name: v9.0.6
+      name: '*Racks Minigun* Oh, I **know** what the Wargamers like.'
+      published_at: 2020-08-02T00:39:08.0000000Z
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.0.5
-      lastUpdated: 2020-08-01T01:37:00.0000000+00:00
-      lastUpdateDescription: Hello. My Name Is Joe And Java 8 Kicked My Ass.
+      version: v9.0.6
+      lastUpdated: 2020-08-02T00:29:52.0000000Z
+      lastUpdateDescription: '*Racks Minigun* Oh, I **know** what the Wargamers like.'
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.5/wh40k.v9.0.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.6/wh40k.v9.0.6.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
