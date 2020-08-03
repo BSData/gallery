@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 18 Jul 2020 17:05:06 GMT
+      LastModified: Mon, 03 Aug 2020 15:12:11 GMT
     properties:
-      tag_name: 35.00.164.337
-      name: updates for Imperial Guard, Horus Heresy & various others
-      published_at: 2020-07-18T17:05:06.0000000+00:00
+      tag_name: 35.01.165.338
+      name: Tau Sandbox, Black Templars, plus some bugfixes
+      published_at: 2020-08-03T15:12:11.0000000Z
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: wh40k-epic-armageddon
+      description: Warhammer 40,000 Epic Armageddon
+      battleScribeVersion: "2.03"
+      version: 35.01.165.338
+      lastUpdated: 2020-08-03T15:06:49.0000000Z
+      lastUpdateDescription: Tau Sandbox, Black Templars, plus some bugfixes
+      indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
+      repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/35.01.165.338/wh40k-epic-armageddon.35.01.165.338.bsr
+      githubUrl: https://github.com/BSData/wh40k-epic-armageddon
+      feedUrl: https://github.com/BSData/wh40k-epic-armageddon/releases.atom
+      bugTrackerUrl: https://github.com/BSData/wh40k-epic-armageddon/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-epic-armageddon
 
