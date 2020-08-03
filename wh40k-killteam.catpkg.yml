@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.4.25
       name: Fixed Company Veteran weapon option.
-      published_at: 2020-08-03T13:37:24.0000000Z
+      published_at: 2020-08-03T13:37:24.0000000+00:00
   catpkg:
     properties:
       name: wh40k-killteam
       description: 'Warhammer 40,000: Kill Team (2018)'
       battleScribeVersion: "2.03"
       version: v1.4.25
-      lastUpdated: 2020-08-03T13:27:59.0000000Z
+      lastUpdated: 2020-08-03T13:27:59.0000000+00:00
       lastUpdateDescription: Fixed Company Veteran weapon option.
       indexUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json
