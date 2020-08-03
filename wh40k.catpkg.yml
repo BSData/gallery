@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 02 Aug 2020 00:39:08 GMT
+      LastModified: Mon, 03 Aug 2020 02:24:54 GMT
     properties:
-      tag_name: v9.0.6
-      name: '*Racks Minigun* Oh, I **know** what the Wargamers like.'
-      published_at: 2020-08-02T00:39:08.0000000+00:00
+      tag_name: v9.0.7
+      name: Someone should tell Sanguinary Guard that it's a tid bit cold outside.
+      published_at: 2020-08-03T02:24:54.0000000Z
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.0.6
-      lastUpdated: 2020-08-02T00:29:52.0000000+00:00
-      lastUpdateDescription: '*Racks Minigun* Oh, I **know** what the Wargamers like.'
+      version: v9.0.7
+      lastUpdated: 2020-08-02T20:33:14.0000000Z
+      lastUpdateDescription: Someone should tell Sanguinary Guard that it's a tid bit cold outside.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.6/wh40k.v9.0.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.7/wh40k.v9.0.7.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
