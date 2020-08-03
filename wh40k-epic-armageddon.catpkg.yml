@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 35.01.165.338
       name: Tau Sandbox, Black Templars, plus some bugfixes
-      published_at: 2020-08-03T15:12:11.0000000Z
+      published_at: 2020-08-03T15:12:11.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
       version: 35.01.165.338
-      lastUpdated: 2020-08-03T15:06:49.0000000Z
+      lastUpdated: 2020-08-03T15:06:49.0000000+00:00
       lastUpdateDescription: Tau Sandbox, Black Templars, plus some bugfixes
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
