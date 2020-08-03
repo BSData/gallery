@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.7
       name: Someone should tell Sanguinary Guard that it's a tid bit cold outside.
-      published_at: 2020-08-03T02:24:54.0000000Z
+      published_at: 2020-08-03T02:24:54.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.7
-      lastUpdated: 2020-08-02T20:33:14.0000000Z
+      lastUpdated: 2020-08-02T20:33:14.0000000+00:00
       lastUpdateDescription: Someone should tell Sanguinary Guard that it's a tid bit cold outside.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
