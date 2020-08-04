@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 25 Jul 2020 17:13:24 GMT
+      LastModified: Tue, 04 Aug 2020 03:02:07 GMT
     properties:
-      tag_name: v2.2.6
-      name: Latest round of fixes
-      published_at: 2020-07-25T17:13:24.0000000+00:00
+      tag_name: v2.2.7
+      name: Chaos and Death fixes
+      published_at: 2020-08-04T03:02:07.0000000Z
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.6
-      lastUpdated: 2020-07-25T17:12:10.0000000+00:00
-      lastUpdateDescription: Latest round of fixes
+      version: v2.2.7
+      lastUpdated: 2020-08-04T02:57:42.0000000Z
+      lastUpdateDescription: Chaos and Death fixes
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.6/warhammer-age-of-sigmar.v2.2.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.7/warhammer-age-of-sigmar.v2.2.7.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues

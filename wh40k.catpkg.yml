@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.8
       name: 8 Days in and I'm spent. Someone tell me a funny release title.
-      published_at: 2020-08-04T01:59:03.0000000Z
+      published_at: 2020-08-04T01:59:03.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.8
-      lastUpdated: 2020-08-03T21:29:02.0000000Z
+      lastUpdated: 2020-08-03T21:29:02.0000000+00:00
       lastUpdateDescription: 8 Days in and I'm spent. Someone tell me a funny release title.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
