@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 04 Aug 2020 01:59:03 GMT
+      LastModified: Wed, 05 Aug 2020 01:37:42 GMT
     properties:
-      tag_name: v9.0.8
-      name: 8 Days in and I'm spent. Someone tell me a funny release title.
-      published_at: 2020-08-04T01:59:03.0000000+00:00
+      tag_name: v9.0.9
+      name: 'In other news: Rich man makes a Pringles can fly using only fire.'
+      published_at: 2020-08-05T01:37:42.0000000Z
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.0.8
-      lastUpdated: 2020-08-03T21:29:02.0000000+00:00
-      lastUpdateDescription: 8 Days in and I'm spent. Someone tell me a funny release title.
+      version: v9.0.9
+      lastUpdated: 2020-08-04T22:40:17.0000000Z
+      lastUpdateDescription: 'In other news: Rich man makes a Pringles can fly using only fire.'
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.8/wh40k.v9.0.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.9/wh40k.v9.0.9.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
