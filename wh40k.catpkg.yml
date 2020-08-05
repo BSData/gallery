@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.9
       name: 'In other news: Rich man makes a Pringles can fly using only fire.'
-      published_at: 2020-08-05T01:37:42.0000000Z
+      published_at: 2020-08-05T01:37:42.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.9
-      lastUpdated: 2020-08-04T22:40:17.0000000Z
+      lastUpdated: 2020-08-04T22:40:17.0000000+00:00
       lastUpdateDescription: 'In other news: Rich man makes a Pringles can fly using only fire.'
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
