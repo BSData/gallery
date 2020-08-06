@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.10
       name: Primaris - (UK) IPA: /ˈpɹaɪməɹis/ taking over being the best, main, or excellent from others while being late to the party and under costed.
-      published_at: 2020-08-06T00:24:40.0000000Z
+      published_at: 2020-08-06T00:24:40.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.10
-      lastUpdated: 2020-08-05T20:17:58.0000000Z
+      lastUpdated: 2020-08-05T20:17:58.0000000+00:00
       lastUpdateDescription: Primaris - (UK) IPA: /ˈpɹaɪməɹis/ taking over being the best, main, or excellent from others while being late to the party and under costed.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
