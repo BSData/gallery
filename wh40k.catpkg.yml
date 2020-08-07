@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.11
       name: 'Coming Soon: Primaris Warp Troopers. Equipped with the latest Elda...Imperium weaponry - Warp Pack and Death Spinners!'
-      published_at: 2020-08-07T01:37:18.0000000Z
+      published_at: 2020-08-07T01:37:18.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.11
-      lastUpdated: 2020-08-06T19:58:41.0000000Z
+      lastUpdated: 2020-08-06T19:58:41.0000000+00:00
       lastUpdateDescription: 'Coming Soon: Primaris Warp Troopers. Equipped with the latest Elda...Imperium weaponry - Warp Pack and Death Spinners!'
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
