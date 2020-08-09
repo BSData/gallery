@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.041
       name: Sorry Mech Players 2 Quick fixes + QoL fix for Mech data editing
-      published_at: 2020-08-09T12:04:29.0000000Z
+      published_at: 2020-08-09T12:04:29.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.041
-      lastUpdated: 2020-08-09T12:02:53.0000000Z
+      lastUpdated: 2020-08-09T12:02:53.0000000+00:00
       lastUpdateDescription: Sorry Mech Players 2 Quick fixes + QoL fix for Mech data editing
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
