@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.6.3
       name: Gen Con Reveals and Mando/Inferno Previews
-      published_at: 2020-08-11T08:49:09.0000000Z
+      published_at: 2020-08-11T08:49:09.0000000+00:00
   catpkg:
     properties:
       name: star-wars-legion
       description: 'Star Wars: Legion'
       battleScribeVersion: "2.03"
       version: 1.6.3
-      lastUpdated: 2020-08-11T08:44:58.0000000Z
+      lastUpdated: 2020-08-11T08:44:58.0000000+00:00
       lastUpdateDescription: Gen Con Reveals and Mando/Inferno Previews
       indexUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.latest.bsi
       repositoryUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.catpkg.json
