@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 09 Aug 2020 12:04:29 GMT
+      LastModified: Tue, 11 Aug 2020 18:13:57 GMT
     properties:
-      tag_name: v13.041
-      name: Sorry Mech Players 2 Quick fixes + QoL fix for Mech data editing
-      published_at: 2020-08-09T12:04:29.0000000+00:00
+      tag_name: v13.042
+      name: Solar Aux fixes
+      published_at: 2020-08-11T18:13:57.0000000Z
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v13.041
-      lastUpdated: 2020-08-09T12:02:53.0000000+00:00
-      lastUpdateDescription: Sorry Mech Players 2 Quick fixes + QoL fix for Mech data editing
+      version: v13.042
+      lastUpdated: 2020-08-11T18:13:19.0000000Z
+      lastUpdateDescription: Solar Aux fixes
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.041/horus-heresy.v13.041.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.042/horus-heresy.v13.042.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
