@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.042
       name: Solar Aux fixes
-      published_at: 2020-08-11T18:13:57.0000000Z
+      published_at: 2020-08-11T18:13:57.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.042
-      lastUpdated: 2020-08-11T18:13:19.0000000Z
+      lastUpdated: 2020-08-11T18:13:19.0000000+00:00
       lastUpdateDescription: Solar Aux fixes
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
