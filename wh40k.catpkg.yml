@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.12
       name: Did you miss me? Here, have some PL updates. Don't say I never gave you anything.
-      published_at: 2020-08-13T01:48:30.0000000Z
+      published_at: 2020-08-13T01:48:30.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.12
-      lastUpdated: 2020-08-13T01:44:12.0000000Z
+      lastUpdated: 2020-08-13T01:44:12.0000000+00:00
       lastUpdateDescription: Did you miss me? Here, have some PL updates. Don't say I never gave you anything.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
