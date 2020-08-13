@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 07 Aug 2020 01:37:18 GMT
+      LastModified: Thu, 13 Aug 2020 01:48:30 GMT
     properties:
-      tag_name: v9.0.11
-      name: 'Coming Soon: Primaris Warp Troopers. Equipped with the latest Elda...Imperium weaponry - Warp Pack and Death Spinners!'
-      published_at: 2020-08-07T01:37:18.0000000+00:00
+      tag_name: v9.0.12
+      name: Did you miss me? Here, have some PL updates. Don't say I never gave you anything.
+      published_at: 2020-08-13T01:48:30.0000000Z
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.0.11
-      lastUpdated: 2020-08-06T19:58:41.0000000+00:00
-      lastUpdateDescription: 'Coming Soon: Primaris Warp Troopers. Equipped with the latest Elda...Imperium weaponry - Warp Pack and Death Spinners!'
+      version: v9.0.12
+      lastUpdated: 2020-08-13T01:44:12.0000000Z
+      lastUpdateDescription: Did you miss me? Here, have some PL updates. Don't say I never gave you anything.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.11/wh40k.v9.0.11.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.12/wh40k.v9.0.12.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
