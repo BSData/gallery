@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.13
       name: We're still here. Every time you ask about a C&D, the Imperium steals another Eldar weapon.
-      published_at: 2020-08-17T01:32:59.0000000Z
+      published_at: 2020-08-17T01:32:59.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.13
-      lastUpdated: 2020-08-17T01:29:24.0000000Z
+      lastUpdated: 2020-08-17T01:29:24.0000000+00:00
       lastUpdateDescription: We're still here. Every time you ask about a C&D, the Imperium steals another Eldar weapon.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
