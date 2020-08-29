@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.045
       name: Fixes and Chars + Cleanup (Pre book 9 release)
-      published_at: 2020-08-29T16:38:08.0000000Z
+      published_at: 2020-08-29T16:38:08.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.045
-      lastUpdated: 2020-08-29T16:37:15.0000000Z
+      lastUpdated: 2020-08-29T16:37:15.0000000+00:00
       lastUpdateDescription: Fixes and Chars + Cleanup (Pre book 9 release)
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
