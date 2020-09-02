@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.047
       name: Mournival Custom Chars (Last Legion one added)
-      published_at: 2020-09-02T20:32:15.0000000Z
+      published_at: 2020-09-02T20:32:15.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.047
-      lastUpdated: 2020-09-02T20:31:02.0000000Z
+      lastUpdated: 2020-09-02T20:31:02.0000000+00:00
       lastUpdateDescription: Mournival Custom Chars (Last Legion one added)
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
