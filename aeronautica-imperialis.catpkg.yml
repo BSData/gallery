@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: V1.5.5
       name: Removed experimental multiplying/dividing Tau weapon systems
-      published_at: 2020-09-03T14:22:52.0000000Z
+      published_at: 2020-09-03T14:22:52.0000000+00:00
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
       version: V1.5.5
-      lastUpdated: 2020-09-03T14:18:27.0000000Z
+      lastUpdated: 2020-09-03T14:18:27.0000000+00:00
       lastUpdateDescription: Removed experimental multiplying/dividing Tau weapon systems
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
