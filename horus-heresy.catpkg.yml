@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 02 Sep 2020 20:32:15 GMT
+      LastModified: Thu, 03 Sep 2020 09:07:19 GMT
     properties:
-      tag_name: v13.047
-      name: Mournival Custom Chars (Last Legion one added)
-      published_at: 2020-09-02T20:32:15.0000000+00:00
+      tag_name: v13.047c
+      name: Mournival Custom Chars + minor fix 2 (Last Legion one added)
+      published_at: 2020-09-03T09:07:19.0000000Z
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v13.047
-      lastUpdated: 2020-09-02T20:31:02.0000000+00:00
-      lastUpdateDescription: Mournival Custom Chars (Last Legion one added)
+      version: v13.047c
+      lastUpdated: 2020-09-03T09:05:45.0000000Z
+      lastUpdateDescription: Mournival Custom Chars + minor fix 2 (Last Legion one added)
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.047/horus-heresy.v13.047.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v13.047c/horus-heresy.v13.047c.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
