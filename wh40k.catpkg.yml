@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.16
       name: Outriders have many uses, both for dakka and stabba.
-      published_at: 2020-09-04T02:21:47.0000000Z
+      published_at: 2020-09-04T02:21:47.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.16
-      lastUpdated: 2020-09-01T22:39:16.0000000Z
+      lastUpdated: 2020-09-01T22:39:16.0000000+00:00
       lastUpdateDescription: Outriders have many uses, both for dakka and stabba.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
