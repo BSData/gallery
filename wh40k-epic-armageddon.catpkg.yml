@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 03 Aug 2020 15:12:11 GMT
+      LastModified: Sat, 05 Sep 2020 18:11:36 GMT
     properties:
-      tag_name: 35.01.165.338
-      name: Tau Sandbox, Black Templars, plus some bugfixes
-      published_at: 2020-08-03T15:12:11.0000000+00:00
+      tag_name: 35.02.167.340
+      name: Grindel Stronghold, Explorator Fleet, Paramar Air Cav, Phantine Air Corps
+      published_at: 2020-09-05T18:11:36.0000000Z
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
-      version: 35.01.165.338
-      lastUpdated: 2020-08-03T15:06:49.0000000+00:00
-      lastUpdateDescription: Tau Sandbox, Black Templars, plus some bugfixes
+      version: 35.02.167.340
+      lastUpdated: 2020-09-05T18:07:06.0000000Z
+      lastUpdateDescription: Grindel Stronghold, Explorator Fleet, Paramar Air Cav, Phantine Air Corps
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/35.01.165.338/wh40k-epic-armageddon.35.01.165.338.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/35.02.167.340/wh40k-epic-armageddon.35.02.167.340.bsr
       githubUrl: https://github.com/BSData/wh40k-epic-armageddon
       feedUrl: https://github.com/BSData/wh40k-epic-armageddon/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-epic-armageddon/issues
