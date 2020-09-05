@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 35.02.167.340
       name: Grindel Stronghold, Explorator Fleet, Paramar Air Cav, Phantine Air Corps
-      published_at: 2020-09-05T18:11:36.0000000Z
+      published_at: 2020-09-05T18:11:36.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
       version: 35.02.167.340
-      lastUpdated: 2020-09-05T18:07:06.0000000Z
+      lastUpdated: 2020-09-05T18:07:06.0000000+00:00
       lastUpdateDescription: Grindel Stronghold, Explorator Fleet, Paramar Air Cav, Phantine Air Corps
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
