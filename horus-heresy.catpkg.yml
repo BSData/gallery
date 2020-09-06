@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.048
       name: Mainly Mech fixes
-      published_at: 2020-09-06T13:31:20.0000000Z
+      published_at: 2020-09-06T13:31:20.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.048
-      lastUpdated: 2020-09-06T13:29:19.0000000Z
+      lastUpdated: 2020-09-06T13:29:19.0000000+00:00
       lastUpdateDescription: Mainly Mech fixes
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
