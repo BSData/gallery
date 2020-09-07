@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: "1.7"
       name: Ghost Rider character pack added. Miles/Spider Gwen and Green Goblins pack completed.
-      published_at: 2020-09-07T02:47:03.0000000Z
+      published_at: 2020-09-07T02:47:03.0000000+00:00
   catpkg:
     properties:
       name: marvel-crisis-protocol
       description: Marvel Crisis Protocol
       battleScribeVersion: "2.03"
       version: "1.7"
-      lastUpdated: 2020-09-07T02:43:47.0000000Z
+      lastUpdated: 2020-09-07T02:43:47.0000000+00:00
       lastUpdateDescription: Ghost Rider character pack added. Miles/Spider Gwen and Green Goblins pack completed.
       indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
       repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
