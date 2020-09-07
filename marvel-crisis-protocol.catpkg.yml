@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 26 Jul 2020 20:07:01 GMT
+      LastModified: Mon, 07 Sep 2020 02:47:03 GMT
     properties:
-      tag_name: 1.6.2
-      name: Ghost-Spider, Green Goblins and Well-Laid Plans
-      published_at: 2020-07-26T20:07:01.0000000+00:00
+      tag_name: "1.7"
+      name: Ghost Rider character pack added. Miles/Spider Gwen and Green Goblins pack completed.
+      published_at: 2020-09-07T02:47:03.0000000Z
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: marvel-crisis-protocol
+      description: Marvel Crisis Protocol
+      battleScribeVersion: "2.03"
+      version: "1.7"
+      lastUpdated: 2020-09-07T02:43:47.0000000Z
+      lastUpdateDescription: Ghost Rider character pack added. Miles/Spider Gwen and Green Goblins pack completed.
+      indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
+      repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/1.7/marvel-crisis-protocol.1.7.bsr
+      githubUrl: https://github.com/BSData/marvel-crisis-protocol
+      feedUrl: https://github.com/BSData/marvel-crisis-protocol/releases.atom
+      bugTrackerUrl: https://github.com/BSData/marvel-crisis-protocol/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/marvel-crisis-protocol
 
