@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v13.050
       name: 'Fulmentarus fix #1763'
-      published_at: 2020-09-09T06:50:18.0000000Z
+      published_at: 2020-09-09T06:50:18.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v13.050
-      lastUpdated: 2020-09-09T06:49:28.0000000Z
+      lastUpdated: 2020-09-09T06:49:28.0000000+00:00
       lastUpdateDescription: 'Fulmentarus fix #1763'
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
