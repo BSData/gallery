@@ -6,21 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 26 May 2020 18:47:24 GMT
+      LastModified: Fri, 11 Sep 2020 19:05:09 GMT
     properties:
-      tag_name: "3.2"
-      name: Fixed missing items
-      published_at: 2020-05-26T18:47:24.0000000+00:00
+      tag_name: 3.3.5
+      name: Updated with Whisperer Rules in Main
+      published_at: 2020-09-11T19:05:09.0000000Z
   catpkg:
     properties:
       name: the-walking-dead
       description: 'The Walking Dead: All Out War'
       battleScribeVersion: "2.03"
-      version: "3.2"
-      lastUpdated: 2020-05-26T18:47:24.0000000+00:00
-      lastUpdateDescription: Fixed missing items
+      version: 3.3.5
+      lastUpdated: 2020-09-11T19:04:39.0000000Z
+      lastUpdateDescription: Updated with Whisperer Rules in Main
       indexUrl: https://github.com/BSData/the-walking-dead/releases/latest/download/the-walking-dead.latest.bsi
       repositoryUrl: https://github.com/BSData/the-walking-dead/releases/latest/download/the-walking-dead.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/the-walking-dead/releases/latest/download/the-walking-dead.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/the-walking-dead/releases/download/3.3.5/the-walking-dead.3.3.5.bsr
       githubUrl: https://github.com/BSData/the-walking-dead
       feedUrl: https://github.com/BSData/the-walking-dead/releases.atom
       bugTrackerUrl: https://github.com/BSData/the-walking-dead/issues
