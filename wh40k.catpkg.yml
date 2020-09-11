@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.17
       name: 'In This Week’s Issue, Updates to the superior balancing system of 40k: PL'
-      published_at: 2020-09-11T02:58:47.0000000Z
+      published_at: 2020-09-11T02:58:47.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.17
-      lastUpdated: 2020-09-08T11:06:50.0000000Z
+      lastUpdated: 2020-09-08T11:06:50.0000000+00:00
       lastUpdateDescription: 'In This Week’s Issue, Updates to the superior balancing system of 40k: PL'
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
