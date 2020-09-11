@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 04 Sep 2020 02:21:47 GMT
+      LastModified: Fri, 11 Sep 2020 02:58:47 GMT
     properties:
-      tag_name: v9.0.16
-      name: Outriders have many uses, both for dakka and stabba.
-      published_at: 2020-09-04T02:21:47.0000000+00:00
+      tag_name: v9.0.17
+      name: 'In This Week’s Issue, Updates to the superior balancing system of 40k: PL'
+      published_at: 2020-09-11T02:58:47.0000000Z
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.0.16
-      lastUpdated: 2020-09-01T22:39:16.0000000+00:00
-      lastUpdateDescription: Outriders have many uses, both for dakka and stabba.
+      version: v9.0.17
+      lastUpdated: 2020-09-08T11:06:50.0000000Z
+      lastUpdateDescription: 'In This Week’s Issue, Updates to the superior balancing system of 40k: PL'
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.16/wh40k.v9.0.16.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.17/wh40k.v9.0.17.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
