@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 3.3.5
       name: Updated with Whisperer Rules in Main
-      published_at: 2020-09-11T19:05:09.0000000Z
+      published_at: 2020-09-11T19:05:09.0000000+00:00
   catpkg:
     properties:
       name: the-walking-dead
       description: 'The Walking Dead: All Out War'
       battleScribeVersion: "2.03"
       version: 3.3.5
-      lastUpdated: 2020-09-11T19:04:39.0000000Z
+      lastUpdated: 2020-09-11T19:04:39.0000000+00:00
       lastUpdateDescription: Updated with Whisperer Rules in Main
       indexUrl: https://github.com/BSData/the-walking-dead/releases/latest/download/the-walking-dead.latest.bsi
       repositoryUrl: https://github.com/BSData/the-walking-dead/releases/latest/download/the-walking-dead.catpkg.json
