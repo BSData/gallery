@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.8
       name: Lumineth Release
-      published_at: 2020-09-13T18:37:41.0000000Z
+      published_at: 2020-09-13T18:37:41.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
       version: v2.2.8
-      lastUpdated: 2020-09-13T18:35:14.0000000Z
+      lastUpdated: 2020-09-13T18:35:14.0000000+00:00
       lastUpdateDescription: Lumineth Release
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
