@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: "4.0"
       name: Whisperers 1st Draft
-      published_at: 2020-09-14T18:45:04.0000000Z
+      published_at: 2020-09-14T18:45:04.0000000+00:00
   catpkg:
     properties:
       name: the-walking-dead
       description: 'The Walking Dead: All Out War'
       battleScribeVersion: "2.03"
       version: "4.0"
-      lastUpdated: 2020-09-14T18:41:08.0000000Z
+      lastUpdated: 2020-09-14T18:41:08.0000000+00:00
       lastUpdateDescription: Whisperers 1st Draft
       indexUrl: https://github.com/BSData/the-walking-dead/releases/latest/download/the-walking-dead.latest.bsi
       repositoryUrl: https://github.com/BSData/the-walking-dead/releases/latest/download/the-walking-dead.catpkg.json
