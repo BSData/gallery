@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v9.0.18
       name: DMCA Letter Received. Thanks for all the fish.
-      published_at: 2020-09-17T20:27:17.0000000Z
+      published_at: 2020-09-17T20:27:17.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
       version: v9.0.18
-      lastUpdated: 2020-09-17T20:20:36.0000000Z
+      lastUpdated: 2020-09-17T20:20:36.0000000+00:00
       lastUpdateDescription: DMCA Letter Received. Thanks for all the fish.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
