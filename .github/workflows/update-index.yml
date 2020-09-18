@@ -7,7 +7,8 @@ on:
       - master
     paths:
       - "registry/**"
-      - ".github/**"
+      - ".github/workflows/update-index.yml"
+      - ".github/actions/update-index/**"
 
 jobs:
   update:

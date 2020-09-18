@@ -194,7 +194,10 @@ function Get-UpdatedCache {
     # latest release not changed, catpkg update not necessary
     $result.latestRelease = $Cache.latestRelease
     $result.catpkg = $Cache.catpkg
-    return $result
+    if (-not $Cache.catpkg.apiResponseError) {
+      # only return if cached catpkg isn't an error
+      return $result
+    }
   }
   elseif (-not $apiLatestRelease.apiResult) {
     # no apiResult means an error
