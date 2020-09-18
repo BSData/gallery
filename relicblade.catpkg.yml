@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.3.0
       name: Added Battle Pigs
-      published_at: 2020-06-25T07:30:54.0000000Z
+      published_at: 2020-06-25T07:30:54.0000000+00:00
   catpkg:
     properties:
       name: relicblade
       description: Relicblade
       battleScribeVersion: "2.03"
       version: v2.3.0
-      lastUpdated: 2020-06-25T07:26:23.0000000Z
+      lastUpdated: 2020-06-25T07:26:23.0000000+00:00
       lastUpdateDescription: Added Battle Pigs
       indexUrl: https://github.com/BSData/relicblade/releases/latest/download/relicblade.latest.bsi
       repositoryUrl: https://github.com/BSData/relicblade/releases/latest/download/relicblade.catpkg.json

@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: 0.1.1
       name: Fixed IDs in game system.
-      published_at: 2015-02-02T16:07:16.0000000Z
+      published_at: 2015-02-02T16:07:16.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

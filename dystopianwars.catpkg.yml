@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: 2.5.002
       name: Federated States of America
-      published_at: 2017-08-16T23:03:55.0000000Z
+      published_at: 2017-08-16T23:03:55.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

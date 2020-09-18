@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: 4.0.17
       name: Epirian Foundation SecDef Rapid Intervention Team
-      published_at: 2019-01-13T13:56:59.0000000Z
+      published_at: 2019-01-13T13:56:59.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

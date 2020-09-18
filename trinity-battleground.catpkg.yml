@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: v1.0.0
       name: 1st Release
-      published_at: 2018-12-14T05:43:57.0000000Z
+      published_at: 2018-12-14T05:43:57.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

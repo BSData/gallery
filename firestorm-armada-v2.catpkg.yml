@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: v5
       name: Updated all files for BS 2.0
-      published_at: 2017-01-18T20:06:30.0000000Z
+      published_at: 2017-01-18T20:06:30.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v0.1-alpha
       name: Alpha release of Heavy Gear Blitz! rules
-      published_at: 2020-08-12T21:01:04.0000000Z
+      published_at: 2020-08-12T21:01:04.0000000+00:00
   catpkg:
     properties:
       name: heavy-gear-blitz
       description: Heavy Gear Blitz
       battleScribeVersion: "2.03"
       version: v0.1-alpha
-      lastUpdated: 2020-08-12T20:45:27.0000000Z
+      lastUpdated: 2020-08-12T20:45:27.0000000+00:00
       lastUpdateDescription: Alpha release of Heavy Gear Blitz! rules
       indexUrl: https://github.com/BSData/heavy-gear-blitz/releases/latest/download/heavy-gear-blitz.latest.bsi
       repositoryUrl: https://github.com/BSData/heavy-gear-blitz/releases/latest/download/heavy-gear-blitz.catpkg.json

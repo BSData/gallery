@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: 2.0.0
       name: 2.0.0 New Version of all files
-      published_at: 2018-09-19T05:22:53.0000000Z
+      published_at: 2018-09-19T05:22:53.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

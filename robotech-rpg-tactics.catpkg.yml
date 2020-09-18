@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: 0.9.5
       name: Added Grell Malcontent
-      published_at: 2015-07-01T18:49:22.0000000Z
+      published_at: 2015-07-01T18:49:22.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

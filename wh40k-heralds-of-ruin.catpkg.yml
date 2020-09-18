@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: v3.0.4
       name: Repo Rename - Nothing to see here.
-      published_at: 2018-07-11T18:12:27.0000000Z
+      published_at: 2018-07-11T18:12:27.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

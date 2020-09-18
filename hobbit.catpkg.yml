@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: v1.0.0-beta
       name: Game System update
-      published_at: 2017-03-05T17:41:11.0000000Z
+      published_at: 2017-03-05T17:41:11.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404

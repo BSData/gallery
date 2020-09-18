@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.0.1
       name: Welcome to the Edge of Reality
-      published_at: 2020-08-20T00:43:45.0000000Z
+      published_at: 2020-08-20T00:43:45.0000000+00:00
   catpkg:
     properties:
       name: realitys-edge
       description: "Reality's Edge: Cyberpunk Skirmish Rules"
       battleScribeVersion: "2.03"
       version: v1.0.1
-      lastUpdated: 2020-08-19T23:54:48.0000000Z
+      lastUpdated: 2020-08-19T23:54:48.0000000+00:00
       lastUpdateDescription: Welcome to the Edge of Reality
       indexUrl: https://github.com/BSData/realitys-edge/releases/latest/download/realitys-edge.latest.bsi
       repositoryUrl: https://github.com/BSData/realitys-edge/releases/latest/download/realitys-edge.catpkg.json

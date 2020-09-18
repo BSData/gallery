@@ -10,7 +10,7 @@ cache:
     properties:
       tag_name: v1.1.6
       name: Added missing units in Protectorate
-      published_at: 2016-03-16T21:33:31.0000000Z
+      published_at: 2016-03-16T21:33:31.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
