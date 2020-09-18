@@ -14,4 +14,19 @@ cache:
   catpkg:
     apiResponseError:
       code: 404
+    properties:
+      name: spqr
+      description: SPQR
+      battleScribeVersion: "2.03"
+      version: 1.2.6
+      lastUpdated: 2019-09-18T15:23:36.0000000Z
+      lastUpdateDescription: Bug Fixes
+      indexUrl: https://github.com/BSData/spqr/releases/latest/download/spqr.latest.bsi
+      repositoryUrl: https://github.com/BSData/spqr/releases/latest/download/spqr.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/spqr/releases/latest/download/spqr.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/spqr/releases/download/1.2.6/spqr.1.2.6.bsr
+      githubUrl: https://github.com/BSData/spqr
+      feedUrl: https://github.com/BSData/spqr/releases.atom
+      bugTrackerUrl: https://github.com/BSData/spqr/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/spqr
 

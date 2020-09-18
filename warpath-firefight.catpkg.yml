@@ -14,4 +14,19 @@ cache:
   catpkg:
     apiResponseError:
       code: 404
+    properties:
+      name: warpath-firefight
+      description: 'Warpath: Firefight'
+      battleScribeVersion: "2.01"
+      version: 1.0.2
+      lastUpdated: 2017-09-20T08:24:45.0000000Z
+      lastUpdateDescription: FF Jotunn Correction
+      indexUrl: https://github.com/BSData/warpath-firefight/releases/latest/download/warpath-firefight.latest.bsi
+      repositoryUrl: https://github.com/BSData/warpath-firefight/releases/latest/download/warpath-firefight.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warpath-firefight/releases/latest/download/warpath-firefight.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warpath-firefight/releases/download/1.0.2/warpath-firefight.1.0.2.bsr
+      githubUrl: https://github.com/BSData/warpath-firefight
+      feedUrl: https://github.com/BSData/warpath-firefight/releases.atom
+      bugTrackerUrl: https://github.com/BSData/warpath-firefight/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warpath-firefight
 

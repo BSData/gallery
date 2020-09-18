@@ -14,4 +14,19 @@ cache:
   catpkg:
     apiResponseError:
       code: 404
+    properties:
+      name: robotech-rpg-tactics
+      description: Robotech RPG Tactics
+      battleScribeVersion: "1.15"
+      version: 0.9.5
+      lastUpdated: 2015-07-01T18:41:12.0000000Z
+      lastUpdateDescription: Added Grell Malcontent
+      indexUrl: https://github.com/BSData/robotech-rpg-tactics/releases/latest/download/robotech-rpg-tactics.latest.bsi
+      repositoryUrl: https://github.com/BSData/robotech-rpg-tactics/releases/latest/download/robotech-rpg-tactics.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/robotech-rpg-tactics/releases/latest/download/robotech-rpg-tactics.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/robotech-rpg-tactics/releases/download/0.9.5/robotech-rpg-tactics.0.9.5.bsr
+      githubUrl: https://github.com/BSData/robotech-rpg-tactics
+      feedUrl: https://github.com/BSData/robotech-rpg-tactics/releases.atom
+      bugTrackerUrl: https://github.com/BSData/robotech-rpg-tactics/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/robotech-rpg-tactics
 

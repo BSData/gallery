@@ -14,4 +14,19 @@ cache:
   catpkg:
     apiResponseError:
       code: 404
+    properties:
+      name: mordheim
+      description: Mordheim
+      battleScribeVersion: "2.03"
+      version: v0.2.4
+      lastUpdated: 2019-10-30T08:43:18.0000000Z
+      lastUpdateDescription: Data format update
+      indexUrl: https://github.com/BSData/mordheim/releases/latest/download/mordheim.latest.bsi
+      repositoryUrl: https://github.com/BSData/mordheim/releases/latest/download/mordheim.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/mordheim/releases/latest/download/mordheim.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/mordheim/releases/download/v0.2.4/mordheim.v0.2.4.bsr
+      githubUrl: https://github.com/BSData/mordheim
+      feedUrl: https://github.com/BSData/mordheim/releases.atom
+      bugTrackerUrl: https://github.com/BSData/mordheim/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/mordheim
 

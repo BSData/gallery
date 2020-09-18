@@ -14,4 +14,19 @@ cache:
   catpkg:
     apiResponseError:
       code: 404
+    properties:
+      name: gates-of-antares
+      description: Gates of Antares
+      battleScribeVersion: "2.03"
+      version: "1.18"
+      lastUpdated: 2019-09-02T09:41:16.0000000Z
+      lastUpdateDescription: More changes
+      indexUrl: https://github.com/BSData/gates-of-antares/releases/latest/download/gates-of-antares.latest.bsi
+      repositoryUrl: https://github.com/BSData/gates-of-antares/releases/latest/download/gates-of-antares.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/gates-of-antares/releases/latest/download/gates-of-antares.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/gates-of-antares/releases/download/1.18/gates-of-antares.1.18.bsr
+      githubUrl: https://github.com/BSData/gates-of-antares
+      feedUrl: https://github.com/BSData/gates-of-antares/releases.atom
+      bugTrackerUrl: https://github.com/BSData/gates-of-antares/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/gates-of-antares
 

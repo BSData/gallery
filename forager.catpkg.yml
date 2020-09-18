@@ -14,4 +14,19 @@ cache:
   catpkg:
     apiResponseError:
       code: 404
+    properties:
+      name: forager
+      description: Forager
+      battleScribeVersion: "2.01"
+      version: 1.0.0
+      lastUpdated: 2018-01-19T18:40:32.0000000Z
+      lastUpdateDescription: Fixed to Cat etc
+      indexUrl: https://github.com/BSData/forager/releases/latest/download/forager.latest.bsi
+      repositoryUrl: https://github.com/BSData/forager/releases/latest/download/forager.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/forager/releases/latest/download/forager.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/forager/releases/download/1.0.0/forager.1.0.0.bsr
+      githubUrl: https://github.com/BSData/forager
+      feedUrl: https://github.com/BSData/forager/releases.atom
+      bugTrackerUrl: https://github.com/BSData/forager/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/forager
 

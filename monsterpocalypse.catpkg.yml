@@ -14,4 +14,19 @@ cache:
   catpkg:
     apiResponseError:
       code: 404
+    properties:
+      name: monsterpocalypse
+      description: Monsterpocalypse
+      battleScribeVersion: "2.01"
+      version: 1.1.2
+      lastUpdated: 2019-04-13T13:45:47.0000000Z
+      lastUpdateDescription: Update 3
+      indexUrl: https://github.com/BSData/monsterpocalypse/releases/latest/download/monsterpocalypse.latest.bsi
+      repositoryUrl: https://github.com/BSData/monsterpocalypse/releases/latest/download/monsterpocalypse.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/monsterpocalypse/releases/latest/download/monsterpocalypse.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/monsterpocalypse/releases/download/1.1.2/monsterpocalypse.1.1.2.bsr
+      githubUrl: https://github.com/BSData/monsterpocalypse
+      feedUrl: https://github.com/BSData/monsterpocalypse/releases.atom
+      bugTrackerUrl: https://github.com/BSData/monsterpocalypse/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/monsterpocalypse
 
