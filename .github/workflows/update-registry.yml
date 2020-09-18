@@ -2,6 +2,12 @@ name: Update registry
 on:
   schedule:
     - cron: "0 * * * *" # every hour
+  push:
+    branches:
+      - master
+    paths:
+      - ".github/workflows/update-registry.yml"
+      - ".github/actions/update-registry/**"
 
 jobs:
   update:

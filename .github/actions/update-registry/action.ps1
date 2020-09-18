@@ -7,8 +7,8 @@ param (
     [string] $Token
 )
 
-if (-not (Get-Module powershell-yaml)) {
-    Install-Module powershell-yaml -RequiredVersion "0.4.1"
+if (-not (Get-Module powershell-yaml -Verbose:$false)) {
+    Install-Module powershell-yaml -RequiredVersion "0.4.1" -Force -Verbose:$false
 }
 
 $query = "topic:battlescribe-data+org:BSData"
