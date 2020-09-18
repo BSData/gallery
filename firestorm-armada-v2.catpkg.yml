@@ -1,0 +1,17 @@
+location:
+  github: BSData/Firestorm-Armada-v2
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Wed, 18 Jan 2017 20:06:30 GMT
+    properties:
+      tag_name: v5
+      name: Updated all files for BS 2.0
+      published_at: 2017-01-18T20:06:30.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

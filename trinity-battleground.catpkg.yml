@@ -1,0 +1,17 @@
+location:
+  github: BSData/trinity-battleground
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Fri, 14 Dec 2018 05:43:57 GMT
+    properties:
+      tag_name: v1.0.0
+      name: 1st Release
+      published_at: 2018-12-14T05:43:57.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

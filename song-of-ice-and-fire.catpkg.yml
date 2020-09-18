@@ -1,0 +1,17 @@
+location:
+  github: BSData/song-of-ice-and-fire
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Wed, 31 Oct 2018 00:24:59 GMT
+    properties:
+      tag_name: v2.1
+      name: Night's Watch!
+      published_at: 2018-10-31T00:24:59.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

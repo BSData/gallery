@@ -1,0 +1,17 @@
+location:
+  github: BSData/ronin
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Tue, 13 Feb 2018 03:35:26 GMT
+    properties:
+      tag_name: v1.0.0
+      name: Initial Release
+      published_at: 2018-02-13T03:35:26.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

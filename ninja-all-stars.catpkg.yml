@@ -1,0 +1,17 @@
+location:
+  github: BSData/ninja-all-stars
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Fri, 19 Feb 2016 18:37:53 GMT
+    properties:
+      tag_name: V3.0
+      name: First Public Release
+      published_at: 2016-02-19T18:37:53.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

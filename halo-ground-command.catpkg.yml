@@ -1,0 +1,17 @@
+location:
+  github: BSData/halo-ground-command
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Mon, 18 Sep 2017 18:39:38 GMT
+    properties:
+      tag_name: V1.70
+      name: New Air Support options
+      published_at: 2017-09-18T18:39:38.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

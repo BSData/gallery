@@ -1,0 +1,17 @@
+location:
+  github: BSData/runewars
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sat, 10 Feb 2018 15:39:33 GMT
+    properties:
+      tag_name: v1.4.6
+      name: Runewars Miniatures Game v1.4.6
+      published_at: 2018-02-10T15:39:33.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

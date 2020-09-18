@@ -1,0 +1,17 @@
+location:
+  github: BSData/warpath-firefight
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Wed, 20 Sep 2017 08:25:24 GMT
+    properties:
+      tag_name: 1.0.2
+      name: FF Jotunn Correction
+      published_at: 2017-09-20T08:25:24.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

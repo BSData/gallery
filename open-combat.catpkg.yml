@@ -1,0 +1,17 @@
+location:
+  github: BSData/open-combat
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sun, 22 Jan 2017 16:37:16 GMT
+    properties:
+      tag_name: v1.0.0
+      name: First release
+      published_at: 2017-01-22T16:37:16.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

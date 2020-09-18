@@ -1,0 +1,17 @@
+location:
+  github: BSData/mars-attacks
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Fri, 26 Dec 2014 12:15:15 GMT
+    properties:
+      tag_name: v1.1.0
+      name: v1 Release
+      published_at: 2014-12-26T12:15:15.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

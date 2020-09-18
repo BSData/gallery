@@ -1,0 +1,13 @@
+location:
+  github: BSData/malifaux
+cache:
+  repo:
+    apiHeaders:
+      LastModified: Thu, 21 May 2020 14:09:59 GMT
+    properties:
+      archived: true
+  latestRelease:
+    apiResponseError:
+      code: 404
+  catpkg: {}
+

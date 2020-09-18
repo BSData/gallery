@@ -1,0 +1,30 @@
+location:
+  github: BSData/victory-at-sea
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Wed, 16 Sep 2020 11:57:05 GMT
+    properties:
+      tag_name: v1.0.0
+      name: Victory at Sea
+      published_at: 2020-09-16T11:57:05.0000000Z
+  catpkg:
+    properties:
+      name: victory-at-sea
+      description: Victory at Sea
+      battleScribeVersion: "2.03"
+      version: v1.0.0
+      lastUpdated: 2020-09-16T11:48:06.0000000Z
+      lastUpdateDescription: Victory at Sea
+      indexUrl: https://github.com/BSData/victory-at-sea/releases/latest/download/victory-at-sea.latest.bsi
+      repositoryUrl: https://github.com/BSData/victory-at-sea/releases/latest/download/victory-at-sea.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/victory-at-sea/releases/latest/download/victory-at-sea.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/victory-at-sea/releases/download/v1.0.0/victory-at-sea.v1.0.0.bsr
+      githubUrl: https://github.com/BSData/victory-at-sea
+      feedUrl: https://github.com/BSData/victory-at-sea/releases.atom
+      bugTrackerUrl: https://github.com/BSData/victory-at-sea/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/victory-at-sea
+

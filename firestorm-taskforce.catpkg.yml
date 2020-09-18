@@ -1,0 +1,17 @@
+location:
+  github: BSData/firestorm-taskforce
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Fri, 27 May 2016 06:08:51 GMT
+    properties:
+      tag_name: 1.2.1
+      name: Corrected Requisitions
+      published_at: 2016-05-27T06:08:51.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

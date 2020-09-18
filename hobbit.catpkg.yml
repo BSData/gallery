@@ -1,0 +1,17 @@
+location:
+  github: BSData/hobbit
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sun, 05 Mar 2017 17:44:50 GMT
+    properties:
+      tag_name: v1.0.0-beta
+      name: Game System update
+      published_at: 2017-03-05T17:41:11.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

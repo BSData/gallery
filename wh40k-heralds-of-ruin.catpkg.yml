@@ -1,0 +1,17 @@
+location:
+  github: BSData/wh40k-heralds-of-ruin
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Wed, 11 Jul 2018 18:12:27 GMT
+    properties:
+      tag_name: v3.0.4
+      name: Repo Rename - Nothing to see here.
+      published_at: 2018-07-11T18:12:27.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

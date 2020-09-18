@@ -1,0 +1,17 @@
+location:
+  github: BSData/necromunda-underhive
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Wed, 07 Feb 2018 17:38:45 GMT
+    properties:
+      tag_name: v1.0.0
+      name: Necromunda Underhive
+      published_at: 2018-02-07T17:38:45.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

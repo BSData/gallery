@@ -1,0 +1,17 @@
+location:
+  github: BSData/maelstroms-edge
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sun, 13 Jan 2019 13:56:59 GMT
+    properties:
+      tag_name: 4.0.17
+      name: Epirian Foundation SecDef Rapid Intervention Team
+      published_at: 2019-01-13T13:56:59.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

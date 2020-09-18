@@ -1,0 +1,17 @@
+location:
+  github: BSData/fighting-sail
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Fri, 08 Dec 2017 20:07:47 GMT
+    properties:
+      tag_name: "1.0"
+      name: Initial release
+      published_at: 2017-12-08T20:07:47.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

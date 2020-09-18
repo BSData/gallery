@@ -1,0 +1,17 @@
+location:
+  github: BSData/dystopianwars
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Wed, 16 Aug 2017 23:03:55 GMT
+    properties:
+      tag_name: 2.5.002
+      name: Federated States of America
+      published_at: 2017-08-16T23:03:55.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

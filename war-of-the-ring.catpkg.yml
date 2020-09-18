@@ -1,0 +1,17 @@
+location:
+  github: BSData/war-of-the-ring
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Fri, 25 Aug 2017 07:17:08 GMT
+    properties:
+      tag_name: v1.0.1
+      name: Fixed Gundabad Blackshields
+      published_at: 2017-08-25T07:17:08.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

@@ -1,0 +1,17 @@
+location:
+  github: BSData/dust1947
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Fri, 30 Mar 2018 07:15:45 GMT
+    properties:
+      tag_name: v1.4.8
+      name: v1.4.8 - New unit
+      published_at: 2018-03-30T07:15:45.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

@@ -1,0 +1,17 @@
+location:
+  github: BSData/warzone-resurrection
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Tue, 28 Aug 2018 18:27:24 GMT
+    properties:
+      tag_name: 2.3.17
+      name: 2.3.17 Capitol!
+      published_at: 2018-08-28T18:27:24.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

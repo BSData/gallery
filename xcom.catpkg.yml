@@ -1,0 +1,17 @@
+location:
+  github: BSData/xcom
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Tue, 11 Nov 2014 11:53:53 GMT
+    properties:
+      tag_name: 0.0.1
+      name: Initial release
+      published_at: 2014-11-11T11:53:53.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

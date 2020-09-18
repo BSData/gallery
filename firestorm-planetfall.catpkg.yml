@@ -1,0 +1,17 @@
+location:
+  github: BSData/firestorm-planetfall
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Thu, 19 Jan 2017 00:00:41 GMT
+    properties:
+      tag_name: v2
+      name: Updates for BS 2.0
+      published_at: 2017-01-19T00:00:41.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

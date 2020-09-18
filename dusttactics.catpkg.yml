@@ -1,0 +1,17 @@
+location:
+  github: BSData/dusttactics
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sun, 08 Nov 2015 21:58:36 GMT
+    properties:
+      tag_name: v2.1.0
+      name: Anon update to new starter set and many fixes.
+      published_at: 2015-11-08T21:58:36.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+

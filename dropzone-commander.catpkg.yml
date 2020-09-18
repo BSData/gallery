@@ -1,0 +1,17 @@
+location:
+  github: BSData/dropzone-commander
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Fri, 05 Jan 2018 19:53:45 GMT
+    properties:
+      tag_name: 1.0.0
+      name: Initial release. Volunteers welcome to maintain these files!
+      published_at: 2018-01-05T19:53:45.0000000Z
+  catpkg:
+    apiResponseError:
+      code: 404
+
