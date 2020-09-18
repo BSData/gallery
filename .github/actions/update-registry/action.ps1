@@ -48,4 +48,4 @@ foreach ($repo in $unregisteredRepos) {
     }
     ConvertTo-Yaml $yaml -OutFile $filepath
 }
-return @($unregisteredRepos)
+return @($unregisteredRepos | Select-Object name, full_name, html_url)
