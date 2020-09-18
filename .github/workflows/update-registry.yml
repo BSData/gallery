@@ -1,0 +1,47 @@
+name: Update registry
+on:
+  schedule:
+    - cron: "0 * * * *" # every hour
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+
+      - name: Update registry entries
+        uses: Amadevus/pwsh-script@v2
+        id: update
+        with:
+          script: |
+            $ErrorActionPreference = 'Stop'
+            $actionArgs = @{
+              RegistryPath = Resolve-Path ./registry
+              Token = $github.token
+            }
+            ./.github/actions/update-registry/action.ps1 @actionArgs -Verbose
+
+      - name: Format PR text
+        uses: Amadevus/pwsh-script@v2
+        id: formatting
+        env:
+          UPDATE_JSON: ${{ steps.update.outputs.result }}
+        with:
+          script: |
+            $repos = @($env:UPDATE_JSON | ConvertFrom-Json)
+            @{
+              count = $repos.Count
+              pr_body_repo_list = -join ($repos | ForEach-Object { "- $($_.html_url)`n" })
+            }
+
+      - name: Create PR with registry updates
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: ":bot: Add ${{ fromJSON(steps.formatting.outputs.result).count }} new registry entries"
+          branch: bot/registry-update
+          delete-branch: true
+          title: ":bot: Add new registry entries"
+          body: |
+            Updated repositories:
+            ${{ fromJSON(steps.formatting.outputs.result).pr_body_repo_list }}
