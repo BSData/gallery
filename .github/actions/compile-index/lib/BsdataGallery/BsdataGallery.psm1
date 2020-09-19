@@ -20,7 +20,7 @@ function Get-BsdataGalleryCatpkg {
   } + $GallerySettings.urls + @{
     repositories = @($entries.cache | ForEach-Object {
       $_.catpkg.properties.archived = $_.repo.archived -eq $true
-      $_.catpkg.properties.lastUpdated = [datetime]::ParseExact($_.catpkg.properties.lastUpdated, 'MM/dd/yyyy HH:mm:ss', $null).ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'fff+0000")
+      $_.catpkg.properties.lastUpdated = $_.catpkg.properties.lastUpdated.ToString("yyyy'-'MM'-'dd'T'HH':'mm':'ss'.'fff+0000")
       return $_.catpkg.properties
     })
   }
