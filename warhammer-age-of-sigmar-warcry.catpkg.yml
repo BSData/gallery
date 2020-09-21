@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v27
       name: Major Update Including Lumineth Realm-lords
-      published_at: 2020-09-21T16:58:59.0000000Z
+      published_at: 2020-09-21T16:58:59.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
       version: v27
-      lastUpdated: 2020-09-21T16:56:46.0000000Z
+      lastUpdated: 2020-09-21T16:56:46.0000000+00:00
       lastUpdateDescription: Major Update Including Lumineth Realm-lords
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
