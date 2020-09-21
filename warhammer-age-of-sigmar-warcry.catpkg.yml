@@ -6,21 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 07 Mar 2020 02:09:33 GMT
+      LastModified: Mon, 21 Sep 2020 16:58:59 GMT
     properties:
-      tag_name: v26
-      name: Dragon Ogor fix again
-      published_at: 2020-03-07T02:09:33.0000000+00:00
+      tag_name: v27
+      name: Major Update Including Lumineth Realm-lords
+      published_at: 2020-09-21T16:58:59.0000000Z
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v26
-      lastUpdated: 2020-03-07T02:09:33.0000000+00:00
-      lastUpdateDescription: Dragon Ogor fix again
+      version: v27
+      lastUpdated: 2020-09-21T16:56:46.0000000Z
+      lastUpdateDescription: Major Update Including Lumineth Realm-lords
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v27/warhammer-age-of-sigmar-warcry.v27.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
