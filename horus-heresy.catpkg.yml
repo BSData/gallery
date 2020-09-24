@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v14.001
       name: First Batch of Book 9 Fixes. Thanks for the bug reports.
-      published_at: 2020-09-24T18:37:38.0000000Z
+      published_at: 2020-09-24T18:37:38.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
       version: v14.001
-      lastUpdated: 2020-09-24T18:34:12.0000000Z
+      lastUpdated: 2020-09-24T18:34:12.0000000+00:00
       lastUpdateDescription: First Batch of Book 9 Fixes. Thanks for the bug reports.
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
