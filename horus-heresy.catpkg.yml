@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 24 Sep 2020 18:37:38 GMT
+      LastModified: Thu, 24 Sep 2020 19:19:13 GMT
     properties:
       tag_name: v14.001
       name: First Batch of Book 9 Fixes. Thanks for the bug reports.
