@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 24 Sep 2020 19:19:13 GMT
+      LastModified: Fri, 25 Sep 2020 08:39:38 GMT
     properties:
-      tag_name: v14.001
-      name: First Batch of Book 9 Fixes. Thanks for the bug reports.
-      published_at: 2020-09-24T18:37:38.0000000+00:00
+      tag_name: v14.002
+      name: Second Batch of Book 9 Fixes and enhancements
+      published_at: 2020-09-25T08:39:38.0000000Z
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.001
-      lastUpdated: 2020-09-24T18:34:12.0000000+00:00
-      lastUpdateDescription: First Batch of Book 9 Fixes. Thanks for the bug reports.
+      version: v14.002
+      lastUpdated: 2020-09-25T08:38:47.0000000Z
+      lastUpdateDescription: Second Batch of Book 9 Fixes and enhancements
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.001/horus-heresy.v14.001.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.002/horus-heresy.v14.002.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
