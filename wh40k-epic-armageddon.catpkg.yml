@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 05 Sep 2020 18:11:36 GMT
+      LastModified: Fri, 25 Sep 2020 17:35:30 GMT
     properties:
-      tag_name: 35.02.167.340
-      name: Grindel Stronghold, Explorator Fleet, Paramar Air Cav, Phantine Air Corps
-      published_at: 2020-09-05T18:11:36.0000000+00:00
+      tag_name: "35.03"
+      name: Paramar Air Cav, Attilan Regiment, Exodite Maiden World
+      published_at: 2020-09-25T17:35:30.0000000Z
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
-      version: 35.02.167.340
-      lastUpdated: 2020-09-05T18:07:06.0000000+00:00
-      lastUpdateDescription: Grindel Stronghold, Explorator Fleet, Paramar Air Cav, Phantine Air Corps
+      version: "35.03"
+      lastUpdated: 2020-09-25T17:29:21.0000000Z
+      lastUpdateDescription: Paramar Air Cav, Attilan Regiment, Exodite Maiden World
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/35.02.167.340/wh40k-epic-armageddon.35.02.167.340.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/35.03/wh40k-epic-armageddon.35.03.bsr
       githubUrl: https://github.com/BSData/wh40k-epic-armageddon
       feedUrl: https://github.com/BSData/wh40k-epic-armageddon/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-epic-armageddon/issues
