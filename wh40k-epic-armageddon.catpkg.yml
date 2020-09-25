@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: "35.03"
       name: Paramar Air Cav, Attilan Regiment, Exodite Maiden World
-      published_at: 2020-09-25T17:35:30.0000000Z
+      published_at: 2020-09-25T17:35:30.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
       version: "35.03"
-      lastUpdated: 2020-09-25T17:29:21.0000000Z
+      lastUpdated: 2020-09-25T17:29:21.0000000+00:00
       lastUpdateDescription: Paramar Air Cav, Attilan Regiment, Exodite Maiden World
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
