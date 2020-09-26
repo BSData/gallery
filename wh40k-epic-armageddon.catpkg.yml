@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: "35.04"
       name: updates, plus some more translations for European Language Day, apparently
-      published_at: 2020-09-26T17:43:28.0000000Z
+      published_at: 2020-09-26T17:43:28.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
       version: "35.04"
-      lastUpdated: 2020-09-26T17:40:24.0000000Z
+      lastUpdated: 2020-09-26T17:40:24.0000000+00:00
       lastUpdateDescription: updates, plus some more translations for European Language Day, apparently
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
