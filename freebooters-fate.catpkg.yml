@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.13.0
       name: Sep20 Update
-      published_at: 2020-09-26T11:21:45.0000000Z
+      published_at: 2020-09-26T11:21:45.0000000+00:00
   catpkg:
     properties:
       name: freebooters-fate
       description: Freebooter's Fate
       battleScribeVersion: "2.03"
       version: v2.13.0
-      lastUpdated: 2020-09-26T07:43:55.0000000Z
+      lastUpdated: 2020-09-26T07:43:55.0000000+00:00
       lastUpdateDescription: Sep20 Update
       indexUrl: https://github.com/BSData/freebooters-fate/releases/latest/download/freebooters-fate.latest.bsi
       repositoryUrl: https://github.com/BSData/freebooters-fate/releases/latest/download/freebooters-fate.catpkg.json
