@@ -2,10 +2,29 @@ location:
   github: BSData/dropfleet-commander
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 26 Jun 2019 21:56:01 GMT
+    properties:
+      tag_name: v2.0.0
+      name: Resistance
+      published_at: 2019-06-26T21:56:01.0000000Z
+  catpkg:
+    properties:
+      name: dropfleet-commander
+      description: Dropfleet Commander
+      battleScribeVersion: "2.02"
+      version: v2.0.0
+      lastUpdated: 2019-06-26T21:55:04.0000000Z
+      lastUpdateDescription: Resistance
+      indexUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.latest.bsi
+      repositoryUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/dropfleet-commander/releases/download/v2.0.0/dropfleet-commander.v2.0.0.bsr
+      githubUrl: https://github.com/BSData/dropfleet-commander
+      feedUrl: https://github.com/BSData/dropfleet-commander/releases.atom
+      bugTrackerUrl: https://github.com/BSData/dropfleet-commander/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/dropfleet-commander
 

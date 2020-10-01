@@ -2,10 +2,10 @@ location:
   github: BSData/frostgrave-ghost-archipelago
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
     apiResponseError:
-      code: 403
+      code: 404
   catpkg: {}
 

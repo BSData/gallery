@@ -2,10 +2,29 @@ location:
   github: BSData/killzone
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Sat, 16 Nov 2019 16:31:50 GMT
+    properties:
+      tag_name: 1.0.3
+      name: Corrections for cost of Heroes (Scavangers)
+      published_at: 2019-11-16T16:31:50.0000000Z
+  catpkg:
+    properties:
+      name: killzone
+      description: Kill Zone by Nick Lund
+      battleScribeVersion: "2.03"
+      version: 1.0.3
+      lastUpdated: 2019-11-16T16:29:06.0000000Z
+      lastUpdateDescription: Corrections for cost of Heroes (Scavangers)
+      indexUrl: https://github.com/BSData/killzone/releases/latest/download/killzone.latest.bsi
+      repositoryUrl: https://github.com/BSData/killzone/releases/latest/download/killzone.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/killzone/releases/latest/download/killzone.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/killzone/releases/download/1.0.3/killzone.1.0.3.bsr
+      githubUrl: https://github.com/BSData/killzone
+      feedUrl: https://github.com/BSData/killzone/releases.atom
+      bugTrackerUrl: https://github.com/BSData/killzone/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/killzone
 

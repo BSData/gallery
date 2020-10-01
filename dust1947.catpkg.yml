@@ -2,10 +2,29 @@ location:
   github: BSData/dust1947
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Fri, 30 Mar 2018 07:15:45 GMT
+    properties:
+      tag_name: v1.4.8
+      name: v1.4.8 - New unit
+      published_at: 2018-03-30T07:15:45.0000000Z
+  catpkg:
+    properties:
+      name: dust1947
+      description: Dust 1947
+      battleScribeVersion: "2.01"
+      version: v1.4.8
+      lastUpdated: 2018-03-30T07:14:59.0000000Z
+      lastUpdateDescription: v1.4.8 - New unit
+      indexUrl: https://github.com/BSData/dust1947/releases/latest/download/dust1947.latest.bsi
+      repositoryUrl: https://github.com/BSData/dust1947/releases/latest/download/dust1947.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/dust1947/releases/latest/download/dust1947.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/dust1947/releases/download/v1.4.8/dust1947.v1.4.8.bsr
+      githubUrl: https://github.com/BSData/dust1947
+      feedUrl: https://github.com/BSData/dust1947/releases.atom
+      bugTrackerUrl: https://github.com/BSData/dust1947/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/dust1947
 

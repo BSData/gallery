@@ -2,10 +2,29 @@ location:
   github: BSData/legends-of-the-old-west
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 19 Sep 2018 05:22:53 GMT
+    properties:
+      tag_name: 2.0.0
+      name: 2.0.0 New Version of all files
+      published_at: 2018-09-19T05:22:53.0000000Z
+  catpkg:
+    properties:
+      name: legends-of-the-old-west
+      description: 'Warhammer Historical: Legends of the Old West'
+      battleScribeVersion: "2.01"
+      version: 2.0.0
+      lastUpdated: 2018-08-27T03:09:46.0000000Z
+      lastUpdateDescription: 2.0.0 New Version of all files
+      indexUrl: https://github.com/BSData/legends-of-the-old-west/releases/latest/download/legends-of-the-old-west.latest.bsi
+      repositoryUrl: https://github.com/BSData/legends-of-the-old-west/releases/latest/download/legends-of-the-old-west.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/legends-of-the-old-west/releases/latest/download/legends-of-the-old-west.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/legends-of-the-old-west/releases/download/2.0.0/legends-of-the-old-west.2.0.0.bsr
+      githubUrl: https://github.com/BSData/legends-of-the-old-west
+      feedUrl: https://github.com/BSData/legends-of-the-old-west/releases.atom
+      bugTrackerUrl: https://github.com/BSData/legends-of-the-old-west/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/legends-of-the-old-west
 

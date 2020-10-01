@@ -2,10 +2,29 @@ location:
   github: BSData/dystopianwars
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 16 Aug 2017 23:03:55 GMT
+    properties:
+      tag_name: 2.5.002
+      name: Federated States of America
+      published_at: 2017-08-16T23:03:55.0000000Z
+  catpkg:
+    properties:
+      name: dystopianwars
+      description: Dystopian Wars
+      battleScribeVersion: "2.01"
+      version: 2.5.002
+      lastUpdated: 2017-08-16T23:03:02.0000000Z
+      lastUpdateDescription: Federated States of America
+      indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
+      repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/2.5.002/dystopianwars.2.5.002.bsr
+      githubUrl: https://github.com/BSData/dystopianwars
+      feedUrl: https://github.com/BSData/dystopianwars/releases.atom
+      bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/dystopianwars
 

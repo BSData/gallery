@@ -2,10 +2,29 @@ location:
   github: BSData/swxwing
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Sat, 28 Sep 2019 22:11:24 GMT
+    properties:
+      tag_name: 1.4.2
+      name: Wave 5 Release
+      published_at: 2019-09-28T22:11:24.0000000Z
+  catpkg:
+    properties:
+      name: swxwing
+      description: 'Star Wars: X-Wing'
+      battleScribeVersion: "2.03"
+      version: 1.4.2
+      lastUpdated: 2019-09-28T22:08:50.0000000Z
+      lastUpdateDescription: Wave 5 Release
+      indexUrl: https://github.com/BSData/swxwing/releases/latest/download/swxwing.latest.bsi
+      repositoryUrl: https://github.com/BSData/swxwing/releases/latest/download/swxwing.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/swxwing/releases/latest/download/swxwing.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/swxwing/releases/download/1.4.2/swxwing.1.4.2.bsr
+      githubUrl: https://github.com/BSData/swxwing
+      feedUrl: https://github.com/BSData/swxwing/releases.atom
+      bugTrackerUrl: https://github.com/BSData/swxwing/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/swxwing
 

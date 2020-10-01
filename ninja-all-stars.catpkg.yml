@@ -2,10 +2,29 @@ location:
   github: BSData/ninja-all-stars
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Fri, 19 Feb 2016 18:37:53 GMT
+    properties:
+      tag_name: V3.0
+      name: First Public Release
+      published_at: 2016-02-19T18:37:53.0000000Z
+  catpkg:
+    properties:
+      name: ninja-all-stars
+      description: Ninja All-Stars
+      battleScribeVersion: "1.15"
+      version: V3.0
+      lastUpdated: 2016-02-19T18:35:42.0000000Z
+      lastUpdateDescription: First Public Release
+      indexUrl: https://github.com/BSData/ninja-all-stars/releases/latest/download/ninja-all-stars.latest.bsi
+      repositoryUrl: https://github.com/BSData/ninja-all-stars/releases/latest/download/ninja-all-stars.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/ninja-all-stars/releases/latest/download/ninja-all-stars.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/ninja-all-stars/releases/download/V3.0/ninja-all-stars.V3.0.bsr
+      githubUrl: https://github.com/BSData/ninja-all-stars
+      feedUrl: https://github.com/BSData/ninja-all-stars/releases.atom
+      bugTrackerUrl: https://github.com/BSData/ninja-all-stars/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/ninja-all-stars
 

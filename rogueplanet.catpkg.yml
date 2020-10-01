@@ -2,10 +2,12 @@ location:
   github: BSData/RoguePlanet
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    apiHeaders:
+      LastModified: Thu, 21 May 2020 14:08:54 GMT
+    properties:
+      archived: true
   latestRelease:
     apiResponseError:
-      code: 403
+      code: 404
   catpkg: {}
 

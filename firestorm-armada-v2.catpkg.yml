@@ -2,10 +2,29 @@ location:
   github: BSData/Firestorm-Armada-v2
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 18 Jan 2017 20:06:30 GMT
+    properties:
+      tag_name: v5
+      name: Updated all files for BS 2.0
+      published_at: 2017-01-18T20:06:30.0000000Z
+  catpkg:
+    properties:
+      name: Firestorm-Armada-v2
+      description: Firestorm Armada
+      battleScribeVersion: "2.00"
+      version: v5
+      lastUpdated: 2017-01-18T20:03:17.0000000Z
+      lastUpdateDescription: Updated all files for BS 2.0
+      indexUrl: https://github.com/BSData/Firestorm-Armada-v2/releases/latest/download/Firestorm-Armada-v2.latest.bsi
+      repositoryUrl: https://github.com/BSData/Firestorm-Armada-v2/releases/latest/download/Firestorm-Armada-v2.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/Firestorm-Armada-v2/releases/latest/download/Firestorm-Armada-v2.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/Firestorm-Armada-v2/releases/download/v5/Firestorm-Armada-v2.v5.bsr
+      githubUrl: https://github.com/BSData/Firestorm-Armada-v2
+      feedUrl: https://github.com/BSData/Firestorm-Armada-v2/releases.atom
+      bugTrackerUrl: https://github.com/BSData/Firestorm-Armada-v2/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/Firestorm-Armada-v2
 

@@ -2,10 +2,29 @@ location:
   github: BSData/mars-attacks
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Fri, 26 Dec 2014 12:15:15 GMT
+    properties:
+      tag_name: v1.1.0
+      name: v1 Release
+      published_at: 2014-12-26T12:15:15.0000000Z
+  catpkg:
+    properties:
+      name: mars-attacks
+      description: Mars Attacks
+      battleScribeVersion: 1.14b
+      version: v1.1.0
+      lastUpdated: 2014-11-23T05:03:58.0000000Z
+      lastUpdateDescription: v1 Release
+      indexUrl: https://github.com/BSData/mars-attacks/releases/latest/download/mars-attacks.latest.bsi
+      repositoryUrl: https://github.com/BSData/mars-attacks/releases/latest/download/mars-attacks.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/mars-attacks/releases/latest/download/mars-attacks.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/mars-attacks/releases/download/v1.1.0/mars-attacks.v1.1.0.bsr
+      githubUrl: https://github.com/BSData/mars-attacks
+      feedUrl: https://github.com/BSData/mars-attacks/releases.atom
+      bugTrackerUrl: https://github.com/BSData/mars-attacks/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/mars-attacks
 

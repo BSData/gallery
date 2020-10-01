@@ -2,10 +2,29 @@ location:
   github: BSData/firestorm-planetfall
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Thu, 19 Jan 2017 00:00:41 GMT
+    properties:
+      tag_name: v2
+      name: Updates for BS 2.0
+      published_at: 2017-01-19T00:00:41.0000000Z
+  catpkg:
+    properties:
+      name: firestorm-planetfall
+      description: Firestorm Planetfall
+      battleScribeVersion: "2.00"
+      version: v2
+      lastUpdated: 2017-01-19T00:00:09.0000000Z
+      lastUpdateDescription: Updates for BS 2.0
+      indexUrl: https://github.com/BSData/firestorm-planetfall/releases/latest/download/firestorm-planetfall.latest.bsi
+      repositoryUrl: https://github.com/BSData/firestorm-planetfall/releases/latest/download/firestorm-planetfall.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/firestorm-planetfall/releases/latest/download/firestorm-planetfall.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/firestorm-planetfall/releases/download/v2/firestorm-planetfall.v2.bsr
+      githubUrl: https://github.com/BSData/firestorm-planetfall
+      feedUrl: https://github.com/BSData/firestorm-planetfall/releases.atom
+      bugTrackerUrl: https://github.com/BSData/firestorm-planetfall/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/firestorm-planetfall
 

@@ -2,10 +2,29 @@ location:
   github: BSData/kingsofwar
 cache:
   repo:
-    apiResponseError:
-      code: 403
+    properties:
+      archived: false
   latestRelease:
-    apiResponseError:
-      code: 403
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 12 Feb 2020 00:39:10 GMT
+    properties:
+      tag_name: 3.2.246
+      name: (Free Dwarf fix) The wait is over! Please, report errors on GitHub or by emailing me directly. PEACE
+      published_at: 2020-02-12T00:39:10.0000000Z
+  catpkg:
+    properties:
+      name: kingsofwar
+      description: Kings of War
+      battleScribeVersion: "2.03"
+      version: 3.2.246
+      lastUpdated: 2020-02-12T00:36:21.0000000Z
+      lastUpdateDescription: (Free Dwarf fix) The wait is over! Please, report errors on GitHub or by emailing me directly. PEACE
+      indexUrl: https://github.com/BSData/kingsofwar/releases/latest/download/kingsofwar.latest.bsi
+      repositoryUrl: https://github.com/BSData/kingsofwar/releases/latest/download/kingsofwar.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/kingsofwar/releases/latest/download/kingsofwar.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/kingsofwar/releases/download/3.2.246/kingsofwar.3.2.246.bsr
+      githubUrl: https://github.com/BSData/kingsofwar
+      feedUrl: https://github.com/BSData/kingsofwar/releases.atom
+      bugTrackerUrl: https://github.com/BSData/kingsofwar/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/kingsofwar
 
