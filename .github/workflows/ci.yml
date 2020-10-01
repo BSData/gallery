@@ -22,4 +22,4 @@ jobs:
               # get a list of files changed in PR
               $entries = git diff-tree --no-commit-id --name-only $baseRef
             }
-            ./.github/actions/validate-registry/action.yml -Entries $entries -Token $github.token
+            ./.github/actions/validate-registry/action.ps1 -Entries $entries -Token $github.token
