@@ -105,13 +105,16 @@ Consider adding necessary workflows by adding a comment with first line like:
   if ($status -ne 200) {
     LogWarning "Fetching $repo workflows failed with HTTP $status. $addWorkflowsSuggestion" $file
   }
-  $existingWorkflows = @(($workflows | Where-Object { $_.type -eq 'file' }).name)
-  $missingWorkflows = @(
-    'ci.yml',
-    # 'chatops.yml',
-    'publish-catpkg.yml'
-  ) | Where-Object { $_ -notin $existingWorkflows }
-  if ($missingWorkflows) {
-    LogWarning "$repo is missing workflows: $($missingWorkflows -join ', '). $addWorkflowsSuggestion" $file
+  else {
+    # there are *any* workflows, let's check which are missing
+    $existingWorkflows = @(($workflows | Where-Object { $_.type -eq 'file' }).name)
+    $missingWorkflows = @(
+      'ci.yml',
+      # 'chatops.yml',
+      'publish-catpkg.yml'
+    ) | Where-Object { $_ -notin $existingWorkflows }
+    if ($missingWorkflows) {
+      LogWarning "$repo is missing workflows: $($missingWorkflows -join ', '). $addWorkflowsSuggestion" $file
+    }
   }
 }
