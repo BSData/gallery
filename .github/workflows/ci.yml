@@ -14,7 +14,7 @@ jobs:
         uses: Amadevus/pwsh-script@v2
         with:
           script: |
-            $ProgressPreference = 'SilentlyContinue'
+            $global:ProgressPreference = 'SilentlyContinue'
             $ErrorActionPreference = 'Continue'
             $entries = @()
             if ($github.base_ref) {
@@ -22,7 +22,7 @@ jobs:
               $baseRefBranch = 'refs/heads/base'
               git fetch --depth=1 origin "+$($github.base_ref):$baseRefBranch" | Out-Host
               # get a list of files changed in PR
-              $entries = git diff-tree --no-commit-id --name-only -r $baseRefBranch
+              $entries = git diff-tree --no-commit-id --name-only -r HEAD $baseRefBranch
               Write-Host "Changed files:"
               $entries | Out-Host
             }

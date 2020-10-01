@@ -10,7 +10,11 @@ param (
   [string] $Token
 )
 
-$Entries = $Entries -replace '\\', '/'
+filter RelativizeNormalizePath {
+  return [System.IO.Path]::GetRelativePath('.', $_).Replace('\', '/')
+}
+
+$Entries = $Entries | RelativizeNormalizePath
 Import-Module powershell-yaml -Verbose:$false -ErrorAction:Ignore
 || Install-Module powershell-yaml -RequiredVersion 0.4.2 -Force -Verbose:$false
 
@@ -54,8 +58,10 @@ $entriesDir = Join-Path $RegistryPath $settings.registrations.path
 
 # process registry entries
 Get-ChildItem $entriesDir *.catpkg.yml | Sort-Object Name | ForEach-Object {
-  if ($Entries -and [System.IO.Path]::GetRelativePath('.', "$_").Replace('\', '/') -notin $Entries) {
+  $relativePath = $_ | RelativizeNormalizePath
+  if ($Entries -and $relativePath -notin $Entries) {
     LogDebug "$_ skipped because it wasn't whitelisted to check."
+    return
   }
   $file = $_
   $entry = Get-Content $file -Raw | ConvertFrom-Yaml -Ordered
