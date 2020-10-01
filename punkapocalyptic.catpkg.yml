@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.0.2
       name: Punkapocalyptic v1.0.2 ESP
-      published_at: 2019-05-13T16:42:08.0000000Z
+      published_at: 2019-05-13T16:42:08.0000000+00:00
   catpkg:
     properties:
       name: punkapocalyptic
       description: Punkapocalyptic
       battleScribeVersion: "2.02"
       version: 1.0.2
-      lastUpdated: 2019-05-13T16:39:52.0000000Z
+      lastUpdated: 2019-05-13T16:39:52.0000000+00:00
       lastUpdateDescription: Punkapocalyptic v1.0.2 ESP
       indexUrl: https://github.com/BSData/punkapocalyptic/releases/latest/download/punkapocalyptic.latest.bsi
       repositoryUrl: https://github.com/BSData/punkapocalyptic/releases/latest/download/punkapocalyptic.catpkg.json

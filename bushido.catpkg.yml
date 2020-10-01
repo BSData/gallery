@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.2.1
       name: 12 Issues of Fixmas Edition
-      published_at: 2020-09-20T16:04:03.0000000Z
+      published_at: 2020-09-20T16:04:03.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
       version: v1.2.1
-      lastUpdated: 2020-09-11T21:05:41.0000000Z
+      lastUpdated: 2020-09-11T21:05:41.0000000+00:00
       lastUpdateDescription: 12 Issues of Fixmas Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json

@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.0.0
       name: Necromunda Underhive
-      published_at: 2018-02-07T17:38:45.0000000Z
+      published_at: 2018-02-07T17:38:45.0000000+00:00
   catpkg:
     properties:
       name: necromunda-underhive
       description: Necromunda Underhive
       battleScribeVersion: "2.01"
       version: v1.0.0
-      lastUpdated: 2017-12-12T15:43:19.0000000Z
+      lastUpdated: 2017-12-12T15:43:19.0000000+00:00
       lastUpdateDescription: Necromunda Underhive
       indexUrl: https://github.com/BSData/necromunda-underhive/releases/latest/download/necromunda-underhive.latest.bsi
       repositoryUrl: https://github.com/BSData/necromunda-underhive/releases/latest/download/necromunda-underhive.catpkg.json

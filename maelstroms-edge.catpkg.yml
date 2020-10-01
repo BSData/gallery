@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 4.0.17
       name: Epirian Foundation SecDef Rapid Intervention Team
-      published_at: 2019-01-13T13:56:59.0000000Z
+      published_at: 2019-01-13T13:56:59.0000000+00:00
   catpkg:
     properties:
       name: maelstroms-edge
       description: Maelstrom's Edge
       battleScribeVersion: "2.01"
       version: 4.0.17
-      lastUpdated: 2019-01-13T13:55:14.0000000Z
+      lastUpdated: 2019-01-13T13:55:14.0000000+00:00
       lastUpdateDescription: Epirian Foundation SecDef Rapid Intervention Team
       indexUrl: https://github.com/BSData/maelstroms-edge/releases/latest/download/maelstroms-edge.latest.bsi
       repositoryUrl: https://github.com/BSData/maelstroms-edge/releases/latest/download/maelstroms-edge.catpkg.json

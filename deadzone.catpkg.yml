@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v4.0.5
       name: Year of the rat
-      published_at: 2020-06-24T06:49:12.0000000Z
+      published_at: 2020-06-24T06:49:12.0000000+00:00
   catpkg:
     properties:
       name: deadzone
       description: Deadzone 2nd Edition
       battleScribeVersion: "2.03"
       version: v4.0.5
-      lastUpdated: 2020-06-23T21:28:37.0000000Z
+      lastUpdated: 2020-06-23T21:28:37.0000000+00:00
       lastUpdateDescription: Year of the rat
       indexUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.latest.bsi
       repositoryUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json

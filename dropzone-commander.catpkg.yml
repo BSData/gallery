@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.0.0
       name: Initial release. Volunteers welcome to maintain these files!
-      published_at: 2018-01-05T19:53:45.0000000Z
+      published_at: 2018-01-05T19:53:45.0000000+00:00
   catpkg:
     properties:
       name: dropzone-commander
       description: Dropzone Commander
       battleScribeVersion: "2.01"
       version: 1.0.0
-      lastUpdated: 2018-01-05T19:46:27.0000000Z
+      lastUpdated: 2018-01-05T19:46:27.0000000+00:00
       lastUpdateDescription: Initial release. Volunteers welcome to maintain these files!
       indexUrl: https://github.com/BSData/dropzone-commander/releases/latest/download/dropzone-commander.latest.bsi
       repositoryUrl: https://github.com/BSData/dropzone-commander/releases/latest/download/dropzone-commander.catpkg.json

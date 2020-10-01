@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 0.1.1
       name: Fixed IDs in game system.
-      published_at: 2015-02-02T16:07:16.0000000Z
+      published_at: 2015-02-02T16:07:16.0000000+00:00
   catpkg:
     properties:
       name: battletechquickstrike
       description: Battletech Quick Strike
       battleScribeVersion: "1.15"
       version: 0.1.1
-      lastUpdated: 2015-02-02T16:04:38.0000000Z
+      lastUpdated: 2015-02-02T16:04:38.0000000+00:00
       lastUpdateDescription: Fixed IDs in game system.
       indexUrl: https://github.com/BSData/battletechquickstrike/releases/latest/download/battletechquickstrike.latest.bsi
       repositoryUrl: https://github.com/BSData/battletechquickstrike/releases/latest/download/battletechquickstrike.catpkg.json

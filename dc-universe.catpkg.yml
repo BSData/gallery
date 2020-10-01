@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 2.0.6
       name: Added new characters
-      published_at: 2019-08-29T11:56:49.0000000Z
+      published_at: 2019-08-29T11:56:49.0000000+00:00
   catpkg:
     properties:
       name: dc-universe
       description: DC Universe Miniature Game
       battleScribeVersion: "2.02"
       version: 2.0.6
-      lastUpdated: 2019-08-29T11:55:55.0000000Z
+      lastUpdated: 2019-08-29T11:55:55.0000000+00:00
       lastUpdateDescription: Added new characters
       indexUrl: https://github.com/BSData/dc-universe/releases/latest/download/dc-universe.latest.bsi
       repositoryUrl: https://github.com/BSData/dc-universe/releases/latest/download/dc-universe.catpkg.json

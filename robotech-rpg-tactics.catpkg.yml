@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 0.9.5
       name: Added Grell Malcontent
-      published_at: 2015-07-01T18:49:22.0000000Z
+      published_at: 2015-07-01T18:49:22.0000000+00:00
   catpkg:
     properties:
       name: robotech-rpg-tactics
       description: Robotech RPG Tactics
       battleScribeVersion: "1.15"
       version: 0.9.5
-      lastUpdated: 2015-07-01T18:41:12.0000000Z
+      lastUpdated: 2015-07-01T18:41:12.0000000+00:00
       lastUpdateDescription: Added Grell Malcontent
       indexUrl: https://github.com/BSData/robotech-rpg-tactics/releases/latest/download/robotech-rpg-tactics.latest.bsi
       repositoryUrl: https://github.com/BSData/robotech-rpg-tactics/releases/latest/download/robotech-rpg-tactics.catpkg.json

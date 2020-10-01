@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: V1.70
       name: New Air Support options
-      published_at: 2017-09-18T18:39:38.0000000Z
+      published_at: 2017-09-18T18:39:38.0000000+00:00
   catpkg:
     properties:
       name: halo-ground-command
       description: 'Halo: Ground Command'
       battleScribeVersion: "2.01"
       version: V1.70
-      lastUpdated: 2017-09-18T18:37:32.0000000Z
+      lastUpdated: 2017-09-18T18:37:32.0000000+00:00
       lastUpdateDescription: New Air Support options
       indexUrl: https://github.com/BSData/halo-ground-command/releases/latest/download/halo-ground-command.latest.bsi
       repositoryUrl: https://github.com/BSData/halo-ground-command/releases/latest/download/halo-ground-command.catpkg.json

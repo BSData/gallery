@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 0.4.1
       name: Hot tea is served (Hotfix 0.4.1)
-      published_at: 2020-08-21T21:59:42.0000000Z
+      published_at: 2020-08-21T21:59:42.0000000+00:00
   catpkg:
     properties:
       name: behind-omaha
       description: Behind Omaha
       battleScribeVersion: "2.03"
       version: 0.4.1
-      lastUpdated: 2020-08-21T21:37:18.0000000Z
+      lastUpdated: 2020-08-21T21:37:18.0000000+00:00
       lastUpdateDescription: Hot tea is served (Hotfix 0.4.1)
       indexUrl: https://github.com/BSData/behind-omaha/releases/latest/download/behind-omaha.latest.bsi
       repositoryUrl: https://github.com/BSData/behind-omaha/releases/latest/download/behind-omaha.catpkg.json

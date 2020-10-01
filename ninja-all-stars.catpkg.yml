@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: V3.0
       name: First Public Release
-      published_at: 2016-02-19T18:37:53.0000000Z
+      published_at: 2016-02-19T18:37:53.0000000+00:00
   catpkg:
     properties:
       name: ninja-all-stars
       description: Ninja All-Stars
       battleScribeVersion: "1.15"
       version: V3.0
-      lastUpdated: 2016-02-19T18:35:42.0000000Z
+      lastUpdated: 2016-02-19T18:35:42.0000000+00:00
       lastUpdateDescription: First Public Release
       indexUrl: https://github.com/BSData/ninja-all-stars/releases/latest/download/ninja-all-stars.latest.bsi
       repositoryUrl: https://github.com/BSData/ninja-all-stars/releases/latest/download/ninja-all-stars.catpkg.json

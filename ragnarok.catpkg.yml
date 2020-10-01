@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: "0.2"
       name: More Features Added
-      published_at: 2020-02-07T15:00:45.0000000Z
+      published_at: 2020-02-07T15:00:45.0000000+00:00
   catpkg:
     properties:
       name: ragnarok
       description: Ragnarok
       battleScribeVersion: "2.03"
       version: "0.2"
-      lastUpdated: 2020-02-07T14:58:55.0000000Z
+      lastUpdated: 2020-02-07T14:58:55.0000000+00:00
       lastUpdateDescription: More Features Added
       indexUrl: https://github.com/BSData/ragnarok/releases/latest/download/ragnarok.latest.bsi
       repositoryUrl: https://github.com/BSData/ragnarok/releases/latest/download/ragnarok.catpkg.json

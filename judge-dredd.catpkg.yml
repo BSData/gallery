@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: "2.2"
       name: Catalogue and Main additions
-      published_at: 2020-08-25T18:26:29.0000000Z
+      published_at: 2020-08-25T18:26:29.0000000+00:00
   catpkg:
     properties:
       name: judge-dredd
       description: Judge Dredd
       battleScribeVersion: "2.03"
       version: "2.2"
-      lastUpdated: 2020-08-25T18:17:34.0000000Z
+      lastUpdated: 2020-08-25T18:17:34.0000000+00:00
       lastUpdateDescription: Catalogue and Main additions
       indexUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.latest.bsi
       repositoryUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.catpkg.json

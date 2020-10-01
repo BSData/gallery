@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 2.0.0
       name: 2.0.0 New Version of all files
-      published_at: 2018-09-19T05:22:53.0000000Z
+      published_at: 2018-09-19T05:22:53.0000000+00:00
   catpkg:
     properties:
       name: legends-of-the-old-west
       description: 'Warhammer Historical: Legends of the Old West'
       battleScribeVersion: "2.01"
       version: 2.0.0
-      lastUpdated: 2018-08-27T03:09:46.0000000Z
+      lastUpdated: 2018-08-27T03:09:46.0000000+00:00
       lastUpdateDescription: 2.0.0 New Version of all files
       indexUrl: https://github.com/BSData/legends-of-the-old-west/releases/latest/download/legends-of-the-old-west.latest.bsi
       repositoryUrl: https://github.com/BSData/legends-of-the-old-west/releases/latest/download/legends-of-the-old-west.catpkg.json

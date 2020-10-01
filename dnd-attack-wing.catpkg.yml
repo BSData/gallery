@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.0.0
       name: Initial Release
-      published_at: 2015-02-21T05:01:36.0000000Z
+      published_at: 2015-02-21T05:01:36.0000000+00:00
   catpkg:
     properties:
       name: dnd-attack-wing
       description: D&D Attack Wing
       battleScribeVersion: "1.15"
       version: 1.0.0
-      lastUpdated: 2015-02-21T04:56:03.0000000Z
+      lastUpdated: 2015-02-21T04:56:03.0000000+00:00
       lastUpdateDescription: Initial Release
       indexUrl: https://github.com/BSData/dnd-attack-wing/releases/latest/download/dnd-attack-wing.latest.bsi
       repositoryUrl: https://github.com/BSData/dnd-attack-wing/releases/latest/download/dnd-attack-wing.catpkg.json

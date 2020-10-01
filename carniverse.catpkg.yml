@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: V1.2.0
       name: Surival Nut Updated
-      published_at: 2019-11-04T23:43:41.0000000Z
+      published_at: 2019-11-04T23:43:41.0000000+00:00
   catpkg:
     properties:
       name: carniverse
       description: Carniverse
       battleScribeVersion: "2.03"
       version: V1.2.0
-      lastUpdated: 2019-11-04T23:40:35.0000000Z
+      lastUpdated: 2019-11-04T23:40:35.0000000+00:00
       lastUpdateDescription: Surival Nut Updated
       indexUrl: https://github.com/BSData/carniverse/releases/latest/download/carniverse.latest.bsi
       repositoryUrl: https://github.com/BSData/carniverse/releases/latest/download/carniverse.catpkg.json

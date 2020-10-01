@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.0.3
       name: Corrections for cost of Heroes (Scavangers)
-      published_at: 2019-11-16T16:31:50.0000000Z
+      published_at: 2019-11-16T16:31:50.0000000+00:00
   catpkg:
     properties:
       name: killzone
       description: Kill Zone by Nick Lund
       battleScribeVersion: "2.03"
       version: 1.0.3
-      lastUpdated: 2019-11-16T16:29:06.0000000Z
+      lastUpdated: 2019-11-16T16:29:06.0000000+00:00
       lastUpdateDescription: Corrections for cost of Heroes (Scavangers)
       indexUrl: https://github.com/BSData/killzone/releases/latest/download/killzone.latest.bsi
       repositoryUrl: https://github.com/BSData/killzone/releases/latest/download/killzone.catpkg.json

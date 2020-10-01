@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.4.6
       name: Runewars Miniatures Game v1.4.6
-      published_at: 2018-02-10T15:39:33.0000000Z
+      published_at: 2018-02-10T15:39:33.0000000+00:00
   catpkg:
     properties:
       name: runewars
       description: RuneWars
       battleScribeVersion: "2.01"
       version: v1.4.6
-      lastUpdated: 2018-02-10T15:38:44.0000000Z
+      lastUpdated: 2018-02-10T15:38:44.0000000+00:00
       lastUpdateDescription: Runewars Miniatures Game v1.4.6
       indexUrl: https://github.com/BSData/runewars/releases/latest/download/runewars.latest.bsi
       repositoryUrl: https://github.com/BSData/runewars/releases/latest/download/runewars.catpkg.json

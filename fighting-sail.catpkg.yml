@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: "1.0"
       name: Initial release
-      published_at: 2017-12-08T20:07:47.0000000Z
+      published_at: 2017-12-08T20:07:47.0000000+00:00
   catpkg:
     properties:
       name: fighting-sail
       description: Fighting Sail
       battleScribeVersion: "2.01"
       version: "1.0"
-      lastUpdated: 2017-12-08T15:08:17.0000000Z
+      lastUpdated: 2017-12-08T15:08:17.0000000+00:00
       lastUpdateDescription: Initial release
       indexUrl: https://github.com/BSData/fighting-sail/releases/latest/download/fighting-sail.latest.bsi
       repositoryUrl: https://github.com/BSData/fighting-sail/releases/latest/download/fighting-sail.catpkg.json

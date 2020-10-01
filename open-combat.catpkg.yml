@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.0.0
       name: First release
-      published_at: 2017-01-22T16:37:16.0000000Z
+      published_at: 2017-01-22T16:37:16.0000000+00:00
   catpkg:
     properties:
       name: open-combat
       description: Open Combat
       battleScribeVersion: "2.00"
       version: v1.0.0
-      lastUpdated: 2017-01-22T16:33:34.0000000Z
+      lastUpdated: 2017-01-22T16:33:34.0000000+00:00
       lastUpdateDescription: First release
       indexUrl: https://github.com/BSData/open-combat/releases/latest/download/open-combat.latest.bsi
       repositoryUrl: https://github.com/BSData/open-combat/releases/latest/download/open-combat.catpkg.json

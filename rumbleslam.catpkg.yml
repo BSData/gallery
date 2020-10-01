@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.0.2
       name: ""
-      published_at: 2019-04-27T18:12:09.0000000Z
+      published_at: 2019-04-27T18:12:09.0000000+00:00
   catpkg:
     properties:
       name: rumbleslam
       description: Rumbleslam
       battleScribeVersion: "2.02"
       version: v1.0.2
-      lastUpdated: 2019-04-27T18:11:12.0000000Z
+      lastUpdated: 2019-04-27T18:11:12.0000000+00:00
       lastUpdateDescription: ""
       indexUrl: https://github.com/BSData/rumbleslam/releases/latest/download/rumbleslam.latest.bsi
       repositoryUrl: https://github.com/BSData/rumbleslam/releases/latest/download/rumbleslam.catpkg.json

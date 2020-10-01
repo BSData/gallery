@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.1.0
       name: v1 Release
-      published_at: 2014-12-26T12:15:15.0000000Z
+      published_at: 2014-12-26T12:15:15.0000000+00:00
   catpkg:
     properties:
       name: mars-attacks
       description: Mars Attacks
       battleScribeVersion: 1.14b
       version: v1.1.0
-      lastUpdated: 2014-11-23T05:03:58.0000000Z
+      lastUpdated: 2014-11-23T05:03:58.0000000+00:00
       lastUpdateDescription: v1 Release
       indexUrl: https://github.com/BSData/mars-attacks/releases/latest/download/mars-attacks.latest.bsi
       repositoryUrl: https://github.com/BSData/mars-attacks/releases/latest/download/mars-attacks.catpkg.json

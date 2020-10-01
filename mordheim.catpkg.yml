@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v0.2.4
       name: Data format update
-      published_at: 2019-10-30T08:47:39.0000000Z
+      published_at: 2019-10-30T08:47:39.0000000+00:00
   catpkg:
     properties:
       name: mordheim
       description: Mordheim
       battleScribeVersion: "2.03"
       version: v0.2.4
-      lastUpdated: 2019-10-30T08:43:18.0000000Z
+      lastUpdated: 2019-10-30T08:43:18.0000000+00:00
       lastUpdateDescription: Data format update
       indexUrl: https://github.com/BSData/mordheim/releases/latest/download/mordheim.latest.bsi
       repositoryUrl: https://github.com/BSData/mordheim/releases/latest/download/mordheim.catpkg.json

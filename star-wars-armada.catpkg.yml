@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.5.9
       name: Rebellion in the Rim Upgrades and Super Star Destroyer
-      published_at: 2019-09-13T07:54:27.0000000Z
+      published_at: 2019-09-13T07:54:27.0000000+00:00
   catpkg:
     properties:
       name: star-wars-armada
       description: 'Star Wars: Armada'
       battleScribeVersion: "2.03"
       version: 1.5.9
-      lastUpdated: 2019-09-13T07:50:14.0000000Z
+      lastUpdated: 2019-09-13T07:50:14.0000000+00:00
       lastUpdateDescription: Rebellion in the Rim Upgrades and Super Star Destroyer
       indexUrl: https://github.com/BSData/star-wars-armada/releases/latest/download/star-wars-armada.latest.bsi
       repositoryUrl: https://github.com/BSData/star-wars-armada/releases/latest/download/star-wars-armada.catpkg.json

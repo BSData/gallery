@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.0.0
       name: Resistance
-      published_at: 2019-06-26T21:56:01.0000000Z
+      published_at: 2019-06-26T21:56:01.0000000+00:00
   catpkg:
     properties:
       name: dropfleet-commander
       description: Dropfleet Commander
       battleScribeVersion: "2.02"
       version: v2.0.0
-      lastUpdated: 2019-06-26T21:55:04.0000000Z
+      lastUpdated: 2019-06-26T21:55:04.0000000+00:00
       lastUpdateDescription: Resistance
       indexUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.latest.bsi
       repositoryUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.catpkg.json

@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.4.8
       name: v1.4.8 - New unit
-      published_at: 2018-03-30T07:15:45.0000000Z
+      published_at: 2018-03-30T07:15:45.0000000+00:00
   catpkg:
     properties:
       name: dust1947
       description: Dust 1947
       battleScribeVersion: "2.01"
       version: v1.4.8
-      lastUpdated: 2018-03-30T07:14:59.0000000Z
+      lastUpdated: 2018-03-30T07:14:59.0000000+00:00
       lastUpdateDescription: v1.4.8 - New unit
       indexUrl: https://github.com/BSData/dust1947/releases/latest/download/dust1947.latest.bsi
       repositoryUrl: https://github.com/BSData/dust1947/releases/latest/download/dust1947.catpkg.json

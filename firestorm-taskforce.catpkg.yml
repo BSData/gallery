@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.2.1
       name: Corrected Requisitions
-      published_at: 2016-05-27T06:08:51.0000000Z
+      published_at: 2016-05-27T06:08:51.0000000+00:00
   catpkg:
     properties:
       name: firestorm-taskforce
       description: Firestorm Taskforce
       battleScribeVersion: "1.15"
       version: 1.2.1
-      lastUpdated: 2016-05-27T06:08:21.0000000Z
+      lastUpdated: 2016-05-27T06:08:21.0000000+00:00
       lastUpdateDescription: Corrected Requisitions
       indexUrl: https://github.com/BSData/firestorm-taskforce/releases/latest/download/firestorm-taskforce.latest.bsi
       repositoryUrl: https://github.com/BSData/firestorm-taskforce/releases/latest/download/firestorm-taskforce.catpkg.json

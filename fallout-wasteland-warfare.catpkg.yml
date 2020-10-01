@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.3.2
       name: More optimizations
-      published_at: 2020-04-17T13:19:02.0000000Z
+      published_at: 2020-04-17T13:19:02.0000000+00:00
   catpkg:
     properties:
       name: fallout-wasteland-warfare
       description: 'Fallout: Wasteland Warfare'
       battleScribeVersion: "2.03"
       version: v1.3.2
-      lastUpdated: 2020-04-17T13:19:02.0000000Z
+      lastUpdated: 2020-04-17T13:19:02.0000000+00:00
       lastUpdateDescription: More optimizations
       indexUrl: https://github.com/BSData/fallout-wasteland-warfare/releases/latest/download/fallout-wasteland-warfare.latest.bsi
       repositoryUrl: https://github.com/BSData/fallout-wasteland-warfare/releases/latest/download/fallout-wasteland-warfare.catpkg.json

@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 3.2.246
       name: (Free Dwarf fix) The wait is over! Please, report errors on GitHub or by emailing me directly. PEACE
-      published_at: 2020-02-12T00:39:10.0000000Z
+      published_at: 2020-02-12T00:39:10.0000000+00:00
   catpkg:
     properties:
       name: kingsofwar
       description: Kings of War
       battleScribeVersion: "2.03"
       version: 3.2.246
-      lastUpdated: 2020-02-12T00:36:21.0000000Z
+      lastUpdated: 2020-02-12T00:36:21.0000000+00:00
       lastUpdateDescription: (Free Dwarf fix) The wait is over! Please, report errors on GitHub or by emailing me directly. PEACE
       indexUrl: https://github.com/BSData/kingsofwar/releases/latest/download/kingsofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/kingsofwar/releases/latest/download/kingsofwar.catpkg.json

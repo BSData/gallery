@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.5.0
       name: '"Cawdor ... Cawdor ... Come out to Play ..." edition'
-      published_at: 2018-08-30T03:22:17.0000000Z
+      published_at: 2018-08-30T03:22:17.0000000+00:00
   catpkg:
     properties:
       name: necromunda-gang-war
       description: 'Necromunda: Gang War'
       battleScribeVersion: "2.01"
       version: v1.5.0
-      lastUpdated: 2018-08-30T03:18:43.0000000Z
+      lastUpdated: 2018-08-30T03:18:43.0000000+00:00
       lastUpdateDescription: '"Cawdor ... Cawdor ... Come out to Play ..." edition'
       indexUrl: https://github.com/BSData/necromunda-gang-war/releases/latest/download/necromunda-gang-war.latest.bsi
       repositoryUrl: https://github.com/BSData/necromunda-gang-war/releases/latest/download/necromunda-gang-war.catpkg.json

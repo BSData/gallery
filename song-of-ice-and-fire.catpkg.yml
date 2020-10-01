@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.1
       name: Night's Watch!
-      published_at: 2018-10-31T00:24:59.0000000Z
+      published_at: 2018-10-31T00:24:59.0000000+00:00
   catpkg:
     properties:
       name: song-of-ice-and-fire
       description: 'A Song of Ice & Fire: Tabletop Miniatures Game'
       battleScribeVersion: "2.01"
       version: v2.1
-      lastUpdated: 2018-10-30T23:42:53.0000000Z
+      lastUpdated: 2018-10-30T23:42:53.0000000+00:00
       lastUpdateDescription: Night's Watch!
       indexUrl: https://github.com/BSData/song-of-ice-and-fire/releases/latest/download/song-of-ice-and-fire.latest.bsi
       repositoryUrl: https://github.com/BSData/song-of-ice-and-fire/releases/latest/download/song-of-ice-and-fire.catpkg.json

@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: "1.2"
       name: Tank Update
-      published_at: 2016-11-16T15:17:55.0000000Z
+      published_at: 2016-11-16T15:17:55.0000000+00:00
   catpkg:
     properties:
       name: tanks
       description: Gale Force 9 Tanks
       battleScribeVersion: "1.15"
       version: "1.2"
-      lastUpdated: 2016-10-26T19:12:58.0000000Z
+      lastUpdated: 2016-10-26T19:12:58.0000000+00:00
       lastUpdateDescription: Tank Update
       indexUrl: https://github.com/BSData/tanks/releases/latest/download/tanks.latest.bsi
       repositoryUrl: https://github.com/BSData/tanks/releases/latest/download/tanks.catpkg.json

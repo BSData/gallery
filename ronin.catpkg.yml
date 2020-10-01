@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.0.0
       name: Initial Release
-      published_at: 2018-02-13T03:35:26.0000000Z
+      published_at: 2018-02-13T03:35:26.0000000+00:00
   catpkg:
     properties:
       name: ronin
       description: Ronin
       battleScribeVersion: "2.00"
       version: v1.0.0
-      lastUpdated: 2016-11-22T03:10:17.0000000Z
+      lastUpdated: 2016-11-22T03:10:17.0000000+00:00
       lastUpdateDescription: Initial Release
       indexUrl: https://github.com/BSData/ronin/releases/latest/download/ronin.latest.bsi
       repositoryUrl: https://github.com/BSData/ronin/releases/latest/download/ronin.catpkg.json
