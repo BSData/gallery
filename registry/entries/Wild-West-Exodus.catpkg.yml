@@ -1,2 +1,4 @@
 location:
   github: BSData/Wild-West-Exodus
+test:
+  ci-validation: true
