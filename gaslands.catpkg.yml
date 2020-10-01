@@ -2,27 +2,10 @@ location:
   github: BSData/gaslands
 cache:
   repo:
-    properties:
-      archived: false
+    apiResponseError:
+      code: 403
   latestRelease:
-    apiHeaders:
-      LastModified: Mon, 16 Mar 2020 22:22:20 GMT
-    properties:
-      tag_name: 1.1.3
-      name: Shotguns and HMG turrets fixes
-      published_at: 2020-03-16T22:22:20.0000000+00:00
-  catpkg:
-    properties:
-      name: gaslands
-      description: Gaslands
-      battleScribeVersion: "2.03"
-      version: 1.1.3
-      lastUpdated: 2020-03-16T22:22:20.0000000+00:00
-      lastUpdateDescription: Shotguns and HMG turrets fixes
-      indexUrl: https://github.com/BSData/gaslands/releases/latest/download/gaslands.latest.bsi
-      repositoryUrl: https://github.com/BSData/gaslands/releases/latest/download/gaslands.catpkg.json
-      githubUrl: https://github.com/BSData/gaslands
-      feedUrl: https://github.com/BSData/gaslands/releases.atom
-      bugTrackerUrl: https://github.com/BSData/gaslands/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/gaslands
+    apiResponseError:
+      code: 403
+  catpkg: {}
 

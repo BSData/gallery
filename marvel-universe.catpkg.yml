@@ -2,31 +2,10 @@ location:
   github: BSData/marvel-universe
 cache:
   repo:
-    properties:
-      archived: false
-  latestRelease:
-    apiHeaders:
-      LastModified: Wed, 14 Feb 2018 15:26:58 GMT
-    properties:
-      tag_name: "1.1"
-      name: Solved few issues
-      published_at: 2018-02-14T15:26:58.0000000+00:00
-  catpkg:
     apiResponseError:
-      code: 404
-    properties:
-      name: marvel-universe
-      description: Marvel Universe Miniature Game
-      battleScribeVersion: "2.01"
-      version: "1.1"
-      lastUpdated: 2018-02-14T15:22:44.0000000Z
-      lastUpdateDescription: Solved few issues
-      indexUrl: https://github.com/BSData/marvel-universe/releases/latest/download/marvel-universe.latest.bsi
-      repositoryUrl: https://github.com/BSData/marvel-universe/releases/latest/download/marvel-universe.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/marvel-universe/releases/latest/download/marvel-universe.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/marvel-universe/releases/download/1.1/marvel-universe.1.1.bsr
-      githubUrl: https://github.com/BSData/marvel-universe
-      feedUrl: https://github.com/BSData/marvel-universe/releases.atom
-      bugTrackerUrl: https://github.com/BSData/marvel-universe/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/marvel-universe
+      code: 403
+  latestRelease:
+    apiResponseError:
+      code: 403
+  catpkg: {}
 

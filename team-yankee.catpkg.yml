@@ -2,8 +2,8 @@ location:
   github: BSData/team-yankee
 cache:
   repo:
-    properties:
-      archived: false
+    apiResponseError:
+      code: 403
   latestRelease:
     apiHeaders:
       LastModified: Thu, 17 Sep 2020 15:37:07 GMT

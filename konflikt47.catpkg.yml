@@ -2,10 +2,10 @@ location:
   github: BSData/konflikt47
 cache:
   repo:
-    properties:
-      archived: false
+    apiResponseError:
+      code: 403
   latestRelease:
     apiResponseError:
-      code: 404
+      code: 403
   catpkg: {}
 

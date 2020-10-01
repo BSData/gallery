@@ -2,27 +2,10 @@ location:
   github: BSData/halo-fleet-battles
 cache:
   repo:
-    properties:
-      archived: false
+    apiResponseError:
+      code: 403
   latestRelease:
-    apiHeaders:
-      LastModified: Fri, 17 Apr 2020 14:47:17 GMT
-    properties:
-      tag_name: V4.03
-      name: Correction of Halycon BR
-      published_at: 2020-04-17T14:47:17.0000000+00:00
-  catpkg:
-    properties:
-      name: halo-fleet-battles
-      description: 'Halo: Fleet Battles'
-      battleScribeVersion: "2.03"
-      version: V4.03
-      lastUpdated: 2020-04-17T14:47:17.0000000+00:00
-      lastUpdateDescription: Correction of Halycon BR
-      indexUrl: https://github.com/BSData/halo-fleet-battles/releases/latest/download/halo-fleet-battles.latest.bsi
-      repositoryUrl: https://github.com/BSData/halo-fleet-battles/releases/latest/download/halo-fleet-battles.catpkg.json
-      githubUrl: https://github.com/BSData/halo-fleet-battles
-      feedUrl: https://github.com/BSData/halo-fleet-battles/releases.atom
-      bugTrackerUrl: https://github.com/BSData/halo-fleet-battles/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/halo-fleet-battles
+    apiResponseError:
+      code: 403
+  catpkg: {}
 

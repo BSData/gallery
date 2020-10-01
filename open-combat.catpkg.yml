@@ -2,31 +2,10 @@ location:
   github: BSData/open-combat
 cache:
   repo:
-    properties:
-      archived: false
-  latestRelease:
-    apiHeaders:
-      LastModified: Sun, 22 Jan 2017 16:37:16 GMT
-    properties:
-      tag_name: v1.0.0
-      name: First release
-      published_at: 2017-01-22T16:37:16.0000000+00:00
-  catpkg:
     apiResponseError:
-      code: 404
-    properties:
-      name: open-combat
-      description: Open Combat
-      battleScribeVersion: "2.00"
-      version: v1.0.0
-      lastUpdated: 2017-01-22T16:33:34.0000000Z
-      lastUpdateDescription: First release
-      indexUrl: https://github.com/BSData/open-combat/releases/latest/download/open-combat.latest.bsi
-      repositoryUrl: https://github.com/BSData/open-combat/releases/latest/download/open-combat.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/open-combat/releases/latest/download/open-combat.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/open-combat/releases/download/v1.0.0/open-combat.v1.0.0.bsr
-      githubUrl: https://github.com/BSData/open-combat
-      feedUrl: https://github.com/BSData/open-combat/releases.atom
-      bugTrackerUrl: https://github.com/BSData/open-combat/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/open-combat
+      code: 403
+  latestRelease:
+    apiResponseError:
+      code: 403
+  catpkg: {}
 
