@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 25 Sep 2020 03:17:24 GMT
+      LastModified: Thu, 01 Oct 2020 22:07:25 GMT
     properties:
-      tag_name: v9.0.21
-      name: 'Ahriman: “Remember the time I cursed my entire legion?” BSData: “Hold my Release Title.”'
-      published_at: 2020-09-25T03:17:24.0000000+00:00
+      tag_name: v9.0.22
+      name: This release brought to you by Iron Halo brand koozies
+      published_at: 2020-10-01T22:07:25.0000000Z
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.0.21
-      lastUpdated: 2020-09-23T20:58:50.0000000+00:00
-      lastUpdateDescription: 'Ahriman: “Remember the time I cursed my entire legion?” BSData: “Hold my Release Title.”'
+      version: v9.0.22
+      lastUpdated: 2020-10-01T19:57:16.0000000Z
+      lastUpdateDescription: This release brought to you by Iron Halo brand koozies
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.21/wh40k.v9.0.21.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.22/wh40k.v9.0.22.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
