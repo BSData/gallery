@@ -19,9 +19,11 @@ jobs:
             $entries = @()
             if ($github.base_ref) {
               # we are in a pull request, let's only check changed entries
-              $baseRef = 'refs/heads/base'
-              git fetch --depth=1 origin "+$($github.base_ref):$baseRef" | Out-Host
+              $baseRefBranch = 'refs/heads/base'
+              git fetch --depth=1 origin "+$($github.base_ref):$baseRefBranch" | Out-Host
               # get a list of files changed in PR
-              $entries = git diff-tree --no-commit-id --name-only $baseRef
+              $entries = git diff-tree --no-commit-id --name-only -r $baseRefBranch
+              Write-Host "Changed files:"
+              $entries | Out-Host
             }
             ./.github/actions/validate-registry/action.ps1 -Entries $entries -Token $github.token
