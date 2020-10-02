@@ -77,10 +77,10 @@ Get-ChildItem $entriesDir *.catpkg.yml | Sort-Object Name | ForEach-Object {
   $owner, $reponame = $repo -split '/'
   $apiUrl = "https://api.github.com/repos/$owner/$reponame"
   $apiRepoArgs = @{
-    Uri = $apiUrl
+    Uri                = $apiUrl
     StatusCodeVariable = 'status'
     SkipHttpErrorCheck = $true
-    Headers = @{
+    Headers            = @{
       # preview api for 'topics'
       Accept = 'application/vnd.github.mercy-preview+json'
     } + ($Token ? @{ Authorization = "token $Token" } : @{} )
@@ -102,10 +102,10 @@ Get-ChildItem $entriesDir *.catpkg.yml | Sort-Object Name | ForEach-Object {
     LogWarning "$repo doesn't have a 'battlescribe-data' topic added." $file
   }
   $getWorkflowsArgs = @{
-    Uri = "$apiUrl/contents/.github/workflows"
+    Uri                = "$apiUrl/contents/.github/workflows"
     StatusCodeVariable = 'status'
     SkipHttpErrorCheck = $true
-    Headers = ($Token ? @{ Authorization = "token $Token" } : @{} )
+    Headers            = ($Token ? @{ Authorization = "token $Token" } : @{} )
   }
   $workflows = Invoke-RestMethod @getWorkflowsArgs
   $addWorkflowsSuggestion = @"
