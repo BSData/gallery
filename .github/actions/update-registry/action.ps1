@@ -31,10 +31,11 @@ $regSettings = Get-Item "$RegistryPath/settings.yml" | Get-Content -Raw | Conver
 $regEntriesSubpath = $regSettings.registrations.path
 $regEntriesDir = Get-Item "$RegistryPath/$regEntriesSubpath"
 $regEntries = Get-ChildItem $regEntriesDir *.catpkg.yml | ForEach-Object {
-  Get-Content $_ -Raw | ConvertFrom-Yaml
+  $yml = Get-Content $_ -Raw | ConvertFrom-Yaml
+  return @{ content = $yml; file = $_}
 }
 # add registry entries for BSData repos not yet registered
-$registryRepoNames = $regEntries.location.github | Where-Object { $_ }
+$registryRepoNames = $regEntries.content.location.github | Where-Object { $_ }
 $reposMissingFromRegistry = $repositories | Where-Object {
   $_.full_name -notin $registryRepoNames
 }
@@ -51,7 +52,7 @@ foreach ($repo in $reposMissingFromRegistry) {
 # del registry entries for repositories no longer reachable
 $orgRepoNames = $repositories.full_name
 $reposNoLongerExisting = $regEntries | Where-Object {
-  $reponame = $_.location.github
+  $reponame = $_.content.location.github
   if ($reponame -match "^$parentOrgName/" -and $reponame -notin $orgRepoNames) {
     return $true
   }
@@ -60,8 +61,7 @@ $reposNoLongerExisting = $regEntries | Where-Object {
   return $status -eq 404
 }
 foreach ($repo in $reposNoLongerExisting) {
-  $reponame = $repo.location.github
-  $filepath = "$regEntriesDir/$reponame.catpkg.yml"
+  $filepath = $repo.file
   Write-Verbose "Deleting $filepath"
   Remove-Item $filepath -Force
 }
