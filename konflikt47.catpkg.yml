@@ -2,8 +2,10 @@ location:
   github: BSData/konflikt47
 cache:
   repo:
+    apiHeaders:
+      LastModified: Fri, 02 Oct 2020 20:38:04 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiResponseError:
       code: 404
