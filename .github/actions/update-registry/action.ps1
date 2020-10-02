@@ -10,8 +10,9 @@ param (
 if (-not (Get-Module powershell-yaml -Verbose:$false)) {
     Install-Module powershell-yaml -RequiredVersion "0.4.1" -Force -Verbose:$false
 }
+$parentOrgName = 'BSData'
 
-$query = "topic:battlescribe-data+org:BSData"
+$query = "topic:battlescribe-data+org:$parentOrgName"
 $apiRepoSearchArgs = @{
     Method        = 'GET'
     Uri           = "https://api.github.com/search/repositories?q=$query"
@@ -32,13 +33,12 @@ $regEntriesDir = Get-Item "$RegistryPath/$regEntriesSubpath"
 $regEntries = Get-ChildItem $regEntriesDir *.catpkg.yml | ForEach-Object {
     Get-Content $_ -Raw | ConvertFrom-Yaml
 }
-
+# add registry entries for BSData repos not yet registered
 $registryRepoNames = $regEntries.location.github | Where-Object { $_ }
-
-$unregisteredRepos = $repositories | Where-Object {
+$reposMissingFromRegistry = $repositories | Where-Object {
     $_.full_name -notin $registryRepoNames
 }
-foreach ($repo in $unregisteredRepos) {
+foreach ($repo in $reposMissingFromRegistry) {
     $filepath = "$regEntriesDir/$($repo.name.ToLowerInvariant()).catpkg.yml"
     Write-Verbose "Creating $filepath"
     $yaml = [ordered]@{
@@ -48,4 +48,30 @@ foreach ($repo in $unregisteredRepos) {
     }
     ConvertTo-Yaml $yaml -OutFile $filepath
 }
-return @($unregisteredRepos | Select-Object name, full_name, html_url)
+# del registry entries for repositories no longer reachable
+$orgRepoNames = $repositories.full_name
+$reposNoLongerExisting = $regEntries | Where-Object {
+    $reponame = $_.location.github
+    if ($reponame -match "^$parentOrgName/" -and $reponame -notin $orgRepoNames) {
+        return $true
+    }
+    # ping repo is available
+    $null = Invoke-RestMethod "https://github.com/$reponame" -StatusCodeVariable status -SkipHttpErrorCheck
+    return $status -eq 404
+}
+foreach ($repo in $reposNoLongerExisting) {
+    $filepath = "$regEntriesDir/$repo.catpkg.yml"
+    Write-Verbose "Deleting $filepath"
+    Remove-Item $filepath -Force
+}
+return @{
+    count = @($reposMissingFromRegistry).Count + @($reposNoLongerExisting).Count
+    add = @($reposMissingFromRegistry | Select-Object name, full_name, html_url)
+    del = @($reposNoLongerExisting | ForEach-Object {
+        return @{
+            name = ($_ -split '/')[0]
+            full_name = $_
+            html_url = "https://github.com/$_"
+        }
+    })
+}
