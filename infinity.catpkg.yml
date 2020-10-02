@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.0.1
       name: Bugfixes, Round 1, FIGHT!
-      published_at: 2018-01-30T15:17:17.0000000Z
+      published_at: 2018-01-30T15:17:17.0000000+00:00
   catpkg:
     properties:
-      name: infinity
+      name: .inf
       description: Infinity N3
       battleScribeVersion: "2.01"
       version: v1.0.1
-      lastUpdated: 2018-01-30T15:11:55.0000000Z
+      lastUpdated: 2018-01-30T15:11:55.0000000+00:00
       lastUpdateDescription: Bugfixes, Round 1, FIGHT!
       indexUrl: https://github.com/BSData/infinity/releases/latest/download/infinity.latest.bsi
       repositoryUrl: https://github.com/BSData/infinity/releases/latest/download/infinity.catpkg.json
