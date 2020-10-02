@@ -81,10 +81,11 @@ return @{
   count = @($reposMissingFromRegistry).Count + @($reposNoLongerExisting).Count
   add   = @($reposMissingFromRegistry | Select-Object name, full_name, html_url)
   del   = @($reposNoLongerExisting | ForEach-Object {
+      $reponame = $_.content.location.github
       return @{
-        name      = ($_ -split '/')[0]
-        full_name = $_
-        html_url  = "https://github.com/$_"
+        name      = ($reponame -split '/')[0]
+        full_name = $reponame
+        html_url  = "https://github.com/$reponame"
       }
     })
 }
