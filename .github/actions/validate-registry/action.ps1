@@ -71,7 +71,7 @@ Get-ChildItem $entriesDir *.catpkg.yml | Sort-Object Name | ForEach-Object {
     return
   }
   if ($repo -notmatch '^[^\s\/]+\/[^\s\/]+$') {
-    LogError "GitHub repository name must be formatted as 'owner/name', e.g. BSData/gallery." $file
+    LogError "$repo - GitHub repository name must be formatted as 'owner/name', e.g. BSData/gallery." $file
     return
   }
   $owner, $reponame = $repo -split '/'
@@ -88,10 +88,14 @@ Get-ChildItem $entriesDir *.catpkg.yml | Sort-Object Name | ForEach-Object {
   $apiRepo = Invoke-RestMethod @apiRepoArgs
   if ($status -ne 200) {
     if ($status -eq 404) {
-      LogError "GitHub repository couldn't be reached at $apiUrl - it doesn't exist or is private." $file
+      LogError "$repo couldn't be reached at $apiUrl - it doesn't exist or is private." $file
       return
     }
-    LogError "Fetching $repo failed with HTTP $status." $file
+    LogError "$repo - fetching repo failed with HTTP $status." $file
+    return
+  }
+  if ($apiRepo.archived -eq $true) {
+    LogDebug "$repo - skipped further validation because it's archived."
     return
   }
   if ('battlescribe-data' -notin $apiRepo.topics) {
@@ -109,7 +113,7 @@ Consider adding necessary workflows by adding a comment with first line like:
 > ``/template-workflows-pr $repo``
 "@
   if ($status -ne 200) {
-    LogWarning "Fetching $repo workflows failed with HTTP $status. $addWorkflowsSuggestion" $file
+    LogWarning "$repo - fetching workflows failed with HTTP $status. $addWorkflowsSuggestion" $file
   }
   else {
     # there are *any* workflows, let's check which are missing

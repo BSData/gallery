@@ -36,18 +36,20 @@ jobs:
         with:
           script: |
             $repos = @($env:UPDATE_JSON | ConvertFrom-Json)
+            $adds = $repos.add | ForEach-Object { "- add $($_.html_url)`n" }
+            $dels = $repos.del | ForEach-Object { "- rem $($_.html_url)`n" }
             @{
-              count = $repos.Count
-              pr_body_repo_list = -join ($repos | ForEach-Object { "- $($_.html_url)`n" })
+              count = $repos.count
+              pr_body_repo_list = -join @($adds + $dels)
             }
 
       - name: Create PR with registry updates
         uses: peter-evans/create-pull-request@v3
         with:
-          commit-message: ":robot: Add ${{ fromJSON(steps.formatting.outputs.result).count }} new registry entries"
+          commit-message: ":robot: Update ${{ fromJSON(steps.formatting.outputs.result).count }} registry entries"
           branch: bot/registry-update
           delete-branch: true
-          title: ":robot: Add new registry entries"
+          title: ":robot: Update registry entries"
           body: |
             Updated repositories:
             ${{ fromJSON(steps.formatting.outputs.result).pr_body_repo_list }}
