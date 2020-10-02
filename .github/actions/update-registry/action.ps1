@@ -60,7 +60,8 @@ $reposNoLongerExisting = $regEntries | Where-Object {
     return $status -eq 404
 }
 foreach ($repo in $reposNoLongerExisting) {
-    $filepath = "$regEntriesDir/$repo.catpkg.yml"
+    $reponame = $repo.location.github
+    $filepath = "$regEntriesDir/$reponame.catpkg.yml"
     Write-Verbose "Deleting $filepath"
     Remove-Item $filepath -Force
 }
