@@ -53,11 +53,23 @@ foreach ($repo in $reposMissingFromRegistry) {
 $orgRepoNames = $repositories.full_name
 $reposNoLongerExisting = $regEntries | Where-Object {
   $reponame = $_.content.location.github
+  if ($reponame -in $orgRepoNames) {
+    # we've got it in API response, so it surely exists
+    return $false
+  }
   if ($reponame -match "^$parentOrgName/" -and $reponame -notin $orgRepoNames) {
+    # we've not got it in API response and it's from requested org,
+    # so it doesn't meet search criteria (e.g. no 'battlescribe-data' topic)
     return $true
   }
   # ping repo is available
-  $null = Invoke-RestMethod "https://github.com/$reponame" -StatusCodeVariable status -SkipHttpErrorCheck
+  $apiRepoGetArgs = @{
+    Uri = "https://api.github.com/repos/$reponame"
+    StatusCodeVariable = 'status'
+    SkipHttpErrorCheck = $true
+    Headers = ($Token ? @{ Authorization = "token $Token" } : @{})
+  }
+  $null = Invoke-RestMethod @apiRepoGetArgs
   return $status -eq 404
 }
 foreach ($repo in $reposNoLongerExisting) {
