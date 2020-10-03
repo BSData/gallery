@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v1.1.0
       name: Second Release
-      published_at: 2020-10-03T19:45:04.0000000Z
+      published_at: 2020-10-03T19:45:04.0000000+00:00
   catpkg:
     properties:
       name: StarBreach
       description: StarBreach Skirmish Game
       battleScribeVersion: "2.03"
       version: v1.1.0
-      lastUpdated: 2020-10-02T12:37:45.0000000Z
+      lastUpdated: 2020-10-02T12:37:45.0000000+00:00
       lastUpdateDescription: Second Release
       indexUrl: https://github.com/andreanespeca/StarBreach/releases/latest/download/StarBreach.latest.bsi
       repositoryUrl: https://github.com/andreanespeca/StarBreach/releases/latest/download/StarBreach.catpkg.json
