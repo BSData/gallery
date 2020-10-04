@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: 1.0.2
       name: Yamato and the Iowa take to the seas, and minor fixes
-      published_at: 2020-10-04T01:27:05.0000000Z
+      published_at: 2020-10-04T01:27:05.0000000+00:00
   catpkg:
     properties:
       name: victory-at-sea
       description: Victory at Sea
       battleScribeVersion: "2.03"
       version: 1.0.2
-      lastUpdated: 2020-10-04T01:24:32.0000000Z
+      lastUpdated: 2020-10-04T01:24:32.0000000+00:00
       lastUpdateDescription: Yamato and the Iowa take to the seas, and minor fixes
       indexUrl: https://github.com/BSData/victory-at-sea/releases/latest/download/victory-at-sea.latest.bsi
       repositoryUrl: https://github.com/BSData/victory-at-sea/releases/latest/download/victory-at-sea.catpkg.json
