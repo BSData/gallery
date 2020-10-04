@@ -10,14 +10,14 @@ cache:
     properties:
       tag_name: v2.2.9
       name: Funny Release Name
-      published_at: 2020-10-04T19:56:10.0000000Z
+      published_at: 2020-10-04T19:56:10.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
       version: v2.2.9
-      lastUpdated: 2020-10-04T19:28:36.0000000Z
+      lastUpdated: 2020-10-04T19:28:36.0000000+00:00
       lastUpdateDescription: Funny Release Name
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
