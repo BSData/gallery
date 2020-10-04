@@ -1,7 +1,7 @@
 name: Update index
 on:
   schedule:
-    - cron: "0 * * * *" # every hour
+    - cron: "0 */2 * * *" # every second hour
   push:
     branches:
       - master
@@ -28,6 +28,8 @@ jobs:
         with:
           ref: index
           path: index
+
+      - uses: ./master/.github/actions/install-yaml
 
       - name: Compile index
         uses: Amadevus/pwsh-script@v1

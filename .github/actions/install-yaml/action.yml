@@ -1,0 +1,9 @@
+name: Install powershell-yaml
+description: Install powershell-yaml module
+runs:
+  using: composite
+  steps:
+    - run: |
+        Import-Module powershell-yaml -ErrorAction:Ignore
+        || Install-Module powershell-yaml -RequiredVersion 0.4.2 -Force
+      shell: pwsh

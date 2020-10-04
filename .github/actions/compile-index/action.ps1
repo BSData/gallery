@@ -15,7 +15,9 @@ param (
   [string]$Token
 )
 
-Import-Module $PSScriptRoot/lib/powershell-yaml -Verbose:$false
+#Requires -Version 7
+#Requires -Module powershell-yaml
+
 Import-Module $PSScriptRoot/lib/BsdataGallery -Verbose:$false
 
 # read settings

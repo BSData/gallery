@@ -10,13 +10,14 @@ param (
   [string] $Token
 )
 
+#Requires -Version 7
+#Requires -Module powershell-yaml
+
 filter RelativizeNormalizePath {
   return [System.IO.Path]::GetRelativePath('.', $_).Replace('\', '/')
 }
 
 $Entries = $Entries | RelativizeNormalizePath
-Import-Module powershell-yaml -Verbose:$false -ErrorAction:Ignore
-|| Install-Module powershell-yaml -RequiredVersion 0.4.2 -Force -Verbose:$false
 
 if ($env:GITHUB_ACTIONS -ne 'true') {
   function LogDebug($Message) {

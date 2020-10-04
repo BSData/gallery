@@ -7,9 +7,9 @@ param (
   [string] $Token
 )
 
-if (-not (Get-Module powershell-yaml -Verbose:$false)) {
-  Install-Module powershell-yaml -RequiredVersion "0.4.1" -Force -Verbose:$false
-}
+#Requires -Version 7
+#Requires -Module powershell-yaml
+
 $parentOrgName = 'BSData'
 
 $query = "topic:battlescribe-data+org:$parentOrgName"
@@ -32,7 +32,7 @@ $regEntriesSubpath = $regSettings.registrations.path
 $regEntriesDir = Get-Item "$RegistryPath/$regEntriesSubpath"
 $regEntries = Get-ChildItem $regEntriesDir *.catpkg.yml | ForEach-Object {
   $yml = Get-Content $_ -Raw | ConvertFrom-Yaml
-  return @{ content = $yml; file = $_}
+  return @{ content = $yml; file = $_ }
 }
 # add registry entries for BSData repos not yet registered
 $registryRepoNames = $regEntries.content.location.github | Where-Object { $_ }
@@ -60,17 +60,22 @@ $reposNoLongerExisting = $regEntries | Where-Object {
   if ($reponame -match "^$parentOrgName/" -and $reponame -notin $orgRepoNames) {
     # we've not got it in API response and it's from requested org,
     # so it doesn't meet search criteria (e.g. no 'battlescribe-data' topic)
+    Write-Verbose "delete $reponame (reason: not in org repos query result)"
     return $true
   }
   # ping repo is available
   $apiRepoGetArgs = @{
-    Uri = "https://api.github.com/repos/$reponame"
+    Uri                = "https://api.github.com/repos/$reponame"
     StatusCodeVariable = 'status'
     SkipHttpErrorCheck = $true
-    Headers = ($Token ? @{ Authorization = "token $Token" } : @{})
+    Headers            = ($Token ? @{ Authorization = "token $Token" } : @{})
   }
   $null = Invoke-RestMethod @apiRepoGetArgs
-  return $status -eq 404
+  $notFound = $status -eq 404
+  if ($notFound) {
+    Write-Verbose "delete $reponame (reason: not found - HTTP 404)"
+  }
+  return $notFound
 }
 foreach ($repo in $reposNoLongerExisting) {
   $filepath = $repo.file
