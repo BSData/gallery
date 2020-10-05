@@ -38,8 +38,8 @@ jobs:
         with:
           script: |
             $repos = @($env:UPDATE_JSON | ConvertFrom-Json)
-            $adds = $repos.add | ForEach-Object { "- add $($_.html_url)`n" }
-            $dels = $repos.del | ForEach-Object { "- rem $($_.html_url)`n" }
+            $adds = $repos.add | Where-Object { $_ } | ForEach-Object { "- add $($_.html_url)`n" }
+            $dels = $repos.del | Where-Object { $_ } | ForEach-Object { "- rem $($_.html_url)`n" }
             @{
               count = $repos.count
               pr_body_repo_list = -join @($adds + $dels)
@@ -51,7 +51,9 @@ jobs:
           commit-message: ":robot: Update ${{ fromJSON(steps.formatting.outputs.result).count }} registry entries"
           branch: bot/registry-update
           delete-branch: true
-          title: ":robot: Update registry entries"
+          title: "🤖 Update registry entries"
           body: |
             Updated repositories:
             ${{ fromJSON(steps.formatting.outputs.result).pr_body_repo_list }}
+
+            [Workflow run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})
