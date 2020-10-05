@@ -19,7 +19,7 @@ cache:
       description: 'Warpath: Firefight'
       battleScribeVersion: "2.01"
       version: 1.0.2
-      lastUpdated: 2017-09-20T08:24:45.0000000Z
+      lastUpdated: 2017-09-20T08:24:45.0000000+00:00
       lastUpdateDescription: FF Jotunn Correction
       indexUrl: https://github.com/BSData/warpath-firefight/releases/latest/download/warpath-firefight.latest.bsi
       repositoryUrl: https://github.com/BSData/warpath-firefight/releases/latest/download/warpath-firefight.catpkg.json

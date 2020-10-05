@@ -19,7 +19,7 @@ cache:
       description: Test of Honour
       battleScribeVersion: "2.01"
       version: v1.0.0
-      lastUpdated: 2018-08-25T07:41:49.0000000Z
+      lastUpdated: 2018-08-25T07:41:49.0000000+00:00
       lastUpdateDescription: Initial Release
       indexUrl: https://github.com/BSData/test-of-honour/releases/latest/download/test-of-honour.latest.bsi
       repositoryUrl: https://github.com/BSData/test-of-honour/releases/latest/download/test-of-honour.catpkg.json

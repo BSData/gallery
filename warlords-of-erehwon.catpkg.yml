@@ -19,7 +19,7 @@ cache:
       description: Warlords of Erehwon
       battleScribeVersion: "2.03"
       version: v1.5.8
-      lastUpdated: 2020-02-24T10:24:14.0000000Z
+      lastUpdated: 2020-02-24T10:24:14.0000000+00:00
       lastUpdateDescription: QoL changes for Dwarven list
       indexUrl: https://github.com/BSData/warlords-of-erehwon/releases/latest/download/warlords-of-erehwon.latest.bsi
       repositoryUrl: https://github.com/BSData/warlords-of-erehwon/releases/latest/download/warlords-of-erehwon.catpkg.json

@@ -19,7 +19,7 @@ cache:
       description: Warmachine Hordes
       battleScribeVersion: 
       version: v1.1.6
-      lastUpdated: 2016-03-16T21:32:18.0000000Z
+      lastUpdated: 2016-03-16T21:32:18.0000000+00:00
       lastUpdateDescription: Added missing units in Protectorate
       indexUrl: https://github.com/BSData/warmahordes/releases/latest/download/warmahordes.latest.bsi
       repositoryUrl: https://github.com/BSData/warmahordes/releases/latest/download/warmahordes.catpkg.json

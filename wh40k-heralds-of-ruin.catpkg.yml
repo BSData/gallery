@@ -19,7 +19,7 @@ cache:
       description: 'Warhammer 40,000: Heralds of Ruin 8th Edition'
       battleScribeVersion: "2.01"
       version: v3.0.4
-      lastUpdated: 2018-07-11T18:05:42.0000000Z
+      lastUpdated: 2018-07-11T18:05:42.0000000+00:00
       lastUpdateDescription: Repo Rename - Nothing to see here.
       indexUrl: https://github.com/BSData/wh40k-heralds-of-ruin/releases/latest/download/wh40k-heralds-of-ruin.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-heralds-of-ruin/releases/latest/download/wh40k-heralds-of-ruin.catpkg.json

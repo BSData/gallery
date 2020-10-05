@@ -19,7 +19,7 @@ cache:
       description: XCOM Multiplayer
       battleScribeVersion: 1.14b
       version: 0.0.1
-      lastUpdated: 2014-11-11T11:53:02.0000000Z
+      lastUpdated: 2014-11-11T11:53:02.0000000+00:00
       lastUpdateDescription: Initial release
       indexUrl: https://github.com/BSData/xcom/releases/latest/download/xcom.latest.bsi
       repositoryUrl: https://github.com/BSData/xcom/releases/latest/download/xcom.catpkg.json

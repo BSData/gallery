@@ -19,7 +19,7 @@ cache:
       description: War Of The Ring
       battleScribeVersion: "2.01"
       version: v1.0.1
-      lastUpdated: 2017-08-25T07:15:17.0000000Z
+      lastUpdated: 2017-08-25T07:15:17.0000000+00:00
       lastUpdateDescription: Fixed Gundabad Blackshields
       indexUrl: https://github.com/BSData/war-of-the-ring/releases/latest/download/war-of-the-ring.latest.bsi
       repositoryUrl: https://github.com/BSData/war-of-the-ring/releases/latest/download/war-of-the-ring.catpkg.json

@@ -19,7 +19,7 @@ cache:
       description: 'Trinity: Battleground'
       battleScribeVersion: "2.01"
       version: v1.0.0
-      lastUpdated: 2018-12-14T05:30:18.0000000Z
+      lastUpdated: 2018-12-14T05:30:18.0000000+00:00
       lastUpdateDescription: 1st Release
       indexUrl: https://github.com/BSData/trinity-battleground/releases/latest/download/trinity-battleground.latest.bsi
       repositoryUrl: https://github.com/BSData/trinity-battleground/releases/latest/download/trinity-battleground.catpkg.json

@@ -19,7 +19,7 @@ cache:
       description: Wild West Exodus
       battleScribeVersion: "2.02"
       version: 2.1.4
-      lastUpdated: 2019-05-18T12:22:20.0000000Z
+      lastUpdated: 2019-05-18T12:22:20.0000000+00:00
       lastUpdateDescription: Warrior Nation Units
       indexUrl: https://github.com/BSData/Wild-West-Exodus/releases/latest/download/Wild-West-Exodus.latest.bsi
       repositoryUrl: https://github.com/BSData/Wild-West-Exodus/releases/latest/download/Wild-West-Exodus.catpkg.json
