@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 04 Oct 2020 18:54:20 GMT
+      LastModified: Mon, 05 Oct 2020 18:33:42 GMT
     properties:
-      tag_name: v14.100
-      name: Allies Detachment Restrictions
-      published_at: 2020-10-04T18:54:20.0000000+00:00
+      tag_name: v14.200
+      name: Several fixes and other things.
+      published_at: 2020-10-05T18:33:42.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.100
-      lastUpdated: 2020-10-04T18:30:59.0000000+00:00
-      lastUpdateDescription: Allies Detachment Restrictions
+      version: v14.200
+      lastUpdated: 2020-10-05T18:32:20.0000000+00:00
+      lastUpdateDescription: Several fixes and other things.
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.100/horus-heresy.v14.100.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.200/horus-heresy.v14.200.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
