@@ -9,8 +9,7 @@ function Get-BsdataGalleryCatpkg {
   )
   $entries = Get-ChildItem $IndexPath *.catpkg.yml
   | Sort-Object Name
-  | Get-Content -Raw
-  | ConvertFrom-Yaml -Ordered
+  | ForEach-Object { Get-Content $_ -Raw | ConvertFrom-Yaml -Ordered }
   | Where-Object { $null -ne $_.cache.catpkg.properties }
   $galleryJsonContent = [ordered]@{
     '$schema'           = 'https://raw.githubusercontent.com/BSData/schemas/master/src/catpkg.schema.json'
