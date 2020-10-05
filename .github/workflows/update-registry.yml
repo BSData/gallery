@@ -39,7 +39,7 @@ jobs:
           script: |
             $repos = @($env:UPDATE_JSON | ConvertFrom-Json)
             $adds = $repos.add | Where-Object { $_ } | ForEach-Object { "- add $($_.html_url)`n" }
-            $dels = $repos.del | Where-Object { $_ } | ForEach-Object { "- rem $($_.html_url)`n" }
+            $dels = $repos.del | Where-Object { $_ } | ForEach-Object { "- rem $($_.html_url) *($($_.del_reason))*`n" }
             @{
               count = $repos.count
               pr_body_repo_list = -join @($adds + $dels)

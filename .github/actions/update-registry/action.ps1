@@ -60,7 +60,7 @@ $reposNoLongerExisting = $regEntries | Where-Object {
   if ($reponame -match "^$parentOrgName/" -and $reponame -notin $orgRepoNames) {
     # we've not got it in API response and it's from requested org,
     # so it doesn't meet search criteria (e.g. no 'battlescribe-data' topic)
-    Write-Verbose "delete $reponame (reason: not in org repos query result)"
+    $_.del_reason = "not found in org repos query results"
     return $true
   }
   # ping repo is available
@@ -73,13 +73,14 @@ $reposNoLongerExisting = $regEntries | Where-Object {
   $null = Invoke-RestMethod @apiRepoGetArgs
   $notFound = $status -eq 404
   if ($notFound) {
-    Write-Verbose "delete $reponame (reason: not found - HTTP 404)"
+    $_.del_reason = "repository not found (404)"
   }
   return $notFound
 }
 foreach ($repo in $reposNoLongerExisting) {
   $filepath = $repo.file
-  Write-Verbose "Deleting $filepath"
+  $reason = $repo.del_reason
+  Write-Verbose "Deleting $filepath (reason: $reason)"
   Remove-Item $filepath -Force
 }
 return @{
@@ -91,6 +92,7 @@ return @{
         name      = ($reponame -split '/')[0]
         full_name = $reponame
         html_url  = "https://github.com/$reponame"
+        reason    = $_.del_reason
       }
     })
 }
