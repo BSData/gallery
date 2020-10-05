@@ -305,7 +305,9 @@ function Update-BsdataGalleryIndex {
     Write-Verbose "Saving updated cache."
     $index.cache = $cache
     $indexYmlPath = (Join-Path $IndexPath $_.name)
-    $index | ConvertTo-Yaml | Set-Content $indexYmlPath -Force
+    # roundtip yaml to workaround DateTime parsing issue: https://github.com/cloudbase/powershell-yaml/issues/69
+    # (this is only ok because GitHub API returns all timestampts in UTC and GitHub Actions runners also run in UTC time)
+    $index | ConvertTo-Yaml | ConvertFrom-Yaml -Ordered | ConvertTo-Yaml | Set-Content $indexYmlPath -Force
     Write-Verbose "Entry updated."
 
     return $index
