@@ -10,12 +10,12 @@ on:
       - ".github/workflows/update-index.yml"
       - ".github/actions/update-index/**"
 
+env:
+  GALLERY_JSON: bsdata.catpkg-gallery.json
+  RELEASE_TAG: index-v1
 jobs:
   update:
     runs-on: ubuntu-latest
-    env:
-      GALLERY_JSON: bsdata.catpkg-gallery.json
-      RELEASE_TAG: index-v1
     steps:
       - name: Checkout master
         uses: actions/checkout@v2
@@ -47,7 +47,7 @@ jobs:
 
       - name: Upload gallery-json as workflow artifact
         if: success() || failure()
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: ${{ env.GALLERY_JSON }}
           path: ${{ env.GALLERY_JSON }}
@@ -97,13 +97,21 @@ jobs:
 
             Set-ActionOutput pushed true
 
-      - name: Get release upload_url (and delete old asset if found)
-        uses: actions/github-script@0.4.0
-        if: steps.push.outputs.pushed
-        id: get-upload-url
+    outputs:
+      pushed: ${{ steps.push.outputs.pushed }}
+
+  push:
+    runs-on: ubuntu-latest
+    needs: update
+    if: ${{ needs.update.outputs.pushed == 'true' }}
+    steps:
+      - uses: actions/download-artifact@v2
         with:
-          github-token: ${{ github.token }}
-          result-encoding: string
+          name: ${{ env.GALLERY_JSON }}
+
+      - name: Replace ${{ env.GALLERY_JSON }} release asset
+        uses: actions/github-script@v3
+        with:
           script: |
             const { data: release } = await github.repos.getReleaseByTag({
               ...context.repo,
@@ -119,16 +127,14 @@ jobs:
                 asset_id: previousIndex.id
               });
             }
+            // upload the file
+            const fs = require('fs');
+            const upload = await github.repos.uploadReleaseAsset({
+              ...context.repo,
+              release_id: release.id,
+              name: assetName,
+              data: fs.readFileSync(assetName),
+              headers: { 'content-type': 'application/json', 'content-length': fs.statSync(assetName).size }
+            })
             console.log('Done');
-            return release.upload_url;
-
-      - name: Upload gallery index
-        uses: actions/upload-release-asset@v1.0.1
-        if: steps.push.outputs.pushed
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-        with:
-          upload_url: ${{ steps.get-upload-url.outputs.result }}
-          asset_path: ${{ env.GALLERY_JSON }}
-          asset_name: ${{ env.GALLERY_JSON }}
-          asset_content_type: application/json
+            return upload;
