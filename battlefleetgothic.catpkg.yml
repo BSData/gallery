@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 23 Jun 2020 14:40:58 GMT
+      LastModified: Tue, 06 Oct 2020 00:21:18 GMT
     properties:
-      tag_name: v2.4.2
-      name: Armada Imperialis Fixes
-      published_at: 2020-06-23T14:40:58.0000000+00:00
+      tag_name: v2.4.4
+      name: Brought to you by DnDTonight.com
+      published_at: 2020-10-06T00:21:18.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
-      battleScribeVersion: "2.02"
-      version: v2.4.2
-      lastUpdated: 2020-06-23T14:39:50.0000000+00:00
-      lastUpdateDescription: Armada Imperialis Fixes
+      battleScribeVersion: "2.03"
+      version: v2.4.4
+      lastUpdated: 2020-10-05T23:35:30.0000000+00:00
+      lastUpdateDescription: Brought to you by DnDTonight.com
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.4.2/battlefleetgothic.v2.4.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.4.4/battlefleetgothic.v2.4.4.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
