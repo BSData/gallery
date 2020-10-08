@@ -1,0 +1,30 @@
+location:
+  github: andreanespeca/StarBreach
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sat, 03 Oct 2020 19:45:04 GMT
+    properties:
+      tag_name: v1.1.0
+      name: Second Release
+      published_at: 2020-10-03T19:45:04.0000000+00:00
+  catpkg:
+    properties:
+      name: StarBreach
+      description: StarBreach Skirmish Game
+      battleScribeVersion: "2.03"
+      version: v1.1.0
+      lastUpdated: 2020-10-02T12:37:45.0000000+00:00
+      lastUpdateDescription: Second Release
+      indexUrl: https://github.com/andreanespeca/StarBreach/releases/latest/download/StarBreach.latest.bsi
+      repositoryUrl: https://github.com/andreanespeca/StarBreach/releases/latest/download/StarBreach.catpkg.json
+      repositoryGzipUrl: https://github.com/andreanespeca/StarBreach/releases/latest/download/StarBreach.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/andreanespeca/StarBreach/releases/download/v1.1.0/StarBreach.v1.1.0.bsr
+      githubUrl: https://github.com/andreanespeca/StarBreach
+      feedUrl: https://github.com/andreanespeca/StarBreach/releases.atom
+      bugTrackerUrl: https://github.com/andreanespeca/StarBreach/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/StarBreach
+

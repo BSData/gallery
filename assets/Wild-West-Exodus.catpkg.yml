@@ -1,0 +1,32 @@
+location:
+  github: BSData/Wild-West-Exodus
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sat, 18 May 2019 12:25:13 GMT
+    properties:
+      tag_name: 2.1.4
+      name: Warrior Nation Units
+      published_at: 2019-05-18T12:25:13.0000000+00:00
+  catpkg:
+    apiResponseError:
+      code: 404
+    properties:
+      name: Wild-West-Exodus
+      description: Wild West Exodus
+      battleScribeVersion: "2.02"
+      version: 2.1.4
+      lastUpdated: 2019-05-18T12:22:20.0000000+00:00
+      lastUpdateDescription: Warrior Nation Units
+      indexUrl: https://github.com/BSData/Wild-West-Exodus/releases/latest/download/Wild-West-Exodus.latest.bsi
+      repositoryUrl: https://github.com/BSData/Wild-West-Exodus/releases/latest/download/Wild-West-Exodus.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/Wild-West-Exodus/releases/latest/download/Wild-West-Exodus.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/Wild-West-Exodus/releases/download/2.1.4/Wild-West-Exodus.2.1.4.bsr
+      githubUrl: https://github.com/BSData/Wild-West-Exodus
+      feedUrl: https://github.com/BSData/Wild-West-Exodus/releases.atom
+      bugTrackerUrl: https://github.com/BSData/Wild-West-Exodus/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/Wild-West-Exodus
+

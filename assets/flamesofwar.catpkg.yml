@@ -1,0 +1,28 @@
+location:
+  github: BSData/flamesofwar
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Fri, 29 May 2020 04:25:15 GMT
+    properties:
+      tag_name: 1.1.12
+      name: Iron Cross Released
+      published_at: 2020-05-29T04:25:15.0000000+00:00
+  catpkg:
+    properties:
+      name: flamesofwar
+      description: Flames of War
+      battleScribeVersion: "2.03"
+      version: 1.1.12
+      lastUpdated: 2020-05-29T04:25:15.0000000+00:00
+      lastUpdateDescription: Iron Cross Released
+      indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
+      repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
+      githubUrl: https://github.com/BSData/flamesofwar
+      feedUrl: https://github.com/BSData/flamesofwar/releases.atom
+      bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/flamesofwar
+

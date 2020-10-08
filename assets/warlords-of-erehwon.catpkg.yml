@@ -1,0 +1,32 @@
+location:
+  github: BSData/warlords-of-erehwon
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Mon, 24 Feb 2020 10:28:07 GMT
+    properties:
+      tag_name: v1.5.8
+      name: QoL changes for Dwarven list
+      published_at: 2020-02-24T10:28:07.0000000+00:00
+  catpkg:
+    apiResponseError:
+      code: 404
+    properties:
+      name: warlords-of-erehwon
+      description: Warlords of Erehwon
+      battleScribeVersion: "2.03"
+      version: v1.5.8
+      lastUpdated: 2020-02-24T10:24:14.0000000+00:00
+      lastUpdateDescription: QoL changes for Dwarven list
+      indexUrl: https://github.com/BSData/warlords-of-erehwon/releases/latest/download/warlords-of-erehwon.latest.bsi
+      repositoryUrl: https://github.com/BSData/warlords-of-erehwon/releases/latest/download/warlords-of-erehwon.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warlords-of-erehwon/releases/latest/download/warlords-of-erehwon.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warlords-of-erehwon/releases/download/v1.5.8/warlords-of-erehwon.v1.5.8.bsr
+      githubUrl: https://github.com/BSData/warlords-of-erehwon
+      feedUrl: https://github.com/BSData/warlords-of-erehwon/releases.atom
+      bugTrackerUrl: https://github.com/BSData/warlords-of-erehwon/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warlords-of-erehwon
+

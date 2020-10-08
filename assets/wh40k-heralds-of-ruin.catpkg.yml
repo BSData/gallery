@@ -1,0 +1,32 @@
+location:
+  github: BSData/wh40k-heralds-of-ruin
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Wed, 11 Jul 2018 18:12:27 GMT
+    properties:
+      tag_name: v3.0.4
+      name: Repo Rename - Nothing to see here.
+      published_at: 2018-07-11T18:12:27.0000000+00:00
+  catpkg:
+    apiResponseError:
+      code: 404
+    properties:
+      name: wh40k-heralds-of-ruin
+      description: 'Warhammer 40,000: Heralds of Ruin 8th Edition'
+      battleScribeVersion: "2.01"
+      version: v3.0.4
+      lastUpdated: 2018-07-11T18:05:42.0000000+00:00
+      lastUpdateDescription: Repo Rename - Nothing to see here.
+      indexUrl: https://github.com/BSData/wh40k-heralds-of-ruin/releases/latest/download/wh40k-heralds-of-ruin.latest.bsi
+      repositoryUrl: https://github.com/BSData/wh40k-heralds-of-ruin/releases/latest/download/wh40k-heralds-of-ruin.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/wh40k-heralds-of-ruin/releases/latest/download/wh40k-heralds-of-ruin.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/wh40k-heralds-of-ruin/releases/download/v3.0.4/wh40k-heralds-of-ruin.v3.0.4.bsr
+      githubUrl: https://github.com/BSData/wh40k-heralds-of-ruin
+      feedUrl: https://github.com/BSData/wh40k-heralds-of-ruin/releases.atom
+      bugTrackerUrl: https://github.com/BSData/wh40k-heralds-of-ruin/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-heralds-of-ruin
+

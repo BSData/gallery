@@ -1,0 +1,30 @@
+location:
+  github: BSData/boltaction
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Wed, 24 Jul 2019 06:09:00 GMT
+    properties:
+      tag_name: "5.02"
+      name: Added compulsory units
+      published_at: 2019-07-24T06:09:00.0000000+00:00
+  catpkg:
+    properties:
+      name: boltaction
+      description: Bolt Action
+      battleScribeVersion: 
+      version: "5.02"
+      lastUpdated: 2019-07-24T06:02:36.0000000+00:00
+      lastUpdateDescription: Added compulsory units
+      indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
+      repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/5.02/boltaction.5.02.bsr
+      githubUrl: https://github.com/BSData/boltaction
+      feedUrl: https://github.com/BSData/boltaction/releases.atom
+      bugTrackerUrl: https://github.com/BSData/boltaction/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/boltaction
+

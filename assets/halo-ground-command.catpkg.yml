@@ -1,0 +1,30 @@
+location:
+  github: BSData/halo-ground-command
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Mon, 18 Sep 2017 18:39:38 GMT
+    properties:
+      tag_name: V1.70
+      name: New Air Support options
+      published_at: 2017-09-18T18:39:38.0000000+00:00
+  catpkg:
+    properties:
+      name: halo-ground-command
+      description: 'Halo: Ground Command'
+      battleScribeVersion: "2.01"
+      version: V1.70
+      lastUpdated: 2017-09-18T18:37:32.0000000+00:00
+      lastUpdateDescription: New Air Support options
+      indexUrl: https://github.com/BSData/halo-ground-command/releases/latest/download/halo-ground-command.latest.bsi
+      repositoryUrl: https://github.com/BSData/halo-ground-command/releases/latest/download/halo-ground-command.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/halo-ground-command/releases/latest/download/halo-ground-command.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/halo-ground-command/releases/download/V1.70/halo-ground-command.V1.70.bsr
+      githubUrl: https://github.com/BSData/halo-ground-command
+      feedUrl: https://github.com/BSData/halo-ground-command/releases.atom
+      bugTrackerUrl: https://github.com/BSData/halo-ground-command/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/halo-ground-command
+

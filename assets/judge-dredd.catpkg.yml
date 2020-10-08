@@ -1,0 +1,30 @@
+location:
+  github: BSData/judge-dredd
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Tue, 25 Aug 2020 18:26:29 GMT
+    properties:
+      tag_name: "2.2"
+      name: Catalogue and Main additions
+      published_at: 2020-08-25T18:26:29.0000000+00:00
+  catpkg:
+    properties:
+      name: judge-dredd
+      description: Judge Dredd
+      battleScribeVersion: "2.03"
+      version: "2.2"
+      lastUpdated: 2020-08-25T18:17:34.0000000+00:00
+      lastUpdateDescription: Catalogue and Main additions
+      indexUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.latest.bsi
+      repositoryUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/judge-dredd/releases/download/2.2/judge-dredd.2.2.bsr
+      githubUrl: https://github.com/BSData/judge-dredd
+      feedUrl: https://github.com/BSData/judge-dredd/releases.atom
+      bugTrackerUrl: https://github.com/BSData/judge-dredd/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/judge-dredd
+

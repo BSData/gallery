@@ -1,0 +1,13 @@
+location:
+  github: BSData/volkskrieg
+cache:
+  repo:
+    apiHeaders:
+      LastModified: Thu, 21 May 2020 14:05:35 GMT
+    properties:
+      archived: true
+  latestRelease:
+    apiResponseError:
+      code: 404
+  catpkg: {}
+
