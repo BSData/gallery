@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 09 Oct 2020 05:29:25 GMT
+      LastModified: Sat, 10 Oct 2020 04:41:12 GMT
     properties:
-      tag_name: 2.4.6
-      name: Fleet lists added to similar to 40k detachments.
-      published_at: 2020-10-09T05:29:25.0000000+00:00
+      tag_name: 2.4.7
+      name: Major update brought to you by DnDTonight.com
+      published_at: 2020-10-10T04:41:12.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: 2.4.6
-      lastUpdated: 2020-10-09T05:25:41.0000000+00:00
-      lastUpdateDescription: Fleet lists added to similar to 40k detachments.
+      version: 2.4.7
+      lastUpdated: 2020-10-10T03:23:52.0000000+00:00
+      lastUpdateDescription: Major update brought to you by DnDTonight.com
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/2.4.6/battlefleetgothic.2.4.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/2.4.7/battlefleetgothic.2.4.7.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
