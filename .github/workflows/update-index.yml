@@ -180,7 +180,7 @@ jobs:
             $subpath = "dataindex"
             $args = @{
               IndexPath = Resolve-Path ./index
-              DataPath = Resolve-Path (New-Item ""./gh-pages/$subpath" -ItemType Directory -Force)
+              DataPath = Resolve-Path (New-Item "./gh-pages/$subpath" -ItemType Directory -Force)
               DataBaseUrl = "https://$owner.github.io/$repo/$subpath"
               GalleryJsonPath = $env:GALLERY_JSON
               ChangedIndexPath = $compileResult.changed_index_paths
