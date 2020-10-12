@@ -14,7 +14,7 @@ env:
   GALLERY_JSON: bsdata.catpkg-gallery.json
   RELEASE_TAG: index-v1
 jobs:
-  update:
+  update-index:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
@@ -32,7 +32,7 @@ jobs:
       - uses: ./master/.github/actions/install-yaml
 
       - name: Compile index
-        uses: Amadevus/pwsh-script@v1
+        uses: Amadevus/pwsh-script@v2
         id: compile
         with:
           script: |
@@ -54,7 +54,7 @@ jobs:
         continue-on-error: true
 
       - name: Commit and push any index changes
-        uses: Amadevus/pwsh-script@v1
+        uses: Amadevus/pwsh-script@v2
         id: push
         with:
           script: |
@@ -73,7 +73,7 @@ jobs:
             $pkgids = @((git status --porcelain | % { $_.Substring(3) } | Split-Path -Leaf) -replace '\.catpkg\.yml$','')
             if ($pkgids.Length -eq 0) {
               Write-Host 'No changes in the index' -ForegroundColor Green
-              return
+              return $false
             }
 
             # create commit message
@@ -95,15 +95,16 @@ jobs:
             Invoke-Native { git commit -F ../commit.txt }
             Invoke-Native { git push }
 
-            Set-ActionOutput pushed true
+            return $true
 
     outputs:
-      pushed: ${{ steps.push.outputs.pushed }}
+      pushed: ${{ steps.push.outputs.result }}
+      compile_result: ${{ steps.compile.outputs.result }}
 
-  push:
+  push-release-asset:
     runs-on: ubuntu-latest
-    needs: update
-    if: ${{ needs.update.outputs.pushed == 'true' }}
+    needs: update-index
+    if: ${{ needs.update-index.outputs.pushed == 'true' }}
     steps:
       - uses: actions/download-artifact@v2
         with:
@@ -138,3 +139,56 @@ jobs:
             })
             console.log('Done');
             return upload;
+
+  update-gh-pages-dataindex:
+    runs-on: ubuntu-latest
+    needs: update-index
+    if: ${{ needs.update-index.outputs.pushed == 'true' }}
+    steps:
+      - name: Checkout master
+        uses: actions/checkout@v2
+        with:
+          ref: master
+          path: master
+
+      - uses: actions/download-artifact@v2
+      - name: Checkout gh-pages
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Checkout index
+        uses: actions/checkout@v2
+        with:
+          ref: index
+          path: index
+
+      - uses: ./master/.github/actions/install-yaml
+
+      - name: Update dataindex
+        uses: Amadevus/pwsh-script@v2
+        id: update
+        env:
+          COMPILE_RESULT: ${{ needs.update-index.outputs.compile_result }}
+        with:
+          script: |
+            $ErrorActionPreference = 'Stop'
+            $compileResult = $env:COMPILE_RESULT | ConvertFrom-Json
+            $owner, $repo = $github.repository -split '/'
+            $subpath = "dataindex"
+            $args = @{
+              IndexPath = Resolve-Path ./index
+              DataPath = Resolve-Path (New-Item ""./gh-pages/$subpath" -ItemType Directory -Force)
+              DataBaseUrl = "https://$owner.github.io/$repo/$subpath"
+              GalleryJsonPath = $env:GALLERY_JSON
+              ChangedIndexPath = $compileResult.changed_index_paths
+              Token = $github.token
+            }
+            ./master/.github/actions/gh-pages/action.ps1 @args -Verbose
+
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: ":robot: update data index"
+          repository: gh-pages
