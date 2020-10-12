@@ -30,17 +30,20 @@ param (
 #Requires -Version 7
 #Requires -Module powershell-yaml
 
-$caches = Get-ChildItem $IndexPath *.catpkg.yml
-
-Write-Verbose "Catpkg data - processing..."
-foreach ($cacheFile in $caches) {
+filter Update-DataEntry {
+    [CmdletBinding()]
+    param (
+        [Parameter(ValueFromPipeline)]
+        [System.IO.FileInfo] $InputObject
+    )
+    $cacheFile = $InputObject
     $name = $cacheFile.Name.Replace(".catpkg.yml", "").ToLowerInvariant()
     $cacheYml = Get-Content $cacheFile -Raw | ConvertFrom-Yaml -Ordered
     $repository = $cacheYml.location.github
     Write-Verbose "$repository - processing..."
     if (!$cacheYml.cache.catpkg.properties) {
         Write-Verbose "$repository skipped - no catpkg cache data."
-        continue
+        return
     }
     $props = $cacheYml.cache.catpkg.properties
     # calculate hash of cache yaml file
@@ -56,17 +59,27 @@ foreach ($cacheFile in $caches) {
         $savedSha = Get-Item "$repoBasePath/$cacheShaFilename" -ErrorAction:SilentlyContinue
         if ($cacheYmlSha -eq $savedSha) {
             Write-Verbose "$repository skipped - data index up-to-date with cache"
-            continue
+            return
         }
     }
     # update required
     # save cache hash
     Set-Content "$repoBasePath/$cacheShaFilename" $cacheYmlSha -NoNewline -Force
     # save catpkg.json
-    $null = Invoke-WebRequest $props.repositoryUrl -OutFile "$repoBasePath/$catpkgFilename"
+    try {
+        $null = Invoke-WebRequest $props.repositoryUrl -OutFile "$repoBasePath/$catpkgFilename"
+    } catch {
+        # needed not to print 404 webpage in logs
+        throw $_.Exception.Message
+    }
     $catpkg = Get-Content "$repoBasePath/$catpkgFilename" -Raw | ConvertFrom-Json
     # save repo.bsr
-    $null = Invoke-WebRequest $catpkg.repositoryBsrUrl -OutFile "$repoBasePath/$bsrFilename"
+    try {
+        $null = Invoke-WebRequest $catpkg.repositoryBsrUrl -OutFile "$repoBasePath/$bsrFilename"
+    } catch {
+        # needed not to print 404 webpage in logs
+        throw $_.Exception.Message
+    }
     # patch up catpkg properties to direct to gallery dataindex urls
     . {
         # force name
@@ -82,6 +95,11 @@ foreach ($cacheFile in $caches) {
     }
     Write-Verbose "$repository - data updated."
 }
+
+$caches = Get-ChildItem $IndexPath *.catpkg.yml
+
+Write-Verbose "Catpkg data - processing..."
+$caches | Update-DataEntry
 Write-Verbose "Catpkg data - updated."
 
 # now let's patch and save catpkg-gallery.json
