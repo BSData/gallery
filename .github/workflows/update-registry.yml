@@ -37,7 +37,7 @@ jobs:
           UPDATE_JSON: ${{ steps.update.outputs.result }}
         with:
           script: |
-            $repos = @($env:UPDATE_JSON | ConvertFrom-Json)
+            $repos = $env:UPDATE_JSON | ConvertFrom-Json
             $adds = $repos.add | Where-Object { $_ } | ForEach-Object { "- add $($_.html_url)`n" }
             $dels = $repos.del | Where-Object { $_ } | ForEach-Object { "- rem $($_.html_url) *($($_.del_reason))*`n" }
             @{
