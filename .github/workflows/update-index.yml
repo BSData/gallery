@@ -96,7 +96,8 @@ jobs:
             Invoke-Native { git push }
 
             return $true
-
+      - run: echo "steps.push.outputs.result ${{ steps.push.outputs.result }}"
+      - run: echo "steps.compile.outputs.result ${{ steps.push.compile.result }}"
     outputs:
       pushed: ${{ steps.push.outputs.result }}
       compile_result: ${{ steps.compile.outputs.result }}
