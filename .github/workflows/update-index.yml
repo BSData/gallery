@@ -89,11 +89,11 @@ jobs:
             Get-Content ../commit.txt -Raw | Write-Host
 
             # git operations
-            Invoke-Native { git add -A }
-            Invoke-Native { git config user.email "BSData-bot@users.noreply.github.com" }
-            Invoke-Native { git config user.name "BSData-bot" }
-            Invoke-Native { git commit -F ../commit.txt }
-            Invoke-Native { git push }
+            Invoke-Native { git add -A } | Out-Host
+            Invoke-Native { git config user.email "BSData-bot@users.noreply.github.com" } | Out-Host
+            Invoke-Native { git config user.name "BSData-bot" } | Out-Host
+            Invoke-Native { git commit -F ../commit.txt } | Out-Host
+            Invoke-Native { git push } | Out-Host
 
             return $true
       - run: echo "steps.push.outputs.result ${{ steps.push.outputs.result }}"
