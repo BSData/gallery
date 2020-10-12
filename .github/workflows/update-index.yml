@@ -44,6 +44,8 @@ jobs:
               Token = $github.token
             }
             ./master/.github/actions/compile-index/action.ps1 @buildArgs -Verbose
+            # save master's SHA to associate branches
+            "master-sha: $env:GITHUB_SHA" > index/master-sha.yml
 
       - name: Upload gallery-json as workflow artifact
         if: success() || failure()
@@ -53,63 +55,40 @@ jobs:
           path: ${{ env.GALLERY_JSON }}
         continue-on-error: true
 
-      - name: Commit and push any index changes
+      - name: Format index commit message
         uses: Amadevus/pwsh-script@v2
-        id: push
+        id: format_index_msg
         with:
           script: |
             Set-Location ./index
-            function Invoke-Native ([scriptblock]$native) {
-              $LASTEXITCODE = 0
-              & $native
-              if ($LASTEXITCODE) {
-                throw "Native call failed: $native"
-              }
-            }
-            # save master's SHA to associate branches
-            "master-sha: $env:GITHUB_SHA" > master-sha.yml
-
             # get list of changed files
             $pkgids = @((git status --porcelain | % { $_.Substring(3) } | Split-Path -Leaf) -replace '\.catpkg\.yml$','')
             if ($pkgids.Length -eq 0) {
               Write-Host 'No changes in the index' -ForegroundColor Green
-              return $false
+              return
             }
-
             # create commit message
             $summary = if ($pkgids.Length -eq 1) {
               $pkgids
             } else {
               "{0} (+{1} more)" -f $pkgids[0],($pkgids.Length - 1)
             }
-            @"
+            $message = @"
             Changed: $summary
+
             $($pkgids -join "`n")
-            "@ > ../commit.txt
-            Get-Content ../commit.txt -Raw | Write-Host
+            "@
+            return $message
 
-            # git operations
-            Invoke-Native { git add -A } | Out-Host
-            Invoke-Native { git config user.email "BSData-bot@users.noreply.github.com" } | Out-Host
-            Invoke-Native { git config user.name "BSData-bot" } | Out-Host
-            Invoke-Native { git commit -F ../commit.txt } | Out-Host
-            Invoke-Native { git push } | Out-Host
-
-            return $true
-    outputs:
-      pushed: ${{ steps.push.outputs.result }}
-      compile_result: ${{ steps.compile.outputs.result }}
-
-  push-release-asset:
-    runs-on: ubuntu-latest
-    needs: update-index
-    if: always() && needs.update-index.outputs.pushed == 'true'
-    steps:
-      - uses: actions/download-artifact@v2
+      - name: Push index changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        id: push-index
         with:
-          name: ${{ env.GALLERY_JSON }}
+          commit_message: ":robot: ${{ steps.format_index_msg.outputs.result }}"
+          repository: index
 
       - name: Replace ${{ env.GALLERY_JSON }} release asset
+        if: steps.push-index.outputs.changes_detected == 'true'
         uses: actions/github-script@v3
         with:
           script: |
@@ -139,33 +118,15 @@ jobs:
             console.log('Done');
             return upload;
 
-  update-gh-pages-dataindex:
-    runs-on: ubuntu-latest
-    needs: update-index
-    if: always() && needs.update-index.outputs.pushed == 'true'
-    steps:
-      - name: Checkout master
-        uses: actions/checkout@v2
-        with:
-          ref: master
-          path: master
-
-      - uses: actions/download-artifact@v2
       - name: Checkout gh-pages
+        if: steps.push-index.outputs.changes_detected == 'true'
         uses: actions/checkout@v2
         with:
           ref: gh-pages
           path: gh-pages
 
-      - name: Checkout index
-        uses: actions/checkout@v2
-        with:
-          ref: index
-          path: index
-
-      - uses: ./master/.github/actions/install-yaml
-
       - name: Update dataindex
+        if: steps.push-index.outputs.changes_detected == 'true'
         uses: Amadevus/pwsh-script@v2
         id: update
         env:
@@ -186,7 +147,8 @@ jobs:
             }
             ./master/.github/actions/gh-pages/action.ps1 @args -Verbose
 
-      - name: Push changes
+      - name: Push gh-pages changes
+        if: steps.push-index.outputs.changes_detected == 'true'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: ":robot: update data index"
