@@ -1,7 +1,7 @@
 name: Update registry
 on:
   schedule:
-    - cron: "0 10 * * *" # at 10
+    - cron: "0 9 * * *" # at 9:00
   push:
     branches:
       - master
