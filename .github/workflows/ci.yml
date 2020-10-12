@@ -26,4 +26,4 @@ jobs:
               Write-Host "Changed files:"
               $entries | Out-Host
             }
-            ./.github/actions/validate-registry/action.ps1 -Entries $entries -Token $github.token
+            ./.github/scripts/Validate-Registry.ps1 -Entries $entries -Token $github.token

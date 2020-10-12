@@ -7,7 +7,7 @@ on:
       - master
     paths:
       - ".github/workflows/update-registry.yml"
-      - ".github/actions/update-registry/**"
+      - ".github/scripts/**"
 
 jobs:
   update:
@@ -24,11 +24,11 @@ jobs:
         with:
           script: |
             $ErrorActionPreference = 'Stop'
-            $actionArgs = @{
+            $args = @{
               RegistryPath = Resolve-Path ./registry
               Token = $github.token
             }
-            ./.github/actions/update-registry/action.ps1 @actionArgs -Verbose
+            ./.github/scripts/Update-Registry.ps1 @args -Verbose
 
       - name: Format PR text
         uses: Amadevus/pwsh-script@v2

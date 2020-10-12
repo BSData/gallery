@@ -8,7 +8,7 @@ on:
     paths:
       - "registry/**"
       - ".github/workflows/update-index.yml"
-      - ".github/actions/update-index/**"
+      - ".github/scripts/**"
 
 env:
   GALLERY_JSON: bsdata.catpkg-gallery.json
@@ -37,13 +37,13 @@ jobs:
         with:
           script: |
             $ErrorActionPreference = 'Stop'
-            $buildArgs = @{
+            $args = @{
               IndexPath = Resolve-Path ./index
               RegistryPath = Resolve-Path ./master/registry
               GalleryJsonPath = $env:GALLERY_JSON
               Token = $github.token
             }
-            ./master/.github/actions/compile-index/action.ps1 @buildArgs -Verbose
+            ./master/.github/scripts/Update-IndexCache.ps1 @args -Verbose
             # save master's SHA to associate branches
             "master-sha: $env:GITHUB_SHA" > index/master-sha.yml
 
@@ -145,7 +145,7 @@ jobs:
               ChangedIndexPath = $compileResult.changed_index_paths
               Token = $github.token
             }
-            ./master/.github/actions/gh-pages/action.ps1 @args -Verbose
+            ./master/.github/scripts/Update-GhPagesData.ps1 @args -Verbose
 
       - name: Push gh-pages changes
         if: steps.push-index.outputs.changes_detected == 'true'
