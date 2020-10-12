@@ -120,7 +120,7 @@ Consider adding necessary workflows by adding a comment with first line like:
     # there are *any* workflows, let's check which are missing
     $existingWorkflows = @(($workflows | Where-Object { $_.type -eq 'file' }).name)
     $missingWorkflows = @(
-      'ci.yml',
+      # 'ci.yml',
       # 'chatops.yml',
       'publish-catpkg.yml'
     ) | Where-Object { $_ -notin $existingWorkflows }
