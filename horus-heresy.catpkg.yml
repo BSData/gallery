@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 10 Oct 2020 13:30:07 GMT
+      LastModified: Wed, 14 Oct 2020 09:38:33 GMT
     properties:
-      tag_name: v14.202
-      name: Dark Angel fixes
-      published_at: 2020-10-10T13:30:07.0000000+00:00
+      tag_name: v14.203
+      name: Mighty Update 600 for Legions!
+      published_at: 2020-10-14T09:38:17.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.202
-      lastUpdated: 2020-10-10T13:28:49.0000000+00:00
-      lastUpdateDescription: Dark Angel fixes
+      version: v14.203
+      lastUpdated: 2020-10-14T09:37:41.0000000+00:00
+      lastUpdateDescription: Mighty Update 600!
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.202/horus-heresy.v14.202.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.203/horus-heresy.v14.203.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
