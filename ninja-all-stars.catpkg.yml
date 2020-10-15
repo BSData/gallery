@@ -2,8 +2,10 @@ location:
   github: BSData/ninja-all-stars
 cache:
   repo:
+    apiHeaders:
+      LastModified: Thu, 15 Oct 2020 10:51:47 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Fri, 19 Feb 2016 18:37:53 GMT

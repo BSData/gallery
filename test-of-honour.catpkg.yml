@@ -2,8 +2,10 @@ location:
   github: BSData/test-of-honour
 cache:
   repo:
+    apiHeaders:
+      LastModified: Thu, 15 Oct 2020 11:26:51 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Sat, 25 Aug 2018 08:00:48 GMT

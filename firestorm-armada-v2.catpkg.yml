@@ -2,8 +2,10 @@ location:
   github: BSData/Firestorm-Armada-v2
 cache:
   repo:
+    apiHeaders:
+      LastModified: Thu, 15 Oct 2020 11:02:41 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Wed, 18 Jan 2017 20:06:30 GMT
