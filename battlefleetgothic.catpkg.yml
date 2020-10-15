@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 11 Oct 2020 06:38:10 GMT
+      LastModified: Thu, 15 Oct 2020 03:46:22 GMT
     properties:
-      tag_name: 2.4.8
-      name: Major update brought to you by DnDTonight.com
-      published_at: 2020-10-11T06:38:10.0000000+00:00
+      tag_name: 2.4.9
+      name: Brought to you by DnDTonight.com
+      published_at: 2020-10-15T03:46:22.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: 2.4.8
-      lastUpdated: 2020-10-11T06:37:01.0000000+00:00
-      lastUpdateDescription: Major update brought to you by DnDTonight.com
+      version: 2.4.9
+      lastUpdated: 2020-10-15T03:43:22.0000000+00:00
+      lastUpdateDescription: Brought to you by DnDTonight.com
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/2.4.8/battlefleetgothic.2.4.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/2.4.9/battlefleetgothic.2.4.9.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
