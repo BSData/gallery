@@ -2,8 +2,10 @@ location:
   github: BSData/avp-unleashed
 cache:
   repo:
+    apiHeaders:
+      LastModified: Thu, 15 Oct 2020 14:16:17 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Tue, 28 Aug 2018 21:32:44 GMT
