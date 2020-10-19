@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 16 Oct 2020 17:55:54 GMT
+      LastModified: Mon, 19 Oct 2020 19:24:38 GMT
     properties:
-      tag_name: v14.206
-      name: Lion fix
-      published_at: 2020-10-16T17:55:54.0000000+00:00
+      tag_name: v14.207
+      name: Command Units (Sorry about another change)
+      published_at: 2020-10-19T19:24:38.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.206
+      version: v14.207
       lastUpdated: 2020-10-16T17:55:26.0000000+00:00
-      lastUpdateDescription: Lion fix
+      lastUpdateDescription: Command Units (Sorry about another change)
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.206/horus-heresy.v14.206.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.207/horus-heresy.v14.207.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
