@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 19 Oct 2020 19:24:38 GMT
+      LastModified: Tue, 27 Oct 2020 11:56:59 GMT
     properties:
-      tag_name: v14.207
-      name: Command Units (Sorry about another change)
-      published_at: 2020-10-19T19:24:38.0000000+00:00
+      tag_name: v14.208
+      name: Command Squad fix (actually applied this time) and some other stuff.
+      published_at: 2020-10-27T11:56:59.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.207
-      lastUpdated: 2020-10-16T17:55:26.0000000+00:00
-      lastUpdateDescription: Command Units (Sorry about another change)
+      version: v14.208
+      lastUpdated: 2020-10-27T11:55:23.0000000+00:00
+      lastUpdateDescription: Command Squad fix (actually applied this time) and some other stuff.
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.207/horus-heresy.v14.207.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.208/horus-heresy.v14.208.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
