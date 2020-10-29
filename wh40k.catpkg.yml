@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 25 Oct 2020 22:27:04 GMT
+      LastModified: Thu, 29 Oct 2020 18:06:31 GMT
     properties:
-      tag_name: v9.0.24
-      name: Announcement of a Release date! We plan to release the boys in blue and shiny robot upgrades this coming Thursday, 29 October! Expect bugs. And things to break ... Really ... expect a lot of things to break.
-      published_at: 2020-10-25T22:27:04.0000000+00:00
+      tag_name: v9.1.0
+      name: "\U0001F4E3 \U0001F4D6 \U0001F9CD \U0001F916 \U0001F4D6 \U0001F4E3 \U0001F4D6 \U0001F9CD \U0001F916 \U0001F4D6 \U0001F4E3 \U0001F99F ❓ ❔"
+      published_at: 2020-10-29T18:03:25.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.0.24
-      lastUpdated: 2020-10-01T19:57:16.0000000+00:00
-      lastUpdateDescription: Announcement of a Release date! We plan to release the boys in blue and shiny robot upgrades this coming Thursday, 29 October! Expect bugs. And things to break ... Really ... expect a lot of things to break.
+      version: v9.1.0
+      lastUpdated: 2020-10-29T17:38:21.0000000+00:00
+      lastUpdateDescription: "\U0001F4E3 \U0001F4D6 \U0001F9CD \U0001F916 \U0001F4D6 \U0001F4E3 \U0001F4D6 \U0001F9CD \U0001F916 \U0001F4D6 \U0001F4E3 \U0001F99F ❓ ❔"
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.0.24/wh40k.v9.0.24.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.0/wh40k.v9.1.0.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
