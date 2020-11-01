@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 18 Oct 2020 01:50:50 GMT
+      LastModified: Sun, 01 Nov 2020 03:01:18 GMT
     properties:
-      tag_name: 1.7.2
-      name: Kingpin expansion added
-      published_at: 2020-10-18T01:50:50.0000000+00:00
+      tag_name: 1.7.3
+      name: Daredevil and Punisher expansions added
+      published_at: 2020-11-01T03:01:18.0000000+00:00
   catpkg:
     properties:
       name: marvel-crisis-protocol
       description: Marvel Crisis Protocol
       battleScribeVersion: "2.03"
-      version: 1.7.2
-      lastUpdated: 2020-10-18T01:46:43.0000000+00:00
-      lastUpdateDescription: Kingpin expansion added
+      version: 1.7.3
+      lastUpdated: 2020-11-01T02:59:09.0000000+00:00
+      lastUpdateDescription: Daredevil and Punisher expansions added
       indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
       repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/1.7.2/marvel-crisis-protocol.1.7.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/1.7.3/marvel-crisis-protocol.1.7.3.bsr
       githubUrl: https://github.com/BSData/marvel-crisis-protocol
       feedUrl: https://github.com/BSData/marvel-crisis-protocol/releases.atom
       bugTrackerUrl: https://github.com/BSData/marvel-crisis-protocol/issues
