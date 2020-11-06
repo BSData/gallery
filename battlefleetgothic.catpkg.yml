@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 28 Oct 2020 03:49:12 GMT
+      LastModified: Fri, 06 Nov 2020 05:56:47 GMT
     properties:
-      tag_name: 2.4.18
-      name: Added imp and chaos validation w special rules add for necrons & SM
-      published_at: 2020-10-28T03:49:12.0000000+00:00
+      tag_name: 2.4.19
+      name: Minor Update to Mechanicus, Gifts and Refit Torps
+      published_at: 2020-11-06T05:56:47.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: 2.4.18
-      lastUpdated: 2020-10-28T03:44:34.0000000+00:00
-      lastUpdateDescription: Added imp and chaos validation w special rules add for necrons & SM
+      version: 2.4.19
+      lastUpdated: 2020-11-06T05:55:01.0000000+00:00
+      lastUpdateDescription: Minor Update to Mechanicus, Gifts and Refit Torps
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/2.4.18/battlefleetgothic.2.4.18.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/2.4.19/battlefleetgothic.2.4.19.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
