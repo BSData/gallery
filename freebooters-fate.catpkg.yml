@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 03 Nov 2020 20:06:07 GMT
+      LastModified: Sat, 07 Nov 2020 10:47:07 GMT
     properties:
-      tag_name: v2.14.2
-      name: Schatten + Errata
-      published_at: 2020-11-03T20:06:07.0000000+00:00
+      tag_name: v2.14.3
+      name: Schatten Ausrüstung
+      published_at: 2020-11-07T10:47:07.0000000+00:00
   catpkg:
     properties:
       name: freebooters-fate
       description: Freebooter's Fate
       battleScribeVersion: "2.03"
-      version: v2.14.2
-      lastUpdated: 2020-11-03T20:05:24.0000000+00:00
-      lastUpdateDescription: Schatten + Errata
+      version: v2.14.3
+      lastUpdated: 2020-11-07T10:46:10.0000000+00:00
+      lastUpdateDescription: Schatten Ausrüstung
       indexUrl: https://github.com/BSData/freebooters-fate/releases/latest/download/freebooters-fate.latest.bsi
       repositoryUrl: https://github.com/BSData/freebooters-fate/releases/latest/download/freebooters-fate.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/freebooters-fate/releases/latest/download/freebooters-fate.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/freebooters-fate/releases/download/v2.14.2/freebooters-fate.v2.14.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/freebooters-fate/releases/download/v2.14.3/freebooters-fate.v2.14.3.bsr
       githubUrl: https://github.com/BSData/freebooters-fate
       feedUrl: https://github.com/BSData/freebooters-fate/releases.atom
       bugTrackerUrl: https://github.com/BSData/freebooters-fate/issues
