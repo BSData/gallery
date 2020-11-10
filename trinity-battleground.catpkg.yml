@@ -2,8 +2,10 @@ location:
   github: BSData/trinity-battleground
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 10 Nov 2020 20:04:08 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Fri, 14 Dec 2018 05:43:57 GMT
