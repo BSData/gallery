@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 07 Nov 2020 10:14:46 GMT
+      LastModified: Thu, 12 Nov 2020 10:56:09 GMT
     properties:
-      tag_name: v14.209
-      name: Iron Circle fix
-      published_at: 2020-11-07T10:14:46.0000000+00:00
+      tag_name: v14.210
+      name: Riftbarb ambiguity
+      published_at: 2020-11-12T10:56:09.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.209
-      lastUpdated: 2020-11-07T10:14:10.0000000+00:00
-      lastUpdateDescription: Iron Circle fix
+      version: v14.210
+      lastUpdated: 2020-11-12T10:54:45.0000000+00:00
+      lastUpdateDescription: Riftbarb ambiguity
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.209/horus-heresy.v14.209.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.210/horus-heresy.v14.210.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
