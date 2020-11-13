@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 06 Nov 2020 05:56:47 GMT
+      LastModified: Fri, 13 Nov 2020 19:03:07 GMT
     properties:
-      tag_name: 2.4.19
-      name: Minor Update to Mechanicus, Gifts and Refit Torps
-      published_at: 2020-11-06T05:56:47.0000000+00:00
+      tag_name: 2.4.20
+      name: Deamon, AM subplots, tau escorts, warmaster ldr8
+      published_at: 2020-11-13T19:03:07.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: 2.4.19
-      lastUpdated: 2020-11-06T05:55:01.0000000+00:00
-      lastUpdateDescription: Minor Update to Mechanicus, Gifts and Refit Torps
+      version: 2.4.20
+      lastUpdated: 2020-11-13T19:00:51.0000000+00:00
+      lastUpdateDescription: Deamon, AM subplots, tau escorts, warmaster ldr8
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/2.4.19/battlefleetgothic.2.4.19.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/2.4.20/battlefleetgothic.2.4.20.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
