@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 13 Nov 2020 19:03:07 GMT
+      LastModified: Sat, 14 Nov 2020 19:21:42 GMT
     properties:
-      tag_name: 2.4.20
-      name: Deamon, AM subplots, tau escorts, warmaster ldr8
-      published_at: 2020-11-13T19:03:07.0000000+00:00
+      tag_name: v2.4.21
+      name: Re-release to update game file version (v41)
+      published_at: 2020-11-14T19:21:42.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: 2.4.20
+      version: v2.4.21
       lastUpdated: 2020-11-13T19:00:51.0000000+00:00
-      lastUpdateDescription: Deamon, AM subplots, tau escorts, warmaster ldr8
+      lastUpdateDescription: Re-release to update game file version (v41)
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/2.4.20/battlefleetgothic.2.4.20.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.4.21/battlefleetgothic.v2.4.21.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
