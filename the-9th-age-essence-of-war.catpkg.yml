@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 09 Nov 2020 10:04:36 GMT
+      LastModified: Sun, 15 Nov 2020 20:37:15 GMT
     properties:
-      tag_name: v1.0.5
-      name: Fixed EoS max per army
-      published_at: 2020-11-09T10:04:36.0000000+00:00
+      tag_name: v1.0.6
+      name: Fixed Pts in armour and Åsklanders
+      published_at: 2020-11-15T20:37:15.0000000+00:00
   catpkg:
     properties:
       name: the-9th-age-essence-of-war
       description: 'The 9th Age: Essence of War'
       battleScribeVersion: "2.03"
-      version: v1.0.5
-      lastUpdated: 2020-11-09T10:00:04.0000000+00:00
-      lastUpdateDescription: Fixed EoS max per army
+      version: v1.0.6
+      lastUpdated: 2020-11-09T12:36:30.0000000+00:00
+      lastUpdateDescription: Fixed Pts in armour and Åsklanders
       indexUrl: https://github.com/BSData/the-9th-age-essence-of-war/releases/latest/download/the-9th-age-essence-of-war.latest.bsi
       repositoryUrl: https://github.com/BSData/the-9th-age-essence-of-war/releases/latest/download/the-9th-age-essence-of-war.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/the-9th-age-essence-of-war/releases/latest/download/the-9th-age-essence-of-war.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/the-9th-age-essence-of-war/releases/download/v1.0.5/the-9th-age-essence-of-war.v1.0.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/the-9th-age-essence-of-war/releases/download/v1.0.6/the-9th-age-essence-of-war.v1.0.6.bsr
       githubUrl: https://github.com/BSData/the-9th-age-essence-of-war
       feedUrl: https://github.com/BSData/the-9th-age-essence-of-war/releases.atom
       bugTrackerUrl: https://github.com/BSData/the-9th-age-essence-of-war/issues
