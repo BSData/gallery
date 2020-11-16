@@ -13,6 +13,7 @@ on:
 env:
   GALLERY_JSON: bsdata.catpkg-gallery.json
   RELEASE_TAG: index-v1
+  ENABLE_GHPAGES_UPDATE: false
 jobs:
   update-index:
     runs-on: ubuntu-latest
@@ -119,14 +120,14 @@ jobs:
             return upload;
 
       - name: Checkout gh-pages
-        if: steps.push-index.outputs.changes_detected == 'true'
+        if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
         uses: actions/checkout@v2
         with:
           ref: gh-pages
           path: gh-pages
 
       - name: Update dataindex
-        if: steps.push-index.outputs.changes_detected == 'true'
+        if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
         uses: Amadevus/pwsh-script@v2
         id: update
         env:
@@ -148,7 +149,7 @@ jobs:
             ./master/.github/scripts/Update-GhPagesData.ps1 @args -Verbose
 
       - name: Push gh-pages changes
-        if: steps.push-index.outputs.changes_detected == 'true'
+        if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: ":robot: update data index"
