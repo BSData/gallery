@@ -1,0 +1,11 @@
+location:
+  github: BSData/battlegroup
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiResponseError:
+      code: 404
+  catpkg: {}
+
