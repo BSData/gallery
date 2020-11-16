@@ -1,13 +1,13 @@
 name: Update registry
 on:
   schedule:
-    - cron: "0 10 * * *" # at 10
+    - cron: "0 9 * * *" # at 9:00
   push:
     branches:
       - master
     paths:
       - ".github/workflows/update-registry.yml"
-      - ".github/actions/update-registry/**"
+      - ".github/scripts/**"
 
 jobs:
   update:
@@ -24,11 +24,11 @@ jobs:
         with:
           script: |
             $ErrorActionPreference = 'Stop'
-            $actionArgs = @{
+            $args = @{
               RegistryPath = Resolve-Path ./registry
               Token = $github.token
             }
-            ./.github/actions/update-registry/action.ps1 @actionArgs -Verbose
+            ./.github/scripts/Update-Registry.ps1 @args -Verbose
 
       - name: Format PR text
         uses: Amadevus/pwsh-script@v2
@@ -37,9 +37,9 @@ jobs:
           UPDATE_JSON: ${{ steps.update.outputs.result }}
         with:
           script: |
-            $repos = @($env:UPDATE_JSON | ConvertFrom-Json)
+            $repos = $env:UPDATE_JSON | ConvertFrom-Json
             $adds = $repos.add | Where-Object { $_ } | ForEach-Object { "- add $($_.html_url)`n" }
-            $dels = $repos.del | Where-Object { $_ } | ForEach-Object { "- rem $($_.html_url) *($($_.del_reason))*`n" }
+            $dels = $repos.del | Where-Object { $_ } | ForEach-Object { "- rem $($_.html_url) *($($_.reason))*`n" }
             @{
               count = $repos.count
               pr_body_repo_list = -join @($adds + $dels)

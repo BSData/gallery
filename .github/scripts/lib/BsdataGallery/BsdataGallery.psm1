@@ -44,6 +44,13 @@ function Get-EscapedAssetName {
   return $periodsOnly.Trim('.')
 }
 
+class RateLimitException : System.InvalidOperationException {
+  RateLimitException() : base() {
+  }
+  RateLimitException([string] $message) : base($message) {
+  }
+}
+
 # Get an object that contains details about GitHub API call
 function Get-GHApiUpdatedResult {
   [CmdletBinding()]
@@ -95,6 +102,12 @@ function Get-GHApiUpdatedResult {
         $apiResult | Out-Null # to avoid PSUseDeclaredVarsMoreThanAssignments, Justification: scriptblock is executed in current scope
       }
       Write-Verbose ("Request finished in {0:c}" -f $time)
+      # check api rate limit
+      if ($httpStatus -eq [System.Net.HttpStatusCode]::Forbidden -and $respHeaders['X-RateLimit-Remaining'] -eq '0') {
+        # we've hit rate limit
+        $resetTime = [DateTime]::UnixEpoch.AddSeconds($respHeaders['X-RateLimit-Reset'])
+        throw [RateLimitException] "GET $Endpoint blocked by RateLimit. Limit resets at $resetTime in $($resetTime - [datetime]::UtcNow)"
+      }
       # repeat until 3rd attempt or success (200 or 304 is success)
       $repeat = ++$attempts -lt $MaximumRetryCount -and $httpStatus -notin @(200, 304)
       if ($repeat) {
@@ -102,6 +115,9 @@ function Get-GHApiUpdatedResult {
         Start-Sleep -Seconds $RetryIntervalSec
       }
     } while ($repeat)
+  }
+  catch [RateLimitException] {
+    throw $_
   }
   catch {
     # exception during request

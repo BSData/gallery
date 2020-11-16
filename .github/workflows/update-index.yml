@@ -8,13 +8,14 @@ on:
     paths:
       - "registry/**"
       - ".github/workflows/update-index.yml"
-      - ".github/actions/update-index/**"
+      - ".github/scripts/**"
 
 env:
   GALLERY_JSON: bsdata.catpkg-gallery.json
   RELEASE_TAG: index-v1
+  ENABLE_GHPAGES_UPDATE: false
 jobs:
-  update:
+  update-index:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout master
@@ -32,18 +33,20 @@ jobs:
       - uses: ./master/.github/actions/install-yaml
 
       - name: Compile index
-        uses: Amadevus/pwsh-script@v1
+        uses: Amadevus/pwsh-script@v2
         id: compile
         with:
           script: |
             $ErrorActionPreference = 'Stop'
-            $buildArgs = @{
+            $args = @{
               IndexPath = Resolve-Path ./index
               RegistryPath = Resolve-Path ./master/registry
               GalleryJsonPath = $env:GALLERY_JSON
               Token = $github.token
             }
-            ./master/.github/actions/compile-index/action.ps1 @buildArgs -Verbose
+            ./master/.github/scripts/Update-IndexCache.ps1 @args -Verbose
+            # save master's SHA to associate branches
+            "master-sha: $env:GITHUB_SHA" > index/master-sha.yml
 
       - name: Upload gallery-json as workflow artifact
         if: success() || failure()
@@ -53,63 +56,40 @@ jobs:
           path: ${{ env.GALLERY_JSON }}
         continue-on-error: true
 
-      - name: Commit and push any index changes
-        uses: Amadevus/pwsh-script@v1
-        id: push
+      - name: Format index commit message
+        uses: Amadevus/pwsh-script@v2
+        id: format_index_msg
         with:
           script: |
             Set-Location ./index
-            function Invoke-Native ([scriptblock]$native) {
-              $LASTEXITCODE = 0
-              & $native
-              if ($LASTEXITCODE) {
-                throw "Native call failed: $native"
-              }
-            }
-            # save master's SHA to associate branches
-            "master-sha: $env:GITHUB_SHA" > master-sha.yml
-
             # get list of changed files
             $pkgids = @((git status --porcelain | % { $_.Substring(3) } | Split-Path -Leaf) -replace '\.catpkg\.yml$','')
             if ($pkgids.Length -eq 0) {
               Write-Host 'No changes in the index' -ForegroundColor Green
               return
             }
-
             # create commit message
             $summary = if ($pkgids.Length -eq 1) {
               $pkgids
             } else {
               "{0} (+{1} more)" -f $pkgids[0],($pkgids.Length - 1)
             }
-            @"
+            $message = @"
             Changed: $summary
+
             $($pkgids -join "`n")
-            "@ > ../commit.txt
-            Get-Content ../commit.txt -Raw | Write-Host
+            "@
+            return $message
 
-            # git operations
-            Invoke-Native { git add -A }
-            Invoke-Native { git config user.email "BSData-bot@users.noreply.github.com" }
-            Invoke-Native { git config user.name "BSData-bot" }
-            Invoke-Native { git commit -F ../commit.txt }
-            Invoke-Native { git push }
-
-            Set-ActionOutput pushed true
-
-    outputs:
-      pushed: ${{ steps.push.outputs.pushed }}
-
-  push:
-    runs-on: ubuntu-latest
-    needs: update
-    if: ${{ needs.update.outputs.pushed == 'true' }}
-    steps:
-      - uses: actions/download-artifact@v2
+      - name: Push index changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        id: push-index
         with:
-          name: ${{ env.GALLERY_JSON }}
+          commit_message: ":robot: ${{ steps.format_index_msg.outputs.result }}"
+          repository: index
 
       - name: Replace ${{ env.GALLERY_JSON }} release asset
+        if: steps.push-index.outputs.changes_detected == 'true'
         uses: actions/github-script@v3
         with:
           script: |
@@ -119,7 +99,12 @@ jobs:
             });
             console.log('Release retrieved');
             const assetName = '${{ env.GALLERY_JSON }}';
-            const previousIndex = release.assets.find(x => x.name === assetName);
+            const assets = await octokit
+              .paginate(github.repos.listReleaseAssets, {
+                ...context.repo,
+                release_id: release.id
+              });
+            const previousIndex = assets.find(x => x.name === assetName);
             if (previousIndex) {
               console.log('Deleting existing asset');
               await github.repos.deleteReleaseAsset({
@@ -138,3 +123,39 @@ jobs:
             })
             console.log('Done');
             return upload;
+
+      - name: Checkout gh-pages
+        if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
+        uses: actions/checkout@v2
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Update dataindex
+        if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
+        uses: Amadevus/pwsh-script@v2
+        id: update
+        env:
+          COMPILE_RESULT: ${{ needs.update-index.outputs.compile_result }}
+        with:
+          script: |
+            $ErrorActionPreference = 'Stop'
+            $compileResult = $env:COMPILE_RESULT | ConvertFrom-Json
+            $owner, $repo = $github.repository -split '/'
+            $subpath = "dataindex"
+            $args = @{
+              IndexPath = Resolve-Path ./index
+              DataPath = Resolve-Path (New-Item "./gh-pages/$subpath" -ItemType Directory -Force)
+              DataBaseUrl = "https://$owner.github.io/$repo/$subpath"
+              GalleryJsonPath = $env:GALLERY_JSON
+              ChangedIndexPath = $compileResult.changed_index_paths
+              Token = $github.token
+            }
+            ./master/.github/scripts/Update-GhPagesData.ps1 @args -Verbose
+
+      - name: Push gh-pages changes
+        if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: ":robot: update data index"
+          repository: gh-pages
