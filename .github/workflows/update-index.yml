@@ -99,7 +99,7 @@ jobs:
             });
             console.log('Release retrieved');
             const assetName = '${{ env.GALLERY_JSON }}';
-            const assets = await octokit
+            const assets = await github
               .paginate(github.repos.listReleaseAssets, {
                 ...context.repo,
                 release_id: release.id
