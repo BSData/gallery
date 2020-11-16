@@ -99,7 +99,12 @@ jobs:
             });
             console.log('Release retrieved');
             const assetName = '${{ env.GALLERY_JSON }}';
-            const previousIndex = release.assets.find(x => x.name === assetName);
+            const assets = await octokit
+              .paginate(github.repos.listReleaseAssets, {
+                ...context.repo,
+                release_id: release.id
+              });
+            const previousIndex = assets.find(x => x.name === assetName);
             if (previousIndex) {
               console.log('Deleting existing asset');
               await github.repos.deleteReleaseAsset({
