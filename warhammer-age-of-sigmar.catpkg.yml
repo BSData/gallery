@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 15 Nov 2020 18:02:33 GMT
+      LastModified: Tue, 17 Nov 2020 16:54:55 GMT
     properties:
-      tag_name: v2.2.13
-      name: Morathi Ascends
-      published_at: 2020-11-15T18:02:33.0000000+00:00
+      tag_name: v2.2.14
+      name: Morathi and Slaanesh fixes
+      published_at: 2020-11-17T16:54:55.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.13
-      lastUpdated: 2020-11-15T15:20:16.0000000+00:00
-      lastUpdateDescription: Morathi Ascends
+      version: v2.2.14
+      lastUpdated: 2020-11-17T16:53:36.0000000+00:00
+      lastUpdateDescription: Morathi and Slaanesh fixes
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.13/warhammer-age-of-sigmar.v2.2.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.14/warhammer-age-of-sigmar.v2.2.14.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
