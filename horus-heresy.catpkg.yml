@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 12 Nov 2020 13:08:59 GMT
+      LastModified: Fri, 20 Nov 2020 20:41:22 GMT
     properties:
-      tag_name: v14.211
-      name: SoH Anvllus Ambiguity
-      published_at: 2020-11-12T13:08:59.0000000+00:00
+      tag_name: v14.212b
+      name: Tsolmon Again
+      published_at: 2020-11-20T20:41:22.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.211
-      lastUpdated: 2020-11-12T13:04:34.0000000+00:00
-      lastUpdateDescription: SoH Anvllus Ambiguity
+      version: v14.212b
+      lastUpdated: 2020-11-20T20:40:28.0000000+00:00
+      lastUpdateDescription: Tsolmon Again
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.211/horus-heresy.v14.211.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.212b/horus-heresy.v14.212b.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
