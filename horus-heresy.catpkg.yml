@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 22 Nov 2020 00:35:01 GMT
+      LastModified: Fri, 27 Nov 2020 20:00:50 GMT
     properties:
-      tag_name: v14.213
-      name: Headhunters + Daemonic Shenanigans
-      published_at: 2020-11-22T00:31:29.0000000+00:00
+      tag_name: v14.214
+      name: Small fixes
+      published_at: 2020-11-27T20:00:50.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.213
-      lastUpdated: 2020-11-22T00:30:41.0000000+00:00
-      lastUpdateDescription: Headhunters + Daemonic Shenanigans
+      version: v14.214
+      lastUpdated: 2020-11-27T20:00:10.0000000+00:00
+      lastUpdateDescription: Small fixes
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.213/horus-heresy.v14.213.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.214/horus-heresy.v14.214.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
