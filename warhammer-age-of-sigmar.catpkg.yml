@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 22 Nov 2020 20:33:49 GMT
+      LastModified: Fri, 27 Nov 2020 20:47:16 GMT
     properties:
-      tag_name: v2.2.17
-      name: Allies fix across all catalogues
-      published_at: 2020-11-22T20:33:49.0000000+00:00
+      tag_name: v2.2.18
+      name: Black Friday Deals Inside! Okay, not really
+      published_at: 2020-11-27T20:47:16.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.17
-      lastUpdated: 2020-11-22T20:31:35.0000000+00:00
-      lastUpdateDescription: Allies fix across all catalogues
+      version: v2.2.18
+      lastUpdated: 2020-11-27T20:30:12.0000000+00:00
+      lastUpdateDescription: Black Friday Deals Inside! Okay, not really
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.17/warhammer-age-of-sigmar.v2.2.17.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.18/warhammer-age-of-sigmar.v2.2.18.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
