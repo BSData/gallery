@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 20 Nov 2020 15:08:48 GMT
+      LastModified: Thu, 03 Dec 2020 21:32:43 GMT
     properties:
-      tag_name: v9.1.4
-      name: It's as if millions of FW models cried out in terror and were suddenly silenced.
-      published_at: 2020-11-20T15:08:48.0000000+00:00
+      tag_name: v9.1.5
+      name: We've woken up from our food induced coma. Have some turkey flavored fixes.
+      published_at: 2020-12-03T21:32:43.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.4
-      lastUpdated: 2020-11-20T01:10:12.0000000+00:00
-      lastUpdateDescription: It's as if millions of FW models cried out in terror and were suddenly silenced.
+      version: v9.1.5
+      lastUpdated: 2020-12-03T20:41:27.0000000+00:00
+      lastUpdateDescription: We've woken up from our food induced coma. Have some turkey flavored fixes.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.4/wh40k.v9.1.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.5/wh40k.v9.1.5.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
