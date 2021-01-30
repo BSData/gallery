@@ -39,6 +39,7 @@ $registryArgs = @{
   RegistrationsPath = Join-Path $RegistryPath $settings.registrations.path
   IndexPath         = $IndexPath
   Token             = $Token
+  Verbose           = $VerbosePreference # needed to pass verbosity down to the module cmdlet
 }
 $null = Update-BsdataGalleryIndex @registryArgs
 
@@ -58,6 +59,7 @@ $changedIndexPaths = $originalSha.Keys + $updatedSha.Keys
 $galleryCatpkgArgs = @{
   IndexPath       = $IndexPath
   GallerySettings = $settings.gallery
+  Verbose         = $VerbosePreference # needed to pass verbosity down to the module cmdlet
 }
 Get-BsdataGalleryCatpkg @galleryCatpkgArgs
 | ConvertTo-Json -Compress -Depth 4 -EscapeHandling EscapeNonAscii
