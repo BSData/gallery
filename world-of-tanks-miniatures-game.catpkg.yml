@@ -1,0 +1,30 @@
+location:
+  github: BSData/world-of-tanks-miniatures-game
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+    properties:
+      tag_name: v1.1.0
+      name: Starter set, Wave 1 and Wave 2 releases
+      published_at: 2021-01-26T22:21:11.0000000+00:00
+  catpkg:
+    properties:
+      name: world-of-tanks-miniatures-game
+      description: World of Tanks Miniatures Game
+      battleScribeVersion: "2.03"
+      version: v1.1.0
+      lastUpdated: 2021-01-26T22:09:42.0000000+00:00
+      lastUpdateDescription: Starter set, Wave 1 and Wave 2 releases
+      indexUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases/latest/download/world-of-tanks-miniatures-game.latest.bsi
+      repositoryUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases/latest/download/world-of-tanks-miniatures-game.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases/latest/download/world-of-tanks-miniatures-game.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases/download/v1.1.0/world-of-tanks-miniatures-game.v1.1.0.bsr
+      githubUrl: https://github.com/BSData/world-of-tanks-miniatures-game
+      feedUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases.atom
+      bugTrackerUrl: https://github.com/BSData/world-of-tanks-miniatures-game/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/world-of-tanks-miniatures-game
+
