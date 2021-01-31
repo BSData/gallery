@@ -168,7 +168,10 @@ function Get-UpdatedCache {
     [System.Collections.IDictionary]$Cache,
 
     [Parameter()]
-    [string]$Token
+    [string]$Token,
+
+    [Parameter()]
+    [string]$DisableLastModifiedCaching
   )
 
   # prepare result object
@@ -181,7 +184,7 @@ function Get-UpdatedCache {
   # check repository - if changed, check archived flag
   $apiRepoArgs = @{
     Endpoint     = "/repos/$Repository"
-    LastModified = $Cache.repo.apiHeaders.LastModified
+    LastModified = $DisableLastModifiedCaching ? '' : $Cache.repo.apiHeaders.LastModified
     Token        = $Token
   }
   $apiRepo = Get-GHApiUpdatedResult @apiRepoArgs
@@ -203,7 +206,7 @@ function Get-UpdatedCache {
   # check latest release - if changed, get catpk.json
   $apiLatestReleaseArgs = @{
     Endpoint     = "/repos/$Repository/releases/latest"
-    LastModified = $Cache.latestRelease.apiHeaders.LastModified
+    LastModified = $DisableLastModifiedCaching ? '' : $Cache.latestRelease.apiHeaders.LastModified
     Token        = $Token
   }
   $apiLatestRelease = Get-GHApiUpdatedResult @apiLatestReleaseArgs
@@ -282,7 +285,10 @@ function Update-BsdataGalleryIndex {
     [string]$IndexPath,
 
     [Parameter(Mandatory)]
-    [string]$Token
+    [string]$Token,
+
+    [Parameter()]
+    [string]$DisableLastModifiedCaching
   )
 
   # read registry entries
@@ -316,7 +322,14 @@ function Update-BsdataGalleryIndex {
     }
     $repository = $index.location.github
     Write-Verbose "Updating index cache."
-    $cache = Get-UpdatedCache $repository -Cache $index.cache -Token $Token -ErrorAction:Continue
+    $cacheUpdateArgs = @{
+      Repository                 = $repository
+      Cache                      = $index.cache
+      Token                      = $Token
+      DisableLastModifiedCaching = $DisableLastModifiedCaching
+      ErrorAction                = 'Continue'
+    }
+    $cache = Get-UpdatedCache @cacheUpdateArgs
 
     Write-Verbose "Saving updated cache."
     $index.cache = $cache

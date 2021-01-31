@@ -36,10 +36,11 @@ $originalSha = GetIndexHashHashtable
 
 # update index
 $registryArgs = @{
-  RegistrationsPath = Join-Path $RegistryPath $settings.registrations.path
-  IndexPath         = $IndexPath
-  Token             = $Token
-  Verbose           = $VerbosePreference # needed to pass verbosity down to the module cmdlet
+  RegistrationsPath          = Join-Path $RegistryPath $settings.registrations.path
+  IndexPath                  = $IndexPath
+  Token                      = $Token
+  Verbose                    = $VerbosePreference # needed to pass verbosity down to the module cmdlet
+  DisableLastModifiedCaching = $true
 }
 $null = Update-BsdataGalleryIndex @registryArgs
 
