@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 24 Oct 2020 17:45:02 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: "36.00"
-      name: maintenance update, rules corrections & amendments
-      published_at: 2020-10-24T17:45:02.0000000+00:00
+      tag_name: 37.00.170.344
+      name: French, German & Spanish rules for all approved lists
+      published_at: 2020-12-24T19:21:01.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
-      version: "36.00"
-      lastUpdated: 2020-10-24T17:35:50.0000000+00:00
-      lastUpdateDescription: maintenance update, rules corrections & amendments
+      version: 37.00.170.344
+      lastUpdated: 2020-12-24T19:05:13.0000000+00:00
+      lastUpdateDescription: French, German & Spanish rules for all approved lists
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/36.00/wh40k-epic-armageddon.36.00.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/37.00.170.344/wh40k-epic-armageddon.37.00.170.344.bsr
       githubUrl: https://github.com/BSData/wh40k-epic-armageddon
       feedUrl: https://github.com/BSData/wh40k-epic-armageddon/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-epic-armageddon/issues

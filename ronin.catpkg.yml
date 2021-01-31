@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 13 Feb 2018 03:35:26 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: v1.0.0
       name: Initial Release

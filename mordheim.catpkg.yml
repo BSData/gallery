@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 30 Oct 2019 08:47:39 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: v0.2.4
       name: Data format update

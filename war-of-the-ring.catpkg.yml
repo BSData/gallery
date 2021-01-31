@@ -6,14 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 25 Aug 2017 07:17:08 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: v1.0.1
       name: Fixed Gundabad Blackshields
       published_at: 2017-08-25T07:17:08.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
     properties:
       name: war-of-the-ring
       description: War Of The Ring

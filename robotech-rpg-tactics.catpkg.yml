@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 01 Jul 2015 18:49:22 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: 0.9.5
       name: Added Grell Malcontent

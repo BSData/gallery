@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 19 Jan 2017 00:00:41 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: v2
       name: Updates for BS 2.0

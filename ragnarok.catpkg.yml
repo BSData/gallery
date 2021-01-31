@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 07 Feb 2020 15:00:45 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: "0.2"
       name: More Features Added

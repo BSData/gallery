@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 16 Aug 2017 23:03:55 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: 2.5.002
       name: Federated States of America

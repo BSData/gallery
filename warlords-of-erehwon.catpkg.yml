@@ -6,14 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 24 Feb 2020 10:28:07 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: v1.5.8
       name: QoL changes for Dwarven list
       published_at: 2020-02-24T10:28:07.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
     properties:
       name: warlords-of-erehwon
       description: Warlords of Erehwon

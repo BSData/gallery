@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 27 Nov 2020 14:19:40 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: 1.8.1.2
       name: Fixed Taskmaster threat value

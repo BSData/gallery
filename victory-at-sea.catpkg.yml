@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 04 Oct 2020 01:27:05 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: 1.0.2
       name: Yamato and the Iowa take to the seas, and minor fixes

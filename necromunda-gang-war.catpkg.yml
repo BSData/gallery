@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 30 Aug 2018 03:22:17 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: v1.5.0
       name: '"Cawdor ... Cawdor ... Come out to Play ..." edition'

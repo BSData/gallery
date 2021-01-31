@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 13 Jan 2019 13:56:59 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: 4.0.17
       name: Epirian Foundation SecDef Rapid Intervention Team

@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 19 Feb 2016 18:37:53 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: V3.0
       name: First Public Release

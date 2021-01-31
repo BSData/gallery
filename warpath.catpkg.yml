@@ -6,14 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 21 Jun 2020 10:13:34 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: v3.0.1
       name: Commander Roca and the Plague Lieutentant can now be taken by any unit in their faction
       published_at: 2020-06-21T10:13:34.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
     properties:
       name: warpath
       description: Warpath

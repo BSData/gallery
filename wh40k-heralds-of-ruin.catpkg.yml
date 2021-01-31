@@ -6,14 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 11 Jul 2018 18:12:27 GMT
+      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
       tag_name: v3.0.4
       name: Repo Rename - Nothing to see here.
       published_at: 2018-07-11T18:12:27.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
     properties:
       name: wh40k-heralds-of-ruin
       description: 'Warhammer 40,000: Heralds of Ruin 8th Edition'
