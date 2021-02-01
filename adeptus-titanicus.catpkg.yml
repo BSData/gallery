@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v7.0.2
-      name: Working Households and Battlegroups.
-      published_at: 2021-02-01T15:39:07.0000000+00:00
+      tag_name: v7.0.3
+      name: Really working Households.
+      published_at: 2021-02-01T17:10:53.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: v7.0.2
-      lastUpdated: 2021-02-01T15:38:17.0000000+00:00
-      lastUpdateDescription: Working Households and Battlegroups.
+      version: v7.0.3
+      lastUpdated: 2021-02-01T17:10:15.0000000+00:00
+      lastUpdateDescription: Really working Households.
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v7.0.2/adeptus-titanicus.v7.0.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v7.0.3/adeptus-titanicus.v7.0.3.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
