@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v29
-      name: 'GA Fixes #1'
-      published_at: 2021-02-01T14:55:36.0000000+00:00
+      tag_name: v30
+      name: 'GA Fixes #2'
+      published_at: 2021-02-02T05:24:41.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v29
-      lastUpdated: 2021-02-01T14:34:43.0000000+00:00
-      lastUpdateDescription: 'GA Fixes #1'
+      version: v30
+      lastUpdated: 2021-02-01T22:07:37.0000000+00:00
+      lastUpdateDescription: 'GA Fixes #2'
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v29/warhammer-age-of-sigmar-warcry.v29.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v30/warhammer-age-of-sigmar-warcry.v30.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
