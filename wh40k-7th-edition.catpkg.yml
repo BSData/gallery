@@ -2,8 +2,10 @@ location:
   github: BSData/wh40k-7th-edition
 cache:
   repo:
+    apiHeaders:
+      LastModified: Wed, 03 Feb 2021 17:47:09 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
