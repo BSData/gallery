@@ -8,9 +8,9 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v1.6.1
-      name: Good riddance 2020
-      published_at: 2020-12-31T21:57:48.0000000+00:00
+      tag_name: V1.6.2
+      name: All upgrades updated and Clone Wars Wave 2
+      published_at: 2021-02-03T23:37:02.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
