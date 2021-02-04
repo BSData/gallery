@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v9.1.13
-      name: Is everyone ready for the Primaris Tyranic War Veteran with Tyranid Whip?
-      published_at: 2021-01-29T14:57:18.0000000+00:00
+      tag_name: v9.1.14
+      name: Some say there's a rumbling on the Rock. Come Ezekiel, Chaos is afoot.
+      published_at: 2021-02-04T21:53:00.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.13
-      lastUpdated: 2021-01-29T11:28:44.0000000+00:00
-      lastUpdateDescription: Is everyone ready for the Primaris Tyranic War Veteran with Tyranid Whip?
+      version: v9.1.14
+      lastUpdated: 2021-02-04T17:03:04.0000000+00:00
+      lastUpdateDescription: Some say there's a rumbling on the Rock. Come Ezekiel, Chaos is afoot.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.13/wh40k.v9.1.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.14/wh40k.v9.1.14.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
