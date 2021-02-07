@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v8.0.0
-      name: Stratagem Cleanup, Initial Princeps Seniores Function
-      published_at: 2021-02-05T03:12:22.0000000+00:00
+      tag_name: v8.1.0
+      name: Princeps Traits
+      published_at: 2021-02-07T11:44:48.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: v8.0.0
-      lastUpdated: 2021-02-05T03:08:17.0000000+00:00
-      lastUpdateDescription: Stratagem Cleanup, Initial Princeps Seniores Function
+      version: v8.1.0
+      lastUpdated: 2021-02-07T04:59:40.0000000+00:00
+      lastUpdateDescription: Princeps Traits
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v8.0.0/adeptus-titanicus.v8.0.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v8.1.0/adeptus-titanicus.v8.1.0.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
