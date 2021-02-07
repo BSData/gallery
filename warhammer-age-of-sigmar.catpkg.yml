@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v2.2.24
-      name: AoS Winter FAQ
-      published_at: 2021-01-26T00:50:33.0000000+00:00
+      tag_name: v2.2.25
+      name: Khagra's Ravagers unleashed
+      published_at: 2021-02-07T20:44:04.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.24
-      lastUpdated: 2021-01-26T00:40:20.0000000+00:00
-      lastUpdateDescription: AoS Winter FAQ
+      version: v2.2.25
+      lastUpdated: 2021-02-07T02:37:05.0000000+00:00
+      lastUpdateDescription: Khagra's Ravagers unleashed
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.24/warhammer-age-of-sigmar.v2.2.24.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.25/warhammer-age-of-sigmar.v2.2.25.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
