@@ -2,29 +2,10 @@ location:
   github: BSData/warpath-firefight
 cache:
   repo:
-    properties:
-      archived: false
+    apiResponseError:
+      code: 500
   latestRelease:
-    apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
-    properties:
-      tag_name: 1.0.2
-      name: FF Jotunn Correction
-      published_at: 2017-09-20T08:25:24.0000000+00:00
-  catpkg:
-    properties:
-      name: warpath-firefight
-      description: 'Warpath: Firefight'
-      battleScribeVersion: "2.01"
-      version: 1.0.2
-      lastUpdated: 2017-09-20T08:24:45.0000000+00:00
-      lastUpdateDescription: FF Jotunn Correction
-      indexUrl: https://github.com/BSData/warpath-firefight/releases/latest/download/warpath-firefight.latest.bsi
-      repositoryUrl: https://github.com/BSData/warpath-firefight/releases/latest/download/warpath-firefight.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/warpath-firefight/releases/latest/download/warpath-firefight.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warpath-firefight/releases/download/1.0.2/warpath-firefight.1.0.2.bsr
-      githubUrl: https://github.com/BSData/warpath-firefight
-      feedUrl: https://github.com/BSData/warpath-firefight/releases.atom
-      bugTrackerUrl: https://github.com/BSData/warpath-firefight/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warpath-firefight
+    apiResponseError:
+      code: 500
+  catpkg: {}
 

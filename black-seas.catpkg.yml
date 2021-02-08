@@ -2,29 +2,10 @@ location:
   github: BSData/black-seas
 cache:
   repo:
-    properties:
-      archived: false
+    apiResponseError:
+      code: 500
   latestRelease:
-    apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
-    properties:
-      tag_name: v1.05
-      name: Names Completed
-      published_at: 2020-02-14T00:32:44.0000000+00:00
-  catpkg:
-    properties:
-      name: black-seas
-      description: Black Seas - Warlord Games
-      battleScribeVersion: "2.03"
-      version: v1.05
-      lastUpdated: 2020-02-14T00:31:02.0000000+00:00
-      lastUpdateDescription: Names Completed
-      indexUrl: https://github.com/BSData/black-seas/releases/latest/download/black-seas.latest.bsi
-      repositoryUrl: https://github.com/BSData/black-seas/releases/latest/download/black-seas.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/black-seas/releases/latest/download/black-seas.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/black-seas/releases/download/v1.05/black-seas.v1.05.bsr
-      githubUrl: https://github.com/BSData/black-seas
-      feedUrl: https://github.com/BSData/black-seas/releases.atom
-      bugTrackerUrl: https://github.com/BSData/black-seas/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/black-seas
+    apiResponseError:
+      code: 500
+  catpkg: {}
 

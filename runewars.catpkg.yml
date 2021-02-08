@@ -2,8 +2,8 @@ location:
   github: BSData/runewars
 cache:
   repo:
-    properties:
-      archived: false
+    apiResponseError:
+      code: 500
   latestRelease:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
