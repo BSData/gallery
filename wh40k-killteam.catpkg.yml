@@ -2,8 +2,8 @@ location:
   github: BSData/wh40k-killteam
 cache:
   repo:
-    apiResponseError:
-      code: 500
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT

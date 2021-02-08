@@ -6,6 +6,6 @@ cache:
       archived: false
   latestRelease:
     apiResponseError:
-      code: 500
+      code: 404
   catpkg: {}
 

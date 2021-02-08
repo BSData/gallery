@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v31
-      name: 'GA Fixes #3'
-      published_at: 2021-02-05T17:24:57.0000000+00:00
+      tag_name: v32
+      name: 'GA Fixes #4. LoN catalogue fixed'
+      published_at: 2021-02-08T16:35:35.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v31
-      lastUpdated: 2021-02-05T17:23:36.0000000+00:00
-      lastUpdateDescription: 'GA Fixes #3'
+      version: v32
+      lastUpdated: 2021-02-08T16:34:19.0000000+00:00
+      lastUpdateDescription: 'GA Fixes #4. LoN catalogue fixed'
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v31/warhammer-age-of-sigmar-warcry.v31.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v32/warhammer-age-of-sigmar-warcry.v32.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
