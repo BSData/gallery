@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v14.233
-      name: 3 fixes fixed in a day!
-      published_at: 2021-02-03T00:55:19.0000000+00:00
+      tag_name: v14.234
+      name: Chogorian fixes & a bit more
+      published_at: 2021-02-10T09:37:02.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.233
-      lastUpdated: 2021-02-03T00:22:28.0000000+00:00
-      lastUpdateDescription: 3 fixes fixed in a day!
+      version: v14.234
+      lastUpdated: 2021-02-09T22:42:11.0000000+00:00
+      lastUpdateDescription: Chogorian fixes & a bit more
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.233/horus-heresy.v14.233.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.234/horus-heresy.v14.234.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
