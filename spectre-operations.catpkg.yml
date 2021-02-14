@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: 2.7.4
-      name: 12.2.21
-      published_at: 2021-02-12T16:23:01.0000000+00:00
+      tag_name: 2.7.5
+      name: 14.2.21
+      published_at: 2021-02-14T01:34:05.0000000+00:00
   catpkg:
     properties:
       name: spectre-operations
       description: Spectre Operations 2nd Ed
       battleScribeVersion: "2.03"
-      version: 2.7.4
-      lastUpdated: 2021-02-12T16:22:05.0000000+00:00
-      lastUpdateDescription: 12.2.21
+      version: 2.7.5
+      lastUpdated: 2021-02-14T01:30:24.0000000+00:00
+      lastUpdateDescription: 14.2.21
       indexUrl: https://github.com/BSData/spectre-operations/releases/latest/download/spectre-operations.latest.bsi
       repositoryUrl: https://github.com/BSData/spectre-operations/releases/latest/download/spectre-operations.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/spectre-operations/releases/latest/download/spectre-operations.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/spectre-operations/releases/download/2.7.4/spectre-operations.2.7.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/spectre-operations/releases/download/2.7.5/spectre-operations.2.7.5.bsr
       githubUrl: https://github.com/BSData/spectre-operations
       feedUrl: https://github.com/BSData/spectre-operations/releases.atom
       bugTrackerUrl: https://github.com/BSData/spectre-operations/issues
