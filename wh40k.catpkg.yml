@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v9.1.15
-      name: In fealty of the God-Emperor, our undying lord and by the grace of the Golden Throne, I declare a release of the imperial data of the first legion.
-      published_at: 2021-02-11T20:17:27.0000000+00:00
+      tag_name: v9.1.16
+      name: Congratulations to Nasa as begin scouting for the prime location for the construction of the Noctis Labyrinth
+      published_at: 2021-02-18T21:36:42.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.15
-      lastUpdated: 2021-02-11T20:10:46.0000000+00:00
-      lastUpdateDescription: In fealty of the God-Emperor, our undying lord and by the grace of the Golden Throne, I declare a release of the imperial data of the first legion.
+      version: v9.1.16
+      lastUpdated: 2021-02-18T09:55:01.0000000+00:00
+      lastUpdateDescription: Congratulations to Nasa as begin scouting for the prime location for the construction of the Noctis Labyrinth
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.15/wh40k.v9.1.15.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.16/wh40k.v9.1.16.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
