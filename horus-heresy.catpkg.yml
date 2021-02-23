@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v14.235
-      name: Mistakes were made.
-      published_at: 2021-02-19T04:02:20.0000000+00:00
+      tag_name: v14.236
+      name: Small Points Masters of the Legion
+      published_at: 2021-02-23T00:50:17.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.235
-      lastUpdated: 2021-02-19T03:59:40.0000000+00:00
-      lastUpdateDescription: Mistakes were made.
+      version: v14.236
+      lastUpdated: 2021-02-23T00:49:29.0000000+00:00
+      lastUpdateDescription: Small Points Masters of the Legion
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.235/horus-heresy.v14.235.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.236/horus-heresy.v14.236.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
