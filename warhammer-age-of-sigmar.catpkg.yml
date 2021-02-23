@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v2.2.29
-      name: Slickblade Seekers price fix
-      published_at: 2021-02-23T18:20:00.0000000+00:00
+      tag_name: v2.2.30
+      name: Slaanesh Fixes
+      published_at: 2021-02-23T21:01:45.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.29
-      lastUpdated: 2021-02-23T18:18:57.0000000+00:00
-      lastUpdateDescription: Slickblade Seekers price fix
+      version: v2.2.30
+      lastUpdated: 2021-02-23T20:59:57.0000000+00:00
+      lastUpdateDescription: Slaanesh Fixes
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.29/warhammer-age-of-sigmar.v2.2.29.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.30/warhammer-age-of-sigmar.v2.2.30.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
