@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v9.1.16
-      name: Congratulations to Nasa as begin scouting for the prime location for the construction of the Noctis Labyrinth
-      published_at: 2021-02-18T21:36:42.0000000+00:00
+      tag_name: v9.1.17
+      name: Oh Leman Russ of the lake, what is your wisdom?
+      published_at: 2021-02-25T15:07:18.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.16
-      lastUpdated: 2021-02-18T09:55:01.0000000+00:00
-      lastUpdateDescription: Congratulations to Nasa as begin scouting for the prime location for the construction of the Noctis Labyrinth
+      version: v9.1.17
+      lastUpdated: 2021-02-25T15:01:06.0000000+00:00
+      lastUpdateDescription: Oh Leman Russ of the lake, what is your wisdom?
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.16/wh40k.v9.1.16.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.17/wh40k.v9.1.17.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
