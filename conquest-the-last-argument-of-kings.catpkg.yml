@@ -1,0 +1,11 @@
+location:
+  github: BSData/conquest-the-last-argument-of-kings
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiResponseError:
+      code: 404
+  catpkg: {}
+
