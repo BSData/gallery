@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v2.2.30
-      name: Slaanesh Fixes
-      published_at: 2021-02-23T21:01:45.0000000+00:00
+      tag_name: v2.2.31
+      name: Witty Release Title
+      published_at: 2021-03-07T03:37:35.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.30
-      lastUpdated: 2021-02-23T20:59:57.0000000+00:00
-      lastUpdateDescription: Slaanesh Fixes
+      version: v2.2.31
+      lastUpdated: 2021-03-07T02:45:59.0000000+00:00
+      lastUpdateDescription: Witty Release Title
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.30/warhammer-age-of-sigmar.v2.2.30.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.31/warhammer-age-of-sigmar.v2.2.31.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
