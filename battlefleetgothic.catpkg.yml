@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: v2.4.23
-      name: An incomplete but much better list of pirates
-      published_at: 2021-01-12T00:17:35.0000000+00:00
+      tag_name: v2.4.24
+      name: Imperial Fix, Thanks for the bug report Rando!
+      published_at: 2021-03-11T06:04:18.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.4.23
-      lastUpdated: 2021-01-12T00:15:48.0000000+00:00
-      lastUpdateDescription: An incomplete but much better list of pirates
+      version: v2.4.24
+      lastUpdated: 2021-03-11T06:02:11.0000000+00:00
+      lastUpdateDescription: Imperial Fix, Thanks for the bug report Rando!
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.4.23/battlefleetgothic.v2.4.23.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.4.24/battlefleetgothic.v2.4.24.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
