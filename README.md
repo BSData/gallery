@@ -9,8 +9,9 @@ To try out this new data distribution system, you need to copy the following URL
 
 and paste it into an **Add repository source** field. Depending on your device:
 
-- Desktop 
+- Desktop  
+
 ![instruction to add repo source on desktop](docs/images/desktop-add-repo-source.png)
 
-- Android 
+- Android  
 ![instruction to add repo source on Android](docs/images/android-add-repo-source.png)
