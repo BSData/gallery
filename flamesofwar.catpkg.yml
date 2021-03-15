@@ -8,21 +8,21 @@ cache:
     apiHeaders:
       LastModified: Thu, 01 Jan 1970 00:00:00 GMT
     properties:
-      tag_name: 1.1.12
-      name: Iron Cross Released
-      published_at: 2020-05-29T04:25:15.0000000+00:00
+      tag_name: 1.2.0
+      name: Cleanup of D-Day Books
+      published_at: 2021-03-15T22:37:45.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: 1.1.12
-      lastUpdated: 2020-05-20T19:52:21.0000000+00:00
-      lastUpdateDescription: Iron Cross Released
+      version: 1.2.0
+      lastUpdated: 2021-03-15T22:27:33.0000000+00:00
+      lastUpdateDescription: Cleanup of D-Day Books
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.1.12/flamesofwar.1.1.12.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.0/flamesofwar.1.2.0.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
