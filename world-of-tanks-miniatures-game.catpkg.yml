@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sun, 14 Feb 2021 20:14:08 GMT
     properties:
       tag_name: v1.1.1
       name: Minor rule fixes cause I can't read symbols

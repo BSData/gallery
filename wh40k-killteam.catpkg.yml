@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Tue, 16 Mar 2021 21:23:21 GMT
     properties:
       tag_name: v2.0.7
       name: Not yet, though.

@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Wed, 16 Mar 2016 21:33:31 GMT
     properties:
       tag_name: v1.1.6
       name: Added missing units in Protectorate

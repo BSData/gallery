@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Fri, 14 Feb 2020 00:32:44 GMT
     properties:
       tag_name: v1.05
       name: Names Completed

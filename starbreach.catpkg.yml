@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Wed, 30 Dec 2020 21:26:12 GMT
     properties:
       tag_name: V1.2.0
       name: Correction by Issue#7

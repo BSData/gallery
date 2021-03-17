@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Wed, 03 Feb 2021 23:37:02 GMT
     properties:
       tag_name: V1.6.2
       name: All upgrades updated and Clone Wars Wave 2

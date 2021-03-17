@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sat, 20 Feb 2021 22:20:27 GMT
     properties:
       tag_name: v0.2.54
       name: The 8th Coming of Dark Elves and Chaos as far as the eye can see ...

@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Mon, 15 Mar 2021 22:37:45 GMT
     properties:
       tag_name: 1.2.0
       name: Cleanup of D-Day Books

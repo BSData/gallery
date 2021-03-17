@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Thu, 18 Feb 2021 11:09:20 GMT
     properties:
       tag_name: v1.1.8
       name: Astra Militarum fixes

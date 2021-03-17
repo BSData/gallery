@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Thu, 17 Sep 2020 23:07:10 GMT
     properties:
       tag_name: v1.0.4
       name: Limbo Eternal War v1.0.4
