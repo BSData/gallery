@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Wed, 07 Feb 2018 17:38:45 GMT
     properties:
       tag_name: v1.0.0
       name: Necromunda Underhive

@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Fri, 17 Apr 2020 13:19:02 GMT
     properties:
       tag_name: v1.3.2
       name: More optimizations

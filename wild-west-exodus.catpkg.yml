@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sat, 18 May 2019 12:25:13 GMT
     properties:
       tag_name: 2.1.4
       name: Warrior Nation Units

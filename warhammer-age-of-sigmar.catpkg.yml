@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sun, 14 Mar 2021 23:25:13 GMT
     properties:
       tag_name: v2.2.32
       name: 10 SHOCKING updates in the Mortal Realms

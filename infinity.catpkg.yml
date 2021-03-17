@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Fri, 02 Oct 2020 20:39:48 GMT
     properties:
       tag_name: v1.0.1
       name: Bugfixes, Round 1, FIGHT!

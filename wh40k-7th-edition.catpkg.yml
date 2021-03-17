@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Mon, 29 Jun 2020 13:05:51 GMT
     properties:
       tag_name: v7.0.1
       name: FW Chapter Fixes.

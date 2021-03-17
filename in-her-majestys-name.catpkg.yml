@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Thu, 25 Jun 2020 11:59:55 GMT
     properties:
       tag_name: 2.2.0
       name: In_Her_Majestys_Name_v2.2

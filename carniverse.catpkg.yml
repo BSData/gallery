@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Mon, 04 Nov 2019 23:43:41 GMT
     properties:
       tag_name: V1.2.0
       name: Surival Nut Updated

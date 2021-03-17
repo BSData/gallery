@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Mon, 02 Feb 2015 16:07:16 GMT
     properties:
       tag_name: 0.1.1
       name: Fixed IDs in game system.

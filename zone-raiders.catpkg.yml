@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Wed, 30 Dec 2020 21:52:28 GMT
     properties:
       tag_name: v1.1.2
       name: Zone Raiders core rules v1

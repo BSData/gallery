@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sun, 21 Feb 2021 21:05:08 GMT
     properties:
       tag_name: v4.0.6
       name: Half-way house

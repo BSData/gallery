@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Wed, 24 Jul 2019 06:09:00 GMT
     properties:
       tag_name: "5.02"
       name: Added compulsory units

@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Fri, 27 Nov 2020 21:32:15 GMT
     properties:
       tag_name: "15.1"
       name: Some bugs fixed!

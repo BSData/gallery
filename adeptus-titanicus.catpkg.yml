@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Tue, 09 Mar 2021 00:07:41 GMT
     properties:
       tag_name: v9.0.0
       name: '...wherein we blow up Households again...'

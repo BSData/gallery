@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sat, 27 Feb 2021 19:37:40 GMT
     properties:
       tag_name: v14.240
       name: RoW Immobile Unit restrictions, and a few missing options.

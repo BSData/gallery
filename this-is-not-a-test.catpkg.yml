@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sat, 07 Mar 2020 20:11:01 GMT
     properties:
       tag_name: V1.0.2
       name: Settler bug fixed

@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Tue, 15 Sep 2020 19:46:22 GMT
     properties:
       tag_name: "4.1"
       name: Fixed Bug with GameSystemID

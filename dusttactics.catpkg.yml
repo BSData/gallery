@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sun, 08 Nov 2015 21:58:36 GMT
     properties:
       tag_name: v2.1.0
       name: Anon update to new starter set and many fixes.

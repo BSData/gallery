@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Wed, 29 Apr 2020 14:21:16 GMT
     properties:
       tag_name: V3.0.0
       name: Campaign system added

@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Thu, 11 Mar 2021 06:04:18 GMT
     properties:
       tag_name: v2.4.24
       name: Imperial Fix, Thanks for the bug report Rando!

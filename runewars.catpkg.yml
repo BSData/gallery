@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sun, 22 Nov 2020 06:31:21 GMT
     properties:
       tag_name: v1.4.7
       name: Runewars Miniatures Game v1.4.7

@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Thu, 24 Dec 2020 19:21:01 GMT
     properties:
       tag_name: 37.00.170.344
       name: French, German & Spanish rules for all approved lists

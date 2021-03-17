@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Wed, 13 Jan 2021 09:03:11 GMT
     properties:
       tag_name: 1.10.1
       name: Ogres

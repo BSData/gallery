@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Fri, 30 Mar 2018 07:15:45 GMT
     properties:
       tag_name: v1.4.8
       name: v1.4.8 - New unit

@@ -8,7 +8,7 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Tue, 28 Aug 2018 18:27:24 GMT
     properties:
       tag_name: 2.3.17
       name: 2.3.17 Capitol!

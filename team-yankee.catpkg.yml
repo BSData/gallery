@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Tue, 16 Feb 2021 11:36:58 GMT
     properties:
       tag_name: v1.0.22
       name: Bugfix in American Catalog

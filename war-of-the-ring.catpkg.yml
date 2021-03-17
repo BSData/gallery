@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Fri, 25 Aug 2017 07:17:08 GMT
     properties:
       tag_name: v1.0.1
       name: Fixed Gundabad Blackshields

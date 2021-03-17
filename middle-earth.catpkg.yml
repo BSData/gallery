@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Sun, 07 Mar 2021 19:43:45 GMT
     properties:
       tag_name: 2.3.3
       name: Fix Kingdom of Khazad-Dum

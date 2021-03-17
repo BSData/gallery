@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Tue, 13 Oct 2020 13:47:14 GMT
     properties:
       tag_name: v1.0.2
       name: Minor Fixes to Hellfighters, Ottomans, and Lawrence of Arabia

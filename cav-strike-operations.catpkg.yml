@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jan 1970 00:00:00 GMT
+      LastModified: Wed, 26 Jun 2019 05:09:41 GMT
     properties:
       tag_name: V1.2
       name: Faction Limits and Doctrines
