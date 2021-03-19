@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 11 Mar 2021 21:40:56 GMT
+      LastModified: Fri, 19 Mar 2021 03:14:48 GMT
     properties:
-      tag_name: v9.1.19
-      name: Ah Yes, Theocraticals and Implementation. Two of Guilliman's Favorite things
-      published_at: 2021-03-11T21:40:56.0000000+00:00
+      tag_name: v9.1.20
+      name: Would that be 'Free Range' Custodes bits/parts/MEAT?!
+      published_at: 2021-03-19T03:14:48.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.19
-      lastUpdated: 2021-03-11T21:14:35.0000000+00:00
-      lastUpdateDescription: Ah Yes, Theocraticals and Implementation. Two of Guilliman's Favorite things
+      version: v9.1.20
+      lastUpdated: 2021-03-18T15:16:46.0000000+00:00
+      lastUpdateDescription: Would that be 'Free Range' Custodes bits/parts/MEAT?!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.19/wh40k.v9.1.19.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.20/wh40k.v9.1.20.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
