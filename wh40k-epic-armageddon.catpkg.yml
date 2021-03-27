@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 24 Dec 2020 19:21:01 GMT
+      LastModified: Sat, 27 Mar 2021 21:37:33 GMT
     properties:
-      tag_name: 37.00.170.344
-      name: French, German & Spanish rules for all approved lists
-      published_at: 2020-12-24T19:21:01.0000000+00:00
+      tag_name: "37.01"
+      name: Dark Mechanicum & Tau Ke'lshan
+      published_at: 2021-03-27T21:37:33.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
-      version: 37.00.170.344
-      lastUpdated: 2020-12-24T19:05:13.0000000+00:00
-      lastUpdateDescription: French, German & Spanish rules for all approved lists
+      version: "37.01"
+      lastUpdated: 2021-03-27T21:28:36.0000000+00:00
+      lastUpdateDescription: Dark Mechanicum & Tau Ke'lshan
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/37.00.170.344/wh40k-epic-armageddon.37.00.170.344.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/37.01/wh40k-epic-armageddon.37.01.bsr
       githubUrl: https://github.com/BSData/wh40k-epic-armageddon
       feedUrl: https://github.com/BSData/wh40k-epic-armageddon/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-epic-armageddon/issues
