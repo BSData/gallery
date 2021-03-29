@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 27 Mar 2021 14:13:04 GMT
+      LastModified: Mon, 29 Mar 2021 13:44:36 GMT
     properties:
-      tag_name: v9.1.21
-      name: WAR! HUH! What is it good for? Armies of Reknown of course!
-      published_at: 2021-03-27T14:13:04.0000000+00:00
+      tag_name: v9.1.22
+      name: B.B. Rodriguez will lead the robot uprising in the 42nd Millennium, starting with Charadon!
+      published_at: 2021-03-29T13:44:36.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.21
-      lastUpdated: 2021-03-27T00:11:12.0000000+00:00
-      lastUpdateDescription: WAR! HUH! What is it good for? Armies of Reknown of course!
+      version: v9.1.22
+      lastUpdated: 2021-03-29T12:25:53.0000000+00:00
+      lastUpdateDescription: B.B. Rodriguez will lead the robot uprising in the 42nd Millennium, starting with Charadon!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.21/wh40k.v9.1.21.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.22/wh40k.v9.1.22.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
