@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 27 Mar 2021 19:40:06 GMT
+      LastModified: Mon, 29 Mar 2021 23:43:56 GMT
     properties:
-      tag_name: 1.6.3a
-      name: Fixed Galactic Republic
-      published_at: 2021-03-27T19:40:06.0000000+00:00
+      tag_name: 1.6.4
+      name: Fixed I hope
+      published_at: 2021-03-29T23:43:56.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
