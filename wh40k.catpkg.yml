@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 29 Mar 2021 13:44:36 GMT
+      LastModified: Wed, 31 Mar 2021 22:21:00 GMT
     properties:
-      tag_name: v9.1.22
-      name: B.B. Rodriguez will lead the robot uprising in the 42nd Millennium, starting with Charadon!
-      published_at: 2021-03-29T13:44:36.0000000+00:00
+      tag_name: v9.1.23
+      name: Aren't you a little short for a Dark Eldar?
+      published_at: 2021-03-31T22:21:00.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.22
-      lastUpdated: 2021-03-29T12:25:53.0000000+00:00
-      lastUpdateDescription: B.B. Rodriguez will lead the robot uprising in the 42nd Millennium, starting with Charadon!
+      version: v9.1.23
+      lastUpdated: 2021-03-31T22:19:11.0000000+00:00
+      lastUpdateDescription: Aren't you a little short for a Dark Eldar?
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.22/wh40k.v9.1.22.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.23/wh40k.v9.1.23.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
