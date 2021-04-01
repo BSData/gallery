@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 30 Mar 2021 10:00:37 GMT
+      LastModified: Thu, 01 Apr 2021 12:14:45 GMT
     properties:
-      tag_name: 2.3.9
-      name: 2021 Gold + DE Alpha 3
-      published_at: 2021-03-30T10:00:37.0000000+00:00
+      tag_name: 2.3.10
+      name: 2021 Gold Version - Fixes 1
+      published_at: 2021-04-01T12:14:45.0000000+00:00
   catpkg:
     properties:
       name: The-9th-Age
       description: 'Fantasy Battles: The 9th Age'
       battleScribeVersion: "2.03"
-      version: 2.3.9
-      lastUpdated: 2021-03-29T09:16:07.0000000+00:00
-      lastUpdateDescription: 2021 Gold + DE Alpha 3
+      version: 2.3.10
+      lastUpdated: 2021-04-01T12:07:24.0000000+00:00
+      lastUpdateDescription: 2021 Gold Version - Fixes 1
       indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
       repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2.3.9/The-9th-Age.2.3.9.bsr
+      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2.3.10/The-9th-Age.2.3.10.bsr
       githubUrl: https://github.com/BSData/The-9th-Age
       feedUrl: https://github.com/BSData/The-9th-Age/releases.atom
       bugTrackerUrl: https://github.com/BSData/The-9th-Age/issues
