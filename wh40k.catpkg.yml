@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 02 Apr 2021 01:41:02 GMT
+      LastModified: Mon, 05 Apr 2021 16:21:10 GMT
     properties:
-      tag_name: v9.1.24
-      name: Happy 2nd of April! No Drow Yet, Soon Though!
-      published_at: 2021-04-02T01:41:02.0000000+00:00
+      tag_name: v9.1.25
+      name: 'Nobody: ... Absolutely Nobody: ... Dark Eldar: NYOOOOOOOOM!'
+      published_at: 2021-04-05T16:21:10.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.24
-      lastUpdated: 2021-04-01T16:56:33.0000000+00:00
-      lastUpdateDescription: Happy 2nd of April! No Drow Yet, Soon Though!
+      version: v9.1.25
+      lastUpdated: 2021-04-05T16:01:45.0000000+00:00
+      lastUpdateDescription: 'Nobody: ... Absolutely Nobody: ... Dark Eldar: NYOOOOOOOOM!'
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.24/wh40k.v9.1.24.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.25/wh40k.v9.1.25.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
