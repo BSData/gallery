@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Apr 2021 22:47:20 GMT
+      LastModified: Sat, 10 Apr 2021 21:09:10 GMT
     properties:
-      tag_name: "37.02"
-      name: Drop Rok Invasion bugfix
-      published_at: 2021-04-01T22:47:20.0000000+00:00
+      tag_name: "37.03"
+      name: HH Legiones Astartes bugfix - Drop Pods can carry Dreadnoughts
+      published_at: 2021-04-10T21:09:10.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
-      version: "37.02"
-      lastUpdated: 2021-04-01T22:43:13.0000000+00:00
-      lastUpdateDescription: Drop Rok Invasion bugfix
+      version: "37.03"
+      lastUpdated: 2021-04-10T21:01:40.0000000+00:00
+      lastUpdateDescription: HH Legiones Astartes bugfix - Drop Pods can carry Dreadnoughts
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/37.02/wh40k-epic-armageddon.37.02.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/37.03/wh40k-epic-armageddon.37.03.bsr
       githubUrl: https://github.com/BSData/wh40k-epic-armageddon
       feedUrl: https://github.com/BSData/wh40k-epic-armageddon/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-epic-armageddon/issues
