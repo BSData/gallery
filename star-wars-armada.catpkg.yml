@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 29 Mar 2021 23:43:56 GMT
+      LastModified: Mon, 19 Apr 2021 23:59:59 GMT
     properties:
-      tag_name: 1.6.4
-      name: Fixed I hope
-      published_at: 2021-03-29T23:43:56.0000000+00:00
+      tag_name: 1.6.5
+      name: Clone Wars Wave 2
+      published_at: 2021-04-19T23:59:59.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
