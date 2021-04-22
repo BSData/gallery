@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 15 Apr 2021 20:07:08 GMT
+      LastModified: Thu, 22 Apr 2021 14:51:52 GMT
     properties:
-      tag_name: v9.1.27
-      name: This release brought to you by Drukhari Reavers, causing angst and TO frustration since 2021.
-      published_at: 2021-04-15T20:07:08.0000000+00:00
+      tag_name: v9.1.28
+      name: Schrodinger's Reavers, take a peek!
+      published_at: 2021-04-22T14:51:52.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.27
-      lastUpdated: 2021-04-14T12:20:52.0000000+00:00
-      lastUpdateDescription: This release brought to you by Drukhari Reavers, causing angst and TO frustration since 2021.
+      version: v9.1.28
+      lastUpdated: 2021-04-21T20:58:26.0000000+00:00
+      lastUpdateDescription: Schrodinger's Reavers, take a peek!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.27/wh40k.v9.1.27.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.28/wh40k.v9.1.28.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
