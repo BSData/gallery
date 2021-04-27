@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 04 Apr 2021 01:57:17 GMT
+      LastModified: Tue, 27 Apr 2021 03:18:40 GMT
     properties:
-      tag_name: v2.2.33
-      name: 'Teclis and Friends: Live in Concert!'
-      published_at: 2021-04-04T01:57:17.0000000+00:00
+      tag_name: v2.2.34
+      name: My Be'lakor, how you've grown
+      published_at: 2021-04-27T03:18:40.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.33
-      lastUpdated: 2021-04-04T01:54:33.0000000+00:00
-      lastUpdateDescription: 'Teclis and Friends: Live in Concert!'
+      version: v2.2.34
+      lastUpdated: 2021-04-26T15:26:01.0000000+00:00
+      lastUpdateDescription: My Be'lakor, how you've grown
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.33/warhammer-age-of-sigmar.v2.2.33.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.34/warhammer-age-of-sigmar.v2.2.34.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
