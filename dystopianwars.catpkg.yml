@@ -2,10 +2,8 @@ location:
   github: BSData/dystopianwars
 cache:
   repo:
-    apiHeaders:
-      LastModified: Thu, 15 Oct 2020 11:24:38 GMT
     properties:
-      archived: true
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 16 Aug 2017 23:03:55 GMT
