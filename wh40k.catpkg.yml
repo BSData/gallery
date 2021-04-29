@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 22 Apr 2021 14:51:52 GMT
+      LastModified: Thu, 29 Apr 2021 16:33:31 GMT
     properties:
-      tag_name: v9.1.28
-      name: Schrodinger's Reavers, take a peek!
-      published_at: 2021-04-22T14:51:52.0000000+00:00
+      tag_name: v9.1.29
+      name: "Players: Prepare SM lists for Light Speed! Battlescribe: No no no, Light Speed is too slow. We're gonna have to go right to ... Ludicrous Speed."
+      published_at: 2021-04-29T16:33:31.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.28
-      lastUpdated: 2021-04-21T20:58:26.0000000+00:00
-      lastUpdateDescription: Schrodinger's Reavers, take a peek!
+      version: v9.1.29
+      lastUpdated: 2021-04-29T14:22:12.0000000+00:00
+      lastUpdateDescription: "Players: Prepare SM lists for Light Speed! Battlescribe: No no no, Light Speed is too slow. We're gonna have to go right to ... Ludicrous Speed."
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.28/wh40k.v9.1.28.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.29/wh40k.v9.1.29.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
