@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 04 Apr 2021 18:14:47 GMT
+      LastModified: Fri, 30 Apr 2021 13:03:54 GMT
     properties:
-      tag_name: v14.241
-      name: Dark Angels Errata Update and bits
-      published_at: 2021-04-04T18:14:47.0000000+00:00
+      tag_name: v14.242
+      name: A little bit if fixing and maybe Appspot works again...
+      published_at: 2021-04-30T13:03:54.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v14.241
-      lastUpdated: 2021-04-04T18:03:44.0000000+00:00
-      lastUpdateDescription: Dark Angels Errata Update and bits
+      version: v14.242
+      lastUpdated: 2021-04-30T13:01:36.0000000+00:00
+      lastUpdateDescription: A little bit if fixing and maybe Appspot works again...
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.241/horus-heresy.v14.241.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v14.242/horus-heresy.v14.242.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
