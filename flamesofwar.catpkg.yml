@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 23 Mar 2021 16:43:16 GMT
+      LastModified: Sat, 08 May 2021 13:21:26 GMT
     properties:
-      tag_name: 1.2.3
-      name: Added DD:Waffen Book
-      published_at: 2021-03-23T16:43:16.0000000+00:00
+      tag_name: 1.2.4
+      name: Added B:G Book
+      published_at: 2021-05-08T13:21:26.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: 1.2.3
-      lastUpdated: 2021-03-23T16:42:03.0000000+00:00
-      lastUpdateDescription: Added DD:Waffen Book
+      version: 1.2.4
+      lastUpdated: 2021-05-08T13:19:35.0000000+00:00
+      lastUpdateDescription: Added B:G Book
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.3/flamesofwar.1.2.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.4/flamesofwar.1.2.4.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
