@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 10 Jan 2021 19:32:15 GMT
+      LastModified: Sat, 08 May 2021 23:09:29 GMT
     properties:
-      tag_name: 1.6.9
-      name: Typo Correction
-      published_at: 2021-01-10T19:32:15.0000000+00:00
+      tag_name: 1.7.0
+      name: Lando, Kallus, and Clone Wars Specialist Releases
+      published_at: 2021-05-08T23:09:29.0000000+00:00
   catpkg:
     properties:
       name: star-wars-legion
       description: 'Star Wars: Legion'
       battleScribeVersion: "2.03"
-      version: 1.6.9
-      lastUpdated: 2021-01-10T19:30:57.0000000+00:00
-      lastUpdateDescription: Typo Correction
+      version: 1.7.0
+      lastUpdated: 2021-05-08T23:07:24.0000000+00:00
+      lastUpdateDescription: Lando, Kallus, and Clone Wars Specialist Releases
       indexUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.latest.bsi
       repositoryUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/star-wars-legion/releases/latest/download/star-wars-legion.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/star-wars-legion/releases/download/1.6.9/star-wars-legion.1.6.9.bsr
+      repositoryBsrUrl: https://github.com/BSData/star-wars-legion/releases/download/1.7.0/star-wars-legion.1.7.0.bsr
       githubUrl: https://github.com/BSData/star-wars-legion
       feedUrl: https://github.com/BSData/star-wars-legion/releases.atom
       bugTrackerUrl: https://github.com/BSData/star-wars-legion/issues
