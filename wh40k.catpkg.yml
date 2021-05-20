@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 08 May 2021 22:06:04 GMT
+      LastModified: Sun, 16 May 2021 14:13:35 GMT
     properties:
-      tag_name: v9.1.31
-      name: '#Belakorpoints: To the moon!!!!!'
-      published_at: 2021-05-08T22:06:04.0000000+00:00
+      tag_name: v9.1.32
+      name: If you stop releasing Primaris Lieutenants, your loyal customers will riot! Think, GW, Think!
+      published_at: 2021-05-16T14:13:35.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.31
-      lastUpdated: 2021-05-08T20:54:34.0000000+00:00
-      lastUpdateDescription: '#Belakorpoints: To the moon!!!!!'
+      version: v9.1.32
+      lastUpdated: 2021-05-14T22:24:46.0000000+00:00
+      lastUpdateDescription: If you stop releasing Primaris Lieutenants, your loyal customers will riot! Think, GW, Think!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.31/wh40k.v9.1.31.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.32/wh40k.v9.1.32.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
