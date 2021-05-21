@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 06 May 2021 09:02:56 GMT
+      LastModified: Fri, 21 May 2021 09:17:26 GMT
     properties:
-      tag_name: v1.1.9
-      name: Heretic Astartes fix
-      published_at: 2021-05-06T09:02:56.0000000+00:00
+      tag_name: v1.1.10
+      name: More fixes
+      published_at: 2021-05-21T09:17:26.0000000+00:00
   catpkg:
     properties:
       name: wh40k-apocalypse
       description: Warhammer 40,000 Apocalypse
       battleScribeVersion: "2.03"
-      version: v1.1.9
-      lastUpdated: 2021-05-06T09:01:47.0000000+00:00
-      lastUpdateDescription: Heretic Astartes fix
+      version: v1.1.10
+      lastUpdated: 2021-05-21T09:09:54.0000000+00:00
+      lastUpdateDescription: More fixes
       indexUrl: https://github.com/BSData/wh40k-apocalypse/releases/latest/download/wh40k-apocalypse.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-apocalypse/releases/latest/download/wh40k-apocalypse.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-apocalypse/releases/latest/download/wh40k-apocalypse.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-apocalypse/releases/download/v1.1.9/wh40k-apocalypse.v1.1.9.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-apocalypse/releases/download/v1.1.10/wh40k-apocalypse.v1.1.10.bsr
       githubUrl: https://github.com/BSData/wh40k-apocalypse
       feedUrl: https://github.com/BSData/wh40k-apocalypse/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-apocalypse/issues
