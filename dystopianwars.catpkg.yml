@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 23 May 2021 09:21:59 GMT
+      LastModified: Sun, 23 May 2021 20:56:19 GMT
     properties:
       tag_name: 3.03.00
       name: Commonwealth ORBAT update, bug fix Battlefleet bonus management
