@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 10 May 2021 13:29:13 GMT
+      LastModified: Sun, 23 May 2021 09:21:59 GMT
     properties:
-      tag_name: 3.01.00
-      name: Enlightened publication and Commonwealth correction
+      tag_name: 3.03.00
+      name: Commonwealth ORBAT update, bug fix Battlefleet bonus management
       published_at: 2021-05-10T13:28:54.0000000+00:00
   catpkg:
     properties:
       name: dystopianwars
       description: Dystopian Wars
       battleScribeVersion: "2.03"
-      version: 3.01.00
-      lastUpdated: 2021-05-09T06:44:52.0000000+00:00
-      lastUpdateDescription: 'Enlightened '
+      version: 3.03.00
+      lastUpdated: 2021-05-23T09:19:47.0000000+00:00
+      lastUpdateDescription: Commonwealth ORBAT update, bug fix Battlefleet bonus management
       indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
       repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.01.00/dystopianwars.3.01.00.bsr
+      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.03.00/dystopianwars.3.03.00.bsr
       githubUrl: https://github.com/BSData/dystopianwars
       feedUrl: https://github.com/BSData/dystopianwars/releases.atom
       bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
