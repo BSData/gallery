@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 23 May 2021 20:56:19 GMT
+      LastModified: Mon, 24 May 2021 09:22:09 GMT
     properties:
       tag_name: 3.03.00
       name: Commonwealth ORBAT update, bug fix Battlefleet bonus management
-      published_at: 2021-05-10T13:28:54.0000000+00:00
+      published_at: 2021-05-24T09:22:09.0000000+00:00
   catpkg:
     properties:
       name: dystopianwars
