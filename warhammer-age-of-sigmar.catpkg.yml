@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 23 May 2021 21:07:55 GMT
+      LastModified: Mon, 24 May 2021 23:17:52 GMT
     properties:
-      tag_name: v2.2.36
-      name: Soulblight Rave Lords [insert techno music here]
-      published_at: 2021-05-23T21:07:55.0000000+00:00
+      tag_name: v2.2.37
+      name: Rave Lords Battleline fix [insert more techno music here]
+      published_at: 2021-05-24T23:17:52.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.36
-      lastUpdated: 2021-05-23T20:59:32.0000000+00:00
-      lastUpdateDescription: Soulblight Rave Lords [insert techno music here]
+      version: v2.2.37
+      lastUpdated: 2021-05-24T04:37:41.0000000+00:00
+      lastUpdateDescription: Rave Lords Battleline fix [insert more techno music here]
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.36/warhammer-age-of-sigmar.v2.2.36.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.37/warhammer-age-of-sigmar.v2.2.37.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
