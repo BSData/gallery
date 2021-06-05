@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 24 May 2021 23:17:52 GMT
+      LastModified: Sat, 05 Jun 2021 17:58:24 GMT
     properties:
-      tag_name: v2.2.37
-      name: Rave Lords Battleline fix [insert more techno music here]
-      published_at: 2021-05-24T23:17:52.0000000+00:00
+      tag_name: v2.2.38
+      name: Kragnos Runs Wild
+      published_at: 2021-06-05T17:58:24.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v2.2.37
-      lastUpdated: 2021-05-24T04:37:41.0000000+00:00
-      lastUpdateDescription: Rave Lords Battleline fix [insert more techno music here]
+      version: v2.2.38
+      lastUpdated: 2021-06-04T01:56:30.0000000+00:00
+      lastUpdateDescription: Kragnos Runs Wild
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.37/warhammer-age-of-sigmar.v2.2.37.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v2.2.38/warhammer-age-of-sigmar.v2.2.38.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
