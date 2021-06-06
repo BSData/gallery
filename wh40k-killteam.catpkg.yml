@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 30 May 2021 18:49:47 GMT
+      LastModified: Sun, 06 Jun 2021 13:04:04 GMT
     properties:
-      tag_name: v2.0.13
-      name: Sternguard now sterner.
-      published_at: 2021-05-30T18:49:47.0000000+00:00
+      tag_name: v2.0.14
+      name: Fewer Choppas and longer Grav
+      published_at: 2021-06-06T13:04:04.0000000+00:00
   catpkg:
     properties:
       name: wh40k-killteam
       description: 'Warhammer 40,000: Kill Team (2018)'
       battleScribeVersion: "2.03"
-      version: v2.0.13
-      lastUpdated: 2021-05-30T18:44:53.0000000+00:00
-      lastUpdateDescription: Sternguard now sterner.
+      version: v2.0.14
+      lastUpdated: 2021-06-06T12:57:51.0000000+00:00
+      lastUpdateDescription: Fewer Choppas and longer Grav
       indexUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v2.0.13/wh40k-killteam.v2.0.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v2.0.14/wh40k-killteam.v2.0.14.bsr
       githubUrl: https://github.com/BSData/wh40k-killteam
       feedUrl: https://github.com/BSData/wh40k-killteam/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-killteam/issues
