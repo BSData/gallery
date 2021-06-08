@@ -12,19 +12,6 @@ cache:
       name: Reattached Shambling Undead limbs
       published_at: 2021-03-12T00:21:59.0000000+00:00
   catpkg:
-    properties:
-      name: blood-bowl-2016
-      description: Blood Bowl 2016
-      battleScribeVersion: "2.03"
-      version: v1.2
-      lastUpdated: 2021-03-12T00:16:05.0000000+00:00
-      lastUpdateDescription: Reattached Shambling Undead limbs
-      indexUrl: https://github.com/BSData/blood-bowl-2016/releases/latest/download/blood-bowl-2016.latest.bsi
-      repositoryUrl: https://github.com/BSData/blood-bowl-2016/releases/latest/download/blood-bowl-2016.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/blood-bowl-2016/releases/latest/download/blood-bowl-2016.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/blood-bowl-2016/releases/download/v1.2/blood-bowl-2016.v1.2.bsr
-      githubUrl: https://github.com/BSData/blood-bowl-2016
-      feedUrl: https://github.com/BSData/blood-bowl-2016/releases.atom
-      bugTrackerUrl: https://github.com/BSData/blood-bowl-2016/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/blood-bowl-2016
+    apiResponseError:
+      code: 503
 

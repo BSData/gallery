@@ -12,19 +12,6 @@ cache:
       name: Fewer Choppas and longer Grav
       published_at: 2021-06-06T13:04:04.0000000+00:00
   catpkg:
-    properties:
-      name: wh40k-killteam
-      description: 'Warhammer 40,000: Kill Team (2018)'
-      battleScribeVersion: "2.03"
-      version: v2.0.14
-      lastUpdated: 2021-06-06T12:57:51.0000000+00:00
-      lastUpdateDescription: Fewer Choppas and longer Grav
-      indexUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.latest.bsi
-      repositoryUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v2.0.14/wh40k-killteam.v2.0.14.bsr
-      githubUrl: https://github.com/BSData/wh40k-killteam
-      feedUrl: https://github.com/BSData/wh40k-killteam/releases.atom
-      bugTrackerUrl: https://github.com/BSData/wh40k-killteam/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-killteam
+    apiResponseError:
+      code: 503
 

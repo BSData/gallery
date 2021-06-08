@@ -12,19 +12,6 @@ cache:
       name: Imperial Fix, Thanks for the bug report Rando!
       published_at: 2021-03-11T06:04:18.0000000+00:00
   catpkg:
-    properties:
-      name: battlefleetgothic
-      description: Battlefleet Gothic
-      battleScribeVersion: "2.03"
-      version: v2.4.24
-      lastUpdated: 2021-03-11T06:02:11.0000000+00:00
-      lastUpdateDescription: Imperial Fix, Thanks for the bug report Rando!
-      indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
-      repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.4.24/battlefleetgothic.v2.4.24.bsr
-      githubUrl: https://github.com/BSData/battlefleetgothic
-      feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
-      bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/battlefleetgothic
+    apiResponseError:
+      code: 502
 

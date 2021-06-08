@@ -12,19 +12,6 @@ cache:
       name: Settler bug fixed
       published_at: 2020-03-07T20:11:01.0000000+00:00
   catpkg:
-    properties:
-      name: this-is-not-a-test
-      description: This is Not a Test
-      battleScribeVersion: "2.03"
-      version: V1.0.2
-      lastUpdated: 2020-03-05T12:07:16.0000000+00:00
-      lastUpdateDescription: Settler bug fixed
-      indexUrl: https://github.com/BSData/this-is-not-a-test/releases/latest/download/this-is-not-a-test.latest.bsi
-      repositoryUrl: https://github.com/BSData/this-is-not-a-test/releases/latest/download/this-is-not-a-test.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/this-is-not-a-test/releases/latest/download/this-is-not-a-test.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/this-is-not-a-test/releases/download/V1.0.2/this-is-not-a-test.V1.0.2.bsr
-      githubUrl: https://github.com/BSData/this-is-not-a-test
-      feedUrl: https://github.com/BSData/this-is-not-a-test/releases.atom
-      bugTrackerUrl: https://github.com/BSData/this-is-not-a-test/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/this-is-not-a-test
+    apiResponseError:
+      code: 503
 

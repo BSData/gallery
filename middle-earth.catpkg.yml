@@ -12,19 +12,6 @@ cache:
       name: Fix Kingdom of Khazad-Dum
       published_at: 2021-03-07T19:43:45.0000000+00:00
   catpkg:
-    properties:
-      name: middle-earth
-      description: Middle-earth™
-      battleScribeVersion: "2.03"
-      version: 2.3.3
-      lastUpdated: 2021-03-07T19:43:08.0000000+00:00
-      lastUpdateDescription: Fix Kingdom of Khazad-Dum
-      indexUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.latest.bsi
-      repositoryUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/2.3.3/middle-earth.2.3.3.bsr
-      githubUrl: https://github.com/BSData/middle-earth
-      feedUrl: https://github.com/BSData/middle-earth/releases.atom
-      bugTrackerUrl: https://github.com/BSData/middle-earth/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/middle-earth
+    apiResponseError:
+      code: 503
 
