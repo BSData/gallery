@@ -12,6 +12,19 @@ cache:
       name: Wizards, Relics and a Big Tank
       published_at: 2021-06-08T07:43:20.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 502
+    properties:
+      name: horus-heresy
+      description: Horus Heresy
+      battleScribeVersion: "2.03"
+      version: v15.0.5
+      lastUpdated: 2021-06-08T07:41:17.0000000+00:00
+      lastUpdateDescription: Wizards, Relics and a Big Tank
+      indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
+      repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.0.5/horus-heresy.v15.0.5.bsr
+      githubUrl: https://github.com/BSData/horus-heresy
+      feedUrl: https://github.com/BSData/horus-heresy/releases.atom
+      bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/horus-heresy
 

@@ -12,6 +12,19 @@ cache:
       name: '"Cawdor ... Cawdor ... Come out to Play ..." edition'
       published_at: 2018-08-30T03:22:17.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 502
+    properties:
+      name: necromunda-gang-war
+      description: 'Necromunda: Gang War'
+      battleScribeVersion: "2.01"
+      version: v1.5.0
+      lastUpdated: 2018-08-30T03:18:43.0000000+00:00
+      lastUpdateDescription: '"Cawdor ... Cawdor ... Come out to Play ..." edition'
+      indexUrl: https://github.com/BSData/necromunda-gang-war/releases/latest/download/necromunda-gang-war.latest.bsi
+      repositoryUrl: https://github.com/BSData/necromunda-gang-war/releases/latest/download/necromunda-gang-war.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/necromunda-gang-war/releases/latest/download/necromunda-gang-war.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/necromunda-gang-war/releases/download/v1.5.0/necromunda-gang-war.v1.5.0.bsr
+      githubUrl: https://github.com/BSData/necromunda-gang-war
+      feedUrl: https://github.com/BSData/necromunda-gang-war/releases.atom
+      bugTrackerUrl: https://github.com/BSData/necromunda-gang-war/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/necromunda-gang-war
 

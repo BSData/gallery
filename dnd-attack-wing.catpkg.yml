@@ -14,6 +14,19 @@ cache:
       name: Initial Release
       published_at: 2015-02-21T05:01:36.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 502
+    properties:
+      name: dnd-attack-wing
+      description: D&D Attack Wing
+      battleScribeVersion: "1.15"
+      version: 1.0.0
+      lastUpdated: 2015-02-21T04:56:03.0000000+00:00
+      lastUpdateDescription: Initial Release
+      indexUrl: https://github.com/BSData/dnd-attack-wing/releases/latest/download/dnd-attack-wing.latest.bsi
+      repositoryUrl: https://github.com/BSData/dnd-attack-wing/releases/latest/download/dnd-attack-wing.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/dnd-attack-wing/releases/latest/download/dnd-attack-wing.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/dnd-attack-wing/releases/download/1.0.0/dnd-attack-wing.1.0.0.bsr
+      githubUrl: https://github.com/BSData/dnd-attack-wing
+      feedUrl: https://github.com/BSData/dnd-attack-wing/releases.atom
+      bugTrackerUrl: https://github.com/BSData/dnd-attack-wing/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/dnd-attack-wing
 

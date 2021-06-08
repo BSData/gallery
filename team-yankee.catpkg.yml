@@ -12,6 +12,19 @@ cache:
       name: Bugfix in American Catalog
       published_at: 2021-02-16T11:36:58.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 502
+    properties:
+      name: team-yankee
+      description: Team Yankee
+      battleScribeVersion: "2.03"
+      version: v1.0.22
+      lastUpdated: 2021-02-16T11:35:08.0000000+00:00
+      lastUpdateDescription: Bugfix in American Catalog
+      indexUrl: https://github.com/BSData/team-yankee/releases/latest/download/team-yankee.latest.bsi
+      repositoryUrl: https://github.com/BSData/team-yankee/releases/latest/download/team-yankee.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/team-yankee/releases/latest/download/team-yankee.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/team-yankee/releases/download/v1.0.22/team-yankee.v1.0.22.bsr
+      githubUrl: https://github.com/BSData/team-yankee
+      feedUrl: https://github.com/BSData/team-yankee/releases.atom
+      bugTrackerUrl: https://github.com/BSData/team-yankee/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/team-yankee
 

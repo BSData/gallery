@@ -12,6 +12,19 @@ cache:
       name: Limbo Eternal War v1.0.4
       published_at: 2020-09-17T23:07:10.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 502
+    properties:
+      name: limbo-eternal-war
+      description: Limbo Eternal War
+      battleScribeVersion: "2.03"
+      version: v1.0.4
+      lastUpdated: 2020-09-17T18:32:47.0000000+00:00
+      lastUpdateDescription: Limbo Eternal War v1.0.4
+      indexUrl: https://github.com/BSData/limbo-eternal-war/releases/latest/download/limbo-eternal-war.latest.bsi
+      repositoryUrl: https://github.com/BSData/limbo-eternal-war/releases/latest/download/limbo-eternal-war.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/limbo-eternal-war/releases/latest/download/limbo-eternal-war.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/limbo-eternal-war/releases/download/v1.0.4/limbo-eternal-war.v1.0.4.bsr
+      githubUrl: https://github.com/BSData/limbo-eternal-war
+      feedUrl: https://github.com/BSData/limbo-eternal-war/releases.atom
+      bugTrackerUrl: https://github.com/BSData/limbo-eternal-war/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/limbo-eternal-war
 

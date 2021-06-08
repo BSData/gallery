@@ -12,6 +12,19 @@ cache:
       name: pt changes and adding lucky
       published_at: 2021-05-10T18:08:36.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 503
+    properties:
+      name: flamesofwar
+      description: Flames of War
+      battleScribeVersion: "2.03"
+      version: 1.2.5
+      lastUpdated: 2021-05-10T18:07:40.0000000+00:00
+      lastUpdateDescription: pt changes and adding lucky
+      indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
+      repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.5/flamesofwar.1.2.5.bsr
+      githubUrl: https://github.com/BSData/flamesofwar
+      feedUrl: https://github.com/BSData/flamesofwar/releases.atom
+      bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/flamesofwar
 
