@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 28 May 2021 10:40:51 GMT
+      LastModified: Wed, 09 Jun 2021 14:20:13 GMT
     properties:
-      tag_name: 2.3.15
-      name: Hobgoblins Beta
-      published_at: 2021-05-28T10:40:51.0000000+00:00
+      tag_name: 2.3.16
+      name: Vermin Swarm LAB Alpha 1
+      published_at: 2021-06-09T14:20:13.0000000+00:00
   catpkg:
     properties:
       name: The-9th-Age
       description: 'Fantasy Battles: The 9th Age'
       battleScribeVersion: "2.03"
-      version: 2.3.15
-      lastUpdated: 2021-05-28T10:39:52.0000000+00:00
-      lastUpdateDescription: Hobgoblins Beta
+      version: 2.3.16
+      lastUpdated: 2021-06-09T14:16:53.0000000+00:00
+      lastUpdateDescription: Vermin Swarm LAB Alpha 1
       indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
       repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2.3.15/The-9th-Age.2.3.15.bsr
+      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2.3.16/The-9th-Age.2.3.16.bsr
       githubUrl: https://github.com/BSData/The-9th-Age
       feedUrl: https://github.com/BSData/The-9th-Age/releases.atom
       bugTrackerUrl: https://github.com/BSData/The-9th-Age/issues
