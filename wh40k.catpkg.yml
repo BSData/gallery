@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 12 Jun 2021 01:36:18 GMT
+      LastModified: Thu, 17 Jun 2021 22:42:40 GMT
     properties:
-      tag_name: v9.1.37
-      name: Sisters; now with 50% more announted halbreads
-      published_at: 2021-06-12T01:36:18.0000000+00:00
+      tag_name: v9.1.38
+      name: Space Marines - Now with 50% more Tomes not named Malcador
+      published_at: 2021-06-17T22:42:40.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.37
-      lastUpdated: 2021-06-11T21:29:10.0000000+00:00
-      lastUpdateDescription: Sisters; now with 50% more announted halbreads
+      version: v9.1.38
+      lastUpdated: 2021-06-17T19:20:01.0000000+00:00
+      lastUpdateDescription: Space Marines - Now with 50% more Tomes not named Malcador
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.37/wh40k.v9.1.37.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.38/wh40k.v9.1.38.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
