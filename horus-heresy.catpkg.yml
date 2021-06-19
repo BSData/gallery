@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 16 Jun 2021 12:13:42 GMT
+      LastModified: Sat, 19 Jun 2021 18:25:28 GMT
     properties:
-      tag_name: v15.0.10
-      name: A lot of RoW fixes
-      published_at: 2021-06-16T12:13:42.0000000+00:00
+      tag_name: v15.0.11
+      name: Fixes for DA RoW
+      published_at: 2021-06-19T18:25:28.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v15.0.10
-      lastUpdated: 2021-06-16T12:10:22.0000000+00:00
-      lastUpdateDescription: A lot of RoW fixes
+      version: v15.0.11
+      lastUpdated: 2021-06-19T18:24:24.0000000+00:00
+      lastUpdateDescription: Fixes for DA RoW
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.0.10/horus-heresy.v15.0.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.0.11/horus-heresy.v15.0.11.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
