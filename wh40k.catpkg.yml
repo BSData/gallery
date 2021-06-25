@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 18 Jun 2021 20:33:39 GMT
+      LastModified: Fri, 25 Jun 2021 02:15:16 GMT
     properties:
-      tag_name: v9.1.39
-      name: Affix bayonets, we've got more assassinate points to lose!
-      published_at: 2021-06-18T20:33:39.0000000+00:00
+      tag_name: v9.1.40
+      name: 'And now, the release you’ve been waiting for: Mario Golf for the Switch!'
+      published_at: 2021-06-25T02:15:16.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.39
-      lastUpdated: 2021-06-18T18:48:35.0000000+00:00
-      lastUpdateDescription: Affix bayonets, we've got more assassinate points to lose!
+      version: v9.1.40
+      lastUpdated: 2021-06-25T01:02:05.0000000+00:00
+      lastUpdateDescription: 'And now, the release you’ve been waiting for: Mario Golf for the Switch!'
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.39/wh40k.v9.1.39.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.40/wh40k.v9.1.40.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
