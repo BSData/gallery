@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 13 Apr 2021 19:50:21 GMT
+      LastModified: Tue, 29 Jun 2021 20:48:43 GMT
     properties:
-      tag_name: "37.04"
-      name: F-ERC IG Elysian pts corrections for Sentinels
-      published_at: 2021-04-13T19:50:21.0000000+00:00
+      tag_name: "37.05"
+      name: F-ERC files now sourced from their Google Drive, plus some other updates
+      published_at: 2021-06-29T20:48:43.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
-      version: "37.04"
-      lastUpdated: 2021-04-13T19:37:16.0000000+00:00
-      lastUpdateDescription: F-ERC IG Elysian pts corrections for Sentinels
+      version: "37.05"
+      lastUpdated: 2021-06-29T20:29:41.0000000+00:00
+      lastUpdateDescription: F-ERC files now sourced from their Google Drive, plus some other updates
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/37.04/wh40k-epic-armageddon.37.04.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/37.05/wh40k-epic-armageddon.37.05.bsr
       githubUrl: https://github.com/BSData/wh40k-epic-armageddon
       feedUrl: https://github.com/BSData/wh40k-epic-armageddon/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-epic-armageddon/issues
