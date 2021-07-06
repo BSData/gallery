@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Jul 2021 18:27:01 GMT
+      LastModified: Tue, 06 Jul 2021 19:37:34 GMT
     properties:
-      tag_name: v15.0.13
-      name: Spelling mistakes and a couple of missing options.
-      published_at: 2021-07-01T18:27:01.0000000+00:00
+      tag_name: v15.0.14
+      name: More old ROW fixes. Space Wolves this time.
+      published_at: 2021-07-06T19:37:34.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v15.0.13
-      lastUpdated: 2021-07-01T18:25:57.0000000+00:00
-      lastUpdateDescription: Spelling mistakes and a couple of missing options.
+      version: v15.0.14
+      lastUpdated: 2021-07-06T19:36:22.0000000+00:00
+      lastUpdateDescription: More old ROW fixes. Space Wolves this time.
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.0.13/horus-heresy.v15.0.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.0.14/horus-heresy.v15.0.14.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
