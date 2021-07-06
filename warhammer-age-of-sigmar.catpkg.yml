@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 05 Jul 2021 05:00:23 GMT
+      LastModified: Tue, 06 Jul 2021 02:46:15 GMT
     properties:
-      tag_name: v3.0.2
-      name: Day 1 of Bug Fixes complete
-      published_at: 2021-07-05T05:00:23.0000000+00:00
+      tag_name: v3.0.3
+      name: Day 2 of Bug Fixes complete
+      published_at: 2021-07-06T02:46:15.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
