@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 13 Jul 2021 07:01:39 GMT
+      LastModified: Tue, 13 Jul 2021 12:19:08 GMT
     properties:
-      tag_name: 1.2.6
-      name: Adding in a few cards and updating points on some units
-      published_at: 2021-07-13T07:01:39.0000000+00:00
+      tag_name: 1.2.8
+      name: more missing files
+      published_at: 2021-07-13T12:19:08.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: flamesofwar
+      description: Flames of War
+      battleScribeVersion: 
+      version: 1.2.8
+      lastUpdated: 2021-07-13T12:18:22.0000000+00:00
+      lastUpdateDescription: more missing files
+      indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
+      repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.8/flamesofwar.1.2.8.bsr
+      githubUrl: https://github.com/BSData/flamesofwar
+      feedUrl: https://github.com/BSData/flamesofwar/releases.atom
+      bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/flamesofwar
 
