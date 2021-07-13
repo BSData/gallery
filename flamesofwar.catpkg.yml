@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 13 Jul 2021 12:19:08 GMT
+      LastModified: Tue, 13 Jul 2021 12:46:30 GMT
     properties:
-      tag_name: 1.2.8
-      name: more missing files
-      published_at: 2021-07-13T12:19:08.0000000+00:00
+      tag_name: 1.2.9
+      name: ':crossfingers:'
+      published_at: 2021-07-13T12:46:30.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
-      battleScribeVersion: 
-      version: 1.2.8
-      lastUpdated: 2021-07-13T12:18:22.0000000+00:00
-      lastUpdateDescription: more missing files
+      battleScribeVersion: "2.03"
+      version: 1.2.9
+      lastUpdated: 2021-07-13T12:45:37.0000000+00:00
+      lastUpdateDescription: ':crossfingers:'
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.8/flamesofwar.1.2.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.9/flamesofwar.1.2.9.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
