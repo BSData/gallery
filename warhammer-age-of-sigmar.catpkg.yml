@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 21 Jul 2021 03:16:28 GMT
+      LastModified: Sat, 24 Jul 2021 21:22:36 GMT
     properties:
-      tag_name: v3.0.16
-      name: 'Help Wanted: L4 Writer for Funny Release Titles'
-      published_at: 2021-07-21T03:16:28.0000000+00:00
+      tag_name: v3.0.17
+      name: Time for a Conquest of Generals!
+      published_at: 2021-07-24T21:22:36.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.16
-      lastUpdated: 2021-07-20T23:07:52.0000000+00:00
-      lastUpdateDescription: 'Help Wanted: L4 Writer for Funny Release Titles'
+      version: v3.0.17
+      lastUpdated: 2021-07-24T01:02:46.0000000+00:00
+      lastUpdateDescription: Time for a Conquest of Generals!
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.16/warhammer-age-of-sigmar.v3.0.16.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.17/warhammer-age-of-sigmar.v3.0.17.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
