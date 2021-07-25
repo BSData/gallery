@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 27 Dec 2020 07:02:36 GMT
+      LastModified: Sun, 25 Jul 2021 14:07:07 GMT
     properties:
-      tag_name: 1.5.7
-      name: Removed orkish spelling from some rules
-      published_at: 2020-12-27T07:02:36.0000000+00:00
+      tag_name: v1.5.5
+      name: Marauder? I hardly know her! (Seriously when did these come out...)
+      published_at: 2021-07-25T14:07:07.0000000+00:00
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
-      version: 1.5.7
-      lastUpdated: 2020-12-23T09:44:55.0000000+00:00
-      lastUpdateDescription: Removed orkish spelling from some rules
+      version: v1.5.5
+      lastUpdated: 2021-07-25T13:59:34.0000000+00:00
+      lastUpdateDescription: Marauder? I hardly know her! (Seriously when did these come out...)
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/1.5.7/aeronautica-imperialis.1.5.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/v1.5.5/aeronautica-imperialis.v1.5.5.bsr
       githubUrl: https://github.com/BSData/aeronautica-imperialis
       feedUrl: https://github.com/BSData/aeronautica-imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/aeronautica-imperialis/issues
