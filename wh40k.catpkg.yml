@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 16 Jul 2021 14:33:44 GMT
+      LastModified: Thu, 29 Jul 2021 19:02:33 GMT
     properties:
-      tag_name: v9.1.43
-      name: The eternal question - Is a hot dog a sandwich?
-      published_at: 2021-07-16T14:33:44.0000000+00:00
+      tag_name: v9.1.44
+      name: WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGH!!!!!
+      published_at: 2021-07-29T19:02:33.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.1.43
-      lastUpdated: 2021-07-14T08:06:23.0000000+00:00
-      lastUpdateDescription: The eternal question - Is a hot dog a sandwich?
+      version: v9.1.44
+      lastUpdated: 2021-07-29T19:01:29.0000000+00:00
+      lastUpdateDescription: WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGH!!!!!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.43/wh40k.v9.1.43.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.1.44/wh40k.v9.1.44.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
