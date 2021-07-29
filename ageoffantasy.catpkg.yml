@@ -1,0 +1,30 @@
+location:
+  github: OnePageRules/AgeOfFantasy
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Thu, 29 Jul 2021 16:11:06 GMT
+    properties:
+      tag_name: 1.0.0
+      name: Initial release for Gallery
+      published_at: 2021-07-29T16:11:06.0000000+00:00
+  catpkg:
+    properties:
+      name: AgeOfFantasy
+      description: Age of Fantasy
+      battleScribeVersion: "2.03"
+      version: 1.0.0
+      lastUpdated: 2021-07-29T16:08:57.0000000+00:00
+      lastUpdateDescription: Initial release for Gallery
+      indexUrl: https://github.com/OnePageRules/AgeOfFantasy/releases/latest/download/AgeOfFantasy.latest.bsi
+      repositoryUrl: https://github.com/OnePageRules/AgeOfFantasy/releases/latest/download/AgeOfFantasy.catpkg.json
+      repositoryGzipUrl: https://github.com/OnePageRules/AgeOfFantasy/releases/latest/download/AgeOfFantasy.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/OnePageRules/AgeOfFantasy/releases/download/1.0.0/AgeOfFantasy.1.0.0.bsr
+      githubUrl: https://github.com/OnePageRules/AgeOfFantasy
+      feedUrl: https://github.com/OnePageRules/AgeOfFantasy/releases.atom
+      bugTrackerUrl: https://github.com/OnePageRules/AgeOfFantasy/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/AgeOfFantasy
+
