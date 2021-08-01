@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 20 Apr 2021 22:00:15 GMT
+      LastModified: Sun, 01 Aug 2021 09:03:31 GMT
     properties:
-      tag_name: v1.5
-      name: Black Eagle Edition
-      published_at: 2021-04-20T22:00:15.0000000+00:00
+      tag_name: v1.6
+      name: The Returning Shiho Edition
+      published_at: 2021-08-01T09:03:31.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v1.5
-      lastUpdated: 2021-04-20T21:54:23.0000000+00:00
-      lastUpdateDescription: Black Eagle Edition
+      version: v1.6
+      lastUpdated: 2021-08-01T09:01:30.0000000+00:00
+      lastUpdateDescription: The Returning Shiho Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.5/bushido.v1.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.6/bushido.v1.6.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
