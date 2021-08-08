@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 31 Jul 2021 19:48:23 GMT
+      LastModified: Sun, 08 Aug 2021 20:40:25 GMT
     properties:
-      tag_name: v3.0.18
-      name: Conquest Of Generals Allied Battleline Fix
-      published_at: 2021-07-31T19:48:23.0000000+00:00
+      tag_name: v3.0.19
+      name: We want our new battletomes, dammit!
+      published_at: 2021-08-08T20:40:25.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.18
-      lastUpdated: 2021-07-31T19:46:52.0000000+00:00
-      lastUpdateDescription: Conquest Of Generals Allied Battleline Fix
+      version: v3.0.19
+      lastUpdated: 2021-08-08T17:33:38.0000000+00:00
+      lastUpdateDescription: We want our new battletomes, dammit!
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.18/warhammer-age-of-sigmar.v3.0.18.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.19/warhammer-age-of-sigmar.v3.0.19.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
