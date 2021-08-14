@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 12 Aug 2021 19:10:49 GMT
+      LastModified: Sat, 14 Aug 2021 03:49:27 GMT
     properties:
-      tag_name: v9.2.3
-      name: Ok, I'm bored with orkz already ... Can we get some more primaris marines?
-      published_at: 2021-08-12T19:10:49.0000000+00:00
+      tag_name: v9.2.4
+      name: All that glitters is dust.
+      published_at: 2021-08-14T03:49:27.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: wh40k
+      description: Warhammer 40,000
+      battleScribeVersion: "2.03"
+      version: v9.2.4
+      lastUpdated: 2021-08-14T03:47:58.0000000+00:00
+      lastUpdateDescription: All that glitters is dust.
+      indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
+      repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.4/wh40k.v9.2.4.bsr
+      githubUrl: https://github.com/BSData/wh40k
+      feedUrl: https://github.com/BSData/wh40k/releases.atom
+      bugTrackerUrl: https://github.com/BSData/wh40k/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k
 
