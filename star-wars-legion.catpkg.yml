@@ -6,9 +6,9 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 17 Aug 2021 18:33:46 GMT
+      LastModified: Wed, 18 Aug 2021 04:30:41 GMT
     properties:
-      tag_name: "1.9"
+      tag_name: 1.9.0
       name: Kashyyyk Wave Preview
       published_at: 2021-08-17T18:33:46.0000000+00:00
   catpkg:
