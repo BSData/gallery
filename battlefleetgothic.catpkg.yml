@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 11 Mar 2021 06:04:18 GMT
+      LastModified: Sun, 22 Aug 2021 16:58:05 GMT
     properties:
-      tag_name: v2.4.24
-      name: Imperial Fix, Thanks for the bug report Rando!
-      published_at: 2021-03-11T06:04:18.0000000+00:00
+      tag_name: v2.4.25
+      name: Ork Savage escorts, DE Mimic reduction
+      published_at: 2021-08-22T16:58:05.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.4.24
+      version: v2.4.25
       lastUpdated: 2021-03-11T06:02:11.0000000+00:00
-      lastUpdateDescription: Imperial Fix, Thanks for the bug report Rando!
+      lastUpdateDescription: Ork Savage escorts, DE Mimic reduction
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.4.24/battlefleetgothic.v2.4.24.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.4.25/battlefleetgothic.v2.4.25.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
