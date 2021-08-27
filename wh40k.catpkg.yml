@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 19 Aug 2021 16:53:48 GMT
+      LastModified: Fri, 27 Aug 2021 01:15:20 GMT
     properties:
-      tag_name: v9.2.6
-      name: I'm a Lumberjack and I'm OK. I sleep all night and I work all day.
-      published_at: 2021-08-19T16:53:48.0000000+00:00
+      tag_name: v9.2.7
+      name: Knowledge is power, guard it well.
+      published_at: 2021-08-27T01:15:20.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.2.6
-      lastUpdated: 2021-08-19T15:56:04.0000000+00:00
-      lastUpdateDescription: I'm a Lumberjack and I'm OK. I sleep all night and I work all day.
+      version: v9.2.7
+      lastUpdated: 2021-08-26T19:04:05.0000000+00:00
+      lastUpdateDescription: Knowledge is power, guard it well.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.6/wh40k.v9.2.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.7/wh40k.v9.2.7.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
