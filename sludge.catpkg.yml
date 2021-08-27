@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 11 Aug 2021 18:16:45 GMT
+      LastModified: Fri, 27 Aug 2021 12:24:33 GMT
     properties:
-      tag_name: v1.0.0
-      name: Sludge v1.0
-      published_at: 2021-08-11T18:16:45.0000000+00:00
+      tag_name: v1.0.1
+      name: Minor Fixes
+      published_at: 2021-08-27T12:24:33.0000000+00:00
   catpkg:
     properties:
       name: sludge
       description: Sludge
       battleScribeVersion: "2.03"
-      version: v1.0.0
-      lastUpdated: 2021-08-11T14:54:55.0000000+00:00
-      lastUpdateDescription: Sludge v1.0
+      version: v1.0.1
+      lastUpdated: 2021-08-27T12:22:31.0000000+00:00
+      lastUpdateDescription: Minor Fixes
       indexUrl: https://github.com/BSData/sludge/releases/latest/download/sludge.latest.bsi
       repositoryUrl: https://github.com/BSData/sludge/releases/latest/download/sludge.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/sludge/releases/latest/download/sludge.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/sludge/releases/download/v1.0.0/sludge.v1.0.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/sludge/releases/download/v1.0.1/sludge.v1.0.1.bsr
       githubUrl: https://github.com/BSData/sludge
       feedUrl: https://github.com/BSData/sludge/releases.atom
       bugTrackerUrl: https://github.com/BSData/sludge/issues
