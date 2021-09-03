@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 02 Sep 2021 12:18:47 GMT
+      LastModified: Fri, 03 Sep 2021 20:56:25 GMT
     properties:
-      tag_name: v15.1.6
-      name: Bunch of fixes, mainly LoW and mini-knights
-      published_at: 2021-09-02T12:18:47.0000000+00:00
+      tag_name: v15.1.7
+      name: More missing weapon profiles
+      published_at: 2021-09-03T20:56:25.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v15.1.6
-      lastUpdated: 2021-09-02T12:17:26.0000000+00:00
-      lastUpdateDescription: Bunch of fixes, mainly LoW and mini-knights
+      version: v15.1.7
+      lastUpdated: 2021-09-03T20:55:16.0000000+00:00
+      lastUpdateDescription: More missing weapon profiles
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.1.6/horus-heresy.v15.1.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.1.7/horus-heresy.v15.1.7.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
