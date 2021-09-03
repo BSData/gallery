@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 29 Aug 2021 02:19:32 GMT
+      LastModified: Fri, 03 Sep 2021 03:49:56 GMT
     properties:
-      tag_name: v3.0.21
-      name: August FAQ and Legends
-      published_at: 2021-08-29T02:19:32.0000000+00:00
+      tag_name: v3.0.22
+      name: FAQ QA and Allied Enhancements
+      published_at: 2021-09-03T03:49:56.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
