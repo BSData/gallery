@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 22 Aug 2021 19:41:32 GMT
+      LastModified: Wed, 08 Sep 2021 21:54:45 GMT
     properties:
-      tag_name: v9.3.0
-      name: Ride the Lightning! All LL Wargear and Strats! Plus Princeps Traits
-      published_at: 2021-08-22T19:41:32.0000000+00:00
+      tag_name: v9.35
+      name: Gryphonicus, Honorum, and Solaria Fixes! Go fly a VOLKITE
+      published_at: 2021-09-08T21:54:45.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: v9.3.0
-      lastUpdated: 2021-08-22T19:39:15.0000000+00:00
-      lastUpdateDescription: Ride the Lightning! All LL Wargear and Strats! Plus Princeps Traits
+      version: v9.35
+      lastUpdated: 2021-09-08T21:48:55.0000000+00:00
+      lastUpdateDescription: Gryphonicus, Honorum, and Solaria Fixes! Go fly a VOLKITE
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.3.0/adeptus-titanicus.v9.3.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.35/adeptus-titanicus.v9.35.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
