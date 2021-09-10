@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 06 Sep 2021 19:37:56 GMT
+      LastModified: Fri, 10 Sep 2021 02:42:52 GMT
     properties:
-      tag_name: v3.0.23
-      name: Sept FAQ
-      published_at: 2021-09-06T19:37:56.0000000+00:00
+      tag_name: v3.0.24
+      name: Faction Core Battalions for SoB
+      published_at: 2021-09-10T02:42:52.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
