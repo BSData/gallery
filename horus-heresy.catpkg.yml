@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 10 Sep 2021 20:23:56 GMT
+      LastModified: Tue, 14 Sep 2021 09:04:26 GMT
     properties:
-      tag_name: v15.2.9
-      name: Another surprise drop with Argel Tal release
-      published_at: 2021-09-10T20:23:56.0000000+00:00
+      tag_name: v15.2.10
+      name: Seeker's Arrow fix
+      published_at: 2021-09-14T09:04:26.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v15.2.9
-      lastUpdated: 2021-09-10T20:22:31.0000000+00:00
-      lastUpdateDescription: Another surprise drop with Argel Tal release
+      version: v15.2.10
+      lastUpdated: 2021-09-14T09:02:19.0000000+00:00
+      lastUpdateDescription: Seeker's Arrow fix
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.2.9/horus-heresy.v15.2.9.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.2.10/horus-heresy.v15.2.10.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
