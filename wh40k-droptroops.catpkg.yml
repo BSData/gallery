@@ -1,0 +1,30 @@
+location:
+  github: brendanmint/wh40k-droptroops
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Thu, 16 Sep 2021 14:15:14 GMT
+    properties:
+      tag_name: v0.2.32
+      name: Bug Fixes and GitHub Update
+      published_at: 2021-09-16T14:15:14.0000000+00:00
+  catpkg:
+    properties:
+      name: wh40k-droptroops
+      description: 'Warhammer 40,000: Drop Trooper Fan Codex'
+      battleScribeVersion: "2.03"
+      version: v0.2.32
+      lastUpdated: 2021-09-16T10:12:35.0000000+00:00
+      lastUpdateDescription: Bug Fixes and GitHub Update
+      indexUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.latest.bsi
+      repositoryUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json
+      repositoryGzipUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.32/wh40k-droptroops.v0.2.32.bsr
+      githubUrl: https://github.com/brendanmint/wh40k-droptroops
+      feedUrl: https://github.com/brendanmint/wh40k-droptroops/releases.atom
+      bugTrackerUrl: https://github.com/brendanmint/wh40k-droptroops/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-droptroops
+
