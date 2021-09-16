@@ -2,10 +2,31 @@ location:
   github: BSData/warmahordes
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    apiHeaders:
+      LastModified: Thu, 15 Oct 2020 14:18:18 GMT
+    properties:
+      archived: true
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 16 Mar 2016 21:33:31 GMT
+    properties:
+      tag_name: v1.1.6
+      name: Added missing units in Protectorate
+      published_at: 2016-03-16T21:33:31.0000000+00:00
+  catpkg:
+    properties:
+      name: warmahordes
+      description: Warmachine Hordes
+      battleScribeVersion: 
+      version: v1.1.6
+      lastUpdated: 2016-03-16T21:32:18.0000000+00:00
+      lastUpdateDescription: Added missing units in Protectorate
+      indexUrl: https://github.com/BSData/warmahordes/releases/latest/download/warmahordes.latest.bsi
+      repositoryUrl: https://github.com/BSData/warmahordes/releases/latest/download/warmahordes.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warmahordes/releases/latest/download/warmahordes.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warmahordes/releases/download/v1.1.6/warmahordes.v1.1.6.bsr
+      githubUrl: https://github.com/BSData/warmahordes
+      feedUrl: https://github.com/BSData/warmahordes/releases.atom
+      bugTrackerUrl: https://github.com/BSData/warmahordes/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warmahordes
 

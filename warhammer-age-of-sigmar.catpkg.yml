@@ -2,10 +2,16 @@ location:
   github: BSData/warhammer-age-of-sigmar
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Fri, 10 Sep 2021 02:42:52 GMT
+    properties:
+      tag_name: v3.0.24
+      name: Faction Core Battalions for SoB
+      published_at: 2021-09-10T02:42:52.0000000+00:00
+  catpkg:
+    apiResponseError:
+      code: 404
 

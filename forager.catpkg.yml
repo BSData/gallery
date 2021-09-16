@@ -2,10 +2,29 @@ location:
   github: BSData/forager
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Fri, 19 Jan 2018 18:43:20 GMT
+    properties:
+      tag_name: 1.0.0
+      name: Fixed to Cat etc
+      published_at: 2018-01-19T18:43:20.0000000+00:00
+  catpkg:
+    properties:
+      name: forager
+      description: Forager
+      battleScribeVersion: "2.01"
+      version: 1.0.0
+      lastUpdated: 2018-01-19T18:40:32.0000000+00:00
+      lastUpdateDescription: Fixed to Cat etc
+      indexUrl: https://github.com/BSData/forager/releases/latest/download/forager.latest.bsi
+      repositoryUrl: https://github.com/BSData/forager/releases/latest/download/forager.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/forager/releases/latest/download/forager.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/forager/releases/download/1.0.0/forager.1.0.0.bsr
+      githubUrl: https://github.com/BSData/forager
+      feedUrl: https://github.com/BSData/forager/releases.atom
+      bugTrackerUrl: https://github.com/BSData/forager/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/forager
 

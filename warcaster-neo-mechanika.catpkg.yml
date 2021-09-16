@@ -2,10 +2,29 @@ location:
   github: BSData/warcaster-neo-mechanika
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 15 Sep 2021 13:22:39 GMT
+    properties:
+      tag_name: 1.2.0
+      name: Collision Course
+      published_at: 2021-09-15T13:22:39.0000000+00:00
+  catpkg:
+    properties:
+      name: warcaster-neo-mechanika
+      description: 'Warcaster: Neo-Mechanika'
+      battleScribeVersion: "2.03"
+      version: 1.2.0
+      lastUpdated: 2021-09-15T13:19:16.0000000+00:00
+      lastUpdateDescription: Collision Course
+      indexUrl: https://github.com/BSData/warcaster-neo-mechanika/releases/latest/download/warcaster-neo-mechanika.latest.bsi
+      repositoryUrl: https://github.com/BSData/warcaster-neo-mechanika/releases/latest/download/warcaster-neo-mechanika.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warcaster-neo-mechanika/releases/latest/download/warcaster-neo-mechanika.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warcaster-neo-mechanika/releases/download/1.2.0/warcaster-neo-mechanika.1.2.0.bsr
+      githubUrl: https://github.com/BSData/warcaster-neo-mechanika
+      feedUrl: https://github.com/BSData/warcaster-neo-mechanika/releases.atom
+      bugTrackerUrl: https://github.com/BSData/warcaster-neo-mechanika/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warcaster-neo-mechanika
 

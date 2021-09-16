@@ -2,10 +2,29 @@ location:
   github: BSData/carnevale
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Fri, 03 May 2019 17:37:55 GMT
+    properties:
+      tag_name: 1.2.2
+      name: Rialto Assassin & Hybrid
+      published_at: 2019-05-03T17:37:11.0000000+00:00
+  catpkg:
+    properties:
+      name: carnevale
+      description: Carnevale
+      battleScribeVersion: "2.02"
+      version: 1.2.2
+      lastUpdated: 2019-05-03T17:34:22.0000000+00:00
+      lastUpdateDescription: Rialto Assassin & Hybrid
+      indexUrl: https://github.com/BSData/carnevale/releases/latest/download/carnevale.latest.bsi
+      repositoryUrl: https://github.com/BSData/carnevale/releases/latest/download/carnevale.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/carnevale/releases/latest/download/carnevale.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/carnevale/releases/download/1.2.2/carnevale.1.2.2.bsr
+      githubUrl: https://github.com/BSData/carnevale
+      feedUrl: https://github.com/BSData/carnevale/releases.atom
+      bugTrackerUrl: https://github.com/BSData/carnevale/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/carnevale
 

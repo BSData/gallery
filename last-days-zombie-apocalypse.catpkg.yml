@@ -2,10 +2,29 @@ location:
   github: BSData/last-days-zombie-apocalypse
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 29 Apr 2020 14:21:16 GMT
+    properties:
+      tag_name: V3.0.0
+      name: Campaign system added
+      published_at: 2020-04-29T14:21:16.0000000+00:00
+  catpkg:
+    properties:
+      name: last-days-zombie-apocalypse
+      description: 'Last Days: Zombie Apocalypse'
+      battleScribeVersion: "2.03"
+      version: V3.0.0
+      lastUpdated: 2020-04-29T14:18:55.0000000+00:00
+      lastUpdateDescription: Campaign system added
+      indexUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases/latest/download/last-days-zombie-apocalypse.latest.bsi
+      repositoryUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases/latest/download/last-days-zombie-apocalypse.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases/latest/download/last-days-zombie-apocalypse.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases/download/V3.0.0/last-days-zombie-apocalypse.V3.0.0.bsr
+      githubUrl: https://github.com/BSData/last-days-zombie-apocalypse
+      feedUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases.atom
+      bugTrackerUrl: https://github.com/BSData/last-days-zombie-apocalypse/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/last-days-zombie-apocalypse
 

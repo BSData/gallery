@@ -2,10 +2,16 @@ location:
   github: BSData/star-wars-armada
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Mon, 19 Apr 2021 23:59:59 GMT
+    properties:
+      tag_name: 1.6.5
+      name: Clone Wars Wave 2
+      published_at: 2021-04-19T23:59:59.0000000+00:00
+  catpkg:
+    apiResponseError:
+      code: 404
 

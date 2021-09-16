@@ -2,10 +2,29 @@ location:
   github: BSData/fallout-wasteland-warfare
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Fri, 17 Apr 2020 13:19:02 GMT
+    properties:
+      tag_name: v1.3.2
+      name: More optimizations
+      published_at: 2020-04-17T13:19:02.0000000+00:00
+  catpkg:
+    properties:
+      name: fallout-wasteland-warfare
+      description: 'Fallout: Wasteland Warfare'
+      battleScribeVersion: "2.03"
+      version: v1.3.2
+      lastUpdated: 2020-04-17T13:18:05.0000000+00:00
+      lastUpdateDescription: More optimizations
+      indexUrl: https://github.com/BSData/fallout-wasteland-warfare/releases/latest/download/fallout-wasteland-warfare.latest.bsi
+      repositoryUrl: https://github.com/BSData/fallout-wasteland-warfare/releases/latest/download/fallout-wasteland-warfare.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/fallout-wasteland-warfare/releases/latest/download/fallout-wasteland-warfare.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/fallout-wasteland-warfare/releases/download/v1.3.2/fallout-wasteland-warfare.v1.3.2.bsr
+      githubUrl: https://github.com/BSData/fallout-wasteland-warfare
+      feedUrl: https://github.com/BSData/fallout-wasteland-warfare/releases.atom
+      bugTrackerUrl: https://github.com/BSData/fallout-wasteland-warfare/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/fallout-wasteland-warfare
 

@@ -2,10 +2,29 @@ location:
   github: BSData/oathmark
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Fri, 06 Aug 2021 14:06:34 GMT
+    properties:
+      tag_name: v1.0.0
+      name: This is Oathmark v1.0
+      published_at: 2021-08-06T14:06:34.0000000+00:00
+  catpkg:
+    properties:
+      name: oathmark
+      description: Oathmark
+      battleScribeVersion: "2.03"
+      version: v1.0.0
+      lastUpdated: 2021-08-06T13:55:27.0000000+00:00
+      lastUpdateDescription: This is Oathmark v1.0
+      indexUrl: https://github.com/BSData/oathmark/releases/latest/download/oathmark.latest.bsi
+      repositoryUrl: https://github.com/BSData/oathmark/releases/latest/download/oathmark.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/oathmark/releases/latest/download/oathmark.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/oathmark/releases/download/v1.0.0/oathmark.v1.0.0.bsr
+      githubUrl: https://github.com/BSData/oathmark
+      feedUrl: https://github.com/BSData/oathmark/releases.atom
+      bugTrackerUrl: https://github.com/BSData/oathmark/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/oathmark
 

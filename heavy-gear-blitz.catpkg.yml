@@ -2,10 +2,29 @@ location:
   github: BSData/heavy-gear-blitz
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 12 Aug 2020 21:01:04 GMT
+    properties:
+      tag_name: v0.1-alpha
+      name: Alpha release of Heavy Gear Blitz! rules
+      published_at: 2020-08-12T21:01:04.0000000+00:00
+  catpkg:
+    properties:
+      name: heavy-gear-blitz
+      description: Heavy Gear Blitz
+      battleScribeVersion: "2.03"
+      version: v0.1-alpha
+      lastUpdated: 2020-08-12T20:45:27.0000000+00:00
+      lastUpdateDescription: Alpha release of Heavy Gear Blitz! rules
+      indexUrl: https://github.com/BSData/heavy-gear-blitz/releases/latest/download/heavy-gear-blitz.latest.bsi
+      repositoryUrl: https://github.com/BSData/heavy-gear-blitz/releases/latest/download/heavy-gear-blitz.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/heavy-gear-blitz/releases/latest/download/heavy-gear-blitz.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/heavy-gear-blitz/releases/download/v0.1-alpha/heavy-gear-blitz.v0.1-alpha.bsr
+      githubUrl: https://github.com/BSData/heavy-gear-blitz
+      feedUrl: https://github.com/BSData/heavy-gear-blitz/releases.atom
+      bugTrackerUrl: https://github.com/BSData/heavy-gear-blitz/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/heavy-gear-blitz
 

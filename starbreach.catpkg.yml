@@ -2,10 +2,29 @@ location:
   github: andreanespeca/StarBreach
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 30 Dec 2020 21:26:12 GMT
+    properties:
+      tag_name: V1.2.0
+      name: Correction by Issue#7
+      published_at: 2020-12-30T21:26:12.0000000+00:00
+  catpkg:
+    properties:
+      name: StarBreach
+      description: StarBreach Skirmish Game
+      battleScribeVersion: "2.03"
+      version: V1.2.0
+      lastUpdated: 2020-12-30T21:21:03.0000000+00:00
+      lastUpdateDescription: Correction by Issue#7
+      indexUrl: https://github.com/andreanespeca/StarBreach/releases/latest/download/StarBreach.latest.bsi
+      repositoryUrl: https://github.com/andreanespeca/StarBreach/releases/latest/download/StarBreach.catpkg.json
+      repositoryGzipUrl: https://github.com/andreanespeca/StarBreach/releases/latest/download/StarBreach.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/andreanespeca/StarBreach/releases/download/V1.2.0/StarBreach.V1.2.0.bsr
+      githubUrl: https://github.com/andreanespeca/StarBreach
+      feedUrl: https://github.com/andreanespeca/StarBreach/releases.atom
+      bugTrackerUrl: https://github.com/andreanespeca/StarBreach/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/StarBreach
 
