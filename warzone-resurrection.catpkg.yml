@@ -2,31 +2,10 @@ location:
   github: BSData/warzone-resurrection
 cache:
   repo:
-    apiHeaders:
-      LastModified: Thu, 15 Oct 2020 14:10:08 GMT
-    properties:
-      archived: true
+    apiRequestError:
+      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
   latestRelease:
-    apiHeaders:
-      LastModified: Tue, 28 Aug 2018 18:27:24 GMT
-    properties:
-      tag_name: 2.3.17
-      name: 2.3.17 Capitol!
-      published_at: 2018-08-28T18:27:24.0000000+00:00
-  catpkg:
-    properties:
-      name: warzone-resurrection
-      description: 'Warzone: Resurrection'
-      battleScribeVersion: "2.01"
-      version: 2.3.17
-      lastUpdated: 2018-08-28T18:26:06.0000000+00:00
-      lastUpdateDescription: 2.3.17 Capitol!
-      indexUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.latest.bsi
-      repositoryUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warzone-resurrection/releases/download/2.3.17/warzone-resurrection.2.3.17.bsr
-      githubUrl: https://github.com/BSData/warzone-resurrection
-      feedUrl: https://github.com/BSData/warzone-resurrection/releases.atom
-      bugTrackerUrl: https://github.com/BSData/warzone-resurrection/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warzone-resurrection
+    apiRequestError:
+      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+  catpkg: {}
 
