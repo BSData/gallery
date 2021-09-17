@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 14 Sep 2021 13:47:38 GMT
+      LastModified: Fri, 17 Sep 2021 21:51:51 GMT
     properties:
-      tag_name: v1.0.5
-      name: Alien Hives v2.11
-      published_at: 2021-09-14T13:47:38.0000000+00:00
+      tag_name: v1.0.6
+      name: High Elf Fleets v2.9
+      published_at: 2021-09-17T21:51:51.0000000+00:00
   catpkg:
     properties:
       name: GrimdarkFutureFirefight
       description: 'Grimdark Future: Firefight'
       battleScribeVersion: "2.03"
-      version: v1.0.5
-      lastUpdated: 2021-09-14T13:46:33.0000000+00:00
-      lastUpdateDescription: Alien Hives v2.11
+      version: v1.0.6
+      lastUpdated: 2021-09-17T08:02:03.0000000+00:00
+      lastUpdateDescription: High Elf Fleets v2.9
       indexUrl: https://github.com/OnePageRules/GrimdarkFutureFirefight/releases/latest/download/GrimdarkFutureFirefight.latest.bsi
       repositoryUrl: https://github.com/OnePageRules/GrimdarkFutureFirefight/releases/latest/download/GrimdarkFutureFirefight.catpkg.json
       repositoryGzipUrl: https://github.com/OnePageRules/GrimdarkFutureFirefight/releases/latest/download/GrimdarkFutureFirefight.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/OnePageRules/GrimdarkFutureFirefight/releases/download/v1.0.5/GrimdarkFutureFirefight.v1.0.5.bsr
+      repositoryBsrUrl: https://github.com/OnePageRules/GrimdarkFutureFirefight/releases/download/v1.0.6/GrimdarkFutureFirefight.v1.0.6.bsr
       githubUrl: https://github.com/OnePageRules/GrimdarkFutureFirefight
       feedUrl: https://github.com/OnePageRules/GrimdarkFutureFirefight/releases.atom
       bugTrackerUrl: https://github.com/OnePageRules/GrimdarkFutureFirefight/issues
