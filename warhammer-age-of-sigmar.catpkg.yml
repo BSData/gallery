@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 10 Sep 2021 02:42:52 GMT
+      LastModified: Sat, 18 Sep 2021 21:48:09 GMT
     properties:
-      tag_name: v3.0.24
-      name: Faction Core Battalions for SoB
-      published_at: 2021-09-10T02:42:52.0000000+00:00
+      tag_name: v3.0.25
+      name: New Battletomes!
+      published_at: 2021-09-18T21:48:09.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
