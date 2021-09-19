@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 18 Sep 2021 21:48:09 GMT
+      LastModified: Sun, 19 Sep 2021 19:51:11 GMT
     properties:
-      tag_name: v3.0.25
-      name: New Battletomes!
-      published_at: 2021-09-18T21:48:09.0000000+00:00
+      tag_name: v3.0.26
+      name: Points fixes for SCE
+      published_at: 2021-09-19T19:51:11.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
