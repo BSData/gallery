@@ -12,19 +12,6 @@ cache:
       name: Free Companies
       published_at: 2021-08-26T14:22:05.0000000+00:00
   catpkg:
-    properties:
-      name: The-9th-Age
-      description: 'Fantasy Battles: The 9th Age'
-      battleScribeVersion: "2.03"
-      version: 2.3.19
-      lastUpdated: 2021-08-26T14:19:56.0000000+00:00
-      lastUpdateDescription: Free Companies
-      indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
-      repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2.3.19/The-9th-Age.2.3.19.bsr
-      githubUrl: https://github.com/BSData/The-9th-Age
-      feedUrl: https://github.com/BSData/The-9th-Age/releases.atom
-      bugTrackerUrl: https://github.com/BSData/The-9th-Age/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/The-9th-Age
+    apiResponseError:
+      code: 403
 
