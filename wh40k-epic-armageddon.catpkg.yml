@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 19 Jul 2021 23:23:07 GMT
+      LastModified: Tue, 21 Sep 2021 18:41:56 GMT
     properties:
-      tag_name: "37.06"
-      name: updates for F-ERC Adeptus Arbites, plus NetEA Dark Eldar & Ulthwe
-      published_at: 2021-07-19T23:23:07.0000000+00:00
+      tag_name: "37.07"
+      name: 101st release - updates, enhancements & bugfixes
+      published_at: 2021-09-21T18:41:56.0000000+00:00
   catpkg:
     properties:
       name: wh40k-epic-armageddon
       description: Warhammer 40,000 Epic Armageddon
       battleScribeVersion: "2.03"
-      version: "37.06"
-      lastUpdated: 2021-07-19T23:19:51.0000000+00:00
-      lastUpdateDescription: updates for F-ERC Adeptus Arbites, plus NetEA Dark Eldar & Ulthwe
+      version: "37.07"
+      lastUpdated: 2021-09-20T20:52:34.0000000+00:00
+      lastUpdateDescription: 101st release - updates, enhancements & bugfixes
       indexUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/latest/download/wh40k-epic-armageddon.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/37.06/wh40k-epic-armageddon.37.06.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-epic-armageddon/releases/download/37.07/wh40k-epic-armageddon.37.07.bsr
       githubUrl: https://github.com/BSData/wh40k-epic-armageddon
       feedUrl: https://github.com/BSData/wh40k-epic-armageddon/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-epic-armageddon/issues
