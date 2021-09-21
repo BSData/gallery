@@ -12,6 +12,19 @@ cache:
       name: Added new characters
       published_at: 2019-08-29T11:56:49.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 403
+    properties:
+      name: dc-universe
+      description: DC Universe Miniature Game
+      battleScribeVersion: "2.02"
+      version: 2.0.6
+      lastUpdated: 2019-08-29T11:55:55.0000000+00:00
+      lastUpdateDescription: Added new characters
+      indexUrl: https://github.com/BSData/dc-universe/releases/latest/download/dc-universe.latest.bsi
+      repositoryUrl: https://github.com/BSData/dc-universe/releases/latest/download/dc-universe.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/dc-universe/releases/latest/download/dc-universe.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/dc-universe/releases/download/2.0.6/dc-universe.2.0.6.bsr
+      githubUrl: https://github.com/BSData/dc-universe
+      feedUrl: https://github.com/BSData/dc-universe/releases.atom
+      bugTrackerUrl: https://github.com/BSData/dc-universe/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/dc-universe
 
