@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 14 Sep 2021 13:26:26 GMT
+      LastModified: Fri, 24 Sep 2021 12:06:16 GMT
     properties:
-      tag_name: v9.2.9
-      name: Orks! Orks! Orks!
-      published_at: 2021-09-14T13:26:26.0000000+00:00
+      tag_name: v9.2.10
+      name: A release is never late. A release arrives precisely when it means to.
+      published_at: 2021-09-24T12:06:16.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.2.9
-      lastUpdated: 2021-09-14T13:24:14.0000000+00:00
-      lastUpdateDescription: Orks! Orks! Orks!
+      version: v9.2.10
+      lastUpdated: 2021-09-23T21:40:37.0000000+00:00
+      lastUpdateDescription: A release is never late. A release arrives precisely when it means to.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.9/wh40k.v9.2.9.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.10/wh40k.v9.2.10.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
