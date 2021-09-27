@@ -2,10 +2,8 @@ location:
   github: BSData/maelstroms-edge
 cache:
   repo:
-    apiHeaders:
-      LastModified: Tue, 10 Nov 2020 20:05:12 GMT
     properties:
-      archived: true
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sun, 13 Jan 2019 13:56:59 GMT
