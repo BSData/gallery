@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 23 Sep 2021 18:50:00 GMT
+      LastModified: Tue, 28 Sep 2021 03:13:48 GMT
     properties:
-      tag_name: v3.0.29
-      name: It takes a village...
-      published_at: 2021-09-23T18:50:00.0000000+00:00
+      tag_name: v3.0.30
+      name: More QA
+      published_at: 2021-09-28T03:13:48.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.29
-      lastUpdated: 2021-09-23T18:46:41.0000000+00:00
-      lastUpdateDescription: It takes a village...
+      version: v3.0.30
+      lastUpdated: 2021-09-28T02:51:05.0000000+00:00
+      lastUpdateDescription: More QA
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.29/warhammer-age-of-sigmar.v3.0.29.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.30/warhammer-age-of-sigmar.v3.0.30.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
