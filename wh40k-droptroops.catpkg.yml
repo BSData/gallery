@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 24 Sep 2021 16:48:22 GMT
+      LastModified: Fri, 01 Oct 2021 17:07:45 GMT
     properties:
-      tag_name: v0.2.37
-      name: Vendetta Update and Regimental Relic Fixes.
-      published_at: 2021-09-24T16:48:22.0000000+00:00
+      tag_name: v0.2.38
+      name: Small Fixes
+      published_at: 2021-10-01T17:07:45.0000000+00:00
   catpkg:
     properties:
       name: wh40k-droptroops
       description: 'Warhammer 40,000: Drop Trooper Fandex'
       battleScribeVersion: "2.03"
-      version: v0.2.37
-      lastUpdated: 2021-09-24T16:46:46.0000000+00:00
-      lastUpdateDescription: Vendetta Update and Regimental Relic Fixes.
+      version: v0.2.38
+      lastUpdated: 2021-10-01T17:02:39.0000000+00:00
+      lastUpdateDescription: Small Fixes
       indexUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.latest.bsi
       repositoryUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json
       repositoryGzipUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.37/wh40k-droptroops.v0.2.37.bsr
+      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.38/wh40k-droptroops.v0.2.38.bsr
       githubUrl: https://github.com/brendanmint/wh40k-droptroops
       feedUrl: https://github.com/brendanmint/wh40k-droptroops/releases.atom
       bugTrackerUrl: https://github.com/brendanmint/wh40k-droptroops/issues
