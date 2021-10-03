@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 12 Sep 2021 17:32:31 GMT
+      LastModified: Sun, 03 Oct 2021 18:38:37 GMT
     properties:
-      tag_name: v9.3.7
-      name: No More STRUCTURE
-      published_at: 2021-09-12T17:32:31.0000000+00:00
+      tag_name: v9.37
+      name: Some weapon updates and corrections
+      published_at: 2021-10-03T18:38:37.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: v9.3.7
-      lastUpdated: 2021-09-12T17:31:06.0000000+00:00
-      lastUpdateDescription: No More STRUCTURE
+      version: v9.37
+      lastUpdated: 2021-09-26T13:46:22.0000000+00:00
+      lastUpdateDescription: Some weapon updates and corrections
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.3.7/adeptus-titanicus.v9.3.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.37/adeptus-titanicus.v9.37.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
