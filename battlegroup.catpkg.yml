@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 19 Sep 2021 21:23:19 GMT
+      LastModified: Mon, 04 Oct 2021 16:39:06 GMT
     properties:
-      tag_name: v1.2.0
-      name: Pacific Theater - Japan
-      published_at: 2021-09-19T21:23:19.0000000+00:00
+      tag_name: v1.3.0
+      name: Pacific Theater - American
+      published_at: 2021-10-04T16:39:06.0000000+00:00
   catpkg:
     properties:
       name: battlegroup
       description: Battlegroup
       battleScribeVersion: "2.03"
-      version: v1.2.0
-      lastUpdated: 2021-09-19T21:15:30.0000000+00:00
-      lastUpdateDescription: Pacific Theater - Japan
+      version: v1.3.0
+      lastUpdated: 2021-10-04T16:36:03.0000000+00:00
+      lastUpdateDescription: Pacific Theater - American
       indexUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.latest.bsi
       repositoryUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.2.0/battlegroup.v1.2.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.3.0/battlegroup.v1.3.0.bsr
       githubUrl: https://github.com/BSData/battlegroup
       feedUrl: https://github.com/BSData/battlegroup/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlegroup/issues
