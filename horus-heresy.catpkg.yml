@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 04 Oct 2021 11:18:50 GMT
+      LastModified: Mon, 04 Oct 2021 21:21:53 GMT
     properties:
-      tag_name: v15.2.12
-      name: More little fixes
-      published_at: 2021-10-04T11:18:50.0000000+00:00
+      tag_name: v15.3.0
+      name: Atramentar added from HH - EBotAoD - The Defence of Aotha - Aegidas Lament
+      published_at: 2021-10-04T21:21:53.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v15.2.12
-      lastUpdated: 2021-10-04T11:16:34.0000000+00:00
-      lastUpdateDescription: More little fixes
+      version: v15.3.0
+      lastUpdated: 2021-10-04T21:18:39.0000000+00:00
+      lastUpdateDescription: Atramentar added from HH - EBotAoD - The Defence of Aotha - Aegidas Lament
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.2.12/horus-heresy.v15.2.12.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.3.0/horus-heresy.v15.3.0.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
