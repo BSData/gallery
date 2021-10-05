@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 15 Sep 2021 05:30:13 GMT
+      LastModified: Tue, 05 Oct 2021 21:44:43 GMT
     properties:
-      tag_name: v37
-      name: Dominion factions, Sybarites, Cities of Sigmar, Matched & Narrative Play, T&T and Pit Fights added. Many errors in model profiles fixed. minor fix to previous release. Abilities added back.
-      published_at: 2021-09-15T05:21:45.0000000+00:00
+      tag_name: v38
+      name: v38
+      published_at: 2021-10-05T21:44:15.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v37
-      lastUpdated: 2021-09-14T22:33:15.0000000+00:00
-      lastUpdateDescription: Dominion factions, Sybarites, Cities of Sigmar, Matched & Narrative Play, T&T and Pit Fights added. Many errors in model profiles fixed. minor fix to previous release. Abilities added back.
+      version: v38
+      lastUpdated: 2021-10-05T21:16:34.0000000+00:00
+      lastUpdateDescription: v38
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v37/warhammer-age-of-sigmar-warcry.v37.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v38/warhammer-age-of-sigmar-warcry.v38.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
