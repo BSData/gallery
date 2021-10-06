@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 06 Oct 2021 06:13:31 GMT
+      LastModified: Wed, 06 Oct 2021 15:24:20 GMT
     properties:
-      tag_name: v38
-      name: Narrative Play Update & many model errors corrected
-      published_at: 2021-10-05T21:44:15.0000000+00:00
+      tag_name: v39
+      name: ' Narrative Play Update & many model errors corrected'
+      published_at: 2021-10-06T15:24:20.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v38
-      lastUpdated: 2021-10-05T21:16:34.0000000+00:00
-      lastUpdateDescription: Narrative Play Update & many model errors corrected
+      version: v39
+      lastUpdated: 2021-10-06T06:09:11.0000000+00:00
+      lastUpdateDescription: ' Narrative Play Update & many model errors corrected'
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v38/warhammer-age-of-sigmar-warcry.v38.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v39/warhammer-age-of-sigmar-warcry.v39.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
