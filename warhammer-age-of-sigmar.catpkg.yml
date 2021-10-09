@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 04 Oct 2021 04:08:58 GMT
+      LastModified: Sat, 09 Oct 2021 03:28:44 GMT
     properties:
-      tag_name: v3.0.31
-      name: A few straggler bug fixes.
-      published_at: 2021-10-04T04:08:58.0000000+00:00
+      tag_name: v3.0.32
+      name: The man in black fled across the desert...
+      published_at: 2021-10-09T03:28:44.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.31
-      lastUpdated: 2021-10-04T04:06:33.0000000+00:00
-      lastUpdateDescription: A few straggler bug fixes.
+      version: v3.0.32
+      lastUpdated: 2021-10-06T21:37:15.0000000+00:00
+      lastUpdateDescription: The man in black fled across the desert...
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.31/warhammer-age-of-sigmar.v3.0.31.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.32/warhammer-age-of-sigmar.v3.0.32.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
