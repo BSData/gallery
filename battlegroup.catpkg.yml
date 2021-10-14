@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 06 Oct 2021 05:38:35 GMT
+      LastModified: Thu, 14 Oct 2021 16:00:55 GMT
     properties:
-      tag_name: v1.3.2
-      name: Pacific Bugfixes
-      published_at: 2021-10-06T05:38:35.0000000+00:00
+      tag_name: v1.3.3
+      name: Minor Stat Changes
+      published_at: 2021-10-14T16:00:10.0000000+00:00
   catpkg:
     properties:
       name: battlegroup
       description: Battlegroup
       battleScribeVersion: "2.03"
-      version: v1.3.2
-      lastUpdated: 2021-10-06T02:34:10.0000000+00:00
-      lastUpdateDescription: Pacific Bugfixes
+      version: v1.3.3
+      lastUpdated: 2021-10-14T15:56:07.0000000+00:00
+      lastUpdateDescription: Minor Stat Changes
       indexUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.latest.bsi
       repositoryUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.3.2/battlegroup.v1.3.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.3.3/battlegroup.v1.3.3.bsr
       githubUrl: https://github.com/BSData/battlegroup
       feedUrl: https://github.com/BSData/battlegroup/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlegroup/issues
