@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 07 Oct 2021 21:16:55 GMT
+      LastModified: Sat, 16 Oct 2021 01:49:17 GMT
     properties:
-      tag_name: v9.2.11
-      name: Through the destruction of our enemies do we earn our salvation!
-      published_at: 2021-10-07T21:16:55.0000000+00:00
+      tag_name: v9.2.12
+      name: "BREAKING NEWS: Local Priest too angry to die, even the Rubicon couldn't kill him"
+      published_at: 2021-10-16T01:48:15.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.2.11
-      lastUpdated: 2021-10-07T21:10:31.0000000+00:00
-      lastUpdateDescription: Through the destruction of our enemies do we earn our salvation!
+      version: v9.2.12
+      lastUpdated: 2021-10-16T01:18:57.0000000+00:00
+      lastUpdateDescription: "BREAKING NEWS: Local Priest too angry to die, even the Rubicon couldn't kill him"
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.11/wh40k.v9.2.11.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.12/wh40k.v9.2.12.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
