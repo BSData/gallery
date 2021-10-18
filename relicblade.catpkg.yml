@@ -12,6 +12,19 @@ cache:
       name: Added Battle Pigs
       published_at: 2020-06-25T07:30:54.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 403
+    properties:
+      name: relicblade
+      description: Relicblade
+      battleScribeVersion: "2.03"
+      version: v2.3.0
+      lastUpdated: 2020-06-25T07:26:23.0000000+00:00
+      lastUpdateDescription: Added Battle Pigs
+      indexUrl: https://github.com/BSData/relicblade/releases/latest/download/relicblade.latest.bsi
+      repositoryUrl: https://github.com/BSData/relicblade/releases/latest/download/relicblade.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/relicblade/releases/latest/download/relicblade.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/relicblade/releases/download/v2.3.0/relicblade.v2.3.0.bsr
+      githubUrl: https://github.com/BSData/relicblade
+      feedUrl: https://github.com/BSData/relicblade/releases.atom
+      bugTrackerUrl: https://github.com/BSData/relicblade/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/relicblade
 

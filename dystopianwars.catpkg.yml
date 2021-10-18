@@ -12,6 +12,19 @@ cache:
       name: Commonwealth ORBAT update, bug fix Battlefleet bonus management
       published_at: 2021-05-24T09:22:09.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 403
+    properties:
+      name: dystopianwars
+      description: Dystopian Wars
+      battleScribeVersion: "2.03"
+      version: 3.03.00
+      lastUpdated: 2021-05-23T09:19:47.0000000+00:00
+      lastUpdateDescription: Commonwealth ORBAT update, bug fix Battlefleet bonus management
+      indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
+      repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.03.00/dystopianwars.3.03.00.bsr
+      githubUrl: https://github.com/BSData/dystopianwars
+      feedUrl: https://github.com/BSData/dystopianwars/releases.atom
+      bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/dystopianwars
 

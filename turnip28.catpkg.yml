@@ -12,6 +12,19 @@ cache:
       name: Turnip28 v15a is out
       published_at: 2021-09-08T19:26:09.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 403
+    properties:
+      name: turnip28
+      description: Turnip28
+      battleScribeVersion: "2.03"
+      version: "1.0"
+      lastUpdated: 2021-09-08T19:19:33.0000000+00:00
+      lastUpdateDescription: Turnip28 v15a is out
+      indexUrl: https://github.com/BSData/turnip28/releases/latest/download/turnip28.latest.bsi
+      repositoryUrl: https://github.com/BSData/turnip28/releases/latest/download/turnip28.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/turnip28/releases/latest/download/turnip28.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/turnip28/releases/download/1.0/turnip28.1.0.bsr
+      githubUrl: https://github.com/BSData/turnip28
+      feedUrl: https://github.com/BSData/turnip28/releases.atom
+      bugTrackerUrl: https://github.com/BSData/turnip28/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/turnip28
 
