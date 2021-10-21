@@ -12,6 +12,19 @@ cache:
       name: Marvel Ultimate Update. Plastic shame pile, ASSEMBLE!
       published_at: 2021-10-02T02:04:28.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 403
+    properties:
+      name: marvel-crisis-protocol
+      description: Marvel Crisis Protocol
+      battleScribeVersion: "2.03"
+      version: v1.21.1.0
+      lastUpdated: 2021-10-01T22:07:29.0000000+00:00
+      lastUpdateDescription: Marvel Ultimate Update. Plastic shame pile, ASSEMBLE!
+      indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
+      repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/v1.21.1.0/marvel-crisis-protocol.v1.21.1.0.bsr
+      githubUrl: https://github.com/BSData/marvel-crisis-protocol
+      feedUrl: https://github.com/BSData/marvel-crisis-protocol/releases.atom
+      bugTrackerUrl: https://github.com/BSData/marvel-crisis-protocol/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/marvel-crisis-protocol
 

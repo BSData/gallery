@@ -14,6 +14,19 @@ cache:
       name: Tank Update
       published_at: 2016-11-16T15:17:55.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 403
+    properties:
+      name: tanks
+      description: Gale Force 9 Tanks
+      battleScribeVersion: "1.15"
+      version: "1.2"
+      lastUpdated: 2016-10-26T19:12:58.0000000+00:00
+      lastUpdateDescription: Tank Update
+      indexUrl: https://github.com/BSData/tanks/releases/latest/download/tanks.latest.bsi
+      repositoryUrl: https://github.com/BSData/tanks/releases/latest/download/tanks.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/tanks/releases/latest/download/tanks.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/tanks/releases/download/1.2/tanks.1.2.bsr
+      githubUrl: https://github.com/BSData/tanks
+      feedUrl: https://github.com/BSData/tanks/releases.atom
+      bugTrackerUrl: https://github.com/BSData/tanks/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/tanks
 
