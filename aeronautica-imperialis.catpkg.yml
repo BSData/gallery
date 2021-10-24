@@ -6,9 +6,9 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 25 Jul 2021 14:07:07 GMT
+      LastModified: Sun, 24 Oct 2021 11:56:46 GMT
     properties:
-      tag_name: v1.5.5
+      tag_name: v1.5.8
       name: Marauder? I hardly know her! (Seriously when did these come out...)
       published_at: 2021-07-25T14:07:07.0000000+00:00
   catpkg:
