@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 20 Oct 2021 16:29:37 GMT
+      LastModified: Sun, 24 Oct 2021 17:40:21 GMT
     properties:
-      tag_name: v0.2.40
-      name: Few more point fixes.
-      published_at: 2021-10-20T16:29:11.0000000+00:00
+      tag_name: v0.2.41
+      name: Vulture and Sky Talon Fix + Vendetta
+      published_at: 2021-10-24T17:39:50.0000000+00:00
   catpkg:
     properties:
       name: wh40k-droptroops
       description: 'Warhammer 40,000: Drop Trooper Fandex'
       battleScribeVersion: "2.03"
-      version: v0.2.40
-      lastUpdated: 2021-10-20T16:25:20.0000000+00:00
-      lastUpdateDescription: Few more point fixes.
+      version: v0.2.41
+      lastUpdated: 2021-10-24T17:39:19.0000000+00:00
+      lastUpdateDescription: Vulture and Sky Talon Fix + Vendetta
       indexUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.latest.bsi
       repositoryUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json
       repositoryGzipUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.40/wh40k-droptroops.v0.2.40.bsr
+      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.41/wh40k-droptroops.v0.2.41.bsr
       githubUrl: https://github.com/brendanmint/wh40k-droptroops
       feedUrl: https://github.com/brendanmint/wh40k-droptroops/releases.atom
       bugTrackerUrl: https://github.com/brendanmint/wh40k-droptroops/issues
