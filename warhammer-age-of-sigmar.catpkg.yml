@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 25 Oct 2021 20:18:43 GMT
+      LastModified: Mon, 25 Oct 2021 20:19:54 GMT
     properties:
       tag_name: v3.0.35
       name: Weekly release.  This time with extra FAQ.
       published_at: 2021-10-25T20:18:43.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: warhammer-age-of-sigmar
+      description: 'Warhammer: Age of Sigmar'
+      battleScribeVersion: "2.03"
+      version: v3.0.35
+      lastUpdated: 2021-10-24T03:58:10.0000000+00:00
+      lastUpdateDescription: Weekly release.  This time with extra FAQ.
+      indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
+      repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.35/warhammer-age-of-sigmar.v3.0.35.bsr
+      githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
+      feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
+      bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-age-of-sigmar
 
