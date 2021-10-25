@@ -6,25 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 18 Oct 2021 05:32:12 GMT
+      LastModified: Mon, 25 Oct 2021 20:18:43 GMT
     properties:
-      tag_name: v3.0.34
-      name: I must not fear.  Fear is the mind-killer.
-      published_at: 2021-10-18T05:31:09.0000000+00:00
+      tag_name: v3.0.35
+      name: Weekly release.  This time with extra FAQ.
+      published_at: 2021-10-25T20:18:43.0000000+00:00
   catpkg:
-    properties:
-      name: warhammer-age-of-sigmar
-      description: 'Warhammer: Age of Sigmar'
-      battleScribeVersion: "2.03"
-      version: v3.0.34
-      lastUpdated: 2021-10-18T05:25:53.0000000+00:00
-      lastUpdateDescription: I must not fear.  Fear is the mind-killer.
-      indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
-      repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.34/warhammer-age-of-sigmar.v3.0.34.bsr
-      githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
-      feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
-      bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-age-of-sigmar
+    apiResponseError:
+      code: 404
 
