@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 22 Oct 2021 20:36:47 GMT
+      LastModified: Sun, 31 Oct 2021 16:28:12 GMT
     properties:
-      tag_name: v9.2.13
-      name: IT’S TIME! For the moment you've all been waiting for! Planetstrike rules! Wait ... wrong book. WAR ZONE RULES!
-      published_at: 2021-10-22T20:35:23.0000000+00:00
+      tag_name: v9.2.14
+      name: Any Cadian who can't field-strip his own lasgun by age ten was born on the wrong planet.
+      published_at: 2021-10-31T16:27:03.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.2.13
-      lastUpdated: 2021-10-22T19:50:03.0000000+00:00
-      lastUpdateDescription: IT’S TIME! For the moment you've all been waiting for! Planetstrike rules! Wait ... wrong book. WAR ZONE RULES!
+      version: v9.2.14
+      lastUpdated: 2021-10-31T16:24:32.0000000+00:00
+      lastUpdateDescription: Any Cadian who can't field-strip his own lasgun by age ten was born on the wrong planet.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.13/wh40k.v9.2.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.14/wh40k.v9.2.14.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
