@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 05 Nov 2021 11:03:56 GMT
+      LastModified: Thu, 11 Nov 2021 14:34:28 GMT
     properties:
-      tag_name: 1.6.2
-      name: P L A S T I C  T H U N D E R H A W K S
-      published_at: 2021-11-05T11:03:22.0000000+00:00
+      tag_name: v1.6.3
+      name: Minor fixes for Astartes and Tau.
+      published_at: 2021-11-11T14:33:48.0000000+00:00
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
-      version: 1.6.2
-      lastUpdated: 2021-11-03T13:31:37.0000000+00:00
-      lastUpdateDescription: P L A S T I C  T H U N D E R H A W K S
+      version: v1.6.3
+      lastUpdated: 2021-11-11T14:29:21.0000000+00:00
+      lastUpdateDescription: Minor fixes for Astartes and Tau.
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/1.6.2/aeronautica-imperialis.1.6.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/v1.6.3/aeronautica-imperialis.v1.6.3.bsr
       githubUrl: https://github.com/BSData/aeronautica-imperialis
       feedUrl: https://github.com/BSData/aeronautica-imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/aeronautica-imperialis/issues
