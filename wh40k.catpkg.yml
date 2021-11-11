@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 05 Nov 2021 19:17:37 GMT
+      LastModified: Thu, 11 Nov 2021 20:52:46 GMT
     properties:
-      tag_name: v9.2.15
-      name: Planes go pew pew
-      published_at: 2021-11-05T19:16:23.0000000+00:00
+      tag_name: v9.2.16
+      name: Out with the old meta, in with the new.
+      published_at: 2021-11-11T20:51:39.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.2.15
-      lastUpdated: 2021-11-05T10:22:11.0000000+00:00
-      lastUpdateDescription: Planes go pew pew
+      version: v9.2.16
+      lastUpdated: 2021-11-10T21:23:56.0000000+00:00
+      lastUpdateDescription: Out with the old meta, in with the new.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.15/wh40k.v9.2.15.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.16/wh40k.v9.2.16.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
