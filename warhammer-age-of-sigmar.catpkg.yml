@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 04 Nov 2021 01:30:28 GMT
+      LastModified: Sat, 13 Nov 2021 22:40:08 GMT
     properties:
-      tag_name: v3.0.38
-      name: Chaos Fixes take 2
-      published_at: 2021-11-04T01:29:23.0000000+00:00
+      tag_name: v3.0.39
+      name: New Warcry Warbands are here!
+      published_at: 2021-11-13T22:39:13.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.38
-      lastUpdated: 2021-11-04T01:28:36.0000000+00:00
-      lastUpdateDescription: Chaos Fixes take 2
+      version: v3.0.39
+      lastUpdated: 2021-11-11T17:49:48.0000000+00:00
+      lastUpdateDescription: New Warcry Warbands are here!
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.38/warhammer-age-of-sigmar.v3.0.38.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.39/warhammer-age-of-sigmar.v3.0.39.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
