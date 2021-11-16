@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 07 Mar 2021 19:43:45 GMT
+      LastModified: Tue, 16 Nov 2021 09:25:25 GMT
     properties:
-      tag_name: 2.3.3
-      name: Fix Kingdom of Khazad-Dum
-      published_at: 2021-03-07T19:43:45.0000000+00:00
+      tag_name: v2.4
+      name: Fall of the Necromancer Update
+      published_at: 2021-11-16T09:24:23.0000000+00:00
   catpkg:
     properties:
       name: middle-earth
       description: Middle-earth™
       battleScribeVersion: "2.03"
-      version: 2.3.3
-      lastUpdated: 2021-03-07T19:43:08.0000000+00:00
-      lastUpdateDescription: Fix Kingdom of Khazad-Dum
+      version: v2.4
+      lastUpdated: 2021-11-16T08:49:41.0000000+00:00
+      lastUpdateDescription: Fall of the Necromancer Update
       indexUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.latest.bsi
       repositoryUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/2.3.3/middle-earth.2.3.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/v2.4/middle-earth.v2.4.bsr
       githubUrl: https://github.com/BSData/middle-earth
       feedUrl: https://github.com/BSData/middle-earth/releases.atom
       bugTrackerUrl: https://github.com/BSData/middle-earth/issues
