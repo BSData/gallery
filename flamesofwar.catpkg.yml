@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 24 Sep 2021 08:07:29 GMT
+      LastModified: Thu, 25 Nov 2021 11:41:36 GMT
     properties:
-      tag_name: 1.2.10
-      name: Armoured Fist Added!
-      published_at: 2021-09-24T08:07:29.0000000+00:00
+      tag_name: 1.2.11
+      name: All American Addition
+      published_at: 2021-11-25T11:40:53.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: 1.2.10
-      lastUpdated: 2021-09-24T08:03:34.0000000+00:00
-      lastUpdateDescription: Armoured Fist Added!
+      version: 1.2.11
+      lastUpdated: 2021-11-25T09:28:06.0000000+00:00
+      lastUpdateDescription: All American Addition
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.10/flamesofwar.1.2.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.11/flamesofwar.1.2.11.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
