@@ -6,9 +6,9 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 06 Dec 2021 23:38:32 GMT
+      LastModified: Tue, 07 Dec 2021 04:41:12 GMT
     properties:
-      tag_name: 2.0.2
+      tag_name: 2.0.2.1
       name: v2.0.2 November update
       published_at: 2021-12-06T23:37:52.0000000+00:00
   catpkg:
