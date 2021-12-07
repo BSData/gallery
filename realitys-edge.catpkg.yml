@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 20 Aug 2020 00:43:45 GMT
+      LastModified: Tue, 07 Dec 2021 03:29:16 GMT
     properties:
-      tag_name: v1.0.1
-      name: Welcome to the Edge of Reality
-      published_at: 2020-08-20T00:43:45.0000000+00:00
+      tag_name: v1.0.2
+      name: Found those hidden blades in my chrome legs!
+      published_at: 2021-12-07T03:28:50.0000000+00:00
   catpkg:
     properties:
       name: realitys-edge
       description: "Reality's Edge: Cyberpunk Skirmish Rules"
       battleScribeVersion: "2.03"
-      version: v1.0.1
-      lastUpdated: 2020-08-19T23:54:48.0000000+00:00
-      lastUpdateDescription: Welcome to the Edge of Reality
+      version: v1.0.2
+      lastUpdated: 2021-12-07T03:14:14.0000000+00:00
+      lastUpdateDescription: Found those hidden blades in my chrome legs!
       indexUrl: https://github.com/BSData/realitys-edge/releases/latest/download/realitys-edge.latest.bsi
       repositoryUrl: https://github.com/BSData/realitys-edge/releases/latest/download/realitys-edge.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/realitys-edge/releases/latest/download/realitys-edge.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/realitys-edge/releases/download/v1.0.1/realitys-edge.v1.0.1.bsr
+      repositoryBsrUrl: https://github.com/BSData/realitys-edge/releases/download/v1.0.2/realitys-edge.v1.0.2.bsr
       githubUrl: https://github.com/BSData/realitys-edge
       feedUrl: https://github.com/BSData/realitys-edge/releases.atom
       bugTrackerUrl: https://github.com/BSData/realitys-edge/issues
