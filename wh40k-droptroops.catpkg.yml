@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 07 Dec 2021 14:13:10 GMT
+      LastModified: Wed, 08 Dec 2021 14:31:03 GMT
     properties:
-      tag_name: v0.2.56
-      name: Codex Beta 2.4 Update
-      published_at: 2021-12-07T14:12:31.0000000+00:00
+      tag_name: v0.2.57
+      name: Loadout and Command Updates
+      published_at: 2021-12-08T14:30:33.0000000+00:00
   catpkg:
     properties:
       name: wh40k-droptroops
       description: 'Warhammer 40,000: Drop Trooper Fandex'
       battleScribeVersion: "2.03"
-      version: v0.2.56
-      lastUpdated: 2021-12-07T14:10:46.0000000+00:00
-      lastUpdateDescription: Codex Beta 2.4 Update
+      version: v0.2.57
+      lastUpdated: 2021-12-08T14:29:38.0000000+00:00
+      lastUpdateDescription: Loadout and Command Updates
       indexUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.latest.bsi
       repositoryUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json
       repositoryGzipUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.56/wh40k-droptroops.v0.2.56.bsr
+      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.57/wh40k-droptroops.v0.2.57.bsr
       githubUrl: https://github.com/brendanmint/wh40k-droptroops
       feedUrl: https://github.com/brendanmint/wh40k-droptroops/releases.atom
       bugTrackerUrl: https://github.com/brendanmint/wh40k-droptroops/issues
