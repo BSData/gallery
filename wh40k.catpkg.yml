@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 29 Nov 2021 14:43:09 GMT
+      LastModified: Fri, 10 Dec 2021 20:53:09 GMT
     properties:
-      tag_name: v9.2.18
-      name: Big box little box, cardboard box.
-      published_at: 2021-11-29T14:41:49.0000000+00:00
+      tag_name: v9.2.19
+      name: Late release, just like new codexes :(
+      published_at: 2021-12-10T20:51:49.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.2.18
-      lastUpdated: 2021-11-28T20:55:59.0000000+00:00
-      lastUpdateDescription: Big box little box, cardboard box.
+      version: v9.2.19
+      lastUpdated: 2021-12-10T01:07:09.0000000+00:00
+      lastUpdateDescription: Late release, just like new codexes :(
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.18/wh40k.v9.2.18.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.19/wh40k.v9.2.19.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
