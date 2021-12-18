@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 10 Dec 2021 20:53:09 GMT
+      LastModified: Sat, 18 Dec 2021 11:17:28 GMT
     properties:
-      tag_name: v9.2.19
-      name: Late release, just like new codexes :(
-      published_at: 2021-12-10T20:51:49.0000000+00:00
+      tag_name: v9.2.20
+      name: Custards and GSCreams
+      published_at: 2021-12-18T11:16:14.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.2.19
-      lastUpdated: 2021-12-10T01:07:09.0000000+00:00
-      lastUpdateDescription: Late release, just like new codexes :(
+      version: v9.2.20
+      lastUpdated: 2021-12-17T14:36:59.0000000+00:00
+      lastUpdateDescription: Custards and GSCreams
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.19/wh40k.v9.2.19.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.20/wh40k.v9.2.20.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
