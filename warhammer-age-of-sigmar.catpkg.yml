@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 22 Dec 2021 05:07:49 GMT
+      LastModified: Thu, 23 Dec 2021 17:57:08 GMT
     properties:
-      tag_name: v3.0.44
-      name: '"And now destiny is far less valuable"'
-      published_at: 2021-12-22T05:05:34.0000000+00:00
+      tag_name: v3.0.45
+      name: Archaon Price Fix, among others
+      published_at: 2021-12-23T17:55:51.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.44
-      lastUpdated: 2021-12-22T04:58:54.0000000+00:00
-      lastUpdateDescription: '"And now destiny is far less valuable"'
+      version: v3.0.45
+      lastUpdated: 2021-12-22T23:44:22.0000000+00:00
+      lastUpdateDescription: Archaon Price Fix, among others
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.44/warhammer-age-of-sigmar.v3.0.44.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.45/warhammer-age-of-sigmar.v3.0.45.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
