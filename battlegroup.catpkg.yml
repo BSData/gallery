@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 14 Oct 2021 16:00:55 GMT
+      LastModified: Fri, 24 Dec 2021 19:46:37 GMT
     properties:
-      tag_name: v1.3.3
-      name: Minor Stat Changes
-      published_at: 2021-10-14T16:00:10.0000000+00:00
+      tag_name: v1.4.0
+      name: Chinese Theater
+      published_at: 2021-12-24T19:45:54.0000000+00:00
   catpkg:
     properties:
       name: battlegroup
       description: Battlegroup
       battleScribeVersion: "2.03"
-      version: v1.3.3
-      lastUpdated: 2021-10-14T15:56:07.0000000+00:00
-      lastUpdateDescription: Minor Stat Changes
+      version: v1.4.0
+      lastUpdated: 2021-12-24T19:29:20.0000000+00:00
+      lastUpdateDescription: Chinese Theater
       indexUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.latest.bsi
       repositoryUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.3.3/battlegroup.v1.3.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.4.0/battlegroup.v1.4.0.bsr
       githubUrl: https://github.com/BSData/battlegroup
       feedUrl: https://github.com/BSData/battlegroup/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlegroup/issues
