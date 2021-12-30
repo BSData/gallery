@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 24 Dec 2021 11:05:20 GMT
+      LastModified: Thu, 30 Dec 2021 20:08:53 GMT
     properties:
-      tag_name: v9.2.21
-      name: Merry Christmas, you filthy animal
-      published_at: 2021-12-24T11:03:55.0000000+00:00
+      tag_name: v9.2.22
+      name: New Necron Weapon- Slightly Inconvenient Tuesday Cannon!
+      published_at: 2021-12-30T20:07:44.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.2.21
-      lastUpdated: 2021-12-21T21:12:11.0000000+00:00
-      lastUpdateDescription: Merry Christmas, you filthy animal
+      version: v9.2.22
+      lastUpdated: 2021-12-29T12:15:23.0000000+00:00
+      lastUpdateDescription: New Necron Weapon- Slightly Inconvenient Tuesday Cannon!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.21/wh40k.v9.2.21.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.22/wh40k.v9.2.22.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
