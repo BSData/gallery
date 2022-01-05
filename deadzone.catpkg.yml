@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 04 Jan 2022 08:45:18 GMT
+      LastModified: Wed, 05 Jan 2022 09:03:34 GMT
     properties:
-      tag_name: v5.0.0
-      name: Deadzone 3rd edition (GCPS and Veer-Myn)
-      published_at: 2022-01-04T08:44:28.0000000+00:00
+      tag_name: v5.1.0
+      name: Rebs faction plus GCPS fix
+      published_at: 2022-01-05T09:02:54.0000000+00:00
   catpkg:
     properties:
       name: deadzone
       description: Deadzone 2nd Edition
       battleScribeVersion: "2.03"
-      version: v5.0.0
-      lastUpdated: 2022-01-03T01:05:13.0000000+00:00
-      lastUpdateDescription: Deadzone 3rd edition (GCPS and Veer-Myn)
+      version: v5.1.0
+      lastUpdated: 2022-01-05T02:57:35.0000000+00:00
+      lastUpdateDescription: Rebs faction plus GCPS fix
       indexUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.latest.bsi
       repositoryUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/deadzone/releases/download/v5.0.0/deadzone.v5.0.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/deadzone/releases/download/v5.1.0/deadzone.v5.1.0.bsr
       githubUrl: https://github.com/BSData/deadzone
       feedUrl: https://github.com/BSData/deadzone/releases.atom
       bugTrackerUrl: https://github.com/BSData/deadzone/issues
