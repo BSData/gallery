@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 15 Dec 2021 20:13:02 GMT
+      LastModified: Thu, 06 Jan 2022 15:37:02 GMT
     properties:
-      tag_name: v15.4.2
-      name: Fix for Falax Blades on Red Hands
-      published_at: 2021-12-15T20:12:06.0000000+00:00
+      tag_name: v15.4.3
+      name: 1 RoW and some Drop pod fixes
+      published_at: 2022-01-06T15:36:10.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v15.4.2
-      lastUpdated: 2021-12-15T20:10:48.0000000+00:00
-      lastUpdateDescription: Fix for Falax Blades on Red Hands
+      version: v15.4.3
+      lastUpdated: 2022-01-06T15:34:39.0000000+00:00
+      lastUpdateDescription: 1 RoW and some Drop pod fixes
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.4.2/horus-heresy.v15.4.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.4.3/horus-heresy.v15.4.3.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
