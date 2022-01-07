@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 06 Jan 2022 06:02:09 GMT
+      LastModified: Thu, 06 Jan 2022 23:35:48 GMT
     properties:
-      tag_name: v5.2.1
-      name: minor fixes
-      published_at: 2022-01-06T06:01:16.0000000+00:00
+      tag_name: v5.3.0
+      name: add nameless plus minor fixes
+      published_at: 2022-01-06T23:35:15.0000000+00:00
   catpkg:
     properties:
       name: deadzone
       description: Deadzone 2nd Edition
       battleScribeVersion: "2.03"
-      version: v5.2.1
-      lastUpdated: 2022-01-06T06:00:51.0000000+00:00
-      lastUpdateDescription: minor fixes
+      version: v5.3.0
+      lastUpdated: 2022-01-06T23:34:19.0000000+00:00
+      lastUpdateDescription: add nameless plus minor fixes
       indexUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.latest.bsi
       repositoryUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/deadzone/releases/download/v5.2.1/deadzone.v5.2.1.bsr
+      repositoryBsrUrl: https://github.com/BSData/deadzone/releases/download/v5.3.0/deadzone.v5.3.0.bsr
       githubUrl: https://github.com/BSData/deadzone
       feedUrl: https://github.com/BSData/deadzone/releases.atom
       bugTrackerUrl: https://github.com/BSData/deadzone/issues
