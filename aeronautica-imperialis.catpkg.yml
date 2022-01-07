@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 20 Dec 2021 16:33:16 GMT
+      LastModified: Fri, 07 Jan 2022 10:40:14 GMT
     properties:
-      tag_name: v1.6.4
-      name: Updates and fixes (still not good at titles)
-      published_at: 2021-12-20T16:32:40.0000000+00:00
+      tag_name: v1.6.5
+      name: Minor fixes for Imperial Navy and Spelling fixes for Asuryani
+      published_at: 2022-01-07T10:39:39.0000000+00:00
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
-      version: v1.6.4
-      lastUpdated: 2021-12-20T12:28:44.0000000+00:00
-      lastUpdateDescription: Updates and fixes (still not good at titles)
+      version: v1.6.5
+      lastUpdated: 2022-01-07T10:38:35.0000000+00:00
+      lastUpdateDescription: Minor fixes for Imperial Navy and Spelling fixes for Asuryani
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/v1.6.4/aeronautica-imperialis.v1.6.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/v1.6.5/aeronautica-imperialis.v1.6.5.bsr
       githubUrl: https://github.com/BSData/aeronautica-imperialis
       feedUrl: https://github.com/BSData/aeronautica-imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/aeronautica-imperialis/issues
