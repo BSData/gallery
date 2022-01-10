@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 14 Feb 2018 15:26:58 GMT
+      LastModified: Mon, 12 Feb 2018 21:33:54 GMT
     properties:
-      tag_name: "1.1"
-      name: Solved few issues
-      published_at: 2018-02-14T15:26:58.0000000+00:00
+      tag_name: "1"
+      name: Marvel Universe Miniature Game
+      published_at: 2018-02-12T21:33:54.0000000+00:00
   catpkg:
     properties:
       name: marvel-universe
