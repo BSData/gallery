@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 06 Jun 2016 20:59:30 GMT
+      LastModified: Wed, 30 Oct 2019 08:47:39 GMT
     properties:
-      tag_name: v0.2.3
-      name: Dark Elves Add
-      published_at: 2016-06-06T20:59:30.0000000+00:00
+      tag_name: v0.2.4
+      name: Data format update
+      published_at: 2019-10-30T08:47:39.0000000+00:00
   catpkg:
     properties:
       name: mordheim
