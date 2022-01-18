@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 18 Sep 2019 15:24:10 GMT
+      LastModified: Tue, 18 Jan 2022 22:18:18 GMT
     properties:
-      tag_name: 1.2.6
-      name: Bug Fixes
-      published_at: 2019-09-18T15:24:10.0000000+00:00
+      tag_name: 1.2.7
+      name: updateing athens to v2
+      published_at: 2022-01-18T22:17:39.0000000+00:00
   catpkg:
     properties:
       name: spqr
       description: SPQR
       battleScribeVersion: "2.03"
-      version: 1.2.6
-      lastUpdated: 2019-09-18T15:23:36.0000000+00:00
-      lastUpdateDescription: Bug Fixes
+      version: 1.2.7
+      lastUpdated: 2022-01-18T21:50:00.0000000+00:00
+      lastUpdateDescription: updateing athens to v2
       indexUrl: https://github.com/BSData/spqr/releases/latest/download/spqr.latest.bsi
       repositoryUrl: https://github.com/BSData/spqr/releases/latest/download/spqr.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/spqr/releases/latest/download/spqr.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/spqr/releases/download/1.2.6/spqr.1.2.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/spqr/releases/download/1.2.7/spqr.1.2.7.bsr
       githubUrl: https://github.com/BSData/spqr
       feedUrl: https://github.com/BSData/spqr/releases.atom
       bugTrackerUrl: https://github.com/BSData/spqr/issues
