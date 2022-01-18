@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 17 Jan 2022 03:06:44 GMT
+      LastModified: Tue, 18 Jan 2022 04:01:24 GMT
     properties:
-      tag_name: v5.6.0
-      name: ""
-      published_at: 2022-01-17T03:06:00.0000000+00:00
+      tag_name: v5.7.0
+      name: add marauders faction
+      published_at: 2022-01-18T04:00:49.0000000+00:00
   catpkg:
     properties:
       name: deadzone
       description: Deadzone 2nd Edition
       battleScribeVersion: "2.03"
-      version: v5.6.0
-      lastUpdated: 2022-01-17T03:05:33.0000000+00:00
-      lastUpdateDescription: ""
+      version: v5.7.0
+      lastUpdated: 2022-01-18T04:00:33.0000000+00:00
+      lastUpdateDescription: add marauders faction
       indexUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.latest.bsi
       repositoryUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/deadzone/releases/download/v5.6.0/deadzone.v5.6.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/deadzone/releases/download/v5.7.0/deadzone.v5.7.0.bsr
       githubUrl: https://github.com/BSData/deadzone
       feedUrl: https://github.com/BSData/deadzone/releases.atom
       bugTrackerUrl: https://github.com/BSData/deadzone/issues
