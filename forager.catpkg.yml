@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 19 Jan 2018 18:05:05 GMT
+      LastModified: Fri, 19 Jan 2018 18:43:20 GMT
     properties:
-      tag_name: "1"
-      name: Initial Release
-      published_at: 2018-01-19T18:05:05.0000000+00:00
+      tag_name: 1.0.0
+      name: Fixed to Cat etc
+      published_at: 2018-01-19T18:43:20.0000000+00:00
   catpkg:
     properties:
       name: forager
