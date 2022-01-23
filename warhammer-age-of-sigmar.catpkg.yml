@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 08 Jan 2022 19:29:50 GMT
+      LastModified: Sun, 23 Jan 2022 02:49:32 GMT
     properties:
-      tag_name: v3.0.46
-      name: Post-holidays blues release.
-      published_at: 2022-01-08T19:28:46.0000000+00:00
+      tag_name: v3.0.47
+      name: Fury of the something...
+      published_at: 2022-01-23T02:48:25.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.46
-      lastUpdated: 2022-01-08T19:25:10.0000000+00:00
-      lastUpdateDescription: Post-holidays blues release.
+      version: v3.0.47
+      lastUpdated: 2022-01-20T05:26:39.0000000+00:00
+      lastUpdateDescription: Fury of the something...
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.46/warhammer-age-of-sigmar.v3.0.46.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.47/warhammer-age-of-sigmar.v3.0.47.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
