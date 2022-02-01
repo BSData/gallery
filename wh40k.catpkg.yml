@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 21 Jan 2022 11:18:08 GMT
+      LastModified: Tue, 01 Feb 2022 22:02:52 GMT
     properties:
-      tag_name: v9.2.25
-      name: There's a new warzone on the horizon...
-      published_at: 2022-01-21T11:16:57.0000000+00:00
+      tag_name: v9.2.26
+      name: Come and show me what passes for fury amongst your misbegotten kind!
+      published_at: 2022-02-01T22:01:39.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.2.25
-      lastUpdated: 2022-01-21T11:14:01.0000000+00:00
-      lastUpdateDescription: There's a new warzone on the horizon...
+      version: v9.2.26
+      lastUpdated: 2022-02-01T21:58:18.0000000+00:00
+      lastUpdateDescription: Come and show me what passes for fury amongst your misbegotten kind!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.25/wh40k.v9.2.25.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.2.26/wh40k.v9.2.26.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
