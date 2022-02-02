@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 14 Jan 2022 18:56:33 GMT
+      LastModified: Wed, 02 Feb 2022 06:36:27 GMT
     properties:
-      tag_name: 2.3.21
-      name: ""
-      published_at: 2022-01-14T18:55:31.0000000+00:00
+      tag_name: 3.0.0
+      name: Release 3.0.0 Kirkwood Expansion added
+      published_at: 2022-02-02T06:35:49.0000000+00:00
   catpkg:
     properties:
       name: warzone-resurrection
       description: 'Warzone: Resurrection'
       battleScribeVersion: "2.03"
-      version: 2.3.21
-      lastUpdated: 2022-01-14T18:54:36.0000000+00:00
-      lastUpdateDescription: ""
+      version: 3.0.0
+      lastUpdated: 2022-02-02T06:33:54.0000000+00:00
+      lastUpdateDescription: Release 3.0.0 Kirkwood Expansion added
       indexUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.latest.bsi
       repositoryUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warzone-resurrection/releases/download/2.3.21/warzone-resurrection.2.3.21.bsr
+      repositoryBsrUrl: https://github.com/BSData/warzone-resurrection/releases/download/3.0.0/warzone-resurrection.3.0.0.bsr
       githubUrl: https://github.com/BSData/warzone-resurrection
       feedUrl: https://github.com/BSData/warzone-resurrection/releases.atom
       bugTrackerUrl: https://github.com/BSData/warzone-resurrection/issues
