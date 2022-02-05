@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 08 Jan 2022 08:21:54 GMT
+      LastModified: Sat, 05 Feb 2022 07:38:27 GMT
     properties:
-      tag_name: v2.22.1.0
-      name: Power Phase. Honey Badger Don't Care!
-      published_at: 2022-01-08T08:21:29.0000000+00:00
+      tag_name: v2.22.2.0
+      name: Excited Grunts Intensify
+      published_at: 2022-02-05T07:37:55.0000000+00:00
   catpkg:
     properties:
       name: marvel-crisis-protocol
       description: Marvel Crisis Protocol
       battleScribeVersion: "2.03"
-      version: v2.22.1.0
-      lastUpdated: 2022-01-08T07:53:25.0000000+00:00
-      lastUpdateDescription: Power Phase. Honey Badger Don't Care!
+      version: v2.22.2.0
+      lastUpdated: 2022-02-05T07:32:22.0000000+00:00
+      lastUpdateDescription: Excited Grunts Intensify
       indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
       repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/v2.22.1.0/marvel-crisis-protocol.v2.22.1.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/v2.22.2.0/marvel-crisis-protocol.v2.22.2.0.bsr
       githubUrl: https://github.com/BSData/marvel-crisis-protocol
       feedUrl: https://github.com/BSData/marvel-crisis-protocol/releases.atom
       bugTrackerUrl: https://github.com/BSData/marvel-crisis-protocol/issues
