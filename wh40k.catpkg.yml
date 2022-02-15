@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 11 Feb 2022 02:13:01 GMT
+      LastModified: Tue, 15 Feb 2022 02:23:37 GMT
     properties:
-      tag_name: v9.3.2
-      name: A well-maintained warrior, is an effective warrior.
-      published_at: 2022-02-11T02:11:33.0000000+00:00
+      tag_name: v9.3.3
+      name: What are secrets with no-one to know them?
+      published_at: 2022-02-15T02:22:24.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.3.2
-      lastUpdated: 2022-02-10T20:29:05.0000000+00:00
-      lastUpdateDescription: A well-maintained warrior, is an effective warrior.
+      version: v9.3.3
+      lastUpdated: 2022-02-14T18:56:20.0000000+00:00
+      lastUpdateDescription: What are secrets with no-one to know them?
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.2/wh40k.v9.3.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.3/wh40k.v9.3.3.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
