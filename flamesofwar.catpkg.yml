@@ -2,8 +2,8 @@ location:
   github: BSData/flamesofwar
 cache:
   repo:
-    apiRequestError:
-      exception: Connection timed out (api.github.com:443)
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Thu, 25 Nov 2021 11:41:36 GMT
