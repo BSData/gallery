@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 20 Feb 2022 18:12:59 GMT
+      LastModified: Mon, 21 Feb 2022 06:10:58 GMT
     properties:
-      tag_name: v46
-      name: Death Underworlds warbands added.
-      published_at: 2022-02-20T18:11:42.0000000+00:00
+      tag_name: v47
+      name: v47 Death Underworlds warbands added
+      published_at: 2022-02-21T06:09:19.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v46
-      lastUpdated: 2022-02-20T18:10:42.0000000+00:00
-      lastUpdateDescription: Death Underworlds warbands added.
+      version: v47
+      lastUpdated: 2022-02-21T06:07:36.0000000+00:00
+      lastUpdateDescription: v47 Death Underworlds warbands added
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v46/warhammer-age-of-sigmar-warcry.v46.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v47/warhammer-age-of-sigmar-warcry.v47.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
