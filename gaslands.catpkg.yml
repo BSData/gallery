@@ -12,19 +12,6 @@ cache:
       name: Trailer Treasure
       published_at: 2021-10-29T03:25:54.0000000+00:00
   catpkg:
-    properties:
-      name: gaslands
-      description: Gaslands
-      battleScribeVersion: "2.03"
-      version: v1.2.3
-      lastUpdated: 2021-10-29T03:20:05.0000000+00:00
-      lastUpdateDescription: Trailer Treasure
-      indexUrl: https://github.com/BSData/gaslands/releases/latest/download/gaslands.latest.bsi
-      repositoryUrl: https://github.com/BSData/gaslands/releases/latest/download/gaslands.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/gaslands/releases/latest/download/gaslands.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/gaslands/releases/download/v1.2.3/gaslands.v1.2.3.bsr
-      githubUrl: https://github.com/BSData/gaslands
-      feedUrl: https://github.com/BSData/gaslands/releases.atom
-      bugTrackerUrl: https://github.com/BSData/gaslands/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/gaslands
+    apiResponseError:
+      code: 503
 
