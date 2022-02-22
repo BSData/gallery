@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 22 Nov 2020 06:31:21 GMT
+      LastModified: Sat, 10 Feb 2018 15:39:33 GMT
     properties:
-      tag_name: v1.4.7
-      name: Runewars Miniatures Game v1.4.7
-      published_at: 2020-11-22T06:31:21.0000000+00:00
+      tag_name: v1.4.6
+      name: Runewars Miniatures Game v1.4.6
+      published_at: 2018-02-10T15:39:33.0000000+00:00
   catpkg:
     properties:
       name: runewars
       description: RuneWars
-      battleScribeVersion: "2.03"
-      version: v1.4.7
-      lastUpdated: 2020-10-27T15:32:47.0000000+00:00
-      lastUpdateDescription: Runewars Miniatures Game v1.4.7
+      battleScribeVersion: "2.01"
+      version: v1.4.6
+      lastUpdated: 2018-02-10T15:38:44.0000000+00:00
+      lastUpdateDescription: Runewars Miniatures Game v1.4.6
       indexUrl: https://github.com/BSData/runewars/releases/latest/download/runewars.latest.bsi
       repositoryUrl: https://github.com/BSData/runewars/releases/latest/download/runewars.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/runewars/releases/latest/download/runewars.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/runewars/releases/download/v1.4.7/runewars.v1.4.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/runewars/releases/download/v1.4.6/runewars.v1.4.6.bsr
       githubUrl: https://github.com/BSData/runewars
       feedUrl: https://github.com/BSData/runewars/releases.atom
       bugTrackerUrl: https://github.com/BSData/runewars/issues
