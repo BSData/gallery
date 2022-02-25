@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 18 Feb 2022 19:29:34 GMT
+      LastModified: Fri, 25 Feb 2022 08:37:31 GMT
     properties:
-      tag_name: v9.3.4
-      name: Heretics crave the cleansing fire of absolution.
-      published_at: 2022-02-18T19:28:10.0000000+00:00
+      tag_name: v9.3.5
+      name: I do not fear death. Death fears ME!
+      published_at: 2022-02-25T08:35:54.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.3.4
-      lastUpdated: 2022-02-18T19:27:11.0000000+00:00
-      lastUpdateDescription: Heretics crave the cleansing fire of absolution.
+      version: v9.3.5
+      lastUpdated: 2022-02-25T08:34:09.0000000+00:00
+      lastUpdateDescription: I do not fear death. Death fears ME!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.4/wh40k.v9.3.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.5/wh40k.v9.3.5.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
