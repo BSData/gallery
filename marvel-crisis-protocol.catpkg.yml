@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 19 Feb 2022 04:56:31 GMT
+      LastModified: Sun, 27 Feb 2022 02:58:17 GMT
     properties:
-      tag_name: v2.22.3.0
-      name: To Me, My X-Men... Finally!
-      published_at: 2022-02-19T04:55:48.0000000+00:00
+      tag_name: v2.22.4.0
+      name: Someone Order Natchios?
+      published_at: 2022-02-27T02:57:37.0000000+00:00
   catpkg:
     properties:
       name: marvel-crisis-protocol
       description: Marvel Crisis Protocol
       battleScribeVersion: "2.03"
-      version: v2.22.3.0
-      lastUpdated: 2022-02-19T04:51:21.0000000+00:00
-      lastUpdateDescription: To Me, My X-Men... Finally!
+      version: v2.22.4.0
+      lastUpdated: 2022-02-27T02:51:41.0000000+00:00
+      lastUpdateDescription: Someone Order Natchios?
       indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
       repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/v2.22.3.0/marvel-crisis-protocol.v2.22.3.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/v2.22.4.0/marvel-crisis-protocol.v2.22.4.0.bsr
       githubUrl: https://github.com/BSData/marvel-crisis-protocol
       feedUrl: https://github.com/BSData/marvel-crisis-protocol/releases.atom
       bugTrackerUrl: https://github.com/BSData/marvel-crisis-protocol/issues
