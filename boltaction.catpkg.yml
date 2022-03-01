@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 24 Jul 2019 06:09:00 GMT
+      LastModified: Tue, 01 Mar 2022 18:39:19 GMT
     properties:
-      tag_name: "5.02"
-      name: Added compulsory units
-      published_at: 2019-07-24T06:09:00.0000000+00:00
+      tag_name: "6.0"
+      name: Added theatre selectors and compulsory category
+      published_at: 2022-03-01T18:36:52.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
-      battleScribeVersion: 
-      version: "5.02"
-      lastUpdated: 2019-07-24T06:02:36.0000000+00:00
-      lastUpdateDescription: Added compulsory units
+      battleScribeVersion: "2.03"
+      version: "6.0"
+      lastUpdated: 2022-03-01T18:07:00.0000000+00:00
+      lastUpdateDescription: Added theatre selectors and compulsory category
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/5.02/boltaction.5.02.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.0/boltaction.6.0.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
