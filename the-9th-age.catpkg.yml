@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 01 Mar 2022 14:03:35 GMT
+      LastModified: Wed, 02 Mar 2022 08:43:10 GMT
     properties:
-      tag_name: "2022.7"
-      name: 'March 2022: VS Fixes'
-      published_at: 2022-03-01T14:02:33.0000000+00:00
+      tag_name: "2022.8"
+      name: "March 2022: Hero's Heart fixed"
+      published_at: 2022-03-02T08:42:11.0000000+00:00
   catpkg:
     properties:
       name: The-9th-Age
       description: 'Fantasy Battles: The 9th Age'
       battleScribeVersion: "2.03"
-      version: "2022.7"
-      lastUpdated: 2022-03-01T14:01:59.0000000+00:00
-      lastUpdateDescription: 'March 2022: VS Fixes'
+      version: "2022.8"
+      lastUpdated: 2022-03-02T08:40:48.0000000+00:00
+      lastUpdateDescription: "March 2022: Hero's Heart fixed"
       indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
       repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2022.7/The-9th-Age.2022.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2022.8/The-9th-Age.2022.8.bsr
       githubUrl: https://github.com/BSData/The-9th-Age
       feedUrl: https://github.com/BSData/The-9th-Age/releases.atom
       bugTrackerUrl: https://github.com/BSData/The-9th-Age/issues
