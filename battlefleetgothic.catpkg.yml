@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 29 Jan 2022 03:41:56 GMT
+      LastModified: Sun, 06 Mar 2022 17:33:34 GMT
     properties:
-      tag_name: v2.5.2
-      name: Flame Asuryan pulsar fix2
-      published_at: 2022-01-29T03:41:11.0000000+00:00
+      tag_name: v2.5.3
+      name: Tyrant dorsal lance removed, imperial Admiral corrections. Bakka added Admiral Rath
+      published_at: 2022-03-06T17:33:01.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.5.2
-      lastUpdated: 2022-01-29T03:40:15.0000000+00:00
-      lastUpdateDescription: Flame Asuryan pulsar fix2
+      version: v2.5.3
+      lastUpdated: 2022-03-06T17:30:17.0000000+00:00
+      lastUpdateDescription: Tyrant dorsal lance removed, imperial Admiral corrections. Bakka added Admiral Rath
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.2/battlefleetgothic.v2.5.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.3/battlefleetgothic.v2.5.3.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
