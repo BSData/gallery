@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 25 Feb 2022 08:37:31 GMT
+      LastModified: Sun, 06 Mar 2022 23:34:10 GMT
     properties:
-      tag_name: v9.3.5
-      name: I do not fear death. Death fears ME!
-      published_at: 2022-02-25T08:35:54.0000000+00:00
+      tag_name: v9.3.6
+      name: With thanks to the Aeldari Warhammer 40000 Discord channel, the new Aeldari data is here!!
+      published_at: 2022-03-06T23:33:06.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.3.5
-      lastUpdated: 2022-02-25T08:34:09.0000000+00:00
-      lastUpdateDescription: I do not fear death. Death fears ME!
+      version: v9.3.6
+      lastUpdated: 2022-03-06T23:19:19.0000000+00:00
+      lastUpdateDescription: With thanks to the Aeldari Warhammer 40000 Discord channel, the new Aeldari data is here!!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.5/wh40k.v9.3.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.6/wh40k.v9.3.6.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
