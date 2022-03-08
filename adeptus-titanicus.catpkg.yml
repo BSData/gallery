@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 22 Jan 2022 14:01:09 GMT
+      LastModified: Wed, 19 Jan 2022 17:05:30 GMT
     properties:
-      tag_name: V9.60
-      name: Maniple Swaps!
-      published_at: 2022-01-22T14:00:37.0000000+00:00
+      tag_name: v9.51
+      name: Maniple legio swap updates and Iconoclast
+      published_at: 2022-01-19T17:04:42.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: V9.60
-      lastUpdated: 2022-01-22T10:17:02.0000000+00:00
-      lastUpdateDescription: Maniple Swaps!
+      version: v9.51
+      lastUpdated: 2022-01-19T16:43:02.0000000+00:00
+      lastUpdateDescription: Maniple legio swap updates and Iconoclast
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/V9.60/adeptus-titanicus.V9.60.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.51/adeptus-titanicus.v9.51.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
