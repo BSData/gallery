@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 08 Mar 2022 23:00:25 GMT
+      LastModified: Wed, 09 Mar 2022 19:07:14 GMT
     properties:
-      tag_name: 6.1.4
-      name: Created Armies of Australia, Bug Fixes
-      published_at: 2022-03-08T22:59:26.0000000+00:00
+      tag_name: 6.1.5
+      name: Expanded Armies of Australia, Bug Fixes
+      published_at: 2022-03-09T19:06:04.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.1.4
-      lastUpdated: 2022-03-08T22:56:48.0000000+00:00
-      lastUpdateDescription: Created Armies of Australia, Bug Fixes
+      version: 6.1.5
+      lastUpdated: 2022-03-09T19:05:05.0000000+00:00
+      lastUpdateDescription: Expanded Armies of Australia, Bug Fixes
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.1.4/boltaction.6.1.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.1.5/boltaction.6.1.5.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
