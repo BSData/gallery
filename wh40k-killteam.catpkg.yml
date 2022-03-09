@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 07 Mar 2022 13:51:00 GMT
+      LastModified: Wed, 09 Mar 2022 09:29:14 GMT
     properties:
-      tag_name: v3.1.0
-      name: Perfectly balanced, as all things should be.
-      published_at: 2022-03-07T13:49:41.0000000+00:00
+      tag_name: v3.1.1
+      name: Moar dakka!
+      published_at: 2022-03-09T09:28:07.0000000+00:00
   catpkg:
     properties:
       name: wh40k-killteam
       description: 'Warhammer 40,000: Kill Team'
       battleScribeVersion: "2.03"
-      version: v3.1.0
-      lastUpdated: 2022-03-07T13:48:34.0000000+00:00
-      lastUpdateDescription: Perfectly balanced, as all things should be.
+      version: v3.1.1
+      lastUpdated: 2022-03-09T09:24:44.0000000+00:00
+      lastUpdateDescription: Moar dakka!
       indexUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v3.1.0/wh40k-killteam.v3.1.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v3.1.1/wh40k-killteam.v3.1.1.bsr
       githubUrl: https://github.com/BSData/wh40k-killteam
       feedUrl: https://github.com/BSData/wh40k-killteam/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-killteam/issues
