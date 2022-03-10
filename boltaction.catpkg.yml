@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 09 Mar 2022 19:07:14 GMT
+      LastModified: Thu, 10 Mar 2022 17:34:24 GMT
     properties:
-      tag_name: 6.1.5
-      name: Expanded Armies of Australia, Bug Fixes
-      published_at: 2022-03-09T19:06:04.0000000+00:00
+      tag_name: 6.1.6
+      name: Expanded Hungarian and Romanian roster from Fortress Budapest book
+      published_at: 2022-03-10T17:33:22.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.1.5
-      lastUpdated: 2022-03-09T19:05:05.0000000+00:00
-      lastUpdateDescription: Expanded Armies of Australia, Bug Fixes
+      version: 6.1.6
+      lastUpdated: 2022-03-10T17:30:47.0000000+00:00
+      lastUpdateDescription: Expanded Hungarian and Romanian roster from Fortress Budapest book
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.1.5/boltaction.6.1.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.1.6/boltaction.6.1.6.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
