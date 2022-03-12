@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 10 Mar 2022 17:34:24 GMT
+      LastModified: Sat, 12 Mar 2022 19:04:15 GMT
     properties:
-      tag_name: 6.1.6
-      name: Expanded Hungarian and Romanian roster from Fortress Budapest book
-      published_at: 2022-03-10T17:33:22.0000000+00:00
+      tag_name: 6.1.7
+      name: Fixed Partisans, Bug Fixes
+      published_at: 2022-03-12T19:03:31.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.1.6
-      lastUpdated: 2022-03-10T17:30:47.0000000+00:00
-      lastUpdateDescription: Expanded Hungarian and Romanian roster from Fortress Budapest book
+      version: 6.1.7
+      lastUpdated: 2022-03-12T19:02:16.0000000+00:00
+      lastUpdateDescription: Fixed Partisans, Bug Fixes
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.1.6/boltaction.6.1.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.1.7/boltaction.6.1.7.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
