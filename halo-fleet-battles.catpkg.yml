@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 11 Mar 2022 00:28:38 GMT
+      LastModified: Sat, 12 Mar 2022 11:20:31 GMT
     properties:
-      tag_name: V5.01
-      name: Addition of Preston Cole to CFAQ
-      published_at: 2022-03-11T00:27:59.0000000+00:00
+      tag_name: V5.02
+      name: CFAQ update 12.03.2022
+      published_at: 2022-03-12T11:20:01.0000000+00:00
   catpkg:
     properties:
       name: halo-fleet-battles
       description: 'Halo: Fleet Battles'
       battleScribeVersion: "2.03"
-      version: V5.01
-      lastUpdated: 2022-03-11T00:20:12.0000000+00:00
-      lastUpdateDescription: Addition of Preston Cole to CFAQ
+      version: V5.02
+      lastUpdated: 2022-03-12T11:19:12.0000000+00:00
+      lastUpdateDescription: CFAQ update 12.03.2022
       indexUrl: https://github.com/BSData/halo-fleet-battles/releases/latest/download/halo-fleet-battles.latest.bsi
       repositoryUrl: https://github.com/BSData/halo-fleet-battles/releases/latest/download/halo-fleet-battles.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/halo-fleet-battles/releases/latest/download/halo-fleet-battles.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/halo-fleet-battles/releases/download/V5.01/halo-fleet-battles.V5.01.bsr
+      repositoryBsrUrl: https://github.com/BSData/halo-fleet-battles/releases/download/V5.02/halo-fleet-battles.V5.02.bsr
       githubUrl: https://github.com/BSData/halo-fleet-battles
       feedUrl: https://github.com/BSData/halo-fleet-battles/releases.atom
       bugTrackerUrl: https://github.com/BSData/halo-fleet-battles/issues
