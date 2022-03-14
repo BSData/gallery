@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 12 Mar 2022 19:04:15 GMT
+      LastModified: Mon, 14 Mar 2022 19:51:52 GMT
     properties:
-      tag_name: 6.1.7
-      name: Fixed Partisans, Bug Fixes
-      published_at: 2022-03-12T19:03:31.0000000+00:00
+      tag_name: 6.1.8
+      name: Expanded Armoured Platoon roster for US,UK,GER,ITA,SOV,JAP
+      published_at: 2022-03-14T19:50:53.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.1.7
-      lastUpdated: 2022-03-12T19:02:16.0000000+00:00
-      lastUpdateDescription: Fixed Partisans, Bug Fixes
+      version: 6.1.8
+      lastUpdated: 2022-03-14T18:13:17.0000000+00:00
+      lastUpdateDescription: Expanded Armoured Platoon roster for US,UK,GER,ITA,SOV,JAP
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.1.7/boltaction.6.1.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.1.8/boltaction.6.1.8.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
