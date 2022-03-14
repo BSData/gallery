@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 10 Mar 2022 21:57:18 GMT
+      LastModified: Mon, 14 Mar 2022 21:12:40 GMT
     properties:
-      tag_name: v9.3.7
-      name: The Space Elves have been on a bug hunt, Iyanden rejoices...
-      published_at: 2022-03-10T21:55:57.0000000+00:00
+      tag_name: v9.3.8
+      name: Flash sale on Shrine relics - buy one get one free!!
+      published_at: 2022-03-14T21:11:21.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.3.7
-      lastUpdated: 2022-03-10T21:27:18.0000000+00:00
-      lastUpdateDescription: The Space Elves have been on a bug hunt, Iyanden rejoices...
+      version: v9.3.8
+      lastUpdated: 2022-03-13T19:28:51.0000000+00:00
+      lastUpdateDescription: Flash sale on Shrine relics - buy one get one free!!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.7/wh40k.v9.3.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.8/wh40k.v9.3.8.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
