@@ -6,25 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 14 Mar 2022 19:51:52 GMT
+      LastModified: Thu, 17 Mar 2022 14:37:37 GMT
     properties:
-      tag_name: 6.1.8
-      name: Expanded Armoured Platoon roster for US,UK,GER,ITA,SOV,JAP
-      published_at: 2022-03-14T19:50:53.0000000+00:00
+      tag_name: 6.2.0
+      name: Armored platoon finished for all nations, moved platoon comander to Headquarters
+      published_at: 2022-03-17T14:37:37.0000000+00:00
   catpkg:
-    properties:
-      name: boltaction
-      description: Bolt Action
-      battleScribeVersion: "2.03"
-      version: 6.1.8
-      lastUpdated: 2022-03-14T18:13:17.0000000+00:00
-      lastUpdateDescription: Expanded Armoured Platoon roster for US,UK,GER,ITA,SOV,JAP
-      indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
-      repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.1.8/boltaction.6.1.8.bsr
-      githubUrl: https://github.com/BSData/boltaction
-      feedUrl: https://github.com/BSData/boltaction/releases.atom
-      bugTrackerUrl: https://github.com/BSData/boltaction/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/boltaction
+    apiResponseError:
+      code: 404
 
