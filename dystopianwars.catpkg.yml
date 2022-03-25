@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 07 Mar 2022 23:46:27 GMT
+      LastModified: Fri, 25 Mar 2022 18:13:57 GMT
     properties:
-      tag_name: 3.05.00
-      name: New Orbat and correction
-      published_at: 2022-03-07T23:44:30.0000000+00:00
+      tag_name: 3.06.00
+      name: All Orbat covered
+      published_at: 2022-03-25T18:13:19.0000000+00:00
   catpkg:
     properties:
       name: dystopianwars
       description: Dystopian Wars
       battleScribeVersion: "2.03"
-      version: 3.05.00
-      lastUpdated: 2022-03-06T11:12:23.0000000+00:00
-      lastUpdateDescription: New Orbat and correction
+      version: 3.06.00
+      lastUpdated: 2022-03-25T18:03:04.0000000+00:00
+      lastUpdateDescription: All Orbat covered
       indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
       repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.05.00/dystopianwars.3.05.00.bsr
+      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.06.00/dystopianwars.3.06.00.bsr
       githubUrl: https://github.com/BSData/dystopianwars
       feedUrl: https://github.com/BSData/dystopianwars/releases.atom
       bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
