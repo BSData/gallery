@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 12 Mar 2022 16:12:59 GMT
+      LastModified: Thu, 31 Mar 2022 01:07:14 GMT
     properties:
-      tag_name: v3.0.51
-      name: Beware the Fyre Sharknato!
-      published_at: 2022-03-12T16:11:59.0000000+00:00
+      tag_name: v3.0.52
+      name: Join the hunt.
+      published_at: 2022-03-31T01:05:55.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.51
-      lastUpdated: 2022-03-12T01:36:05.0000000+00:00
-      lastUpdateDescription: Beware the Fyre Sharknato!
+      version: v3.0.52
+      lastUpdated: 2022-03-26T04:24:56.0000000+00:00
+      lastUpdateDescription: Join the hunt.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.51/warhammer-age-of-sigmar.v3.0.51.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.52/warhammer-age-of-sigmar.v3.0.52.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
