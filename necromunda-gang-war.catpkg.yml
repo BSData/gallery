@@ -2,8 +2,10 @@ location:
   github: BSData/necromunda-gang-war
 cache:
   repo:
+    apiHeaders:
+      LastModified: Mon, 04 Apr 2022 15:47:17 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Thu, 30 Aug 2018 03:22:17 GMT
