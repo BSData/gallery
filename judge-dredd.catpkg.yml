@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 07 Dec 2020 13:40:56 GMT
+      LastModified: Mon, 09 Nov 2020 14:35:36 GMT
     properties:
-      tag_name: V3.01
-      name: The Angel Gang Update
-      published_at: 2020-12-07T13:40:56.0000000+00:00
+      tag_name: V3.00
+      name: JDMG (MP2014) Game system and Cats.
+      published_at: 2020-11-09T14:35:36.0000000+00:00
   catpkg:
     properties:
       name: judge-dredd
       description: Judge Dredd
       battleScribeVersion: "2.03"
-      version: V3.01
-      lastUpdated: 2020-12-07T13:29:30.0000000+00:00
-      lastUpdateDescription: The Angel Gang Update
+      version: V3.00
+      lastUpdated: 2020-11-09T14:19:54.0000000+00:00
+      lastUpdateDescription: JDMG (MP2014) Game system and Cats.
       indexUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.latest.bsi
       repositoryUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/judge-dredd/releases/latest/download/judge-dredd.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/judge-dredd/releases/download/V3.01/judge-dredd.V3.01.bsr
+      repositoryBsrUrl: https://github.com/BSData/judge-dredd/releases/download/V3.00/judge-dredd.V3.00.bsr
       githubUrl: https://github.com/BSData/judge-dredd
       feedUrl: https://github.com/BSData/judge-dredd/releases.atom
       bugTrackerUrl: https://github.com/BSData/judge-dredd/issues
