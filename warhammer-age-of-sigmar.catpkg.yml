@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 31 Mar 2022 01:07:14 GMT
+      LastModified: Fri, 08 Apr 2022 23:49:11 GMT
     properties:
-      tag_name: v3.0.52
-      name: Join the hunt.
-      published_at: 2022-03-31T01:05:55.0000000+00:00
+      tag_name: v3.0.53
+      name: Ready for the Arena of Shades.
+      published_at: 2022-04-08T23:47:55.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.52
-      lastUpdated: 2022-03-26T04:24:56.0000000+00:00
-      lastUpdateDescription: Join the hunt.
+      version: v3.0.53
+      lastUpdated: 2022-04-04T03:54:49.0000000+00:00
+      lastUpdateDescription: Ready for the Arena of Shades.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.52/warhammer-age-of-sigmar.v3.0.52.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.53/warhammer-age-of-sigmar.v3.0.53.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
