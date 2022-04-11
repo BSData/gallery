@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 27 Mar 2022 01:01:29 GMT
+      LastModified: Mon, 11 Apr 2022 15:54:03 GMT
     properties:
-      tag_name: v1.7.4
-      name: Fix points cost of Valkyrie
-      published_at: 2022-03-27T01:00:51.0000000+00:00
+      tag_name: v1.7.5
+      name: A couple of Astartes fixes
+      published_at: 2022-04-11T15:53:18.0000000+00:00
   catpkg:
     properties:
       name: aeronautica-imperialis
       description: Aeronautica Imperialis
       battleScribeVersion: "2.03"
-      version: v1.7.4
-      lastUpdated: 2022-03-27T00:59:50.0000000+00:00
-      lastUpdateDescription: Fix points cost of Valkyrie
+      version: v1.7.5
+      lastUpdated: 2022-04-11T12:22:33.0000000+00:00
+      lastUpdateDescription: A couple of Astartes fixes
       indexUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/aeronautica-imperialis/releases/latest/download/aeronautica-imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/v1.7.4/aeronautica-imperialis.v1.7.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/aeronautica-imperialis/releases/download/v1.7.5/aeronautica-imperialis.v1.7.5.bsr
       githubUrl: https://github.com/BSData/aeronautica-imperialis
       feedUrl: https://github.com/BSData/aeronautica-imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/aeronautica-imperialis/issues
