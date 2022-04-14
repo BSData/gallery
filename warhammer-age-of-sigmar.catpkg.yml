@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 08 Apr 2022 23:49:11 GMT
+      LastModified: Thu, 14 Apr 2022 04:23:12 GMT
     properties:
-      tag_name: v3.0.53
-      name: Ready for the Arena of Shades.
-      published_at: 2022-04-08T23:47:55.0000000+00:00
+      tag_name: v3.0.54
+      name: Bottled spells in Thondia and some other bug fixes.
+      published_at: 2022-04-14T04:22:01.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.53
-      lastUpdated: 2022-04-04T03:54:49.0000000+00:00
-      lastUpdateDescription: Ready for the Arena of Shades.
+      version: v3.0.54
+      lastUpdated: 2022-04-14T04:14:32.0000000+00:00
+      lastUpdateDescription: Bottled spells in Thondia and some other bug fixes.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.53/warhammer-age-of-sigmar.v3.0.53.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.54/warhammer-age-of-sigmar.v3.0.54.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
