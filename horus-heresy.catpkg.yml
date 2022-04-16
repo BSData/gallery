@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 06 Apr 2022 11:38:27 GMT
+      LastModified: Sat, 16 Apr 2022 10:19:09 GMT
     properties:
-      tag_name: v15.5.7
-      name: Various fixes, not much more till retirement.
-      published_at: 2022-04-06T11:37:28.0000000+00:00
+      tag_name: v15.5.8
+      name: Ravenguard get some love!
+      published_at: 2022-04-16T10:18:19.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v15.5.7
-      lastUpdated: 2022-04-06T11:36:09.0000000+00:00
-      lastUpdateDescription: Various fixes, not much more till retirement.
+      version: v15.5.8
+      lastUpdated: 2022-04-16T10:12:47.0000000+00:00
+      lastUpdateDescription: Ravenguard get some love!
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.5.7/horus-heresy.v15.5.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.5.8/horus-heresy.v15.5.8.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
