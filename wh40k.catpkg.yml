@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 15 Apr 2022 23:06:38 GMT
+      LastModified: Sun, 17 Apr 2022 23:51:48 GMT
     properties:
-      tag_name: v9.3.11
-      name: An Alien Threat Has Risen from Beyond the Abyss
-      published_at: 2022-04-15T23:05:33.0000000+00:00
+      tag_name: v9.3.12
+      name: A Swarm So Vast That it Blots Out the Stars
+      published_at: 2022-04-17T23:50:38.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.3.11
-      lastUpdated: 2022-04-15T21:02:45.0000000+00:00
-      lastUpdateDescription: An Alien Threat Has Risen from Beyond the Abyss
+      version: v9.3.12
+      lastUpdated: 2022-04-17T23:47:58.0000000+00:00
+      lastUpdateDescription: A Swarm So Vast That it Blots Out the Stars
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.11/wh40k.v9.3.11.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.12/wh40k.v9.3.12.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
