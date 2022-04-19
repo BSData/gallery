@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 17 Apr 2022 21:24:04 GMT
+      LastModified: Tue, 19 Apr 2022 20:02:40 GMT
     properties:
-      tag_name: v15.5.9
-      name: Ravenguard new unit Melta cost fix
-      published_at: 2022-04-17T21:23:16.0000000+00:00
+      tag_name: v15.5.10
+      name: Contekar, Knight Crusader and Narik Dreygur
+      published_at: 2022-04-19T20:01:38.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v15.5.9
-      lastUpdated: 2022-04-17T21:22:29.0000000+00:00
-      lastUpdateDescription: Ravenguard new unit Melta cost fix
+      version: v15.5.10
+      lastUpdated: 2022-04-19T19:59:28.0000000+00:00
+      lastUpdateDescription: Contekar, Knight Crusader and Narik Dreygur
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.5.9/horus-heresy.v15.5.9.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v15.5.10/horus-heresy.v15.5.10.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
