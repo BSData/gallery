@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 17 Mar 2022 11:10:02 GMT
+      LastModified: Wed, 20 Apr 2022 09:03:50 GMT
     properties:
-      tag_name: "2022.10"
-      name: VS Alpha 3 + Nippon
-      published_at: 2022-03-17T11:09:14.0000000+00:00
+      tag_name: "2022.11"
+      name: April 2022 Update
+      published_at: 2022-04-20T09:02:54.0000000+00:00
   catpkg:
     properties:
       name: The-9th-Age
       description: 'Fantasy Battles: The 9th Age'
       battleScribeVersion: "2.03"
-      version: "2022.10"
-      lastUpdated: 2022-03-17T11:08:46.0000000+00:00
-      lastUpdateDescription: VS Alpha 3 + Nippon
+      version: "2022.11"
+      lastUpdated: 2022-04-20T09:02:30.0000000+00:00
+      lastUpdateDescription: April 2022 Update
       indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
       repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2022.10/The-9th-Age.2022.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2022.11/The-9th-Age.2022.11.bsr
       githubUrl: https://github.com/BSData/The-9th-Age
       feedUrl: https://github.com/BSData/The-9th-Age/releases.atom
       bugTrackerUrl: https://github.com/BSData/The-9th-Age/issues
