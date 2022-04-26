@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 17 Apr 2022 17:28:50 GMT
+      LastModified: Tue, 26 Apr 2022 16:46:29 GMT
     properties:
-      tag_name: 6.2.2
-      name: Added Free French forces, bug fixes, added units to various nations
-      published_at: 2022-04-17T17:28:05.0000000+00:00
+      tag_name: 6.2.3
+      name: Bug Fixes, Added Frontnik Commisar
+      published_at: 2022-04-26T16:45:38.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.2.2
-      lastUpdated: 2022-04-17T17:25:37.0000000+00:00
-      lastUpdateDescription: Added Free French forces, bug fixes, added units to various nations
+      version: 6.2.3
+      lastUpdated: 2022-04-26T16:43:43.0000000+00:00
+      lastUpdateDescription: Bug Fixes, Added Frontnik Commisar
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.2.2/boltaction.6.2.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.2.3/boltaction.6.2.3.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
