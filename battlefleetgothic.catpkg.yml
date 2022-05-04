@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 13 Mar 2022 15:52:29 GMT
+      LastModified: Sun, 06 Mar 2022 17:33:34 GMT
     properties:
-      tag_name: v2.5.4
-      name: Remove aspect warriors from eldar corsair
-      published_at: 2022-03-13T15:51:47.0000000+00:00
+      tag_name: v2.5.3
+      name: Tyrant dorsal lance removed, imperial Admiral corrections. Bakka added Admiral Rath
+      published_at: 2022-03-06T17:33:01.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.5.4
-      lastUpdated: 2022-03-13T15:50:26.0000000+00:00
-      lastUpdateDescription: Remove aspect warriors from eldar corsair
+      version: v2.5.3
+      lastUpdated: 2022-03-06T17:30:17.0000000+00:00
+      lastUpdateDescription: Tyrant dorsal lance removed, imperial Admiral corrections. Bakka added Admiral Rath
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.4/battlefleetgothic.v2.5.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.3/battlefleetgothic.v2.5.3.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
