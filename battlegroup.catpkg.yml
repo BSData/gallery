@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 26 Feb 2022 19:22:37 GMT
+      LastModified: Sat, 07 May 2022 16:10:26 GMT
     properties:
-      tag_name: v1.5.0
-      name: UK - Pacific
-      published_at: 2022-02-26T19:21:57.0000000+00:00
+      tag_name: v1.6.0
+      name: Scenarios
+      published_at: 2022-05-07T16:09:26.0000000+00:00
   catpkg:
     properties:
       name: battlegroup
       description: Battlegroup
       battleScribeVersion: "2.03"
-      version: v1.5.0
-      lastUpdated: 2022-02-26T06:47:37.0000000+00:00
-      lastUpdateDescription: UK - Pacific
+      version: v1.6.0
+      lastUpdated: 2022-05-07T08:01:44.0000000+00:00
+      lastUpdateDescription: Scenarios
       indexUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.latest.bsi
       repositoryUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.5.0/battlegroup.v1.5.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.6.0/battlegroup.v1.6.0.bsr
       githubUrl: https://github.com/BSData/battlegroup
       feedUrl: https://github.com/BSData/battlegroup/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlegroup/issues
