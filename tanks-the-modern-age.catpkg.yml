@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 27 Nov 2021 04:23:46 GMT
+      LastModified: Wed, 11 May 2022 11:04:04 GMT
     properties:
-      tag_name: 1.4.2
-      name: Minor fixes
-      published_at: 2021-11-27T04:23:13.0000000+00:00
+      tag_name: "1.5"
+      name: Fixed USA Custom Content + Added German Jaguar 1
+      published_at: 2022-05-11T11:03:16.0000000+00:00
   catpkg:
     properties:
       name: tanks-the-modern-age
       description: 'Tanks: The Modern Age'
       battleScribeVersion: "2.03"
-      version: 1.4.2
-      lastUpdated: 2021-11-27T04:18:06.0000000+00:00
-      lastUpdateDescription: Minor fixes
+      version: "1.5"
+      lastUpdated: 2022-05-11T10:59:27.0000000+00:00
+      lastUpdateDescription: Fixed USA Custom Content + Added German Jaguar 1
       indexUrl: https://github.com/BSData/tanks-the-modern-age/releases/latest/download/tanks-the-modern-age.latest.bsi
       repositoryUrl: https://github.com/BSData/tanks-the-modern-age/releases/latest/download/tanks-the-modern-age.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/tanks-the-modern-age/releases/latest/download/tanks-the-modern-age.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/tanks-the-modern-age/releases/download/1.4.2/tanks-the-modern-age.1.4.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/tanks-the-modern-age/releases/download/1.5/tanks-the-modern-age.1.5.bsr
       githubUrl: https://github.com/BSData/tanks-the-modern-age
       feedUrl: https://github.com/BSData/tanks-the-modern-age/releases.atom
       bugTrackerUrl: https://github.com/BSData/tanks-the-modern-age/issues
