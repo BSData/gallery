@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 20 Mar 2022 22:37:46 GMT
+      LastModified: Sun, 15 May 2022 19:16:08 GMT
     properties:
-      tag_name: v9.71.0
-      name: Missing Knight Houses and some fixes
-      published_at: 2022-03-20T22:37:19.0000000+00:00
+      tag_name: v9.72.0
+      name: Dire Wolf addition and some minor fixes
+      published_at: 2022-05-15T19:15:31.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: v9.71.0
-      lastUpdated: 2022-03-20T22:25:46.0000000+00:00
-      lastUpdateDescription: Missing Knight Houses and some fixes
+      version: v9.72.0
+      lastUpdated: 2022-05-15T19:14:20.0000000+00:00
+      lastUpdateDescription: Dire Wolf addition and some minor fixes
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.71.0/adeptus-titanicus.v9.71.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.72.0/adeptus-titanicus.v9.72.0.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
