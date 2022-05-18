@@ -12,19 +12,6 @@ cache:
       name: Remove aspect warriors from eldar corsair
       published_at: 2022-03-13T15:51:47.0000000+00:00
   catpkg:
-    properties:
-      name: battlefleetgothic
-      description: Battlefleet Gothic
-      battleScribeVersion: "2.03"
-      version: v2.5.4
-      lastUpdated: 2022-03-13T15:50:26.0000000+00:00
-      lastUpdateDescription: Remove aspect warriors from eldar corsair
-      indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
-      repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.4/battlefleetgothic.v2.5.4.bsr
-      githubUrl: https://github.com/BSData/battlefleetgothic
-      feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
-      bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/battlefleetgothic
+    apiRequestError:
+      exception: An error occurred while sending the request.
 
