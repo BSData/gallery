@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 19 May 2022 11:15:52 GMT
+      LastModified: Mon, 23 May 2022 10:55:38 GMT
     properties:
-      tag_name: v1.11
-      name: Haruto's Identity Crisis Edition
-      published_at: 2022-05-19T11:14:57.0000000+00:00
+      tag_name: v1.12
+      name: Lost Katana Edition
+      published_at: 2022-05-23T10:52:12.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v1.11
-      lastUpdated: 2022-05-19T11:13:15.0000000+00:00
-      lastUpdateDescription: Haruto's Identity Crisis Edition
+      version: v1.12
+      lastUpdated: 2022-05-23T10:49:51.0000000+00:00
+      lastUpdateDescription: Lost Katana Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.11/bushido.v1.11.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.12/bushido.v1.12.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
