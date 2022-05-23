@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 03 May 2022 18:53:15 GMT
+      LastModified: Mon, 23 May 2022 19:26:52 GMT
     properties:
-      tag_name: v51
-      name: '"I love music. It makes my heart sing" - Elon Musk, real grown-up person'
-      published_at: 2022-05-03T18:51:45.0000000+00:00
+      tag_name: v52
+      name: '"Exactly. My guess is that the panic will cause more harm than the virus, if that hasn’t happened already." - Elon Musk, Real Life Epidemiologist'
+      published_at: 2022-05-23T19:25:20.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v51
-      lastUpdated: 2022-05-03T18:37:50.0000000+00:00
-      lastUpdateDescription: '"I love music. It makes my heart sing" - Elon Musk, real grown-up person'
+      version: v52
+      lastUpdated: 2022-05-23T18:54:29.0000000+00:00
+      lastUpdateDescription: '"Exactly. My guess is that the panic will cause more harm than the virus, if that hasn’t happened already." - Elon Musk, Real Life Epidemiologist'
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v51/warhammer-age-of-sigmar-warcry.v51.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v52/warhammer-age-of-sigmar-warcry.v52.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
