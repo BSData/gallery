@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 16 Nov 2021 09:25:25 GMT
+      LastModified: Tue, 24 May 2022 06:01:28 GMT
     properties:
-      tag_name: v2.4
-      name: Fall of the Necromancer Update
-      published_at: 2021-11-16T09:24:23.0000000+00:00
+      tag_name: v2.5
+      name: Defence of the North
+      published_at: 2022-05-24T06:00:32.0000000+00:00
   catpkg:
     properties:
       name: middle-earth
       description: Middle-earth™
       battleScribeVersion: "2.03"
-      version: v2.4
-      lastUpdated: 2021-11-16T08:49:41.0000000+00:00
-      lastUpdateDescription: Fall of the Necromancer Update
+      version: v2.5
+      lastUpdated: 2022-05-24T05:58:57.0000000+00:00
+      lastUpdateDescription: Defence of the North
       indexUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.latest.bsi
       repositoryUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/v2.4/middle-earth.v2.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/v2.5/middle-earth.v2.5.bsr
       githubUrl: https://github.com/BSData/middle-earth
       feedUrl: https://github.com/BSData/middle-earth/releases.atom
       bugTrackerUrl: https://github.com/BSData/middle-earth/issues
