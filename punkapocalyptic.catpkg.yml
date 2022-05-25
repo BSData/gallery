@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 24 May 2022 21:54:08 GMT
+      LastModified: Wed, 25 May 2022 13:45:47 GMT
     properties:
-      tag_name: 1.5.9
-      name: Punkapocalyptic v1.5.9
-      published_at: 2022-05-24T21:53:15.0000000+00:00
+      tag_name: 1.6.0
+      name: Punkapocalyptic v1.6.0
+      published_at: 2022-05-25T13:44:43.0000000+00:00
   catpkg:
     properties:
       name: punkapocalyptic
       description: Punkapocalyptic
       battleScribeVersion: "2.03"
-      version: 1.5.9
+      version: 1.6.0
       lastUpdated: 2022-05-24T21:52:51.0000000+00:00
-      lastUpdateDescription: Punkapocalyptic v1.5.9
+      lastUpdateDescription: Punkapocalyptic v1.6.0
       indexUrl: https://github.com/BSData/punkapocalyptic/releases/latest/download/punkapocalyptic.latest.bsi
       repositoryUrl: https://github.com/BSData/punkapocalyptic/releases/latest/download/punkapocalyptic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/punkapocalyptic/releases/latest/download/punkapocalyptic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/punkapocalyptic/releases/download/1.5.9/punkapocalyptic.1.5.9.bsr
+      repositoryBsrUrl: https://github.com/BSData/punkapocalyptic/releases/download/1.6.0/punkapocalyptic.1.6.0.bsr
       githubUrl: https://github.com/BSData/punkapocalyptic
       feedUrl: https://github.com/BSData/punkapocalyptic/releases.atom
       bugTrackerUrl: https://github.com/BSData/punkapocalyptic/issues
