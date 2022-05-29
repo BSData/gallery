@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 24 May 2022 23:26:19 GMT
+      LastModified: Sun, 29 May 2022 16:03:07 GMT
     properties:
-      tag_name: v9.3.16
-      name: Fuck it, we'll do it live! Again!
-      published_at: 2022-05-24T23:24:55.0000000+00:00
+      tag_name: v9.3.17
+      name: Knighty knight!
+      published_at: 2022-05-29T16:01:56.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.3.16
-      lastUpdated: 2022-05-24T23:22:54.0000000+00:00
-      lastUpdateDescription: Fuck it, we'll do it live! Again!
+      version: v9.3.17
+      lastUpdated: 2022-05-29T10:47:32.0000000+00:00
+      lastUpdateDescription: Knighty knight!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.16/wh40k.v9.3.16.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.17/wh40k.v9.3.17.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
