@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 21 May 2022 01:37:51 GMT
+      LastModified: Sun, 29 May 2022 03:09:27 GMT
     properties:
-      tag_name: v3.0.57
-      name: Blood and specters!
-      published_at: 2022-05-21T01:36:40.0000000+00:00
+      tag_name: v3.0.58
+      name: Doomed, doomed, doomed...
+      published_at: 2022-05-29T03:08:22.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.0.57
-      lastUpdated: 2022-05-21T01:35:03.0000000+00:00
-      lastUpdateDescription: Blood and specters!
+      version: v3.0.58
+      lastUpdated: 2022-05-29T02:17:51.0000000+00:00
+      lastUpdateDescription: Doomed, doomed, doomed...
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.57/warhammer-age-of-sigmar.v3.0.57.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.0.58/warhammer-age-of-sigmar.v3.0.58.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
