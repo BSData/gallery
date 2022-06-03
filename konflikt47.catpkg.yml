@@ -1,0 +1,30 @@
+location:
+  github: BSData/konflikt47
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sun, 29 May 2022 22:38:50 GMT
+    properties:
+      tag_name: v0.9.5
+      name: Soviet command vehicles
+      published_at: 2022-05-29T22:38:01.0000000+00:00
+  catpkg:
+    properties:
+      name: konflikt47
+      description: Konflikt 47
+      battleScribeVersion: "2.03"
+      version: v0.9.5
+      lastUpdated: 2022-05-29T22:37:41.0000000+00:00
+      lastUpdateDescription: Soviet command vehicles
+      indexUrl: https://github.com/BSData/konflikt47/releases/latest/download/konflikt47.latest.bsi
+      repositoryUrl: https://github.com/BSData/konflikt47/releases/latest/download/konflikt47.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/konflikt47/releases/latest/download/konflikt47.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/konflikt47/releases/download/v0.9.5/konflikt47.v0.9.5.bsr
+      githubUrl: https://github.com/BSData/konflikt47
+      feedUrl: https://github.com/BSData/konflikt47/releases.atom
+      bugTrackerUrl: https://github.com/BSData/konflikt47/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/konflikt47
+
