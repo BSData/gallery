@@ -6,9 +6,9 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 31 May 2022 08:27:26 GMT
+      LastModified: Wed, 08 Jun 2022 10:06:50 GMT
     properties:
-      tag_name: v1.13
+      tag_name: v1.10.3
       name: Bad Dog Edition
       published_at: 2022-05-31T08:26:38.0000000+00:00
   catpkg:
