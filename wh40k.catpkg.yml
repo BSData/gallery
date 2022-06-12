@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 03 Jun 2022 12:26:51 GMT
+      LastModified: Sun, 12 Jun 2022 20:34:59 GMT
     properties:
-      tag_name: v9.3.18
-      name: Knights house rework, sorry folks.
-      published_at: 2022-06-03T12:25:35.0000000+00:00
+      tag_name: v9.3.19
+      name: Throne mechanicum engaged. Artefacts purged. Performance nominal. Praise the Omnissiah!
+      published_at: 2022-06-12T20:33:41.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.3.18
-      lastUpdated: 2022-06-02T20:49:53.0000000+00:00
-      lastUpdateDescription: Knights house rework, sorry folks.
+      version: v9.3.19
+      lastUpdated: 2022-06-12T20:22:06.0000000+00:00
+      lastUpdateDescription: Throne mechanicum engaged. Artefacts purged. Performance nominal. Praise the Omnissiah!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.18/wh40k.v9.3.18.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.3.19/wh40k.v9.3.19.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
