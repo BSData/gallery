@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 01 Jun 2022 14:17:24 GMT
+      LastModified: Mon, 13 Jun 2022 19:31:43 GMT
     properties:
-      tag_name: v53
-      name: Why did the chicken cross the road
-      published_at: 2022-06-01T13:35:00.0000000+00:00
+      tag_name: v54
+      name: Some new subfactions, models, and abilities
+      published_at: 2022-06-13T19:30:09.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v53
-      lastUpdated: 2022-06-01T13:19:32.0000000+00:00
-      lastUpdateDescription: Why did the chicken cross the road
+      version: v54
+      lastUpdated: 2022-06-13T19:26:32.0000000+00:00
+      lastUpdateDescription: Some new subfactions, models, and abilities
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v53/warhammer-age-of-sigmar-warcry.v53.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v54/warhammer-age-of-sigmar-warcry.v54.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
