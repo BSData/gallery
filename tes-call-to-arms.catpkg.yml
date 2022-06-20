@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 14 Jun 2022 03:37:35 GMT
+      LastModified: Sun, 19 Jun 2022 23:01:46 GMT
     properties:
-      tag_name: v1.0.2
-      name: v1.0.2 - Fixed skill/item restrictions
-      published_at: 2022-06-14T03:32:55.0000000+00:00
+      tag_name: v1.0.3
+      name: v1.0.3
+      published_at: 2022-06-19T23:01:17.0000000+00:00
   catpkg:
     properties:
       name: tes-call-to-arms
       description: 'Elder Scrolls: Call To Arms'
       battleScribeVersion: "2.03"
-      version: v1.0.2
-      lastUpdated: 2022-06-14T03:23:24.0000000+00:00
-      lastUpdateDescription: v1.0.2 - Fixed skill/item restrictions
+      version: v1.0.3
+      lastUpdated: 2022-06-19T22:57:30.0000000+00:00
+      lastUpdateDescription: v1.0.3
       indexUrl: https://github.com/BSData/tes-call-to-arms/releases/latest/download/tes-call-to-arms.latest.bsi
       repositoryUrl: https://github.com/BSData/tes-call-to-arms/releases/latest/download/tes-call-to-arms.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/tes-call-to-arms/releases/latest/download/tes-call-to-arms.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/tes-call-to-arms/releases/download/v1.0.2/tes-call-to-arms.v1.0.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/tes-call-to-arms/releases/download/v1.0.3/tes-call-to-arms.v1.0.3.bsr
       githubUrl: https://github.com/BSData/tes-call-to-arms
       feedUrl: https://github.com/BSData/tes-call-to-arms/releases.atom
       bugTrackerUrl: https://github.com/BSData/tes-call-to-arms/issues
