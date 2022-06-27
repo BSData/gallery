@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 26 Apr 2022 16:46:29 GMT
+      LastModified: Tue, 10 May 2022 09:36:13 GMT
     properties:
-      tag_name: 6.2.3
-      name: Bug Fixes, Added Frontnik Commisar
-      published_at: 2022-04-26T16:45:38.0000000+00:00
+      tag_name: 6.2.4
+      name: Minor Bug Fix, under the hood fixes
+      published_at: 2022-05-10T09:35:30.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.2.3
-      lastUpdated: 2022-04-26T16:43:43.0000000+00:00
-      lastUpdateDescription: Bug Fixes, Added Frontnik Commisar
+      version: 6.2.4
+      lastUpdated: 2022-05-10T09:24:34.0000000+00:00
+      lastUpdateDescription: Minor Bug Fix, under the hood fixes
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.2.3/boltaction.6.2.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.2.4/boltaction.6.2.4.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
