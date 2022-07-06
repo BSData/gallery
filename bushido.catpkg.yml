@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 05 Jul 2022 11:03:53 GMT
+      LastModified: Wed, 06 Jul 2022 08:37:51 GMT
     properties:
       tag_name: v1.15
       name: Factional Cards Edition
