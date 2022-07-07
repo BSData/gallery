@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 06 Jul 2022 21:00:45 GMT
+      LastModified: Thu, 07 Jul 2022 21:31:17 GMT
     properties:
-      tag_name: v16.0.3
-      name: iOS fix maybe... If not then I know a fix is out there.
-      published_at: 2022-07-06T20:59:44.0000000+00:00
+      tag_name: v16.0.4
+      name: Hay look. More stuff done. Probably even more tomorrow!
+      published_at: 2022-07-07T21:30:14.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v16.0.3
-      lastUpdated: 2022-07-06T20:57:32.0000000+00:00
-      lastUpdateDescription: iOS fix maybe... If not then I know a fix is out there.
+      version: v16.0.4
+      lastUpdated: 2022-07-07T21:28:21.0000000+00:00
+      lastUpdateDescription: Hay look. More stuff done. Probably even more tomorrow!
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v16.0.3/horus-heresy.v16.0.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v16.0.4/horus-heresy.v16.0.4.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
