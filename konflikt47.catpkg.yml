@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 01 Jul 2022 20:15:24 GMT
+      LastModified: Mon, 11 Jul 2022 00:30:56 GMT
     properties:
-      tag_name: v0.9.6
-      name: Fixed some points and a bad merge
-      published_at: 2022-07-01T20:14:43.0000000+00:00
+      tag_name: v0.9.7
+      name: US Bugfixes
+      published_at: 2022-07-11T00:30:18.0000000+00:00
   catpkg:
     properties:
       name: konflikt47
       description: Konflikt 47
       battleScribeVersion: "2.03"
-      version: v0.9.6
-      lastUpdated: 2022-07-01T20:13:41.0000000+00:00
-      lastUpdateDescription: Fixed some points and a bad merge
+      version: v0.9.7
+      lastUpdated: 2022-07-11T00:29:22.0000000+00:00
+      lastUpdateDescription: US Bugfixes
       indexUrl: https://github.com/BSData/konflikt47/releases/latest/download/konflikt47.latest.bsi
       repositoryUrl: https://github.com/BSData/konflikt47/releases/latest/download/konflikt47.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/konflikt47/releases/latest/download/konflikt47.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/konflikt47/releases/download/v0.9.6/konflikt47.v0.9.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/konflikt47/releases/download/v0.9.7/konflikt47.v0.9.7.bsr
       githubUrl: https://github.com/BSData/konflikt47
       feedUrl: https://github.com/BSData/konflikt47/releases.atom
       bugTrackerUrl: https://github.com/BSData/konflikt47/issues
