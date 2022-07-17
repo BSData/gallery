@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 07 Jul 2022 03:51:08 GMT
+      LastModified: Sun, 17 Jul 2022 04:13:38 GMT
     properties:
-      tag_name: v3.1.5
-      name: July FAQ and other tidying up.
-      published_at: 2022-07-07T03:49:59.0000000+00:00
+      tag_name: v3.1.6
+      name: A few straggling fixes.
+      published_at: 2022-07-17T04:12:31.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.5
-      lastUpdated: 2022-07-07T00:20:32.0000000+00:00
-      lastUpdateDescription: July FAQ and other tidying up.
+      version: v3.1.6
+      lastUpdated: 2022-07-17T04:10:29.0000000+00:00
+      lastUpdateDescription: A few straggling fixes.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.5/warhammer-age-of-sigmar.v3.1.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.6/warhammer-age-of-sigmar.v3.1.6.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
