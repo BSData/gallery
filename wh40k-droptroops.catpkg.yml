@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 22 Jul 2022 17:52:33 GMT
+      LastModified: Tue, 26 Jul 2022 02:17:40 GMT
     properties:
-      tag_name: v0.2.64
-      name: Name Changes and [Experimental] Fixes
-      published_at: 2022-07-22T17:52:00.0000000+00:00
+      tag_name: v0.2.65
+      name: Marauder Destroyer Fix
+      published_at: 2022-07-26T02:17:01.0000000+00:00
   catpkg:
     properties:
       name: wh40k-droptroops
       description: 'Warhammer 40,000: Drop Trooper Fandex'
       battleScribeVersion: "2.03"
-      version: v0.2.64
-      lastUpdated: 2022-07-22T17:50:15.0000000+00:00
-      lastUpdateDescription: Name Changes and [Experimental] Fixes
+      version: v0.2.65
+      lastUpdated: 2022-07-26T02:16:05.0000000+00:00
+      lastUpdateDescription: Marauder Destroyer Fix
       indexUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.latest.bsi
       repositoryUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json
       repositoryGzipUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.64/wh40k-droptroops.v0.2.64.bsr
+      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.65/wh40k-droptroops.v0.2.65.bsr
       githubUrl: https://github.com/brendanmint/wh40k-droptroops
       feedUrl: https://github.com/brendanmint/wh40k-droptroops/releases.atom
       bugTrackerUrl: https://github.com/brendanmint/wh40k-droptroops/issues
