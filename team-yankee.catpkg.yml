@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 14 May 2022 22:21:15 GMT
+      LastModified: Fri, 22 Oct 2021 15:54:26 GMT
     properties:
-      tag_name: v1.0.27
-      name: Fix Mortar Point Cost in NL M106 120mm (Free Nations)
-      published_at: 2022-05-14T22:20:35.0000000+00:00
+      tag_name: v1.0.25
+      name: Initial Release for West German Book - Force Level Unit Limits not yet enforced
+      published_at: 2021-10-22T15:53:52.0000000+00:00
   catpkg:
     properties:
       name: team-yankee
       description: Team Yankee
       battleScribeVersion: "2.03"
-      version: v1.0.27
-      lastUpdated: 2022-05-14T22:10:17.0000000+00:00
-      lastUpdateDescription: Fix Mortar Point Cost in NL M106 120mm (Free Nations)
+      version: v1.0.25
+      lastUpdated: 2021-10-22T15:52:22.0000000+00:00
+      lastUpdateDescription: Initial Release for West German Book - Force Level Unit Limits not yet enforced
       indexUrl: https://github.com/BSData/team-yankee/releases/latest/download/team-yankee.latest.bsi
       repositoryUrl: https://github.com/BSData/team-yankee/releases/latest/download/team-yankee.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/team-yankee/releases/latest/download/team-yankee.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/team-yankee/releases/download/v1.0.27/team-yankee.v1.0.27.bsr
+      repositoryBsrUrl: https://github.com/BSData/team-yankee/releases/download/v1.0.25/team-yankee.v1.0.25.bsr
       githubUrl: https://github.com/BSData/team-yankee
       feedUrl: https://github.com/BSData/team-yankee/releases.atom
       bugTrackerUrl: https://github.com/BSData/team-yankee/issues
