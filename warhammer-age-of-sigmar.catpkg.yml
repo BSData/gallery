@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 25 Jul 2022 13:41:11 GMT
+      LastModified: Tue, 02 Aug 2022 23:59:35 GMT
     properties:
-      tag_name: v3.1.7
-      name: Sweltering heat release.
-      published_at: 2022-07-25T13:39:18.0000000+00:00
+      tag_name: v3.1.8
+      name: Straggling fixes.
+      published_at: 2022-08-02T23:58:35.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.7
-      lastUpdated: 2022-07-25T13:34:38.0000000+00:00
-      lastUpdateDescription: Sweltering heat release.
+      version: v3.1.8
+      lastUpdated: 2022-07-30T17:05:17.0000000+00:00
+      lastUpdateDescription: Straggling fixes.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.7/warhammer-age-of-sigmar.v3.1.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.8/warhammer-age-of-sigmar.v3.1.8.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
