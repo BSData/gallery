@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 13 Jun 2022 19:31:43 GMT
+      LastModified: Sat, 06 Aug 2022 09:08:58 GMT
     properties:
-      tag_name: v54
-      name: Some new subfactions, models, and abilities
-      published_at: 2022-06-13T19:30:09.0000000+00:00
+      tag_name: v55
+      name: 'Warcry 2.0 update: featuring new factions and updated points'
+      published_at: 2022-08-06T09:07:49.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v54
-      lastUpdated: 2022-06-13T19:26:32.0000000+00:00
-      lastUpdateDescription: Some new subfactions, models, and abilities
+      version: v55
+      lastUpdated: 2022-08-06T09:07:20.0000000+00:00
+      lastUpdateDescription: 'Warcry 2.0 update: featuring new factions and updated points'
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v54/warhammer-age-of-sigmar-warcry.v54.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v55/warhammer-age-of-sigmar-warcry.v55.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
