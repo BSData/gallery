@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 23 Jul 2022 08:32:50 GMT
+      LastModified: Tue, 09 Aug 2022 06:44:07 GMT
     properties:
-      tag_name: v3.5.2
-      name: Recursive goblins aren't real, they can't hurt you.
-      published_at: 2022-07-23T08:32:03.0000000+00:00
+      tag_name: v3.5.3
+      name: Reminded Ogre players what their positions are
+      published_at: 2022-08-09T06:42:54.0000000+00:00
   catpkg:
     properties:
       name: bloodbowl
       description: Blood Bowl
       battleScribeVersion: "2.03"
-      version: v3.5.2
-      lastUpdated: 2022-07-23T08:18:19.0000000+00:00
-      lastUpdateDescription: Recursive goblins aren't real, they can't hurt you.
+      version: v3.5.3
+      lastUpdated: 2022-08-09T06:39:23.0000000+00:00
+      lastUpdateDescription: Reminded Ogre players what their positions are
       indexUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.latest.bsi
       repositoryUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bloodbowl/releases/download/v3.5.2/bloodbowl.v3.5.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/bloodbowl/releases/download/v3.5.3/bloodbowl.v3.5.3.bsr
       githubUrl: https://github.com/BSData/bloodbowl
       feedUrl: https://github.com/BSData/bloodbowl/releases.atom
       bugTrackerUrl: https://github.com/BSData/bloodbowl/issues
