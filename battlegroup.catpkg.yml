@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 09 Aug 2022 00:28:36 GMT
+      LastModified: Tue, 09 Aug 2022 22:19:54 GMT
     properties:
-      tag_name: v1.7.2
-      name: British Pacific Re-org
-      published_at: 2022-08-09T00:27:34.0000000+00:00
+      tag_name: v1.7.3
+      name: Overlord BtB Re-org
+      published_at: 2022-08-09T22:18:50.0000000+00:00
   catpkg:
     properties:
       name: battlegroup
       description: Battlegroup
       battleScribeVersion: "2.03"
-      version: v1.7.2
-      lastUpdated: 2022-08-09T00:13:40.0000000+00:00
-      lastUpdateDescription: British Pacific Re-org
+      version: v1.7.3
+      lastUpdated: 2022-08-09T20:49:03.0000000+00:00
+      lastUpdateDescription: Overlord BtB Re-org
       indexUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.latest.bsi
       repositoryUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.7.2/battlegroup.v1.7.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.7.3/battlegroup.v1.7.3.bsr
       githubUrl: https://github.com/BSData/battlegroup
       feedUrl: https://github.com/BSData/battlegroup/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlegroup/issues
