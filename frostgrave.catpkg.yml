@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 13 Aug 2016 17:36:04 GMT
+      LastModified: Wed, 07 Sep 2016 22:43:16 GMT
     properties:
-      tag_name: V9.5
-      name: Weapon profile bug fix
-      published_at: 2016-08-13T17:36:04.0000000+00:00
+      tag_name: V10.1
+      name: Demon in a bottle fix
+      published_at: 2016-09-07T22:43:16.0000000+00:00
   catpkg:
     properties:
       name: frostgrave
