@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 20 Jul 2022 06:37:52 GMT
+      LastModified: Sat, 13 Aug 2022 11:11:57 GMT
     properties:
-      tag_name: v1.16.2
-      name: Hotfix
-      published_at: 2022-07-20T06:37:13.0000000+00:00
+      tag_name: v1.17
+      name: Foxy Boxy Edition
+      published_at: 2022-08-13T11:10:57.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v1.16.2
-      lastUpdated: 2022-07-20T06:33:20.0000000+00:00
-      lastUpdateDescription: Hotfix
+      version: v1.17
+      lastUpdated: 2022-08-13T11:06:34.0000000+00:00
+      lastUpdateDescription: Foxy Boxy Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.16.2/bushido.v1.16.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.17/bushido.v1.17.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
