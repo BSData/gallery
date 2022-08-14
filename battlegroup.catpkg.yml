@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 09 Aug 2022 22:19:54 GMT
+      LastModified: Sun, 14 Aug 2022 22:07:18 GMT
     properties:
-      tag_name: v1.7.3
-      name: Overlord BtB Re-org
-      published_at: 2022-08-09T22:18:50.0000000+00:00
+      tag_name: v1.7.4
+      name: FotR German re-org
+      published_at: 2022-08-14T22:06:20.0000000+00:00
   catpkg:
     properties:
       name: battlegroup
       description: Battlegroup
       battleScribeVersion: "2.03"
-      version: v1.7.3
-      lastUpdated: 2022-08-09T20:49:03.0000000+00:00
-      lastUpdateDescription: Overlord BtB Re-org
+      version: v1.7.4
+      lastUpdated: 2022-08-09T22:59:04.0000000+00:00
+      lastUpdateDescription: FotR German re-org
       indexUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.latest.bsi
       repositoryUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.7.3/battlegroup.v1.7.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.7.4/battlegroup.v1.7.4.bsr
       githubUrl: https://github.com/BSData/battlegroup
       feedUrl: https://github.com/BSData/battlegroup/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlegroup/issues
