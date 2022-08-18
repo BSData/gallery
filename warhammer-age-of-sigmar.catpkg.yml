@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 12 Aug 2022 20:36:44 GMT
+      LastModified: Thu, 18 Aug 2022 04:52:32 GMT
     properties:
-      tag_name: v3.1.10
-      name: Slaanesh endless spells.
-      published_at: 2022-08-12T20:35:29.0000000+00:00
+      tag_name: v3.1.11
+      name: New Warcry units and Nurgle cleanup (no really)...
+      published_at: 2022-08-18T04:51:26.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.10
-      lastUpdated: 2022-08-07T04:11:20.0000000+00:00
-      lastUpdateDescription: Slaanesh endless spells.
+      version: v3.1.11
+      lastUpdated: 2022-08-18T04:49:51.0000000+00:00
+      lastUpdateDescription: New Warcry units and Nurgle cleanup (no really)...
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.10/warhammer-age-of-sigmar.v3.1.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.11/warhammer-age-of-sigmar.v3.1.11.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
