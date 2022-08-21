@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 09 Aug 2022 06:44:07 GMT
+      LastModified: Sun, 21 Aug 2022 05:20:26 GMT
     properties:
-      tag_name: v3.5.3
-      name: Reminded Ogre players what their positions are
-      published_at: 2022-08-09T06:42:54.0000000+00:00
+      tag_name: v3.5.4
+      name: Punished special players for wagging school
+      published_at: 2022-08-21T05:19:24.0000000+00:00
   catpkg:
     properties:
       name: bloodbowl
       description: Blood Bowl
       battleScribeVersion: "2.03"
-      version: v3.5.3
-      lastUpdated: 2022-08-09T06:39:23.0000000+00:00
-      lastUpdateDescription: Reminded Ogre players what their positions are
+      version: v3.5.4
+      lastUpdated: 2022-08-21T05:00:19.0000000+00:00
+      lastUpdateDescription: Punished special players for wagging school
       indexUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.latest.bsi
       repositoryUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bloodbowl/releases/download/v3.5.3/bloodbowl.v3.5.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/bloodbowl/releases/download/v3.5.4/bloodbowl.v3.5.4.bsr
       githubUrl: https://github.com/BSData/bloodbowl
       feedUrl: https://github.com/BSData/bloodbowl/releases.atom
       bugTrackerUrl: https://github.com/BSData/bloodbowl/issues
