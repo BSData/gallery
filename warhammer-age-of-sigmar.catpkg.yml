@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 24 Aug 2022 14:20:19 GMT
+      LastModified: Wed, 24 Aug 2022 14:21:45 GMT
     properties:
       tag_name: v3.1.12
       name: Galletian bug fixes...
       published_at: 2022-08-24T14:20:19.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: warhammer-age-of-sigmar
+      description: 'Warhammer: Age of Sigmar'
+      battleScribeVersion: "2.03"
+      version: v3.1.12
+      lastUpdated: 2022-08-24T14:11:41.0000000+00:00
+      lastUpdateDescription: Galletian bug fixes...
+      indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
+      repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.12/warhammer-age-of-sigmar.v3.1.12.bsr
+      githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
+      feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
+      bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-age-of-sigmar
 
