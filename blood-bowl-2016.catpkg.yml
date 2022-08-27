@@ -12,6 +12,19 @@ cache:
       name: Snotling time travel?! What could go wrong...
       published_at: 2021-07-18T06:40:50.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 503
+    properties:
+      name: blood-bowl-2016
+      description: Blood Bowl 2016
+      battleScribeVersion: "2.03"
+      version: v1.3
+      lastUpdated: 2021-07-18T06:24:15.0000000+00:00
+      lastUpdateDescription: Snotling time travel?! What could go wrong...
+      indexUrl: https://github.com/BSData/blood-bowl-2016/releases/latest/download/blood-bowl-2016.latest.bsi
+      repositoryUrl: https://github.com/BSData/blood-bowl-2016/releases/latest/download/blood-bowl-2016.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/blood-bowl-2016/releases/latest/download/blood-bowl-2016.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/blood-bowl-2016/releases/download/v1.3/blood-bowl-2016.v1.3.bsr
+      githubUrl: https://github.com/BSData/blood-bowl-2016
+      feedUrl: https://github.com/BSData/blood-bowl-2016/releases.atom
+      bugTrackerUrl: https://github.com/BSData/blood-bowl-2016/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/blood-bowl-2016
 
