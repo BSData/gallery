@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 27 Aug 2022 20:29:15 GMT
+      LastModified: Tue, 30 Aug 2022 22:03:03 GMT
     properties:
-      tag_name: v2.5.5
-      name: submit fresh bugs https://tinyurl.com/BFGBug
-      published_at: 2022-08-27T20:28:39.0000000+00:00
+      tag_name: v2.5.6
+      name: Bakka Battlecruisers fixed submit bugs at https://tinyurl.com/BFGBug
+      published_at: 2022-08-30T22:02:07.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.5.5
-      lastUpdated: 2022-08-27T20:24:02.0000000+00:00
-      lastUpdateDescription: submit fresh bugs https://tinyurl.com/BFGBug
+      version: v2.5.6
+      lastUpdated: 2022-08-30T22:00:23.0000000+00:00
+      lastUpdateDescription: Bakka Battlecruisers fixed submit bugs at https://tinyurl.com/BFGBug
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.5/battlefleetgothic.v2.5.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.6/battlefleetgothic.v2.5.6.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
