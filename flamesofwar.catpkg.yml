@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 22 Jun 2022 14:59:34 GMT
+      LastModified: Sun, 04 Sep 2022 01:45:04 GMT
     properties:
-      tag_name: 1.2.13
-      name: D-Day British Cards added
-      published_at: 2022-06-22T14:58:08.0000000+00:00
+      tag_name: 1.2.14
+      name: 'Bulge: American'
+      published_at: 2022-09-04T01:44:24.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: 1.2.13
-      lastUpdated: 2022-06-22T14:57:08.0000000+00:00
-      lastUpdateDescription: D-Day British Cards added
+      version: 1.2.14
+      lastUpdated: 2022-09-04T00:08:11.0000000+00:00
+      lastUpdateDescription: 'Bulge: American'
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.13/flamesofwar.1.2.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.14/flamesofwar.1.2.14.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
