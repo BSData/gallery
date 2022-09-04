@@ -7,7 +7,7 @@ gallery:
     repositorySourceUrl: https://github.com/BSData/gallery/releases/latest/download/bsdata.catpkg-gallery.json
     websiteUrl: https://battlescribedata.appspot.com # url of gallery website
     githubUrl: https://github.com/BSData/gallery # url of gallery owner's site
-    discordUrl: https://discord.gg/KqPVhds # url of gallery owner's discord
+    discordUrl: https://discord.gg/UrrPB3T # url of gallery owner's discord
     feedUrl: http://battlescribedata.appspot.com/repos/feeds/all.atom # url of Atom feed combining all package feeds
     twitterUrl: https://twitter.com/BSData # url of gallery owner's twitter account
     facebookUrl: https://facebook.com/BattleScribeData # url of gallery owner's facebook page
