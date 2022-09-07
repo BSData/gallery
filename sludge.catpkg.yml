@@ -12,6 +12,19 @@ cache:
       name: Sludge Nations
       published_at: 2022-03-11T22:44:26.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 500
+    properties:
+      name: sludge
+      description: Sludge
+      battleScribeVersion: "2.03"
+      version: v1.1.0
+      lastUpdated: 2022-03-11T22:43:13.0000000+00:00
+      lastUpdateDescription: Sludge Nations
+      indexUrl: https://github.com/BSData/sludge/releases/latest/download/sludge.latest.bsi
+      repositoryUrl: https://github.com/BSData/sludge/releases/latest/download/sludge.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/sludge/releases/latest/download/sludge.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/sludge/releases/download/v1.1.0/sludge.v1.1.0.bsr
+      githubUrl: https://github.com/BSData/sludge
+      feedUrl: https://github.com/BSData/sludge/releases.atom
+      bugTrackerUrl: https://github.com/BSData/sludge/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/sludge
 
