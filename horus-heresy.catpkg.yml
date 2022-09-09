@@ -6,25 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Sep 2022 09:32:51 GMT
+      LastModified: Fri, 09 Sep 2022 08:28:24 GMT
     properties:
-      tag_name: v16.1.4
-      name: The Machine God endows thee with life; AdMech updates, Knights-Errant, WLTs, & more LsoW!
-      published_at: 2022-09-01T09:31:23.0000000+00:00
+      tag_name: v16.1.5
+      name: The Greater Splittening! All Legions now have their own root entries, so we _shouldn't_ see any more repeating entries. Oh yeah, and AdMech is mostly done, definitely not a huge deal or anything.
+      published_at: 2022-09-09T08:28:24.0000000+00:00
   catpkg:
-    properties:
-      name: horus-heresy
-      description: Horus Heresy
-      battleScribeVersion: "2.03"
-      version: v16.1.4
-      lastUpdated: 2022-09-01T09:19:44.0000000+00:00
-      lastUpdateDescription: The Machine God endows thee with life; AdMech updates, Knights-Errant, WLTs, & more LsoW!
-      indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
-      repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v16.1.4/horus-heresy.v16.1.4.bsr
-      githubUrl: https://github.com/BSData/horus-heresy
-      feedUrl: https://github.com/BSData/horus-heresy/releases.atom
-      bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/horus-heresy
+    apiResponseError:
+      code: 404
 
