@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 03 Sep 2022 11:47:51 GMT
+      LastModified: Fri, 09 Sep 2022 12:46:19 GMT
     properties:
-      tag_name: v9.6.6
-      name: Battlescribe now with Daemons in every box! Collect the whole set!
-      published_at: 2022-09-03T11:46:02.0000000+00:00
+      tag_name: v9.6.7
+      name: Tzeentch got into the data files again, sorry!
+      published_at: 2022-09-09T12:44:51.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.6.6
-      lastUpdated: 2022-09-03T11:37:51.0000000+00:00
-      lastUpdateDescription: Battlescribe now with Daemons in every box! Collect the whole set!
+      version: v9.6.7
+      lastUpdated: 2022-09-09T11:25:01.0000000+00:00
+      lastUpdateDescription: Tzeentch got into the data files again, sorry!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.6/wh40k.v9.6.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.7/wh40k.v9.6.7.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
