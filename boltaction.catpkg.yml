@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 09 Sep 2022 16:31:00 GMT
+      LastModified: Sat, 10 Sep 2022 21:13:31 GMT
     properties:
-      tag_name: 6.2.7
-      name: Hotfix on Previous version, added one click selection on equipment for major nations
-      published_at: 2022-09-09T16:30:06.0000000+00:00
+      tag_name: 6.2.8
+      name: Added one click equipment/rule selection to the remaining nations
+      published_at: 2022-09-10T21:12:21.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.2.7
-      lastUpdated: 2022-09-09T16:27:14.0000000+00:00
-      lastUpdateDescription: Hotfix on Previous version, added one click selection on equipment for major nations
+      version: 6.2.8
+      lastUpdated: 2022-09-10T20:53:38.0000000+00:00
+      lastUpdateDescription: Added one click equipment/rule selection to the remaining nations
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.2.7/boltaction.6.2.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.2.8/boltaction.6.2.8.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
