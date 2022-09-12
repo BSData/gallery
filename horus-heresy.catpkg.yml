@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 09 Sep 2022 11:44:05 GMT
+      LastModified: Mon, 12 Sep 2022 07:45:58 GMT
     properties:
-      tag_name: v16.1.6
-      name: 2 releases in 12 hours!
-      published_at: 2022-09-09T11:42:33.0000000+00:00
+      tag_name: v16.1.7
+      name: 3 releases in as many days! What is this world coming to? (More bugfixes before the weekly release).
+      published_at: 2022-09-12T07:44:37.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v16.1.6
-      lastUpdated: 2022-09-09T11:39:16.0000000+00:00
-      lastUpdateDescription: 2 releases in 12 hours!
+      version: v16.1.7
+      lastUpdated: 2022-09-12T07:36:04.0000000+00:00
+      lastUpdateDescription: 3 releases in as many days! What is this world coming to? (More bugfixes before the weekly release).
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v16.1.6/horus-heresy.v16.1.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v16.1.7/horus-heresy.v16.1.7.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
