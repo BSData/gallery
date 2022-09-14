@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 08 Sep 2022 03:26:28 GMT
+      LastModified: Wed, 14 Sep 2022 16:45:05 GMT
     properties:
-      tag_name: v3.1.14
-      name: You too can create a BoC list without errors.
-      published_at: 2022-09-08T03:24:34.0000000+00:00
+      tag_name: v3.1.15
+      name: Dromm!
+      published_at: 2022-09-14T16:43:52.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.14
-      lastUpdated: 2022-09-08T03:19:30.0000000+00:00
-      lastUpdateDescription: You too can create a BoC list without errors.
+      version: v3.1.15
+      lastUpdated: 2022-09-14T16:34:28.0000000+00:00
+      lastUpdateDescription: Dromm!
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.14/warhammer-age-of-sigmar.v3.1.14.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.15/warhammer-age-of-sigmar.v3.1.15.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
