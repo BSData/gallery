@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 15 Sep 2022 18:19:59 GMT
+      LastModified: Fri, 16 Sep 2022 15:25:14 GMT
     properties:
-      tag_name: 6.2.9
-      name: Added September 2022 FAQ
-      published_at: 2022-09-15T18:18:54.0000000+00:00
+      tag_name: 6.3.0
+      name: Bug Fix on September 2022 FAQ update
+      published_at: 2022-09-16T15:24:08.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.2.9
-      lastUpdated: 2022-09-15T18:16:32.0000000+00:00
-      lastUpdateDescription: Added September 2022 FAQ
+      version: 6.3.0
+      lastUpdated: 2022-09-16T15:21:44.0000000+00:00
+      lastUpdateDescription: Bug Fix on September 2022 FAQ update
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.2.9/boltaction.6.2.9.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.3.0/boltaction.6.3.0.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
