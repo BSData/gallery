@@ -12,6 +12,19 @@ cache:
       name: Zone Raiders core rules v1
       published_at: 2021-05-19T10:36:11.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 503
+    properties:
+      name: zone-raiders
+      description: Zone Raiders
+      battleScribeVersion: "2.03"
+      version: v1.1.4
+      lastUpdated: 2021-05-19T10:35:14.0000000+00:00
+      lastUpdateDescription: Zone Raiders core rules v1
+      indexUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.latest.bsi
+      repositoryUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/zone-raiders/releases/download/v1.1.4/zone-raiders.v1.1.4.bsr
+      githubUrl: https://github.com/BSData/zone-raiders
+      feedUrl: https://github.com/BSData/zone-raiders/releases.atom
+      bugTrackerUrl: https://github.com/BSData/zone-raiders/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/zone-raiders
 
