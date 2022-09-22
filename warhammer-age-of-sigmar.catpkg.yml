@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 21 Sep 2022 00:21:09 GMT
+      LastModified: Thu, 22 Sep 2022 03:05:26 GMT
     properties:
-      tag_name: v3.1.16
-      name: Are you feeling hungry?
-      published_at: 2022-09-21T00:19:46.0000000+00:00
+      tag_name: v3.1.17
+      name: Swinging the purple nerf bat.
+      published_at: 2022-09-22T03:03:59.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.16
-      lastUpdated: 2022-09-20T15:14:13.0000000+00:00
-      lastUpdateDescription: Are you feeling hungry?
+      version: v3.1.17
+      lastUpdated: 2022-09-22T03:01:58.0000000+00:00
+      lastUpdateDescription: Swinging the purple nerf bat.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.16/warhammer-age-of-sigmar.v3.1.16.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.17/warhammer-age-of-sigmar.v3.1.17.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
