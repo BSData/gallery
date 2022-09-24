@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 09 Sep 2022 12:46:19 GMT
+      LastModified: Fri, 23 Sep 2022 22:43:12 GMT
     properties:
-      tag_name: v9.6.7
-      name: Tzeentch got into the data files again, sorry!
-      published_at: 2022-09-09T12:44:51.0000000+00:00
+      tag_name: v9.6.8
+      name: Now presenting the "Leagues of Verboten"!
+      published_at: 2022-09-23T22:42:07.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.6.7
-      lastUpdated: 2022-09-09T11:25:01.0000000+00:00
-      lastUpdateDescription: Tzeentch got into the data files again, sorry!
+      version: v9.6.8
+      lastUpdated: 2022-09-23T21:06:59.0000000+00:00
+      lastUpdateDescription: Now presenting the "Leagues of Verboten"!
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.7/wh40k.v9.6.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.8/wh40k.v9.6.8.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
