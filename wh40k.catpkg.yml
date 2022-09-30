@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 23 Sep 2022 22:43:12 GMT
+      LastModified: Fri, 30 Sep 2022 13:58:34 GMT
     properties:
-      tag_name: v9.6.8
-      name: Now presenting the "Leagues of Verboten"!
-      published_at: 2022-09-23T22:42:07.0000000+00:00
+      tag_name: v9.6.9
+      name: James Workshop says "Oops!"
+      published_at: 2022-09-30T13:57:23.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.6.8
-      lastUpdated: 2022-09-23T21:06:59.0000000+00:00
-      lastUpdateDescription: Now presenting the "Leagues of Verboten"!
+      version: v9.6.9
+      lastUpdated: 2022-09-29T12:02:36.0000000+00:00
+      lastUpdateDescription: James Workshop says "Oops!"
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.8/wh40k.v9.6.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.9/wh40k.v9.6.9.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
