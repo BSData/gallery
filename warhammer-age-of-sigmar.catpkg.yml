@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 30 Sep 2022 14:57:32 GMT
+      LastModified: Sat, 08 Oct 2022 11:58:09 GMT
     properties:
-      tag_name: v3.1.18
-      name: Just as planned...
-      published_at: 2022-09-30T14:56:06.0000000+00:00
+      tag_name: v3.1.19
+      name: Darkest before dawn.
+      published_at: 2022-10-08T11:57:06.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.18
-      lastUpdated: 2022-09-29T03:24:01.0000000+00:00
-      lastUpdateDescription: Just as planned...
+      version: v3.1.19
+      lastUpdated: 2022-10-08T11:55:10.0000000+00:00
+      lastUpdateDescription: Darkest before dawn.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.18/warhammer-age-of-sigmar.v3.1.18.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.19/warhammer-age-of-sigmar.v3.1.19.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
