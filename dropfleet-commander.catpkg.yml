@@ -12,6 +12,19 @@ cache:
       name: Resistance Data Cleanup
       published_at: 2022-06-15T18:08:53.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 503
+    properties:
+      name: dropfleet-commander
+      description: Dropfleet Commander
+      battleScribeVersion: "2.03"
+      version: v2.0.3
+      lastUpdated: 2022-06-15T18:06:40.0000000+00:00
+      lastUpdateDescription: Resistance Data Cleanup
+      indexUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.latest.bsi
+      repositoryUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/dropfleet-commander/releases/download/v2.0.3/dropfleet-commander.v2.0.3.bsr
+      githubUrl: https://github.com/BSData/dropfleet-commander
+      feedUrl: https://github.com/BSData/dropfleet-commander/releases.atom
+      bugTrackerUrl: https://github.com/BSData/dropfleet-commander/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/dropfleet-commander
 
