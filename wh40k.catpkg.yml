@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 11 Oct 2022 20:56:54 GMT
+      LastModified: Fri, 28 Oct 2022 09:07:10 GMT
     properties:
-      tag_name: v9.6.10
-      name: The Dingus eggs have Hatched.
-      published_at: 2022-10-11T20:54:34.0000000+00:00
+      tag_name: v9.6.11
+      name: Starstriders are updated now, you can stop whining.
+      published_at: 2022-10-28T09:05:33.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.6.10
-      lastUpdated: 2022-10-11T15:14:35.0000000+00:00
-      lastUpdateDescription: The Dingus eggs have Hatched.
+      version: v9.6.11
+      lastUpdated: 2022-10-28T09:02:29.0000000+00:00
+      lastUpdateDescription: Starstriders are updated now, you can stop whining.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.10/wh40k.v9.6.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.11/wh40k.v9.6.11.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
