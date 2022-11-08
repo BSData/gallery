@@ -1,0 +1,30 @@
+location:
+  github: BSData/modulorka
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sun, 06 Nov 2022 17:59:54 GMT
+    properties:
+      tag_name: v0.1.3
+      name: Now sorted by faction
+      published_at: 2022-11-06T17:59:30.0000000+00:00
+  catpkg:
+    properties:
+      name: modulorka
+      description: Modulorka
+      battleScribeVersion: "2.03"
+      version: v0.1.3
+      lastUpdated: 2022-11-06T04:16:46.0000000+00:00
+      lastUpdateDescription: Now sorted by faction
+      indexUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.latest.bsi
+      repositoryUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.3/modulorka.v0.1.3.bsr
+      githubUrl: https://github.com/BSData/modulorka
+      feedUrl: https://github.com/BSData/modulorka/releases.atom
+      bugTrackerUrl: https://github.com/BSData/modulorka/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/modulorka
+
