@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 28 Oct 2022 09:07:10 GMT
+      LastModified: Thu, 10 Nov 2022 18:44:29 GMT
     properties:
-      tag_name: v9.6.11
-      name: Starstriders are updated now, you can stop whining.
-      published_at: 2022-10-28T09:05:33.0000000+00:00
+      tag_name: v9.6.12
+      name: Buncha Bitty Bugs Bettered
+      published_at: 2022-11-10T18:43:07.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.6.11
-      lastUpdated: 2022-10-28T09:02:29.0000000+00:00
-      lastUpdateDescription: Starstriders are updated now, you can stop whining.
+      version: v9.6.12
+      lastUpdated: 2022-11-10T15:54:05.0000000+00:00
+      lastUpdateDescription: Buncha Bitty Bugs Bettered
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.11/wh40k.v9.6.11.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.12/wh40k.v9.6.12.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
