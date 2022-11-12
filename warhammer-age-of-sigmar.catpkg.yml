@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 11 Nov 2022 16:17:19 GMT
+      LastModified: Fri, 11 Nov 2022 23:05:18 GMT
     properties:
-      tag_name: v3.1.26
-      name: Feelin' hungry?
-      published_at: 2022-11-11T16:13:56.0000000+00:00
+      tag_name: v3.1.27
+      name: Ogors again.
+      published_at: 2022-11-11T23:04:04.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v1.0.0
+      version: v3.1.27
       lastUpdated: 2022-11-11T15:31:16.0000000+00:00
-      lastUpdateDescription: Feelin' hungry?
+      lastUpdateDescription: Ogors again.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v1.0.0/warhammer-age-of-sigmar.v1.0.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.27/warhammer-age-of-sigmar.v3.1.27.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
