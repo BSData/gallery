@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 19 Nov 2022 16:03:23 GMT
+      LastModified: Sun, 20 Nov 2022 03:53:10 GMT
     properties:
-      tag_name: v3.1.28
-      name: Ready to spread StD throughout the mortal realms.
-      published_at: 2022-11-19T16:02:03.0000000+00:00
+      tag_name: v3.1.29
+      name: StD spreading thru the mortal realms.
+      published_at: 2022-11-20T03:52:14.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.28
-      lastUpdated: 2022-11-19T00:50:55.0000000+00:00
-      lastUpdateDescription: Ready to spread StD throughout the mortal realms.
+      version: v3.1.29
+      lastUpdated: 2022-11-20T03:50:49.0000000+00:00
+      lastUpdateDescription: StD spreading thru the mortal realms.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.28/warhammer-age-of-sigmar.v3.1.28.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.29/warhammer-age-of-sigmar.v3.1.29.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
