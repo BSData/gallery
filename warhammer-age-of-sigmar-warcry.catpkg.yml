@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 18 Nov 2022 09:36:17 GMT
+      LastModified: Sat, 26 Nov 2022 11:31:09 GMT
     properties:
-      tag_name: v60
-      name: The Nothing Burger
-      published_at: 2022-11-18T09:35:15.0000000+00:00
+      tag_name: v61
+      name: The Sundered Fate Update
+      published_at: 2022-11-26T11:29:47.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar-warcry
       description: 'Warhammer Age of Sigmar: Warcry'
       battleScribeVersion: "2.03"
-      version: v60
-      lastUpdated: 2022-11-14T23:04:42.0000000+00:00
-      lastUpdateDescription: The Nothing Burger
+      version: v61
+      lastUpdated: 2022-11-26T11:27:41.0000000+00:00
+      lastUpdateDescription: The Sundered Fate Update
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/latest/download/warhammer-age-of-sigmar-warcry.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v60/warhammer-age-of-sigmar-warcry.v60.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases/download/v61/warhammer-age-of-sigmar-warcry.v61.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar-warcry/issues
