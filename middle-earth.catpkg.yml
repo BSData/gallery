@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 03 Nov 2022 12:24:41 GMT
+      LastModified: Sat, 26 Nov 2022 13:23:49 GMT
     properties:
-      tag_name: v2.5.2
-      name: Nov 2022 Bug Fixes
-      published_at: 2022-11-03T12:23:20.0000000+00:00
+      tag_name: v2.5.3
+      name: Orophin
+      published_at: 2022-11-26T13:22:57.0000000+00:00
   catpkg:
     properties:
       name: middle-earth
       description: Middle-earth™
       battleScribeVersion: "2.03"
-      version: v2.5.2
-      lastUpdated: 2022-11-03T12:22:24.0000000+00:00
-      lastUpdateDescription: Nov 2022 Bug Fixes
+      version: v2.5.3
+      lastUpdated: 2022-11-26T12:47:41.0000000+00:00
+      lastUpdateDescription: Orophin
       indexUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.latest.bsi
       repositoryUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/v2.5.2/middle-earth.v2.5.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/v2.5.3/middle-earth.v2.5.3.bsr
       githubUrl: https://github.com/BSData/middle-earth
       feedUrl: https://github.com/BSData/middle-earth/releases.atom
       bugTrackerUrl: https://github.com/BSData/middle-earth/issues
