@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 16 Nov 2022 03:45:09 GMT
+      LastModified: Sat, 26 Nov 2022 03:21:20 GMT
     properties:
-      tag_name: v0.1.4
-      name: Kratorc and Boi
-      published_at: 2022-11-16T03:44:27.0000000+00:00
+      tag_name: v0.1.5
+      name: Jump Paks!
+      published_at: 2022-11-26T03:20:39.0000000+00:00
   catpkg:
     properties:
       name: modulorka
       description: Modulorka
       battleScribeVersion: "2.03"
-      version: v0.1.4
-      lastUpdated: 2022-11-16T03:43:23.0000000+00:00
-      lastUpdateDescription: Kratorc and Boi
+      version: v0.1.5
+      lastUpdated: 2022-11-26T03:15:44.0000000+00:00
+      lastUpdateDescription: Jump Paks!
       indexUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.latest.bsi
       repositoryUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.4/modulorka.v0.1.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.5/modulorka.v0.1.5.bsr
       githubUrl: https://github.com/BSData/modulorka
       feedUrl: https://github.com/BSData/modulorka/releases.atom
       bugTrackerUrl: https://github.com/BSData/modulorka/issues
