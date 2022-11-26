@@ -12,19 +12,6 @@ cache:
       name: Treating StD bugs.
       published_at: 2022-11-21T02:29:35.0000000+00:00
   catpkg:
-    properties:
-      name: warhammer-age-of-sigmar
-      description: 'Warhammer: Age of Sigmar'
-      battleScribeVersion: "2.03"
-      version: v3.1.30
-      lastUpdated: 2022-11-20T21:16:16.0000000+00:00
-      lastUpdateDescription: Treating StD bugs.
-      indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
-      repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.30/warhammer-age-of-sigmar.v3.1.30.bsr
-      githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
-      feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
-      bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-age-of-sigmar
+    apiResponseError:
+      code: 503
 
