@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 12 Nov 2022 17:03:13 GMT
+      LastModified: Sun, 11 Dec 2022 18:52:45 GMT
     properties:
-      tag_name: 6.3.8
-      name: Added Armies of South Africa
-      published_at: 2022-11-12T17:02:12.0000000+00:00
+      tag_name: 6.3.9
+      name: Bug Fix
+      published_at: 2022-12-11T18:51:46.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.3.8
-      lastUpdated: 2022-11-12T15:49:17.0000000+00:00
-      lastUpdateDescription: Added Armies of South Africa
+      version: 6.3.9
+      lastUpdated: 2022-12-11T13:26:23.0000000+00:00
+      lastUpdateDescription: Bug Fix
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.3.8/boltaction.6.3.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.3.9/boltaction.6.3.9.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
