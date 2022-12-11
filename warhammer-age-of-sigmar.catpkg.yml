@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 03 Dec 2022 18:39:55 GMT
+      LastModified: Sun, 11 Dec 2022 05:25:40 GMT
     properties:
-      tag_name: v3.1.32
-      name: Skinks anyone?
-      published_at: 2022-12-03T18:38:57.0000000+00:00
+      tag_name: v3.1.33
+      name: Weekly attempt to tip-over AppSpot.
+      published_at: 2022-12-11T05:24:42.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.32
-      lastUpdated: 2022-12-01T00:33:10.0000000+00:00
-      lastUpdateDescription: Skinks anyone?
+      version: v3.1.33
+      lastUpdated: 2022-12-11T05:22:33.0000000+00:00
+      lastUpdateDescription: Weekly attempt to tip-over AppSpot.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.32/warhammer-age-of-sigmar.v3.1.32.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.33/warhammer-age-of-sigmar.v3.1.33.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
