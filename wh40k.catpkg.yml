@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 22 Nov 2022 19:14:31 GMT
+      LastModified: Fri, 23 Dec 2022 21:02:06 GMT
     properties:
-      tag_name: v9.6.13
-      name: Long Live Navis Imperialis!
-      published_at: 2022-11-22T19:12:24.0000000+00:00
+      tag_name: v9.6.14
+      name: No, this isn't the Astra Militarum update
+      published_at: 2022-12-23T21:00:56.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.6.13
-      lastUpdated: 2022-11-22T19:02:43.0000000+00:00
-      lastUpdateDescription: Long Live Navis Imperialis!
+      version: v9.6.14
+      lastUpdated: 2022-12-23T18:36:59.0000000+00:00
+      lastUpdateDescription: No, this isn't the Astra Militarum update
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.13/wh40k.v9.6.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.6.14/wh40k.v9.6.14.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
