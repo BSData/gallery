@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 25 Dec 2022 00:39:49 GMT
+      LastModified: Mon, 02 Jan 2023 19:02:17 GMT
     properties:
-      tag_name: v3.1.35
-      name: End of the year housecleaning.
-      published_at: 2022-12-25T00:38:31.0000000+00:00
+      tag_name: v3.1.36
+      name: Resolve a few New Year's resolutions.
+      published_at: 2023-01-02T19:01:04.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.35
-      lastUpdated: 2022-12-19T03:48:36.0000000+00:00
-      lastUpdateDescription: End of the year housecleaning.
+      version: v3.1.36
+      lastUpdated: 2023-01-02T18:59:03.0000000+00:00
+      lastUpdateDescription: Resolve a few New Year's resolutions.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.35/warhammer-age-of-sigmar.v3.1.35.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.36/warhammer-age-of-sigmar.v3.1.36.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
