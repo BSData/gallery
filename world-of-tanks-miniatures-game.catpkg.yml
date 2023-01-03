@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 03 Jan 2023 12:14:49 GMT
+      LastModified: Tue, 03 Jan 2023 14:39:22 GMT
     properties:
-      tag_name: v10.2.6
-      name: V10.2.6
-      published_at: 2023-01-03T12:14:14.0000000+00:00
+      tag_name: v10.2.7
+      name: Updated hellcat and Wolverine Engine
+      published_at: 2023-01-03T14:38:37.0000000+00:00
   catpkg:
     properties:
       name: world-of-tanks-miniatures-game
       description: World of Tanks Miniatures Game
       battleScribeVersion: "2.03"
-      version: v10.2.6
-      lastUpdated: 2023-01-02T12:00:08.0000000+00:00
-      lastUpdateDescription: V10.2.6
+      version: v10.2.7
+      lastUpdated: 2023-01-03T14:32:10.0000000+00:00
+      lastUpdateDescription: Updated hellcat and Wolverine Engine
       indexUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases/latest/download/world-of-tanks-miniatures-game.latest.bsi
       repositoryUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases/latest/download/world-of-tanks-miniatures-game.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases/latest/download/world-of-tanks-miniatures-game.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases/download/v10.2.6/world-of-tanks-miniatures-game.v10.2.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases/download/v10.2.7/world-of-tanks-miniatures-game.v10.2.7.bsr
       githubUrl: https://github.com/BSData/world-of-tanks-miniatures-game
       feedUrl: https://github.com/BSData/world-of-tanks-miniatures-game/releases.atom
       bugTrackerUrl: https://github.com/BSData/world-of-tanks-miniatures-game/issues
