@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 23 Dec 2022 22:55:26 GMT
+      LastModified: Wed, 04 Jan 2023 12:01:48 GMT
     properties:
-      tag_name: v1.18.4
-      name: Christmas Competence Edition
-      published_at: 2022-12-23T22:49:35.0000000+00:00
+      tag_name: v1.19
+      name: Weeping Workload Edition
+      published_at: 2023-01-04T12:01:00.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v1.18.4
-      lastUpdated: 2022-12-23T22:45:33.0000000+00:00
-      lastUpdateDescription: Christmas Competence Edition
+      version: v1.19
+      lastUpdated: 2023-01-04T11:59:59.0000000+00:00
+      lastUpdateDescription: Weeping Workload Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.18.4/bushido.v1.18.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.19/bushido.v1.19.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
