@@ -6,25 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 11 Jan 2023 14:05:05 GMT
+      LastModified: Thu, 12 Jan 2023 00:31:30 GMT
     properties:
-      tag_name: v1.2.14
-      name: Target updated
-      published_at: 2023-01-11T14:04:13.0000000+00:00
+      tag_name: v1.2.15
+      name: Shieldbearers updated
+      published_at: 2023-01-12T00:31:30.0000000+00:00
   catpkg:
-    properties:
-      name: f28
-      description: 'F28: War Always Changes'
-      battleScribeVersion: "2.03"
-      version: v1.2.14
-      lastUpdated: 2023-01-11T14:02:38.0000000+00:00
-      lastUpdateDescription: Target updated
-      indexUrl: https://github.com/BSData/f28/releases/latest/download/f28.latest.bsi
-      repositoryUrl: https://github.com/BSData/f28/releases/latest/download/f28.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/f28/releases/latest/download/f28.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/f28/releases/download/v1.2.14/f28.v1.2.14.bsr
-      githubUrl: https://github.com/BSData/f28
-      feedUrl: https://github.com/BSData/f28/releases.atom
-      bugTrackerUrl: https://github.com/BSData/f28/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/f28
+    apiResponseError:
+      code: 404
 
