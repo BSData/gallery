@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 30 Jul 2022 14:46:04 GMT
+      LastModified: Mon, 16 Jan 2023 03:20:20 GMT
     properties:
-      tag_name: v0.2.67a
-      name: Codex a2.52 - I broke special weapons sowwy
-      published_at: 2022-07-30T14:45:14.0000000+00:00
+      tag_name: v9.69
+      name: 9th Edition Proper!
+      published_at: 2023-01-16T03:19:57.0000000+00:00
   catpkg:
     properties:
       name: wh40k-droptroops
       description: 'Warhammer 40,000: Drop Trooper Fandex'
       battleScribeVersion: "2.03"
-      version: v0.2.67a
-      lastUpdated: 2022-07-30T14:44:04.0000000+00:00
-      lastUpdateDescription: Codex a2.52 - I broke special weapons sowwy
+      version: v9.69
+      lastUpdated: 2023-01-16T03:17:57.0000000+00:00
+      lastUpdateDescription: 9th Edition Proper!
       indexUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.latest.bsi
       repositoryUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json
       repositoryGzipUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v0.2.67a/wh40k-droptroops.v0.2.67a.bsr
+      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v9.69/wh40k-droptroops.v9.69.bsr
       githubUrl: https://github.com/brendanmint/wh40k-droptroops
       feedUrl: https://github.com/brendanmint/wh40k-droptroops/releases.atom
       bugTrackerUrl: https://github.com/brendanmint/wh40k-droptroops/issues
