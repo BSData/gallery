@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 19 Jan 2023 20:18:05 GMT
+      LastModified: Thu, 19 Jan 2023 20:19:11 GMT
     properties:
       tag_name: v2.23.1.0
       name: Rhino came in like a wrecking ball!
       published_at: 2023-01-19T20:18:05.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: marvel-crisis-protocol
+      description: Marvel Crisis Protocol
+      battleScribeVersion: "2.03"
+      version: v2.23.1.0
+      lastUpdated: 2023-01-19T20:13:11.0000000+00:00
+      lastUpdateDescription: Rhino came in like a wrecking ball!
+      indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
+      repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/v2.23.1.0/marvel-crisis-protocol.v2.23.1.0.bsr
+      githubUrl: https://github.com/BSData/marvel-crisis-protocol
+      feedUrl: https://github.com/BSData/marvel-crisis-protocol/releases.atom
+      bugTrackerUrl: https://github.com/BSData/marvel-crisis-protocol/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/marvel-crisis-protocol
 
