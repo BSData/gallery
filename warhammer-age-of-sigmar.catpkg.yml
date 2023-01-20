@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 12 Jan 2023 05:20:49 GMT
+      LastModified: Fri, 20 Jan 2023 15:20:02 GMT
     properties:
-      tag_name: v3.1.37
-      name: Lofnir gets its artefacts.
-      published_at: 2023-01-12T05:19:34.0000000+00:00
+      tag_name: v3.2.0
+      name: Dawn of the new age.
+      published_at: 2023-01-20T15:17:45.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.1.37
-      lastUpdated: 2023-01-09T15:36:09.0000000+00:00
-      lastUpdateDescription: Lofnir gets its artefacts.
+      version: v3.2.0
+      lastUpdated: 2023-01-20T15:11:04.0000000+00:00
+      lastUpdateDescription: Dawn of the new age.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.1.37/warhammer-age-of-sigmar.v3.1.37.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.0/warhammer-age-of-sigmar.v3.2.0.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
