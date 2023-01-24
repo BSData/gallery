@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 18 Jan 2023 18:38:26 GMT
+      LastModified: Tue, 24 Jan 2023 19:30:56 GMT
     properties:
-      tag_name: v1.3.3
-      name: Tyranid Dactylis added - Couple bug fixes (missing  Guard Colonel)
-      published_at: 2023-01-18T18:37:47.0000000+00:00
+      tag_name: v1.3.4
+      name: GSC Point fixes
+      published_at: 2023-01-24T19:30:21.0000000+00:00
   catpkg:
     properties:
       name: wh40k-2nd-edition
       description: Warhammer 40,000 - 2nd Edition
       battleScribeVersion: "2.03"
-      version: v1.3.3
-      lastUpdated: 2023-01-18T18:31:49.0000000+00:00
-      lastUpdateDescription: Tyranid Dactylis added - Couple bug fixes (missing  Guard Colonel)
+      version: v1.3.4
+      lastUpdated: 2023-01-24T19:24:56.0000000+00:00
+      lastUpdateDescription: GSC Point fixes
       indexUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-2nd-edition/releases/download/v1.3.3/wh40k-2nd-edition.v1.3.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-2nd-edition/releases/download/v1.3.4/wh40k-2nd-edition.v1.3.4.bsr
       githubUrl: https://github.com/BSData/wh40k-2nd-edition
       feedUrl: https://github.com/BSData/wh40k-2nd-edition/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-2nd-edition/issues
