@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 01 Feb 2023 01:42:51 GMT
+      LastModified: Sat, 04 Feb 2023 03:03:03 GMT
     properties:
-      tag_name: v3.2.2
-      name: Last stop before chaos and destruction reigns.
-      published_at: 2023-02-01T01:41:21.0000000+00:00
+      tag_name: v3.2.3
+      name: Almost, but not quite, entirely unlike complete.
+      published_at: 2023-02-04T03:01:47.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.2.2
-      lastUpdated: 2023-01-31T03:40:50.0000000+00:00
-      lastUpdateDescription: Last stop before chaos and destruction reigns.
+      version: v3.2.3
+      lastUpdated: 2023-02-04T02:53:34.0000000+00:00
+      lastUpdateDescription: Almost, but not quite, entirely unlike complete.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.2/warhammer-age-of-sigmar.v3.2.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.3/warhammer-age-of-sigmar.v3.2.3.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
