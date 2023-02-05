@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 29 Jan 2023 14:49:12 GMT
+      LastModified: Sun, 05 Feb 2023 15:45:13 GMT
     properties:
-      tag_name: 3.10.00
-      name: Empire and Sultanate Orbats and minor correction
-      published_at: 2023-01-29T14:48:43.0000000+00:00
+      tag_name: 3.11.00
+      name: 'Orbat 3.03: Alliance & Crown'
+      published_at: 2023-02-05T15:44:42.0000000+00:00
   catpkg:
     properties:
       name: dystopianwars
       description: Dystopian Wars
       battleScribeVersion: "2.03"
-      version: 3.10.00
-      lastUpdated: 2023-01-29T14:46:13.0000000+00:00
-      lastUpdateDescription: Empire and Sultanate Orbats and minor correction
+      version: 3.11.00
+      lastUpdated: 2023-02-05T15:37:06.0000000+00:00
+      lastUpdateDescription: 'Orbat 3.03: Alliance & Crown'
       indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
       repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.10.00/dystopianwars.3.10.00.bsr
+      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.11.00/dystopianwars.3.11.00.bsr
       githubUrl: https://github.com/BSData/dystopianwars
       feedUrl: https://github.com/BSData/dystopianwars/releases.atom
       bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
