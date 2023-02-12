@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 15 Jun 2022 18:09:25 GMT
+      LastModified: Sun, 12 Feb 2023 00:27:58 GMT
     properties:
-      tag_name: v2.0.3
-      name: Resistance Data Cleanup
-      published_at: 2022-06-15T18:08:53.0000000+00:00
+      tag_name: v2.0.4
+      name: Data Update to v1.5
+      published_at: 2023-02-12T00:27:17.0000000+00:00
   catpkg:
     properties:
       name: dropfleet-commander
       description: Dropfleet Commander
       battleScribeVersion: "2.03"
-      version: v2.0.3
-      lastUpdated: 2022-06-15T18:06:40.0000000+00:00
-      lastUpdateDescription: Resistance Data Cleanup
+      version: v2.0.4
+      lastUpdated: 2023-02-12T00:23:50.0000000+00:00
+      lastUpdateDescription: Data Update to v1.5
       indexUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.latest.bsi
       repositoryUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dropfleet-commander/releases/latest/download/dropfleet-commander.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dropfleet-commander/releases/download/v2.0.3/dropfleet-commander.v2.0.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/dropfleet-commander/releases/download/v2.0.4/dropfleet-commander.v2.0.4.bsr
       githubUrl: https://github.com/BSData/dropfleet-commander
       feedUrl: https://github.com/BSData/dropfleet-commander/releases.atom
       bugTrackerUrl: https://github.com/BSData/dropfleet-commander/issues
