@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 04 Sep 2022 01:45:04 GMT
+      LastModified: Mon, 13 Feb 2023 16:11:03 GMT
     properties:
-      tag_name: 1.2.14
-      name: 'Bulge: American'
-      published_at: 2022-09-04T01:44:24.0000000+00:00
+      tag_name: 1.2.15
+      name: Feb 2023 release 1.0
+      published_at: 2023-02-13T16:09:57.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: 1.2.14
-      lastUpdated: 2022-09-04T00:08:11.0000000+00:00
-      lastUpdateDescription: 'Bulge: American'
+      version: 1.2.15
+      lastUpdated: 2023-02-13T16:08:13.0000000+00:00
+      lastUpdateDescription: Feb 2023 release 1.0
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.14/flamesofwar.1.2.14.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.15/flamesofwar.1.2.15.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
