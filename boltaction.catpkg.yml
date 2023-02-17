@@ -12,6 +12,19 @@ cache:
       name: Bug Fix
       published_at: 2022-12-11T18:51:46.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 503
+    properties:
+      name: boltaction
+      description: Bolt Action
+      battleScribeVersion: "2.03"
+      version: 6.3.9
+      lastUpdated: 2022-12-11T13:26:23.0000000+00:00
+      lastUpdateDescription: Bug Fix
+      indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
+      repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.3.9/boltaction.6.3.9.bsr
+      githubUrl: https://github.com/BSData/boltaction
+      feedUrl: https://github.com/BSData/boltaction/releases.atom
+      bugTrackerUrl: https://github.com/BSData/boltaction/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/boltaction
 
