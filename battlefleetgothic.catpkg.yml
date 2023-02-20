@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 14 Jan 2023 21:57:30 GMT
+      LastModified: Mon, 20 Feb 2023 02:55:45 GMT
     properties:
-      tag_name: v2.5.8
-      name: You're lucky to have me
-      published_at: 2023-01-14T21:56:40.0000000+00:00
+      tag_name: v2.5.9
+      name: Shakey Update - fixed some stuff broke some stuff
+      published_at: 2023-02-20T02:55:14.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.5.8
-      lastUpdated: 2023-01-14T21:49:51.0000000+00:00
-      lastUpdateDescription: You're lucky to have me
+      version: v2.5.9
+      lastUpdated: 2023-02-20T02:53:44.0000000+00:00
+      lastUpdateDescription: Shakey Update - fixed some stuff broke some stuff
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.8/battlefleetgothic.v2.5.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.9/battlefleetgothic.v2.5.9.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
