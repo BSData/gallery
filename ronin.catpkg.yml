@@ -12,6 +12,19 @@ cache:
       name: Initial Release
       published_at: 2018-02-13T03:35:26.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: ronin
+      description: Ronin
+      battleScribeVersion: "2.00"
+      version: v1.0.0
+      lastUpdated: 2016-11-22T03:10:17.0000000+00:00
+      lastUpdateDescription: Initial Release
+      indexUrl: https://github.com/BSData/ronin/releases/latest/download/ronin.latest.bsi
+      repositoryUrl: https://github.com/BSData/ronin/releases/latest/download/ronin.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/ronin/releases/latest/download/ronin.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/ronin/releases/download/v1.0.0/ronin.v1.0.0.bsr
+      githubUrl: https://github.com/BSData/ronin
+      feedUrl: https://github.com/BSData/ronin/releases.atom
+      bugTrackerUrl: https://github.com/BSData/ronin/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/ronin
 
