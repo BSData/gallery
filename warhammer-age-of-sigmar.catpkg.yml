@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 04 Mar 2023 06:00:46 GMT
+      LastModified: Sun, 05 Mar 2023 19:25:51 GMT
     properties:
-      tag_name: v3.2.7
-      name: A few bugs fixes and new DoK unit.  No regiments yet.
-      published_at: 2023-03-04T05:58:03.0000000+00:00
+      tag_name: v3.2.8
+      name: Regiments of renown are ready!
+      published_at: 2023-03-05T19:24:18.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.2.7
-      lastUpdated: 2023-03-03T23:19:12.0000000+00:00
-      lastUpdateDescription: A few bugs fixes and new DoK unit.  No regiments yet.
+      version: v3.2.8
+      lastUpdated: 2023-03-05T18:50:45.0000000+00:00
+      lastUpdateDescription: Regiments of renown are ready!
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.7/warhammer-age-of-sigmar.v3.2.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.8/warhammer-age-of-sigmar.v3.2.8.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
