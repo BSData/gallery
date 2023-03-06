@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 28 Feb 2023 03:54:54 GMT
+      LastModified: Mon, 06 Mar 2023 03:38:10 GMT
     properties:
-      tag_name: v9.7.7
-      name: Pidgeon bombs aren't enough for the rage contained in this update
-      published_at: 2023-02-28T03:53:45.0000000+00:00
+      tag_name: v9.7.8
+      name: I'm gonna be "Brutally" honest, it's pretty "Desolate" here
+      published_at: 2023-03-06T03:36:54.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.7.7
-      lastUpdated: 2023-02-28T03:26:56.0000000+00:00
-      lastUpdateDescription: Pidgeon bombs aren't enough for the rage contained in this update
+      version: v9.7.8
+      lastUpdated: 2023-03-06T03:28:23.0000000+00:00
+      lastUpdateDescription: I'm gonna be "Brutally" honest, it's pretty "Desolate" here
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.7.7/wh40k.v9.7.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.7.8/wh40k.v9.7.8.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
