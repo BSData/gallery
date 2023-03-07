@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 23 Jan 2023 23:50:11 GMT
+      LastModified: Tue, 07 Mar 2023 15:12:04 GMT
     properties:
-      tag_name: v1.2.17
-      name: Traits updated
-      published_at: 2023-01-23T23:49:31.0000000+00:00
+      tag_name: v1.2.18
+      name: Errata updates
+      published_at: 2023-03-07T15:11:10.0000000+00:00
   catpkg:
     properties:
       name: f28
       description: 'F28: War Always Changes'
       battleScribeVersion: "2.03"
-      version: v1.2.17
-      lastUpdated: 2023-01-23T23:48:44.0000000+00:00
-      lastUpdateDescription: Traits updated
+      version: v1.2.18
+      lastUpdated: 2023-03-07T15:10:42.0000000+00:00
+      lastUpdateDescription: Errata updates
       indexUrl: https://github.com/BSData/f28/releases/latest/download/f28.latest.bsi
       repositoryUrl: https://github.com/BSData/f28/releases/latest/download/f28.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/f28/releases/latest/download/f28.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/f28/releases/download/v1.2.17/f28.v1.2.17.bsr
+      repositoryBsrUrl: https://github.com/BSData/f28/releases/download/v1.2.18/f28.v1.2.18.bsr
       githubUrl: https://github.com/BSData/f28
       feedUrl: https://github.com/BSData/f28/releases.atom
       bugTrackerUrl: https://github.com/BSData/f28/issues
