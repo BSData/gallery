@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 11 Jul 2018 18:12:27 GMT
+      LastModified: Thu, 09 Nov 2017 11:53:20 GMT
     properties:
-      tag_name: v3.0.4
-      name: Repo Rename - Nothing to see here.
-      published_at: 2018-07-11T18:12:27.0000000+00:00
+      tag_name: v3.0.3
+      name: "Quick addition to the last release: there's red ones and black ones now."
+      published_at: 2017-11-09T11:53:20.0000000+00:00
   catpkg:
     properties:
       name: wh40k-heralds-of-ruin
