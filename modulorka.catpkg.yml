@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 02 Jan 2023 22:24:43 GMT
+      LastModified: Tue, 14 Mar 2023 00:05:14 GMT
     properties:
-      tag_name: v0.1.7
-      name: Charbog and Rudonk
-      published_at: 2023-01-02T22:23:54.0000000+00:00
+      tag_name: v0.1.8
+      name: Cyborc Gear
+      published_at: 2023-03-14T00:04:27.0000000+00:00
   catpkg:
     properties:
       name: modulorka
       description: Modulorka
       battleScribeVersion: "2.03"
-      version: v0.1.7
-      lastUpdated: 2023-01-02T22:22:59.0000000+00:00
-      lastUpdateDescription: Charbog and Rudonk
+      version: v0.1.8
+      lastUpdated: 2023-02-03T02:58:10.0000000+00:00
+      lastUpdateDescription: Cyborc Gear
       indexUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.latest.bsi
       repositoryUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.7/modulorka.v0.1.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.8/modulorka.v0.1.8.bsr
       githubUrl: https://github.com/BSData/modulorka
       feedUrl: https://github.com/BSData/modulorka/releases.atom
       bugTrackerUrl: https://github.com/BSData/modulorka/issues
