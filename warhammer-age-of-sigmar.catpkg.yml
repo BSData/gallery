@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 12 Mar 2023 15:46:48 GMT
+      LastModified: Sun, 19 Mar 2023 02:15:53 GMT
     properties:
-      tag_name: v3.2.10
-      name: Grumpy steam-punks have arrived.
-      published_at: 2023-03-12T15:45:40.0000000+00:00
+      tag_name: v3.2.11
+      name: Minor bug fixes before next week's big drop.
+      published_at: 2023-03-19T02:14:36.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.2.10
-      lastUpdated: 2023-03-12T15:40:29.0000000+00:00
-      lastUpdateDescription: Grumpy steam-punks have arrived.
+      version: v3.2.11
+      lastUpdated: 2023-03-19T02:12:39.0000000+00:00
+      lastUpdateDescription: Minor bug fixes before next week's big drop.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.10/warhammer-age-of-sigmar.v3.2.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.11/warhammer-age-of-sigmar.v3.2.11.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
