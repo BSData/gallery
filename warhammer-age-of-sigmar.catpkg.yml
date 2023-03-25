@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 19 Mar 2023 02:15:53 GMT
+      LastModified: Sat, 25 Mar 2023 15:38:58 GMT
     properties:
-      tag_name: v3.2.11
-      name: Minor bug fixes before next week's big drop.
-      published_at: 2023-03-19T02:14:36.0000000+00:00
+      tag_name: v3.2.12
+      name: BLOOD FOR THE BLOOD GOD!  Oh, and Slaanesh.
+      published_at: 2023-03-25T15:37:42.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.2.11
-      lastUpdated: 2023-03-19T02:12:39.0000000+00:00
-      lastUpdateDescription: Minor bug fixes before next week's big drop.
+      version: v3.2.12
+      lastUpdated: 2023-03-25T15:35:46.0000000+00:00
+      lastUpdateDescription: BLOOD FOR THE BLOOD GOD!  Oh, and Slaanesh.
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.11/warhammer-age-of-sigmar.v3.2.11.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.12/warhammer-age-of-sigmar.v3.2.12.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
