@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 31 Dec 2022 14:21:23 GMT
+      LastModified: Sun, 26 Mar 2023 14:30:49 GMT
     properties:
-      tag_name: v9.79.2
-      name: v9.79.2
-      published_at: 2022-12-31T14:20:56.0000000+00:00
+      tag_name: v9.80.0
+      name: Various fixes and Titan Replacements for Legio Venator
+      published_at: 2023-03-26T14:30:13.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: v9.79.2
-      lastUpdated: 2022-12-31T14:19:54.0000000+00:00
-      lastUpdateDescription: v9.79.2
+      version: v9.80.0
+      lastUpdated: 2023-03-26T14:27:04.0000000+00:00
+      lastUpdateDescription: Various fixes and Titan Replacements for Legio Venator
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.79.2/adeptus-titanicus.v9.79.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.80.0/adeptus-titanicus.v9.80.0.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
