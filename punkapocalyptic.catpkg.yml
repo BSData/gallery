@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 04 Apr 2023 11:54:52 GMT
+      LastModified: Wed, 05 Apr 2023 09:14:25 GMT
     properties:
-      tag_name: 1.6.3
-      name: Punkapocalyptic 1.6.3
-      published_at: 2023-04-04T11:54:52.0000000+00:00
+      tag_name: 1.6.4
+      name: Punkapocalyptic 1.6.4
+      published_at: 2023-04-05T09:14:25.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
