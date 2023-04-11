@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 28 Mar 2023 17:59:29 GMT
+      LastModified: Tue, 11 Apr 2023 18:53:11 GMT
     properties:
-      tag_name: v16.7.2
-      name: Little fixes for mainly DA and EC
-      published_at: 2023-03-28T17:58:01.0000000+00:00
+      tag_name: v16.7.3
+      name: Fixes for Whirlwinds, DG Levi, Templar Melta Bombs
+      published_at: 2023-04-11T18:51:59.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v16.7.2
-      lastUpdated: 2023-03-28T17:55:46.0000000+00:00
-      lastUpdateDescription: Little fixes for mainly DA and EC
+      version: v16.7.3
+      lastUpdated: 2023-04-11T18:42:59.0000000+00:00
+      lastUpdateDescription: Fixes for Whirlwinds, DG Levi, Templar Melta Bombs
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v16.7.2/horus-heresy.v16.7.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v16.7.3/horus-heresy.v16.7.3.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
