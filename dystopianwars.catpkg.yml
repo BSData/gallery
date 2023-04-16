@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 19 Mar 2023 20:29:46 GMT
+      LastModified: Sun, 16 Apr 2023 06:01:35 GMT
     properties:
-      tag_name: 3.16.00
-      name: 3.16.00 Enlightened 3.03 and correction of other Orbat
-      published_at: 2023-03-19T20:29:04.0000000+00:00
+      tag_name: 3.17.00
+      name: Minor correction here and there
+      published_at: 2023-04-16T06:00:53.0000000+00:00
   catpkg:
     properties:
       name: dystopianwars
       description: Dystopian Wars
       battleScribeVersion: "2.03"
-      version: 3.16.00
-      lastUpdated: 2023-03-19T20:27:36.0000000+00:00
-      lastUpdateDescription: 3.16.00 Enlightened 3.03 and correction of other Orbat
+      version: 3.17.00
+      lastUpdated: 2023-04-16T05:59:40.0000000+00:00
+      lastUpdateDescription: Minor correction here and there
       indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
       repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.16.00/dystopianwars.3.16.00.bsr
+      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.17.00/dystopianwars.3.17.00.bsr
       githubUrl: https://github.com/BSData/dystopianwars
       feedUrl: https://github.com/BSData/dystopianwars/releases.atom
       bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
