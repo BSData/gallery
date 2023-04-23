@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 24 Jan 2023 18:13:31 GMT
+      LastModified: Sun, 23 Apr 2023 07:46:27 GMT
     properties:
-      tag_name: v2.5.4
-      name: Eastern bug fixes
-      published_at: 2023-01-24T18:11:56.0000000+00:00
+      tag_name: v2.5.5
+      name: April 2023 Bug Fixes
+      published_at: 2023-04-23T07:45:29.0000000+00:00
   catpkg:
     properties:
       name: middle-earth
       description: Middle-earth™
       battleScribeVersion: "2.03"
-      version: v2.5.4
-      lastUpdated: 2023-01-24T18:06:10.0000000+00:00
-      lastUpdateDescription: Eastern bug fixes
+      version: v2.5.5
+      lastUpdated: 2023-04-23T07:44:34.0000000+00:00
+      lastUpdateDescription: April 2023 Bug Fixes
       indexUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.latest.bsi
       repositoryUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/v2.5.4/middle-earth.v2.5.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/v2.5.5/middle-earth.v2.5.5.bsr
       githubUrl: https://github.com/BSData/middle-earth
       feedUrl: https://github.com/BSData/middle-earth/releases.atom
       bugTrackerUrl: https://github.com/BSData/middle-earth/issues
