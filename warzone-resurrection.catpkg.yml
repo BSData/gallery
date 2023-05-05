@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 18 Nov 2022 11:56:31 GMT
+      LastModified: Fri, 05 May 2023 22:15:17 GMT
     properties:
-      tag_name: 3.1.7
-      name: '3.1.7 Fixing Issue #45'
-      published_at: 2022-11-18T11:55:46.0000000+00:00
+      tag_name: 3.1.8
+      name: 'Solving bugs #47 #48 #49 #50 #51 and #52'
+      published_at: 2023-05-05T22:14:49.0000000+00:00
   catpkg:
     properties:
       name: warzone-resurrection
       description: 'Warzone: Resurrection'
       battleScribeVersion: "2.03"
-      version: 3.1.7
-      lastUpdated: 2022-11-18T11:54:48.0000000+00:00
-      lastUpdateDescription: '3.1.7 Fixing Issue #45'
+      version: 3.1.8
+      lastUpdated: 2023-05-05T22:13:43.0000000+00:00
+      lastUpdateDescription: 'Solving bugs #47 #48 #49 #50 #51 and #52'
       indexUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.latest.bsi
       repositoryUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warzone-resurrection/releases/download/3.1.7/warzone-resurrection.3.1.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/warzone-resurrection/releases/download/3.1.8/warzone-resurrection.3.1.8.bsr
       githubUrl: https://github.com/BSData/warzone-resurrection
       feedUrl: https://github.com/BSData/warzone-resurrection/releases.atom
       bugTrackerUrl: https://github.com/BSData/warzone-resurrection/issues
