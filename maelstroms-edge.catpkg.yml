@@ -5,7 +5,26 @@ cache:
     properties:
       archived: false
   latestRelease:
-    apiRequestError:
-      exception: The SSL connection could not be established, see inner exception.
-  catpkg: {}
+    apiHeaders:
+      LastModified: Thu, 07 Oct 2021 02:35:55 GMT
+    properties:
+      tag_name: v.5.0.0
+      name: Large Update - all factions
+      published_at: 2021-10-07T02:35:55.0000000+00:00
+  catpkg:
+    properties:
+      name: maelstroms-edge
+      description: Maelstrom's Edge
+      battleScribeVersion: "2.03"
+      version: v.5.0.0
+      lastUpdated: 2021-10-07T02:29:40.0000000+00:00
+      lastUpdateDescription: Large Update - all factions
+      indexUrl: https://github.com/BSData/maelstroms-edge/releases/latest/download/maelstroms-edge.latest.bsi
+      repositoryUrl: https://github.com/BSData/maelstroms-edge/releases/latest/download/maelstroms-edge.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/maelstroms-edge/releases/latest/download/maelstroms-edge.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/maelstroms-edge/releases/download/v.5.0.0/maelstroms-edge.v.5.0.0.bsr
+      githubUrl: https://github.com/BSData/maelstroms-edge
+      feedUrl: https://github.com/BSData/maelstroms-edge/releases.atom
+      bugTrackerUrl: https://github.com/BSData/maelstroms-edge/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/maelstroms-edge
 
