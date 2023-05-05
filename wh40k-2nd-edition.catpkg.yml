@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 24 Jan 2023 19:30:56 GMT
+      LastModified: Fri, 05 May 2023 16:17:28 GMT
     properties:
-      tag_name: v1.3.4
-      name: GSC Point fixes
-      published_at: 2023-01-24T19:30:21.0000000+00:00
+      tag_name: v1.3.6
+      name: Bug Fixes - Orks/Sisters/Guard
+      published_at: 2023-05-05T16:16:38.0000000+00:00
   catpkg:
     properties:
       name: wh40k-2nd-edition
       description: Warhammer 40,000 - 2nd Edition
       battleScribeVersion: "2.03"
-      version: v1.3.4
-      lastUpdated: 2023-01-24T19:24:56.0000000+00:00
-      lastUpdateDescription: GSC Point fixes
+      version: v1.3.6
+      lastUpdated: 2023-05-05T16:12:11.0000000+00:00
+      lastUpdateDescription: Bug Fixes - Orks/Sisters/Guard
       indexUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-2nd-edition/releases/download/v1.3.4/wh40k-2nd-edition.v1.3.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-2nd-edition/releases/download/v1.3.6/wh40k-2nd-edition.v1.3.6.bsr
       githubUrl: https://github.com/BSData/wh40k-2nd-edition
       feedUrl: https://github.com/BSData/wh40k-2nd-edition/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-2nd-edition/issues
