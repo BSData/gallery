@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 07 May 2023 21:24:53 GMT
+      LastModified: Mon, 08 May 2023 21:25:32 GMT
     properties:
-      tag_name: v0.1.10
-      name: Viva La Revolushun!
-      published_at: 2023-05-07T21:24:33.0000000+00:00
+      tag_name: v0.1.11
+      name: Viva La Revolushun! Take 2
+      published_at: 2023-05-08T21:24:49.0000000+00:00
   catpkg:
     properties:
       name: modulorka
       description: Modulorka
       battleScribeVersion: "2.03"
-      version: v0.1.10
-      lastUpdated: 2023-05-07T21:23:41.0000000+00:00
-      lastUpdateDescription: Viva La Revolushun!
+      version: v0.1.11
+      lastUpdated: 2023-05-08T21:23:41.0000000+00:00
+      lastUpdateDescription: Viva La Revolushun! Take 2
       indexUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.latest.bsi
       repositoryUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.10/modulorka.v0.1.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.11/modulorka.v0.1.11.bsr
       githubUrl: https://github.com/BSData/modulorka
       feedUrl: https://github.com/BSData/modulorka/releases.atom
       bugTrackerUrl: https://github.com/BSData/modulorka/issues
