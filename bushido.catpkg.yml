@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 27 Apr 2023 15:53:40 GMT
+      LastModified: Wed, 10 May 2023 11:00:48 GMT
     properties:
-      tag_name: v1.22.2
-      name: Stormy Jack Edition
-      published_at: 2023-04-27T15:52:34.0000000+00:00
+      tag_name: v1.22.3
+      name: MAGAhat Edition
+      published_at: 2023-05-10T11:00:06.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v1.22.2
-      lastUpdated: 2023-04-27T15:50:03.0000000+00:00
-      lastUpdateDescription: Stormy Jack Edition
+      version: v1.22.3
+      lastUpdated: 2023-05-10T10:56:48.0000000+00:00
+      lastUpdateDescription: MAGAhat Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.22.2/bushido.v1.22.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v1.22.3/bushido.v1.22.3.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
