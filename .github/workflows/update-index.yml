@@ -93,28 +93,28 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            const { data: release } = await github.repos.getReleaseByTag({
+            const { data: release } = await github.rest.repos.getReleaseByTag({
               ...context.repo,
               tag: '${{ env.RELEASE_TAG }}'
             });
             console.log('Release retrieved');
             const assetName = '${{ env.GALLERY_JSON }}';
             const assets = await github
-              .paginate(github.repos.listReleaseAssets, {
+              .paginate(github.rest.repos.listReleaseAssets, {
                 ...context.repo,
                 release_id: release.id
               });
             const previousIndex = assets.find(x => x.name === assetName);
             if (previousIndex) {
               console.log('Deleting existing asset');
-              await github.repos.deleteReleaseAsset({
+              await github.rest.repos.deleteReleaseAsset({
                 ...context.repo,
                 asset_id: previousIndex.id
               });
             }
             // upload the file
             const fs = require('fs');
-            const upload = await github.repos.uploadReleaseAsset({
+            const upload = await github.rest.repos.uploadReleaseAsset({
               ...context.repo,
               release_id: release.id,
               name: assetName,
