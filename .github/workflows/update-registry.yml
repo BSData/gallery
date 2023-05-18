@@ -46,7 +46,7 @@ jobs:
             }
 
       - name: Create PR with registry updates
-        uses: peter-evans/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v5
         with:
           commit-message: ":robot: Update ${{ fromJSON(steps.formatting.outputs.result).count }} registry entries"
           branch: bot/registry-update
