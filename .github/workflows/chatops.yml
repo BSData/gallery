@@ -9,7 +9,7 @@ jobs:
     if: startsWith(github.event.comment.body, '/')
     steps:
       - name: Checkout ChatOps repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: BSData/chatops
           path: chatops
