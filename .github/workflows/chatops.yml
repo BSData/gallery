@@ -14,7 +14,7 @@ jobs:
           repository: BSData/chatops
           path: chatops
       - name: /command dispatch
-        uses: peter-evans/slash-command-dispatch@v2
+        uses: peter-evans/slash-command-dispatch@v3
         with:
           token: ${{ secrets.SLASH_COMMAND_DISPATCH_TOKEN }}
           config-from-file: chatops/commands.json
