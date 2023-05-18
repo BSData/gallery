@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 13 May 2023 17:07:58 GMT
+      LastModified: Thu, 18 May 2023 02:17:46 GMT
     properties:
-      tag_name: v3.2.18
-      name: Bugfixes for the Great Plan
-      published_at: 2023-05-13T17:06:24.0000000+00:00
+      tag_name: v3.2.19
+      name: New Warcry scrolls with a side of bugfixes
+      published_at: 2023-05-18T02:16:26.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.2.18
-      lastUpdated: 2023-05-13T15:42:24.0000000+00:00
-      lastUpdateDescription: Bugfixes for the Great Plan
+      version: v3.2.19
+      lastUpdated: 2023-05-18T00:59:22.0000000+00:00
+      lastUpdateDescription: New Warcry scrolls with a side of bugfixes
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.18/warhammer-age-of-sigmar.v3.2.18.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.2.19/warhammer-age-of-sigmar.v3.2.19.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
