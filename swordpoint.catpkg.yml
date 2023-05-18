@@ -2,10 +2,10 @@ location:
   github: BSData/swordpoint
 cache:
   repo:
-    properties:
-      archived: false
+    apiRequestError:
+      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
   latestRelease:
-    apiResponseError:
-      code: 404
+    apiRequestError:
+      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
   catpkg: {}
 

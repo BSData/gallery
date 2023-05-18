@@ -2,29 +2,10 @@ location:
   github: BSData/song-of-ice-and-fire
 cache:
   repo:
-    properties:
-      archived: false
+    apiRequestError:
+      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
   latestRelease:
-    apiHeaders:
-      LastModified: Wed, 31 Oct 2018 00:24:59 GMT
-    properties:
-      tag_name: v2.1
-      name: Night's Watch!
-      published_at: 2018-10-31T00:24:59.0000000+00:00
-  catpkg:
-    properties:
-      name: song-of-ice-and-fire
-      description: 'A Song of Ice & Fire: Tabletop Miniatures Game'
-      battleScribeVersion: "2.01"
-      version: v2.1
-      lastUpdated: 2018-10-30T23:42:53.0000000+00:00
-      lastUpdateDescription: Night's Watch!
-      indexUrl: https://github.com/BSData/song-of-ice-and-fire/releases/latest/download/song-of-ice-and-fire.latest.bsi
-      repositoryUrl: https://github.com/BSData/song-of-ice-and-fire/releases/latest/download/song-of-ice-and-fire.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/song-of-ice-and-fire/releases/latest/download/song-of-ice-and-fire.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/song-of-ice-and-fire/releases/download/v2.1/song-of-ice-and-fire.v2.1.bsr
-      githubUrl: https://github.com/BSData/song-of-ice-and-fire
-      feedUrl: https://github.com/BSData/song-of-ice-and-fire/releases.atom
-      bugTrackerUrl: https://github.com/BSData/song-of-ice-and-fire/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/song-of-ice-and-fire
+    apiRequestError:
+      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+  catpkg: {}
 

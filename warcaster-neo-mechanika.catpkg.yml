@@ -1,5 +1,5 @@
 location:
-  github: BSData/stargrave
+  github: BSData/warcaster-neo-mechanika
 cache:
   repo:
     apiRequestError:
