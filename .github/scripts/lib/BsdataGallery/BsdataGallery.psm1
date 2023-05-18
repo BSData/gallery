@@ -105,6 +105,7 @@ function Get-GHApiUpdatedResult {
       # check api rate limit
       if ($httpStatus -eq [System.Net.HttpStatusCode]::Forbidden -and $respHeaders['X-RateLimit-Remaining'] -eq '0') {
         # we've hit rate limit
+        Write-Error $(ConvertTo-Json $respHeaders -Depth 5)
         $resetTime = [DateTime]::UnixEpoch.AddSeconds($respHeaders['X-RateLimit-Reset'])
         throw [RateLimitException] "GET $Endpoint blocked by RateLimit. Limit resets at $resetTime in $($resetTime - [datetime]::UtcNow)"
       }
