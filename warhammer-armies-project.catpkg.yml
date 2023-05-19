@@ -2,10 +2,29 @@ location:
   github: BSData/warhammer-armies-project
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Thu, 18 May 2023 10:18:21 GMT
+    properties:
+      tag_name: v1.16.2
+      name: Bug Fixes
+      published_at: 2023-05-18T10:17:17.0000000+00:00
+  catpkg:
+    properties:
+      name: warhammer-armies-project
+      description: Warhammer Armies Project
+      battleScribeVersion: "2.03"
+      version: v1.16.2
+      lastUpdated: 2023-05-18T10:15:47.0000000+00:00
+      lastUpdateDescription: Bug Fixes
+      indexUrl: https://github.com/BSData/warhammer-armies-project/releases/latest/download/warhammer-armies-project.latest.bsi
+      repositoryUrl: https://github.com/BSData/warhammer-armies-project/releases/latest/download/warhammer-armies-project.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warhammer-armies-project/releases/latest/download/warhammer-armies-project.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warhammer-armies-project/releases/download/v1.16.2/warhammer-armies-project.v1.16.2.bsr
+      githubUrl: https://github.com/BSData/warhammer-armies-project
+      feedUrl: https://github.com/BSData/warhammer-armies-project/releases.atom
+      bugTrackerUrl: https://github.com/BSData/warhammer-armies-project/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warhammer-armies-project
 

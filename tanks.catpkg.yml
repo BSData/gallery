@@ -2,10 +2,31 @@ location:
   github: BSData/tanks
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    apiHeaders:
+      LastModified: Sat, 28 Jan 2023 12:20:16 GMT
+    properties:
+      archived: true
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 16 Nov 2016 15:17:55 GMT
+    properties:
+      tag_name: "1.2"
+      name: Tank Update
+      published_at: 2016-11-16T15:17:55.0000000+00:00
+  catpkg:
+    properties:
+      name: tanks
+      description: Gale Force 9 Tanks
+      battleScribeVersion: "1.15"
+      version: "1.2"
+      lastUpdated: 2016-10-26T19:12:58.0000000+00:00
+      lastUpdateDescription: Tank Update
+      indexUrl: https://github.com/BSData/tanks/releases/latest/download/tanks.latest.bsi
+      repositoryUrl: https://github.com/BSData/tanks/releases/latest/download/tanks.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/tanks/releases/latest/download/tanks.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/tanks/releases/download/1.2/tanks.1.2.bsr
+      githubUrl: https://github.com/BSData/tanks
+      feedUrl: https://github.com/BSData/tanks/releases.atom
+      bugTrackerUrl: https://github.com/BSData/tanks/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/tanks
 

@@ -2,10 +2,29 @@ location:
   github: BSData/zone-raiders
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 19 May 2021 10:36:11 GMT
+    properties:
+      tag_name: v1.1.4
+      name: Zone Raiders core rules v1
+      published_at: 2021-05-19T10:36:11.0000000+00:00
+  catpkg:
+    properties:
+      name: zone-raiders
+      description: Zone Raiders
+      battleScribeVersion: "2.03"
+      version: v1.1.4
+      lastUpdated: 2021-05-19T10:35:14.0000000+00:00
+      lastUpdateDescription: Zone Raiders core rules v1
+      indexUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.latest.bsi
+      repositoryUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/zone-raiders/releases/download/v1.1.4/zone-raiders.v1.1.4.bsr
+      githubUrl: https://github.com/BSData/zone-raiders
+      feedUrl: https://github.com/BSData/zone-raiders/releases.atom
+      bugTrackerUrl: https://github.com/BSData/zone-raiders/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/zone-raiders
 

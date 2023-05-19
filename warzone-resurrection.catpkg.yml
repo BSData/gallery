@@ -2,10 +2,29 @@ location:
   github: BSData/warzone-resurrection
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Fri, 05 May 2023 22:15:17 GMT
+    properties:
+      tag_name: 3.1.8
+      name: 'Solving bugs #47 #48 #49 #50 #51 and #52'
+      published_at: 2023-05-05T22:14:49.0000000+00:00
+  catpkg:
+    properties:
+      name: warzone-resurrection
+      description: 'Warzone: Resurrection'
+      battleScribeVersion: "2.03"
+      version: 3.1.8
+      lastUpdated: 2023-05-05T22:13:43.0000000+00:00
+      lastUpdateDescription: 'Solving bugs #47 #48 #49 #50 #51 and #52'
+      indexUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.latest.bsi
+      repositoryUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/warzone-resurrection/releases/latest/download/warzone-resurrection.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/warzone-resurrection/releases/download/3.1.8/warzone-resurrection.3.1.8.bsr
+      githubUrl: https://github.com/BSData/warzone-resurrection
+      feedUrl: https://github.com/BSData/warzone-resurrection/releases.atom
+      bugTrackerUrl: https://github.com/BSData/warzone-resurrection/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/warzone-resurrection
 

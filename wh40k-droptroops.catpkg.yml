@@ -2,10 +2,29 @@ location:
   github: brendanmint/wh40k-droptroops
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Sun, 05 Mar 2023 22:55:31 GMT
+    properties:
+      tag_name: v9.71
+      name: Fixes and Alpha 2.0 Updates
+      published_at: 2023-03-05T22:55:03.0000000+00:00
+  catpkg:
+    properties:
+      name: wh40k-droptroops
+      description: 'Warhammer 40,000: Drop Trooper Fandex'
+      battleScribeVersion: "2.03"
+      version: v9.71
+      lastUpdated: 2023-03-05T22:52:22.0000000+00:00
+      lastUpdateDescription: Fixes and Alpha 2.0 Updates
+      indexUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.latest.bsi
+      repositoryUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json
+      repositoryGzipUrl: https://github.com/brendanmint/wh40k-droptroops/releases/latest/download/wh40k-droptroops.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/brendanmint/wh40k-droptroops/releases/download/v9.71/wh40k-droptroops.v9.71.bsr
+      githubUrl: https://github.com/brendanmint/wh40k-droptroops
+      feedUrl: https://github.com/brendanmint/wh40k-droptroops/releases.atom
+      bugTrackerUrl: https://github.com/brendanmint/wh40k-droptroops/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-droptroops
 

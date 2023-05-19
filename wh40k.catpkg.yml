@@ -2,10 +2,29 @@ location:
   github: BSData/wh40k
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 17 May 2023 19:58:35 GMT
+    properties:
+      tag_name: v9.7.14
+      name: Right, we should release our bug fixes at some point.
+      published_at: 2023-05-17T19:57:00.0000000+00:00
+  catpkg:
+    properties:
+      name: wh40k
+      description: Warhammer 40,000
+      battleScribeVersion: "2.03"
+      version: v9.7.14
+      lastUpdated: 2023-05-08T22:45:22.0000000+00:00
+      lastUpdateDescription: Right, we should release our bug fixes at some point.
+      indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
+      repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.7.14/wh40k.v9.7.14.bsr
+      githubUrl: https://github.com/BSData/wh40k
+      feedUrl: https://github.com/BSData/wh40k/releases.atom
+      bugTrackerUrl: https://github.com/BSData/wh40k/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k
 

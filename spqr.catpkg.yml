@@ -2,10 +2,29 @@ location:
   github: BSData/spqr
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Thu, 20 Jan 2022 11:46:13 GMT
+    properties:
+      tag_name: 1.2.9
+      name: updating Gaul to revised edition
+      published_at: 2022-01-20T11:45:36.0000000+00:00
+  catpkg:
+    properties:
+      name: spqr
+      description: SPQR
+      battleScribeVersion: "2.03"
+      version: 1.2.9
+      lastUpdated: 2022-01-19T21:59:30.0000000+00:00
+      lastUpdateDescription: updating Gaul to revised edition
+      indexUrl: https://github.com/BSData/spqr/releases/latest/download/spqr.latest.bsi
+      repositoryUrl: https://github.com/BSData/spqr/releases/latest/download/spqr.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/spqr/releases/latest/download/spqr.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/spqr/releases/download/1.2.9/spqr.1.2.9.bsr
+      githubUrl: https://github.com/BSData/spqr
+      feedUrl: https://github.com/BSData/spqr/releases.atom
+      bugTrackerUrl: https://github.com/BSData/spqr/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/spqr
 

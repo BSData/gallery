@@ -2,10 +2,29 @@ location:
   github: BSData/tes-call-to-arms
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 22 Jun 2022 18:46:42 GMT
+    properties:
+      tag_name: 1.0.4
+      name: v1.0.4 Hotfix
+      published_at: 2022-06-22T18:45:55.0000000+00:00
+  catpkg:
+    properties:
+      name: tes-call-to-arms
+      description: 'Elder Scrolls: Call To Arms'
+      battleScribeVersion: "2.03"
+      version: 1.0.4
+      lastUpdated: 2022-06-22T18:43:37.0000000+00:00
+      lastUpdateDescription: v1.0.4 Hotfix
+      indexUrl: https://github.com/BSData/tes-call-to-arms/releases/latest/download/tes-call-to-arms.latest.bsi
+      repositoryUrl: https://github.com/BSData/tes-call-to-arms/releases/latest/download/tes-call-to-arms.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/tes-call-to-arms/releases/latest/download/tes-call-to-arms.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/tes-call-to-arms/releases/download/1.0.4/tes-call-to-arms.1.0.4.bsr
+      githubUrl: https://github.com/BSData/tes-call-to-arms
+      feedUrl: https://github.com/BSData/tes-call-to-arms/releases.atom
+      bugTrackerUrl: https://github.com/BSData/tes-call-to-arms/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/tes-call-to-arms
 
