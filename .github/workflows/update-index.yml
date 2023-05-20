@@ -41,7 +41,7 @@ jobs:
             $args = @{
               IndexPath = Resolve-Path ./index
               RegistryPath = Resolve-Path ./master/registry
-              GalleryJsonPath = $env:GALLERY_JSON
+              GalleryJsonPath = Resolve-Path "./index/$env:GALLERY_JSON"
               Token = $github.token
             }
             ./master/.github/scripts/Update-IndexCache.ps1 @args -Verbose
