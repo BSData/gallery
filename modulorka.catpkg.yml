@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 03 Jun 2023 19:59:26 GMT
+      LastModified: Thu, 15 Jun 2023 03:04:42 GMT
     properties:
-      tag_name: v0.1.15
-      name: Rehabilitataz
-      published_at: 2023-06-03T19:59:05.0000000+00:00
+      tag_name: v0.1.16
+      name: Mega Rifle and Gunna-Team
+      published_at: 2023-06-15T03:04:07.0000000+00:00
   catpkg:
     properties:
       name: modulorka
       description: Modulorka
       battleScribeVersion: "2.03"
-      version: v0.1.15
-      lastUpdated: 2023-06-03T19:58:06.0000000+00:00
-      lastUpdateDescription: Rehabilitataz
+      version: v0.1.16
+      lastUpdated: 2023-06-15T03:03:17.0000000+00:00
+      lastUpdateDescription: Mega Rifle and Gunna-Team
       indexUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.latest.bsi
       repositoryUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.15/modulorka.v0.1.15.bsr
+      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.16/modulorka.v0.1.16.bsr
       githubUrl: https://github.com/BSData/modulorka
       feedUrl: https://github.com/BSData/modulorka/releases.atom
       bugTrackerUrl: https://github.com/BSData/modulorka/issues
