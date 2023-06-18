@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 18 Jun 2023 18:16:12 GMT
+      LastModified: Sun, 18 Jun 2023 20:03:25 GMT
     properties:
       tag_name: v1.1.0
       name: Beginning of the End of Empires
-      published_at: 2023-06-18T18:16:12.0000000+00:00
+      published_at: 2023-06-18T20:03:25.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
