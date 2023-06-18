@@ -14,19 +14,6 @@ cache:
       name: 1st Release
       published_at: 2018-12-14T05:43:57.0000000+00:00
   catpkg:
-    properties:
-      name: trinity-battleground
-      description: 'Trinity: Battleground'
-      battleScribeVersion: "2.01"
-      version: v1.0.0
-      lastUpdated: 2018-12-14T05:30:18.0000000+00:00
-      lastUpdateDescription: 1st Release
-      indexUrl: https://github.com/BSData/trinity-battleground/releases/latest/download/trinity-battleground.latest.bsi
-      repositoryUrl: https://github.com/BSData/trinity-battleground/releases/latest/download/trinity-battleground.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/trinity-battleground/releases/latest/download/trinity-battleground.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/trinity-battleground/releases/download/v1.0.0/trinity-battleground.v1.0.0.bsr
-      githubUrl: https://github.com/BSData/trinity-battleground
-      feedUrl: https://github.com/BSData/trinity-battleground/releases.atom
-      bugTrackerUrl: https://github.com/BSData/trinity-battleground/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/trinity-battleground
+    apiResponseError:
+      code: 500
 
