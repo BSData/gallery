@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 09 Nov 2021 21:51:15 GMT
+      LastModified: Sun, 18 Jun 2023 18:16:12 GMT
     properties:
-      tag_name: 1.0.3
-      name: Like a True American, Late to the Party
-      published_at: 2021-11-09T21:51:15.0000000+00:00
+      tag_name: v1.1.0
+      name: Beginning of the End of Empires
+      published_at: 2023-06-18T18:16:12.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
