@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 03 Jun 2023 10:47:27 GMT
+      LastModified: Tue, 20 Jun 2023 01:14:06 GMT
     properties:
-      tag_name: v9.7.16
-      name: In case you hadn't seen. We're waiting a bit to do work for 10th.
-      published_at: 2023-06-03T10:46:03.0000000+00:00
+      tag_name: v9.7.17
+      name: No, this isn't the 10th edition release.
+      published_at: 2023-06-20T01:12:32.0000000+00:00
   catpkg:
     properties:
       name: wh40k
       description: Warhammer 40,000
       battleScribeVersion: "2.03"
-      version: v9.7.16
-      lastUpdated: 2023-06-03T10:43:53.0000000+00:00
-      lastUpdateDescription: In case you hadn't seen. We're waiting a bit to do work for 10th.
+      version: v9.7.17
+      lastUpdated: 2023-06-12T20:36:42.0000000+00:00
+      lastUpdateDescription: No, this isn't the 10th edition release.
       indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.7.16/wh40k.v9.7.16.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.7.17/wh40k.v9.7.17.bsr
       githubUrl: https://github.com/BSData/wh40k
       feedUrl: https://github.com/BSData/wh40k/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k/issues
