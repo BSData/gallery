@@ -4,7 +4,7 @@ on:
     - cron: "0 */2 * * *" # every second hour
   push:
     branches:
-      - master
+      - main
     paths:
       - "registry/**"
       - ".github/workflows/update-index.yml"
@@ -18,10 +18,10 @@ jobs:
   update-index:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
+      - name: Checkout main
         uses: actions/checkout@v3
         with:
-          ref: master
+          ref: main
           path: master
 
       - name: Checkout index
@@ -86,6 +86,7 @@ jobs:
         id: push-index
         with:
           commit_message: ":robot: ${{ steps.format_index_msg.outputs.result }}"
+          commit_author: ''
           repository: index
 
       - name: Replace ${{ env.GALLERY_JSON }} release asset
