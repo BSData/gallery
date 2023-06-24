@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 17 Jun 2023 15:18:55 GMT
+      LastModified: Fri, 23 Jun 2023 18:14:55 GMT
     properties:
-      tag_name: v16.9.4
-      name: Probably no more fixes for a month!
-      published_at: 2023-06-17T15:17:41.0000000+00:00
+      tag_name: v16.9.5
+      name: Couple of quick fixes to missing profiles and unit types
+      published_at: 2023-06-23T18:13:18.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v16.9.4
-      lastUpdated: 2023-06-17T15:10:45.0000000+00:00
-      lastUpdateDescription: Probably no more fixes for a month!
+      version: v16.9.5
+      lastUpdated: 2023-06-23T17:36:03.0000000+00:00
+      lastUpdateDescription: Couple of quick fixes to missing profiles and unit types
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v16.9.4/horus-heresy.v16.9.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v16.9.5/horus-heresy.v16.9.5.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
