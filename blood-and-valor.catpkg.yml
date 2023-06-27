@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 18 Jun 2023 20:16:10 GMT
+      LastModified: Tue, 27 Jun 2023 03:33:36 GMT
     properties:
-      tag_name: v1.1.0
-      name: Beginning of the End of Empires
-      published_at: 2023-06-18T20:15:25.0000000+00:00
+      tag_name: v1.2.0
+      name: Drina, Isonzo, and Combat Fatigue
+      published_at: 2023-06-27T03:33:05.0000000+00:00
   catpkg:
     properties:
       name: blood-and-valor
       description: Blood & Valor
       battleScribeVersion: "2.03"
-      version: v1.1.0
-      lastUpdated: 2023-06-18T20:01:20.0000000+00:00
-      lastUpdateDescription: Beginning of the End of Empires
+      version: v1.2.0
+      lastUpdated: 2023-06-27T03:30:11.0000000+00:00
+      lastUpdateDescription: Drina, Isonzo, and Combat Fatigue
       indexUrl: https://github.com/BSData/blood-and-valor/releases/latest/download/blood-and-valor.latest.bsi
       repositoryUrl: https://github.com/BSData/blood-and-valor/releases/latest/download/blood-and-valor.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/blood-and-valor/releases/latest/download/blood-and-valor.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/blood-and-valor/releases/download/v1.1.0/blood-and-valor.v1.1.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/blood-and-valor/releases/download/v1.2.0/blood-and-valor.v1.2.0.bsr
       githubUrl: https://github.com/BSData/blood-and-valor
       feedUrl: https://github.com/BSData/blood-and-valor/releases.atom
       bugTrackerUrl: https://github.com/BSData/blood-and-valor/issues
