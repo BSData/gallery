@@ -8,11 +8,11 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 16 Mar 2016 21:33:31 GMT
+      LastModified: Tue, 19 Jan 2016 19:12:46 GMT
     properties:
-      tag_name: v1.1.6
-      name: Added missing units in Protectorate
-      published_at: 2016-03-16T21:33:31.0000000+00:00
+      tag_name: 1.1.5
+      name: Bug releases
+      published_at: 2016-01-19T19:12:46.0000000+00:00
   catpkg:
     properties:
       name: warmahordes
