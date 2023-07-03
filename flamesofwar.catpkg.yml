@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 10 Jun 2023 02:56:33 GMT
+      LastModified: Mon, 03 Jul 2023 16:33:54 GMT
     properties:
-      tag_name: 1.2.19
-      name: 'Berlin: Soviet'
-      published_at: 2023-06-10T02:55:46.0000000+00:00
+      tag_name: 1.2.20
+      name: 'Berlin: German v3 and FoW v22'
+      published_at: 2023-07-03T16:33:02.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: 1.2.19
-      lastUpdated: 2023-06-10T02:51:40.0000000+00:00
-      lastUpdateDescription: 'Berlin: Soviet'
+      version: 1.2.20
+      lastUpdated: 2023-07-03T16:24:54.0000000+00:00
+      lastUpdateDescription: 'Berlin: German v3 and FoW v22'
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.19/flamesofwar.1.2.19.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.20/flamesofwar.1.2.20.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
