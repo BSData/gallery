@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 06 Jul 2023 16:10:39 GMT
+      LastModified: Thu, 06 Jul 2023 16:32:01 GMT
     properties:
       tag_name: v9.7.18
       name: We're working hard to make 10th possible. Please be patient.
