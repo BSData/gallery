@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 18 Jul 2023 00:14:00 GMT
+      LastModified: Tue, 18 Jul 2023 03:22:22 GMT
     properties:
-      tag_name: v3.3.5
-      name: Tamurkhan's Horde unleashed
-      published_at: 2023-07-18T00:12:33.0000000+00:00
+      tag_name: v3.3.6
+      name: Hexbane's Hunters join the roster after a year-long wait
+      published_at: 2023-07-18T03:21:10.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.5
-      lastUpdated: 2023-07-18T00:11:36.0000000+00:00
-      lastUpdateDescription: Tamurkhan's Horde unleashed
+      version: v3.3.6
+      lastUpdated: 2023-07-18T03:19:49.0000000+00:00
+      lastUpdateDescription: Hexbane's Hunters join the roster after a year-long wait
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.5/warhammer-age-of-sigmar.v3.3.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.6/warhammer-age-of-sigmar.v3.3.6.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
