@@ -2,8 +2,8 @@ location:
   github: BSData/conquest-the-last-argument-of-kings
 cache:
   repo:
-    apiRequestError:
-      exception: Connection refused (api.github.com:443)
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sun, 02 May 2021 23:08:18 GMT
