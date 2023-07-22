@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 06 Jul 2023 20:35:58 GMT
+      LastModified: Sat, 22 Jul 2023 18:07:58 GMT
     properties:
-      tag_name: v0.1.19
-      name: New Rokkaz Gear
-      published_at: 2023-07-06T20:35:26.0000000+00:00
+      tag_name: v0.1.20
+      name: Rokk Band releases
+      published_at: 2023-07-22T18:07:15.0000000+00:00
   catpkg:
     properties:
       name: modulorka
       description: Modulorka
       battleScribeVersion: "2.03"
-      version: v0.1.19
-      lastUpdated: 2023-07-06T20:31:18.0000000+00:00
-      lastUpdateDescription: New Rokkaz Gear
+      version: v0.1.20
+      lastUpdated: 2023-07-22T18:01:19.0000000+00:00
+      lastUpdateDescription: Rokk Band releases
       indexUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.latest.bsi
       repositoryUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.19/modulorka.v0.1.19.bsr
+      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.20/modulorka.v0.1.20.bsr
       githubUrl: https://github.com/BSData/modulorka
       feedUrl: https://github.com/BSData/modulorka/releases.atom
       bugTrackerUrl: https://github.com/BSData/modulorka/issues
