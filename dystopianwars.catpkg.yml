@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 16 Jul 2023 06:05:01 GMT
+      LastModified: Sun, 23 Jul 2023 05:50:21 GMT
     properties:
-      tag_name: 3.19.03
-      name: 3.19.03 Other correction suggested in Discord and and GitHub
-      published_at: 2023-07-16T06:03:57.0000000+00:00
+      tag_name: 3.19.04
+      name: 3.19.04 Other correction suggested in Discord and and GitHub
+      published_at: 2023-07-23T05:49:52.0000000+00:00
   catpkg:
     properties:
       name: dystopianwars
       description: Dystopian Wars
       battleScribeVersion: "2.03"
-      version: 3.19.03
-      lastUpdated: 2023-07-16T06:02:46.0000000+00:00
-      lastUpdateDescription: 3.19.03 Other correction suggested in Discord and and GitHub
+      version: 3.19.04
+      lastUpdated: 2023-07-23T05:47:33.0000000+00:00
+      lastUpdateDescription: 3.19.04 Other correction suggested in Discord and and GitHub
       indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
       repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.19.03/dystopianwars.3.19.03.bsr
+      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.19.04/dystopianwars.3.19.04.bsr
       githubUrl: https://github.com/BSData/dystopianwars
       feedUrl: https://github.com/BSData/dystopianwars/releases.atom
       bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
