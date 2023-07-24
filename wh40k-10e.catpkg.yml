@@ -1,0 +1,30 @@
+location:
+  github: BSData/wh40k-10e
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Mon, 24 Jul 2023 11:25:01 GMT
+    properties:
+      tag_name: v10.0.0
+      name: Rumours of our demise have been greatly exaggerated
+      published_at: 2023-07-24T11:24:01.0000000+00:00
+  catpkg:
+    properties:
+      name: wh40k-10e
+      description: Warhammer 40,000 - 10th Edition
+      battleScribeVersion: "2.03"
+      version: v10.0.0
+      lastUpdated: 2023-07-24T11:18:45.0000000+00:00
+      lastUpdateDescription: Rumours of our demise have been greatly exaggerated
+      indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
+      repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.0.0/wh40k-10e.v10.0.0.bsr
+      githubUrl: https://github.com/BSData/wh40k-10e
+      feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
+      bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-10e
+
