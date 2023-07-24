@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 19 Jul 2023 22:48:09 GMT
+      LastModified: Sun, 23 Jul 2023 23:07:11 GMT
     properties:
-      tag_name: v1.2.2
-      name: Multiple fixes
-      published_at: 2023-07-19T22:47:37.0000000+00:00
+      tag_name: v1.2.3
+      name: Fixing Barque + 4th Rate (razeed) points for Russia
+      published_at: 2023-07-23T23:06:39.0000000+00:00
   catpkg:
     properties:
       name: black-seas
       description: Black Seas - Warlord Games
       battleScribeVersion: "2.03"
-      version: v1.2.2
-      lastUpdated: 2023-07-19T22:43:37.0000000+00:00
-      lastUpdateDescription: Multiple fixes
+      version: v1.2.3
+      lastUpdated: 2023-07-23T23:05:15.0000000+00:00
+      lastUpdateDescription: Fixing Barque + 4th Rate (razeed) points for Russia
       indexUrl: https://github.com/BSData/black-seas/releases/latest/download/black-seas.latest.bsi
       repositoryUrl: https://github.com/BSData/black-seas/releases/latest/download/black-seas.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/black-seas/releases/latest/download/black-seas.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/black-seas/releases/download/v1.2.2/black-seas.v1.2.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/black-seas/releases/download/v1.2.3/black-seas.v1.2.3.bsr
       githubUrl: https://github.com/BSData/black-seas
       feedUrl: https://github.com/BSData/black-seas/releases.atom
       bugTrackerUrl: https://github.com/BSData/black-seas/issues
