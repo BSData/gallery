@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 24 Jul 2023 21:51:27 GMT
+      LastModified: Mon, 24 Jul 2023 22:32:14 GMT
     properties:
-      tag_name: v1.1.6
+      tag_name: v1.1.7
       name: Zone Raiders core rules v1
-      published_at: 2023-07-24T21:50:50.0000000+00:00
+      published_at: 2023-07-24T22:31:37.0000000+00:00
   catpkg:
     properties:
       name: zone-raiders
       description: Zone Raiders
       battleScribeVersion: "2.03"
-      version: v1.1.6
-      lastUpdated: 2023-07-24T21:49:48.0000000+00:00
+      version: v1.1.7
+      lastUpdated: 2023-07-24T22:30:55.0000000+00:00
       lastUpdateDescription: Zone Raiders core rules v1
       indexUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.latest.bsi
       repositoryUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/zone-raiders/releases/latest/download/zone-raiders.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/zone-raiders/releases/download/v1.1.6/zone-raiders.v1.1.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/zone-raiders/releases/download/v1.1.7/zone-raiders.v1.1.7.bsr
       githubUrl: https://github.com/BSData/zone-raiders
       feedUrl: https://github.com/BSData/zone-raiders/releases.atom
       bugTrackerUrl: https://github.com/BSData/zone-raiders/issues
