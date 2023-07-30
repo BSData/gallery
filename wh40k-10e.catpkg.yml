@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 28 Jul 2023 07:44:51 GMT
+      LastModified: Sun, 30 Jul 2023 05:43:46 GMT
     properties:
-      tag_name: v10.0.3
-      name: A little progress each day adds up to big results
-      published_at: 2023-07-28T07:43:45.0000000+00:00
+      tag_name: v10.0.4
+      name: Scout Snipers are fixed now, ok?
+      published_at: 2023-07-30T05:42:51.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: Warhammer 40,000 - 10th Edition
       battleScribeVersion: "2.03"
-      version: v10.0.3
-      lastUpdated: 2023-07-27T20:08:32.0000000+00:00
-      lastUpdateDescription: A little progress each day adds up to big results
+      version: v10.0.4
+      lastUpdated: 2023-07-29T20:25:01.0000000+00:00
+      lastUpdateDescription: Scout Snipers are fixed now, ok?
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.0.3/wh40k-10e.v10.0.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.0.4/wh40k-10e.v10.0.4.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
