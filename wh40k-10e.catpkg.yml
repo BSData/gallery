@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 02 Aug 2023 07:36:12 GMT
+      LastModified: Sat, 05 Aug 2023 11:07:30 GMT
     properties:
-      tag_name: v10.0.5
-      name: The only good bug is a dead bug
-      published_at: 2023-08-02T07:34:58.0000000+00:00
+      tag_name: v10.0.6
+      name: The Hive Mind grows Stronger.
+      published_at: 2023-08-05T11:06:33.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: Warhammer 40,000 - 10th Edition
       battleScribeVersion: "2.03"
-      version: v10.0.5
-      lastUpdated: 2023-08-02T07:32:01.0000000+00:00
-      lastUpdateDescription: The only good bug is a dead bug
+      version: v10.0.6
+      lastUpdated: 2023-08-05T10:52:12.0000000+00:00
+      lastUpdateDescription: The Hive Mind grows Stronger.
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.0.5/wh40k-10e.v10.0.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.0.6/wh40k-10e.v10.0.6.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
