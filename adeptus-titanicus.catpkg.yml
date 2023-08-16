@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 15 Aug 2023 21:26:11 GMT
+      LastModified: Wed, 16 Aug 2023 21:16:25 GMT
     properties:
-      tag_name: v9.81.2
-      name: Sinister beamer (added conversion beamer to psi-titan)
-      published_at: 2023-08-15T21:25:33.0000000+00:00
+      tag_name: v9.81.3
+      name: Added Legio Metallica strat.
+      published_at: 2023-08-16T21:15:41.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: v9.81.2
-      lastUpdated: 2023-08-15T21:21:39.0000000+00:00
-      lastUpdateDescription: Sinister beamer (added conversion beamer to psi-titan)
+      version: v9.81.3
+      lastUpdated: 2023-08-16T21:14:45.0000000+00:00
+      lastUpdateDescription: Added Legio Metallica strat.
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.81.2/adeptus-titanicus.v9.81.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.81.3/adeptus-titanicus.v9.81.3.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
