@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 31 Aug 2023 13:29:35 GMT
+      LastModified: Fri, 01 Sep 2023 17:29:39 GMT
     properties:
-      tag_name: v3.3.10
-      name: Fix for arcane tome
-      published_at: 2023-08-31T13:27:58.0000000+00:00
+      tag_name: v3.3.11
+      name: Fixed revision issues causing some files to not update
+      published_at: 2023-09-01T17:28:20.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.10
-      lastUpdated: 2023-08-31T13:26:55.0000000+00:00
-      lastUpdateDescription: Fix for arcane tome
+      version: v3.3.11
+      lastUpdated: 2023-09-01T17:27:02.0000000+00:00
+      lastUpdateDescription: Fixed revision issues causing some files to not update
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.10/warhammer-age-of-sigmar.v3.3.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.11/warhammer-age-of-sigmar.v3.3.11.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
