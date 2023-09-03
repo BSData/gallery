@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 10 Jul 2023 15:59:27 GMT
+      LastModified: Sun, 03 Sep 2023 21:35:23 GMT
     properties:
-      tag_name: v2307
-      name: Grabby Crabby Edition
-      published_at: 2023-07-10T15:58:50.0000000+00:00
+      tag_name: v2308
+      name: Back to School Edition
+      published_at: 2023-09-03T21:32:02.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2307
-      lastUpdated: 2023-07-10T15:57:11.0000000+00:00
-      lastUpdateDescription: Grabby Crabby Edition
+      version: v2308
+      lastUpdated: 2023-09-03T21:26:35.0000000+00:00
+      lastUpdateDescription: Back to School Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2307/bushido.v2307.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2308/bushido.v2308.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
