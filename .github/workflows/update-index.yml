@@ -19,13 +19,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout main
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: main
           path: master
 
       - name: Checkout index
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: index
           path: index
@@ -127,7 +127,7 @@ jobs:
 
       - name: Checkout gh-pages
         if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: gh-pages
           path: gh-pages
