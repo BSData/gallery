@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 05 Sep 2023 05:28:23 GMT
+      LastModified: Fri, 15 Sep 2023 23:54:48 GMT
     properties:
-      tag_name: v3.3.12
-      name: Added-made Skabbik's Plaguepack
-      published_at: 2023-09-05T05:26:47.0000000+00:00
+      tag_name: v3.3.13
+      name: 'Battlescroll: Andtor'
+      published_at: 2023-09-15T23:53:41.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.12
-      lastUpdated: 2023-09-05T05:25:40.0000000+00:00
-      lastUpdateDescription: Added-made Skabbik's Plaguepack
+      version: v3.3.13
+      lastUpdated: 2023-09-15T23:52:43.0000000+00:00
+      lastUpdateDescription: 'Battlescroll: Andtor'
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.12/warhammer-age-of-sigmar.v3.3.12.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.13/warhammer-age-of-sigmar.v3.3.13.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
