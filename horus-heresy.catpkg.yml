@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 13 Sep 2023 19:26:00 GMT
+      LastModified: Sat, 16 Sep 2023 18:59:30 GMT
     properties:
-      tag_name: v17.2.1
-      name: Fixes for PTS for Dark Blessings
-      published_at: 2023-09-13T19:25:11.0000000+00:00
+      tag_name: v17.2.2
+      name: More fixes for dark blessing, and Castellan HSS
+      published_at: 2023-09-16T18:58:24.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v17.2.1
-      lastUpdated: 2023-09-13T11:13:02.0000000+00:00
-      lastUpdateDescription: Fixes for PTS for Dark Blessings
+      version: v17.2.2
+      lastUpdated: 2023-09-16T18:56:26.0000000+00:00
+      lastUpdateDescription: More fixes for dark blessing, and Castellan HSS
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v17.2.1/horus-heresy.v17.2.1.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v17.2.2/horus-heresy.v17.2.2.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
