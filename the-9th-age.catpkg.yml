@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 23 Aug 2023 14:53:28 GMT
+      LastModified: Wed, 20 Sep 2023 10:07:45 GMT
     properties:
-      tag_name: "2023.21"
-      name: Oshima 2.3.4 (Homebrew)
-      published_at: 2023-08-23T14:52:20.0000000+00:00
+      tag_name: "2023.22"
+      name: OnG Alpha 4 + Free Companies 2.7
+      published_at: 2023-09-20T10:06:45.0000000+00:00
   catpkg:
     properties:
       name: The-9th-Age
       description: 'Fantasy Battles: The 9th Age'
       battleScribeVersion: "2.03"
-      version: "2023.21"
-      lastUpdated: 2023-08-23T10:24:41.0000000+00:00
-      lastUpdateDescription: Oshima 2.3.4 (Homebrew)
+      version: "2023.22"
+      lastUpdated: 2023-09-20T10:05:53.0000000+00:00
+      lastUpdateDescription: OnG Alpha 4 + Free Companies 2.7
       indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
       repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2023.21/The-9th-Age.2023.21.bsr
+      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2023.22/The-9th-Age.2023.22.bsr
       githubUrl: https://github.com/BSData/The-9th-Age
       feedUrl: https://github.com/BSData/The-9th-Age/releases.atom
       bugTrackerUrl: https://github.com/BSData/The-9th-Age/issues
