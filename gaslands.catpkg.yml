@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 27 Jul 2022 02:34:55 GMT
+      LastModified: Sun, 24 Sep 2023 20:36:37 GMT
     properties:
-      tag_name: v1.2.5
-      name: Vehicle Special Rules Restored
-      published_at: 2022-07-27T02:33:54.0000000+00:00
+      tag_name: v1.2.6
+      name: Fixed Cars with Armor Plating
+      published_at: 2023-09-24T20:36:11.0000000+00:00
   catpkg:
     properties:
       name: gaslands
       description: Gaslands
       battleScribeVersion: "2.03"
-      version: v1.2.5
-      lastUpdated: 2022-07-27T02:31:46.0000000+00:00
-      lastUpdateDescription: Vehicle Special Rules Restored
+      version: v1.2.6
+      lastUpdated: 2023-09-24T20:35:24.0000000+00:00
+      lastUpdateDescription: Fixed Cars with Armor Plating
       indexUrl: https://github.com/BSData/gaslands/releases/latest/download/gaslands.latest.bsi
       repositoryUrl: https://github.com/BSData/gaslands/releases/latest/download/gaslands.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/gaslands/releases/latest/download/gaslands.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/gaslands/releases/download/v1.2.5/gaslands.v1.2.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/gaslands/releases/download/v1.2.6/gaslands.v1.2.6.bsr
       githubUrl: https://github.com/BSData/gaslands
       feedUrl: https://github.com/BSData/gaslands/releases.atom
       bugTrackerUrl: https://github.com/BSData/gaslands/issues
