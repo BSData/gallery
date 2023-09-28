@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 16 Sep 2023 18:59:30 GMT
+      LastModified: Thu, 28 Sep 2023 19:26:29 GMT
     properties:
-      tag_name: v17.2.2
-      name: More fixes for dark blessing, and Castellan HSS
-      published_at: 2023-09-16T18:58:24.0000000+00:00
+      tag_name: v17.2.3
+      name: Narik Dreygur is a Praevian
+      published_at: 2023-09-28T19:25:40.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v17.2.2
-      lastUpdated: 2023-09-16T18:56:26.0000000+00:00
-      lastUpdateDescription: More fixes for dark blessing, and Castellan HSS
+      version: v17.2.3
+      lastUpdated: 2023-09-28T19:24:07.0000000+00:00
+      lastUpdateDescription: Narik Dreygur is a Praevian
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v17.2.2/horus-heresy.v17.2.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v17.2.3/horus-heresy.v17.2.3.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
