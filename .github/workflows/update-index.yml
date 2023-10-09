@@ -82,7 +82,7 @@ jobs:
             return $message
 
       - name: Push index changes
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         id: push-index
         with:
           commit_message: ":robot: ${{ steps.format_index_msg.outputs.result }}"
@@ -156,7 +156,7 @@ jobs:
 
       - name: Push gh-pages changes
         if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: ":robot: update data index"
           repository: gh-pages
