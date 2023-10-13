@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 28 Sep 2023 19:26:29 GMT
+      LastModified: Fri, 13 Oct 2023 21:07:57 GMT
     properties:
-      tag_name: v17.2.3
-      name: Narik Dreygur is a Praevian
-      published_at: 2023-09-28T19:25:40.0000000+00:00
+      tag_name: v17.3.0
+      name: LoW have moved, Daemons are upon us! (but not the links for Esoterist, Lorgar or Erebus yet)
+      published_at: 2023-10-13T21:07:09.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v17.2.3
-      lastUpdated: 2023-09-28T19:24:07.0000000+00:00
-      lastUpdateDescription: Narik Dreygur is a Praevian
+      version: v17.3.0
+      lastUpdated: 2023-10-13T21:02:37.0000000+00:00
+      lastUpdateDescription: LoW have moved, Daemons are upon us! (but not the links for Esoterist, Lorgar or Erebus yet)
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v17.2.3/horus-heresy.v17.2.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v17.3.0/horus-heresy.v17.3.0.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
