@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 04 Oct 2023 19:24:20 GMT
+      LastModified: Tue, 17 Oct 2023 02:22:40 GMT
     properties:
-      tag_name: v10.1.5
-      name: Bugs Get Squashed
-      published_at: 2023-10-04T19:23:18.0000000+00:00
+      tag_name: v10.1.6
+      name: You know, I'm something of an Ironstorm player myself
+      published_at: 2023-10-17T02:21:47.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: Warhammer 40,000 - 10th Edition
       battleScribeVersion: "2.03"
-      version: v10.1.5
-      lastUpdated: 2023-10-04T19:10:01.0000000+00:00
-      lastUpdateDescription: Bugs Get Squashed
+      version: v10.1.6
+      lastUpdated: 2023-10-17T02:13:30.0000000+00:00
+      lastUpdateDescription: You know, I'm something of an Ironstorm player myself
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.1.5/wh40k-10e.v10.1.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.1.6/wh40k-10e.v10.1.6.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
