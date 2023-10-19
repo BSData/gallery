@@ -2,29 +2,31 @@ location:
   github: BSData/wh40k
 cache:
   repo:
+    apiHeaders:
+      LastModified: Thu, 19 Oct 2023 14:12:05 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 06 Jul 2023 16:32:01 GMT
+      LastModified: Thu, 19 Oct 2023 14:11:25 GMT
     properties:
-      tag_name: v9.7.18
-      name: We're working hard to make 10th possible. Please be patient.
-      published_at: 2023-07-06T16:08:35.0000000+00:00
+      tag_name: v9.8.0
+      name: Final Release of 9th Edition
+      published_at: 2023-10-19T14:10:11.0000000+00:00
   catpkg:
     properties:
-      name: wh40k
-      description: Warhammer 40,000
+      name: wh40k-9e
+      description: Warhammer 40,000 - 9th Edition
       battleScribeVersion: "2.03"
-      version: v9.7.18
-      lastUpdated: 2023-07-06T16:07:20.0000000+00:00
-      lastUpdateDescription: We're working hard to make 10th possible. Please be patient.
-      indexUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.latest.bsi
-      repositoryUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/wh40k/releases/latest/download/wh40k.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k/releases/download/v9.7.18/wh40k.v9.7.18.bsr
-      githubUrl: https://github.com/BSData/wh40k
-      feedUrl: https://github.com/BSData/wh40k/releases.atom
-      bugTrackerUrl: https://github.com/BSData/wh40k/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k
+      version: v9.8.0
+      lastUpdated: 2023-10-19T14:08:09.0000000+00:00
+      lastUpdateDescription: Final Release of 9th Edition
+      indexUrl: https://github.com/BSData/wh40k-9e/releases/latest/download/wh40k-9e.latest.bsi
+      repositoryUrl: https://github.com/BSData/wh40k-9e/releases/latest/download/wh40k-9e.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/wh40k-9e/releases/latest/download/wh40k-9e.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/wh40k-9e/releases/download/v9.8.0/wh40k-9e.v9.8.0.bsr
+      githubUrl: https://github.com/BSData/wh40k-9e
+      feedUrl: https://github.com/BSData/wh40k-9e/releases.atom
+      bugTrackerUrl: https://github.com/BSData/wh40k-9e/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-9e
 
