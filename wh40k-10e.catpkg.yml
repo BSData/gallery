@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 18 Oct 2023 01:50:29 GMT
+      LastModified: Fri, 20 Oct 2023 22:11:58 GMT
     properties:
-      tag_name: v10.1.7
-      name: What do you mean you want to take Company Heroes?
-      published_at: 2023-10-18T01:49:08.0000000+00:00
+      tag_name: v10.1.8
+      name: Rumors of SM bugs were greatly exaggerated
+      published_at: 2023-10-20T22:10:48.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: Warhammer 40,000 - 10th Edition
       battleScribeVersion: "2.03"
-      version: v10.1.7
-      lastUpdated: 2023-10-18T01:46:55.0000000+00:00
-      lastUpdateDescription: What do you mean you want to take Company Heroes?
+      version: v10.1.8
+      lastUpdated: 2023-10-20T22:09:44.0000000+00:00
+      lastUpdateDescription: Rumors of SM bugs were greatly exaggerated
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.1.7/wh40k-10e.v10.1.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.1.8/wh40k-10e.v10.1.8.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
