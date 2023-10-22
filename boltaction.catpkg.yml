@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 14 Sep 2023 19:29:31 GMT
+      LastModified: Sun, 22 Oct 2023 17:42:54 GMT
     properties:
-      tag_name: 6.4.2
-      name: Bug Fix
-      published_at: 2023-09-14T19:28:38.0000000+00:00
+      tag_name: 6.4.3
+      name: Added Case Blue units for Italians
+      published_at: 2023-10-22T17:41:47.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.4.2
-      lastUpdated: 2023-09-14T19:21:28.0000000+00:00
-      lastUpdateDescription: Bug Fix
+      version: 6.4.3
+      lastUpdated: 2023-10-22T17:38:48.0000000+00:00
+      lastUpdateDescription: Added Case Blue units for Italians
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.4.2/boltaction.6.4.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.4.3/boltaction.6.4.3.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
