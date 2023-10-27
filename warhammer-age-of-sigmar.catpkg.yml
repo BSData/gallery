@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 12 Oct 2023 01:50:12 GMT
+      LastModified: Fri, 27 Oct 2023 02:38:22 GMT
     properties:
-      tag_name: v3.3.16
-      name: armies of renown
-      published_at: 2023-10-12T01:48:54.0000000+00:00
+      tag_name: v3.3.17
+      name: myriad of warbands
+      published_at: 2023-10-27T02:37:03.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.16
-      lastUpdated: 2023-10-09T21:50:11.0000000+00:00
-      lastUpdateDescription: armies of renown
+      version: v3.3.17
+      lastUpdated: 2023-10-27T02:22:41.0000000+00:00
+      lastUpdateDescription: myriad of warbands
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.16/warhammer-age-of-sigmar.v3.3.16.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.17/warhammer-age-of-sigmar.v3.3.17.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
