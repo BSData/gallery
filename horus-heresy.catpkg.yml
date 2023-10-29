@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 25 Oct 2023 11:13:33 GMT
+      LastModified: Sun, 29 Oct 2023 09:01:37 GMT
     properties:
-      tag_name: v17.3.2
-      name: Many little fixes before the next book release.
-      published_at: 2023-10-25T11:12:18.0000000+00:00
+      tag_name: v17.4.0
+      name: The Children of the Emperor are now more Heretical
+      published_at: 2023-10-29T09:00:43.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v17.3.2
-      lastUpdated: 2023-10-25T11:10:57.0000000+00:00
-      lastUpdateDescription: Many little fixes before the next book release.
+      version: v17.4.0
+      lastUpdated: 2023-10-29T08:59:05.0000000+00:00
+      lastUpdateDescription: The Children of the Emperor are now more Heretical
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v17.3.2/horus-heresy.v17.3.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v17.4.0/horus-heresy.v17.4.0.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
