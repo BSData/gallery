@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 28 Oct 2023 17:59:28 GMT
+      LastModified: Mon, 30 Oct 2023 01:57:44 GMT
     properties:
-      tag_name: v3.3.18
-      name: Cities of Sigmar new battletome
-      published_at: 2023-10-28T17:58:13.0000000+00:00
+      tag_name: v3.3.20
+      name: fixed Freeguild Cavaliers
+      published_at: 2023-10-30T01:56:35.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.18
-      lastUpdated: 2023-10-28T16:45:43.0000000+00:00
-      lastUpdateDescription: Cities of Sigmar new battletome
+      version: v3.3.20
+      lastUpdated: 2023-10-30T01:55:07.0000000+00:00
+      lastUpdateDescription: fixed Freeguild Cavaliers
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.18/warhammer-age-of-sigmar.v3.3.18.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.20/warhammer-age-of-sigmar.v3.3.20.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
