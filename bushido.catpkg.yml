@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 18 Sep 2023 09:49:49 GMT
+      LastModified: Wed, 01 Nov 2023 13:24:08 GMT
     properties:
-      tag_name: v2308.2
-      name: Addled Ashigaru Edition
-      published_at: 2023-09-18T09:48:46.0000000+00:00
+      tag_name: v2311
+      name: Irate Edition
+      published_at: 2023-11-01T13:23:28.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2308.2
-      lastUpdated: 2023-09-18T09:43:32.0000000+00:00
-      lastUpdateDescription: Addled Ashigaru Edition
+      version: v2311
+      lastUpdated: 2023-11-01T13:19:20.0000000+00:00
+      lastUpdateDescription: Irate Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2308.2/bushido.v2308.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2311/bushido.v2311.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
