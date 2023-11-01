@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 20 Oct 2023 22:11:58 GMT
+      LastModified: Wed, 01 Nov 2023 17:04:46 GMT
     properties:
-      tag_name: v10.1.8
-      name: Rumors of SM bugs were greatly exaggerated
-      published_at: 2023-10-20T22:10:48.0000000+00:00
+      tag_name: v10.1.9
+      name: Complacency is the enemy of progress and success
+      published_at: 2023-11-01T17:03:40.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
-      description: Warhammer 40,000 - 10th Edition
+      description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.1.8
-      lastUpdated: 2023-10-20T22:09:44.0000000+00:00
-      lastUpdateDescription: Rumors of SM bugs were greatly exaggerated
+      version: v10.1.9
+      lastUpdated: 2023-11-01T17:00:15.0000000+00:00
+      lastUpdateDescription: Complacency is the enemy of progress and success
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.1.8/wh40k-10e.v10.1.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.1.9/wh40k-10e.v10.1.9.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
