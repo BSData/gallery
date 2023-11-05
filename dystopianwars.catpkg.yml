@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 02 Nov 2023 20:52:08 GMT
+      LastModified: Sun, 05 Nov 2023 21:36:42 GMT
     properties:
-      tag_name: 3.20.11
-      name: 3.20.11 2nd Update to ORBAT 3.05, Sultanate and Union corrections
-      published_at: 2023-11-02T20:51:09.0000000+00:00
+      tag_name: 3.20.12
+      name: 3.20.12 3nd Update to ORBAT 3.05, Sultanate / Union / Imperium corrections
+      published_at: 2023-11-05T21:36:05.0000000+00:00
   catpkg:
     properties:
       name: dystopianwars
       description: Dystopian Wars
       battleScribeVersion: "2.03"
-      version: 3.20.11
-      lastUpdated: 2023-11-02T20:46:43.0000000+00:00
-      lastUpdateDescription: 3.20.11 2nd Update to ORBAT 3.05, Sultanate and Union corrections
+      version: 3.20.12
+      lastUpdated: 2023-11-05T21:33:59.0000000+00:00
+      lastUpdateDescription: 3.20.12 3nd Update to ORBAT 3.05, Sultanate / Union / Imperium corrections
       indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
       repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.20.11/dystopianwars.3.20.11.bsr
+      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.20.12/dystopianwars.3.20.12.bsr
       githubUrl: https://github.com/BSData/dystopianwars
       feedUrl: https://github.com/BSData/dystopianwars/releases.atom
       bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
