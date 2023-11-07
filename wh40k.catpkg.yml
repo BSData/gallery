@@ -2,10 +2,31 @@ location:
   github: BSData/wh40k
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    apiHeaders:
+      LastModified: Mon, 30 Oct 2023 18:42:12 GMT
+    properties:
+      archived: true
   latestRelease:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
-  catpkg: {}
+    apiHeaders:
+      LastModified: Thu, 19 Oct 2023 14:11:25 GMT
+    properties:
+      tag_name: v9.8.0
+      name: Final Release of 9th Edition
+      published_at: 2023-10-19T14:10:11.0000000+00:00
+  catpkg:
+    properties:
+      name: wh40k-9e
+      description: Warhammer 40,000 - 9th Edition
+      battleScribeVersion: "2.03"
+      version: v9.8.0
+      lastUpdated: 2023-10-19T14:08:09.0000000+00:00
+      lastUpdateDescription: Final Release of 9th Edition
+      indexUrl: https://github.com/BSData/wh40k-9e/releases/latest/download/wh40k-9e.latest.bsi
+      repositoryUrl: https://github.com/BSData/wh40k-9e/releases/latest/download/wh40k-9e.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/wh40k-9e/releases/latest/download/wh40k-9e.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/wh40k-9e/releases/download/v9.8.0/wh40k-9e.v9.8.0.bsr
+      githubUrl: https://github.com/BSData/wh40k-9e
+      feedUrl: https://github.com/BSData/wh40k-9e/releases.atom
+      bugTrackerUrl: https://github.com/BSData/wh40k-9e/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-9e
 
