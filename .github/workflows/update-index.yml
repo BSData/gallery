@@ -91,7 +91,7 @@ jobs:
 
       - name: Replace ${{ env.GALLERY_JSON }} release asset
         if: steps.push-index.outputs.changes_detected == 'true'
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             const { data: release } = await github.rest.repos.getReleaseByTag({
