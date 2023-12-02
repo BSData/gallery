@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 03 May 2019 17:37:55 GMT
+      LastModified: Tue, 09 Apr 2019 17:04:41 GMT
     properties:
-      tag_name: 1.2.2
-      name: Rialto Assassin & Hybrid
-      published_at: 2019-05-03T17:37:11.0000000+00:00
+      tag_name: 1.2.1
+      name: Typos
+      published_at: 2019-04-09T17:04:41.0000000+00:00
   catpkg:
     properties:
       name: carnevale
