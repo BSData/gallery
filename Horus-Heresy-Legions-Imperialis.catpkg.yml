@@ -1,0 +1,30 @@
+location:
+  github: BSData/Horus-Heresy-Legions-Imperialis
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sat, 02 Dec 2023 14:54:16 GMT
+    properties:
+      tag_name: v1.0.1
+      name: Game is out - start building armies!
+      published_at: 2023-12-02T14:53:43.0000000+00:00
+  catpkg:
+    properties:
+      name: Horus-Heresy-Legions-Imperialis
+      description: Horus-Heresy-Legions-Imperialis
+      battleScribeVersion: "2.03"
+      version: v1.0.1
+      lastUpdated: 2023-12-02T14:52:02.0000000+00:00
+      lastUpdateDescription: Game is out - start building armies!
+      indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
+      repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.0.1/Horus-Heresy-Legions-Imperialis.v1.0.1.bsr
+      githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
+      feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
+      bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/Horus-Heresy-Legions-Imperialis
+
