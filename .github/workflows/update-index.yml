@@ -50,7 +50,7 @@ jobs:
 
       - name: Upload gallery-json as workflow artifact
         if: success() || failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ env.GALLERY_JSON }}
           path: ${{ env.GALLERY_JSON }}
