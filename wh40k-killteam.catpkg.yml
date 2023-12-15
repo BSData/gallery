@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 12 Oct 2023 14:59:45 GMT
+      LastModified: Fri, 15 Dec 2023 18:35:58 GMT
     properties:
-      tag_name: v3.9.3
-      name: My Little Astartes, Friendship is Heresy
-      published_at: 2023-10-12T14:58:28.0000000+00:00
+      tag_name: v3.9.4
+      name: Celebrate the holidays with your favorite cultists
+      published_at: 2023-12-15T18:34:52.0000000+00:00
   catpkg:
     properties:
       name: wh40k-killteam
       description: 'Warhammer 40,000: Kill Team'
       battleScribeVersion: "2.03"
-      version: v3.9.3
-      lastUpdated: 2023-10-09T11:36:26.0000000+00:00
-      lastUpdateDescription: My Little Astartes, Friendship is Heresy
+      version: v3.9.4
+      lastUpdated: 2023-12-15T10:07:33.0000000+00:00
+      lastUpdateDescription: Celebrate the holidays with your favorite cultists
       indexUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v3.9.3/wh40k-killteam.v3.9.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v3.9.4/wh40k-killteam.v3.9.4.bsr
       githubUrl: https://github.com/BSData/wh40k-killteam
       feedUrl: https://github.com/BSData/wh40k-killteam/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-killteam/issues
