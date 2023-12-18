@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 09 Dec 2023 14:55:07 GMT
+      LastModified: Mon, 18 Dec 2023 14:33:54 GMT
     properties:
-      tag_name: v10.1.12
-      name: All hail our new robot overlords!
-      published_at: 2023-12-09T14:54:22.0000000+00:00
+      tag_name: v10.1.13
+      name: Assimilation engrams have been recalibrated
+      published_at: 2023-12-18T14:33:06.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.1.12
-      lastUpdated: 2023-12-09T07:33:59.0000000+00:00
-      lastUpdateDescription: All hail our new robot overlords!
+      version: v10.1.13
+      lastUpdated: 2023-12-18T14:26:29.0000000+00:00
+      lastUpdateDescription: Assimilation engrams have been recalibrated
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.1.12/wh40k-10e.v10.1.12.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.1.13/wh40k-10e.v10.1.13.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
