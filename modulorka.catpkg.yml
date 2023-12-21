@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 04 Nov 2023 20:07:47 GMT
+      LastModified: Thu, 21 Dec 2023 03:06:57 GMT
     properties:
-      tag_name: v0.1.22
-      name: Spek-Ops Release
-      published_at: 2023-11-04T20:07:12.0000000+00:00
+      tag_name: v0.1.23
+      name: GET TO DA CHOPPA!
+      published_at: 2023-12-21T03:06:28.0000000+00:00
   catpkg:
     properties:
       name: modulorka
       description: Modulorka
       battleScribeVersion: "2.03"
-      version: v0.1.22
-      lastUpdated: 2023-11-04T20:05:59.0000000+00:00
-      lastUpdateDescription: Spek-Ops Release
+      version: v0.1.23
+      lastUpdated: 2023-12-21T03:05:39.0000000+00:00
+      lastUpdateDescription: GET TO DA CHOPPA!
       indexUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.latest.bsi
       repositoryUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.22/modulorka.v0.1.22.bsr
+      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.23/modulorka.v0.1.23.bsr
       githubUrl: https://github.com/BSData/modulorka
       feedUrl: https://github.com/BSData/modulorka/releases.atom
       bugTrackerUrl: https://github.com/BSData/modulorka/issues
