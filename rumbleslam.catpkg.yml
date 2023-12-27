@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 27 Apr 2019 18:12:09 GMT
+      LastModified: Fri, 05 Apr 2019 15:23:59 GMT
     properties:
-      tag_name: v1.0.2
-      name: ""
-      published_at: 2019-04-27T18:12:09.0000000+00:00
+      tag_name: v1.0.0
+      name: Release
+      published_at: 2019-04-05T15:23:59.0000000+00:00
   catpkg:
     properties:
       name: rumbleslam
