@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 14 Mar 2023 16:55:26 GMT
+      LastModified: Thu, 28 Dec 2023 21:22:46 GMT
     properties:
-      tag_name: v2.23.3.0
-      name: Stay Thirsty My Friends.
-      published_at: 2023-03-14T16:54:36.0000000+00:00
+      tag_name: v2.23.4.0
+      name: Earth's Mightiest Cashgrab, er... Update!
+      published_at: 2023-12-28T21:22:28.0000000+00:00
   catpkg:
     properties:
       name: marvel-crisis-protocol
       description: Marvel Crisis Protocol
       battleScribeVersion: "2.03"
-      version: v2.23.3.0
-      lastUpdated: 2023-03-14T16:50:52.0000000+00:00
-      lastUpdateDescription: Stay Thirsty My Friends.
+      version: v2.23.4.0
+      lastUpdated: 2023-12-28T21:16:58.0000000+00:00
+      lastUpdateDescription: Earth's Mightiest Cashgrab, er... Update!
       indexUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.latest.bsi
       repositoryUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/marvel-crisis-protocol/releases/latest/download/marvel-crisis-protocol.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/v2.23.3.0/marvel-crisis-protocol.v2.23.3.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/marvel-crisis-protocol/releases/download/v2.23.4.0/marvel-crisis-protocol.v2.23.4.0.bsr
       githubUrl: https://github.com/BSData/marvel-crisis-protocol
       feedUrl: https://github.com/BSData/marvel-crisis-protocol/releases.atom
       bugTrackerUrl: https://github.com/BSData/marvel-crisis-protocol/issues
