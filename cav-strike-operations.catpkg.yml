@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 10 Jun 2019 12:20:26 GMT
+      LastModified: Wed, 26 Jun 2019 05:09:41 GMT
     properties:
-      tag_name: "1.1"
-      name: Fixed Ritterlich
-      published_at: 2019-06-10T12:20:26.0000000+00:00
+      tag_name: V1.2
+      name: Faction Limits and Doctrines
+      published_at: 2019-06-26T05:09:41.0000000+00:00
   catpkg:
     properties:
       name: cav-strike-operations
