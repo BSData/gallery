@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 01 Jan 2024 16:19:32 GMT
+      LastModified: Sun, 07 Jan 2024 17:23:47 GMT
     properties:
-      tag_name: 6.4.7
-      name: Added Free French in Italy
-      published_at: 2024-01-01T16:18:56.0000000+00:00
+      tag_name: 6.4.8
+      name: Added DAK light division, bug fix
+      published_at: 2024-01-07T17:23:01.0000000+00:00
   catpkg:
     properties:
       name: boltaction
       description: Bolt Action
       battleScribeVersion: "2.03"
-      version: 6.4.7
-      lastUpdated: 2024-01-01T16:16:16.0000000+00:00
-      lastUpdateDescription: Added Free French in Italy
+      version: 6.4.8
+      lastUpdated: 2024-01-07T13:52:49.0000000+00:00
+      lastUpdateDescription: Added DAK light division, bug fix
       indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
       repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.4.7/boltaction.6.4.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.4.8/boltaction.6.4.8.bsr
       githubUrl: https://github.com/BSData/boltaction
       feedUrl: https://github.com/BSData/boltaction/releases.atom
       bugTrackerUrl: https://github.com/BSData/boltaction/issues
