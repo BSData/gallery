@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 10 Dec 2023 07:16:21 GMT
+      LastModified: Mon, 08 Jan 2024 21:28:44 GMT
     properties:
-      tag_name: 3.20.14
-      name: 3.20.14 New Update to ORBAT 3.05, Imperium and some corrections
-      published_at: 2023-12-10T07:15:48.0000000+00:00
+      tag_name: 3.20.15
+      name: 3.20.15 correction after ORBAT 3.05, New Recruit compatibility
+      published_at: 2024-01-08T21:28:10.0000000+00:00
   catpkg:
     properties:
       name: dystopianwars
       description: Dystopian Wars
       battleScribeVersion: "2.03"
-      version: 3.20.14
-      lastUpdated: 2023-12-10T07:02:35.0000000+00:00
-      lastUpdateDescription: 3.20.14 New Update to ORBAT 3.05, Imperium and some corrections
+      version: 3.20.15
+      lastUpdated: 2024-01-08T21:24:54.0000000+00:00
+      lastUpdateDescription: 3.20.15 correction after ORBAT 3.05, New Recruit compatibility
       indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
       repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.20.14/dystopianwars.3.20.14.bsr
+      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.20.15/dystopianwars.3.20.15.bsr
       githubUrl: https://github.com/BSData/dystopianwars
       feedUrl: https://github.com/BSData/dystopianwars/releases.atom
       bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
