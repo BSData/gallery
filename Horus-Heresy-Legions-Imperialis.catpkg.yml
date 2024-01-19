@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 17 Jan 2024 14:14:37 GMT
+      LastModified: Thu, 18 Jan 2024 22:45:49 GMT
     properties:
-      tag_name: v1.0.11
-      name: Psi Titan cost fixes
-      published_at: 2024-01-17T14:14:10.0000000+00:00
+      tag_name: v1.0.12
+      name: Marauder Destroyer wing weapons
+      published_at: 2024-01-18T22:45:30.0000000+00:00
   catpkg:
     properties:
       name: Horus-Heresy-Legions-Imperialis
       description: 'Horus Heresy: Legions Imperialis'
       battleScribeVersion: "2.03"
-      version: v1.0.11
-      lastUpdated: 2024-01-17T10:33:20.0000000+00:00
-      lastUpdateDescription: Psi Titan cost fixes
+      version: v1.0.12
+      lastUpdated: 2024-01-17T14:35:03.0000000+00:00
+      lastUpdateDescription: Marauder Destroyer wing weapons
       indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.0.11/Horus-Heresy-Legions-Imperialis.v1.0.11.bsr
+      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.0.12/Horus-Heresy-Legions-Imperialis.v1.0.12.bsr
       githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
       feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
