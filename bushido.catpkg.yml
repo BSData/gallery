@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 27 Nov 2023 16:35:19 GMT
+      LastModified: Thu, 25 Jan 2024 19:34:47 GMT
     properties:
-      tag_name: v2311.3
-      name: Unexpected Ease Edition
-      published_at: 2023-11-27T16:34:38.0000000+00:00
+      tag_name: v2311.4
+      name: Unenhanced Edition
+      published_at: 2024-01-15T10:58:26.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2311.3
-      lastUpdated: 2023-11-27T16:29:47.0000000+00:00
-      lastUpdateDescription: Unexpected Ease Edition
+      version: v2311.4
+      lastUpdated: 2024-01-15T10:56:28.0000000+00:00
+      lastUpdateDescription: Unenhanced Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2311.3/bushido.v2311.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2311.4/bushido.v2311.4.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
