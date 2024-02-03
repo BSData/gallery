@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 12 Jan 2024 17:19:04 GMT
+      LastModified: Sat, 03 Feb 2024 14:03:25 GMT
     properties:
-      tag_name: v3.3.33
-      name: Misc FEC points fixes
-      published_at: 2024-01-12T17:18:03.0000000+00:00
+      tag_name: v3.3.34
+      name: Mad King Rises
+      published_at: 2024-02-03T14:02:25.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.33
-      lastUpdated: 2024-01-12T17:16:59.0000000+00:00
-      lastUpdateDescription: Misc FEC points fixes
+      version: v3.3.34
+      lastUpdated: 2024-02-03T14:01:20.0000000+00:00
+      lastUpdateDescription: Mad King Rises
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.33/warhammer-age-of-sigmar.v3.3.33.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.34/warhammer-age-of-sigmar.v3.3.34.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
