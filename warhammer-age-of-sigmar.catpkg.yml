@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 06 Feb 2024 21:57:22 GMT
+      LastModified: Fri, 09 Feb 2024 19:31:59 GMT
     properties:
-      tag_name: v3.3.40
-      name: Patch for unit groups in New Recruit
-      published_at: 2024-02-06T21:56:32.0000000+00:00
+      tag_name: v3.3.41
+      name: Misc bugfixes
+      published_at: 2024-02-09T19:30:56.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.40
-      lastUpdated: 2024-02-06T21:55:48.0000000+00:00
-      lastUpdateDescription: Patch for unit groups in New Recruit
+      version: v3.3.41
+      lastUpdated: 2024-02-09T19:30:06.0000000+00:00
+      lastUpdateDescription: Misc bugfixes
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.40/warhammer-age-of-sigmar.v3.3.40.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.41/warhammer-age-of-sigmar.v3.3.41.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
