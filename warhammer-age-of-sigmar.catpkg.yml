@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 20 Feb 2024 14:44:58 GMT
+      LastModified: Thu, 22 Feb 2024 03:10:53 GMT
     properties:
-      tag_name: v3.3.44
-      name: Battlescroll bugs
-      published_at: 2024-02-20T14:43:46.0000000+00:00
+      tag_name: v3.3.45
+      name: Battalion associations for New Recruit
+      published_at: 2024-02-22T03:10:02.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.44
-      lastUpdated: 2024-02-20T14:42:51.0000000+00:00
-      lastUpdateDescription: Battlescroll bugs
+      version: v3.3.45
+      lastUpdated: 2024-02-22T03:08:21.0000000+00:00
+      lastUpdateDescription: Battalion associations for New Recruit
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.44/warhammer-age-of-sigmar.v3.3.44.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.45/warhammer-age-of-sigmar.v3.3.45.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
