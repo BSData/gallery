@@ -8,11 +8,11 @@ cache:
       archived: true
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 28 Aug 2018 18:28:48 GMT
+      LastModified: Tue, 28 Aug 2018 21:32:44 GMT
     properties:
-      tag_name: 1.1.1
-      name: 1.1.1 patch
-      published_at: 2018-08-28T18:28:48.0000000+00:00
+      tag_name: 1.1.2
+      name: 1.1.2 patch
+      published_at: 2018-08-28T21:32:44.0000000+00:00
   catpkg:
     properties:
       name: avp-unleashed
