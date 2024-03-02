@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 27 Feb 2024 06:25:03 GMT
+      LastModified: Sat, 02 Mar 2024 16:33:59 GMT
     properties:
-      tag_name: v3.3.47
-      name: bugfixes
-      published_at: 2024-02-27T06:23:57.0000000+00:00
+      tag_name: v3.3.48
+      name: Added toggle for Legends units
+      published_at: 2024-03-02T16:32:56.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.47
-      lastUpdated: 2024-02-27T06:22:31.0000000+00:00
-      lastUpdateDescription: bugfixes
+      version: v3.3.48
+      lastUpdated: 2024-03-02T16:30:41.0000000+00:00
+      lastUpdateDescription: Added toggle for Legends units
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.47/warhammer-age-of-sigmar.v3.3.47.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.48/warhammer-age-of-sigmar.v3.3.48.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
