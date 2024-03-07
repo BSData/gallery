@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 06 Mar 2024 19:28:09 GMT
+      LastModified: Thu, 07 Mar 2024 10:19:01 GMT
     properties:
-      tag_name: v1.1.4
-      name: More Sky-Hunter Phalanx limit fixes
-      published_at: 2024-03-06T19:27:46.0000000+00:00
+      tag_name: v1.1.5
+      name: Cerastus Knight rule info links
+      published_at: 2024-03-07T10:18:15.0000000+00:00
   catpkg:
     properties:
       name: Horus-Heresy-Legions-Imperialis
       description: 'Horus Heresy: Legions Imperialis'
       battleScribeVersion: "2.03"
-      version: v1.1.4
-      lastUpdated: 2024-03-06T19:26:44.0000000+00:00
-      lastUpdateDescription: More Sky-Hunter Phalanx limit fixes
+      version: v1.1.5
+      lastUpdated: 2024-03-07T10:16:41.0000000+00:00
+      lastUpdateDescription: Cerastus Knight rule info links
       indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.1.4/Horus-Heresy-Legions-Imperialis.v1.1.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.1.5/Horus-Heresy-Legions-Imperialis.v1.1.5.bsr
       githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
       feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
