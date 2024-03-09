@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 09 Mar 2024 00:08:22 GMT
+      LastModified: Sat, 09 Mar 2024 18:56:50 GMT
     properties:
-      tag_name: v3.3.49
-      name: bugfixes
-      published_at: 2024-03-09T00:07:31.0000000+00:00
+      tag_name: v3.3.50
+      name: Shadows of the Crone descends upon us
+      published_at: 2024-03-09T18:55:51.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.49
-      lastUpdated: 2024-03-08T14:49:56.0000000+00:00
-      lastUpdateDescription: bugfixes
+      version: v3.3.50
+      lastUpdated: 2024-03-09T18:54:24.0000000+00:00
+      lastUpdateDescription: Shadows of the Crone descends upon us
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.49/warhammer-age-of-sigmar.v3.3.49.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.50/warhammer-age-of-sigmar.v3.3.50.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
