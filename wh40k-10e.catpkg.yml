@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 08 Mar 2024 22:34:33 GMT
+      LastModified: Sat, 09 Mar 2024 23:04:04 GMT
     properties:
-      tag_name: v10.2.3
-      name: Welcome back Son of The Forest, although, what have you done with all the good stuff??
-      published_at: 2024-03-08T22:33:51.0000000+00:00
+      tag_name: v10.2.4
+      name: Some units are simply Legendary...
+      published_at: 2024-03-09T23:03:26.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.2.3
-      lastUpdated: 2024-03-08T21:08:53.0000000+00:00
-      lastUpdateDescription: Welcome back Son of The Forest, although, what have you done with all the good stuff??
+      version: v10.2.4
+      lastUpdated: 2024-03-09T23:02:14.0000000+00:00
+      lastUpdateDescription: Some units are simply Legendary...
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.2.3/wh40k-10e.v10.2.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.2.4/wh40k-10e.v10.2.4.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
