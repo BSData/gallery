@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 07 Jan 2024 20:54:00 GMT
+      LastModified: Mon, 11 Mar 2024 19:55:51 GMT
     properties:
-      tag_name: v0.4.2
-      name: Added new warbands + minor bugfixes
-      published_at: 2024-01-07T20:53:19.0000000+00:00
+      tag_name: v0.4.3
+      name: Fixed small bug on Hand to Hand weapons.
+      published_at: 2024-03-11T19:55:07.0000000+00:00
   catpkg:
     properties:
       name: mordheim
       description: Mordheim
       battleScribeVersion: "2.03"
-      version: v0.4.2
-      lastUpdated: 2024-01-07T20:48:31.0000000+00:00
-      lastUpdateDescription: Added new warbands + minor bugfixes
+      version: v0.4.3
+      lastUpdated: 2024-03-11T19:51:04.0000000+00:00
+      lastUpdateDescription: Fixed small bug on Hand to Hand weapons.
       indexUrl: https://github.com/BSData/mordheim/releases/latest/download/mordheim.latest.bsi
       repositoryUrl: https://github.com/BSData/mordheim/releases/latest/download/mordheim.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/mordheim/releases/latest/download/mordheim.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/mordheim/releases/download/v0.4.2/mordheim.v0.4.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/mordheim/releases/download/v0.4.3/mordheim.v0.4.3.bsr
       githubUrl: https://github.com/BSData/mordheim
       feedUrl: https://github.com/BSData/mordheim/releases.atom
       bugTrackerUrl: https://github.com/BSData/mordheim/issues
