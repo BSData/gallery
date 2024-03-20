@@ -2,8 +2,8 @@ location:
   github: BSData/kings-of-war-vanguard
 cache:
   repo:
-    apiRequestError:
-      exception: The SSL connection could not be established, see inner exception.
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 13 Jan 2021 09:03:11 GMT

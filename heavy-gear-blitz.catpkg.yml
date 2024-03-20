@@ -2,8 +2,8 @@ location:
   github: BSData/heavy-gear-blitz
 cache:
   repo:
-    apiRequestError:
-      exception: The SSL connection could not be established, see inner exception.
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 12 Aug 2020 21:01:04 GMT

@@ -2,8 +2,8 @@ location:
   github: BSData/f28
 cache:
   repo:
-    apiRequestError:
-      exception: The SSL connection could not be established, see inner exception.
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Wed, 24 Jan 2024 16:28:15 GMT
