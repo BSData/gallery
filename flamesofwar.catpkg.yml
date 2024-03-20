@@ -2,8 +2,8 @@ location:
   github: BSData/flamesofwar
 cache:
   repo:
-    properties:
-      archived: false
+    apiRequestError:
+      exception: The SSL connection could not be established, see inner exception.
   latestRelease:
     apiHeaders:
       LastModified: Sun, 28 Jan 2024 19:12:35 GMT

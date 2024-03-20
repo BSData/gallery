@@ -5,7 +5,7 @@ cache:
     properties:
       archived: false
   latestRelease:
-    apiResponseError:
-      code: 404
+    apiRequestError:
+      exception: The SSL connection could not be established, see inner exception.
   catpkg: {}
 
