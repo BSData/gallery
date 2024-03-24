@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 24 Mar 2024 08:34:51 GMT
+      LastModified: Sun, 24 Mar 2024 15:48:42 GMT
     properties:
       tag_name: 3.20.18
       name: 3.20.18 Alliance 3.05, correction
