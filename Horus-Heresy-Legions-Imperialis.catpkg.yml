@@ -5,26 +5,7 @@ cache:
     properties:
       archived: false
   latestRelease:
-    apiHeaders:
-      LastModified: Thu, 14 Mar 2024 12:19:29 GMT
-    properties:
-      tag_name: v1.1.6
-      name: Dire Wolf infiltrate tag
-      published_at: 2024-03-14T12:19:06.0000000+00:00
-  catpkg:
-    properties:
-      name: Horus-Heresy-Legions-Imperialis
-      description: 'Horus Heresy: Legions Imperialis'
-      battleScribeVersion: "2.03"
-      version: v1.1.6
-      lastUpdated: 2024-03-14T12:18:03.0000000+00:00
-      lastUpdateDescription: Dire Wolf infiltrate tag
-      indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
-      repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.1.6/Horus-Heresy-Legions-Imperialis.v1.1.6.bsr
-      githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
-      feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
-      bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/Horus-Heresy-Legions-Imperialis
+    apiRequestError:
+      exception: An error occurred while sending the request.
+  catpkg: {}
 
