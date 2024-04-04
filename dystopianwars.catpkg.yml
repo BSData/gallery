@@ -6,10 +6,10 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 01 Apr 2024 09:30:13 GMT
+      LastModified: Thu, 04 Apr 2024 18:06:02 GMT
     properties:
       tag_name: 3.20.19
-      name: 3.20.19 Chinese 3.05, correction
+      name: 3.20.19 Empire 3.05, correction
       published_at: 2024-04-01T09:29:29.0000000+00:00
   catpkg:
     properties:
