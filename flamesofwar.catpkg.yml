@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 28 Jan 2024 19:12:35 GMT
+      LastModified: Sat, 06 Apr 2024 21:23:27 GMT
     properties:
-      tag_name: 1.2.24
-      name: German Updates
-      published_at: 2024-01-28T19:11:50.0000000+00:00
+      tag_name: 1.2.25
+      name: Eastern Front German
+      published_at: 2024-04-06T21:22:54.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: 1.2.24
-      lastUpdated: 2024-01-28T19:09:31.0000000+00:00
-      lastUpdateDescription: German Updates
+      version: 1.2.25
+      lastUpdated: 2024-04-06T21:20:40.0000000+00:00
+      lastUpdateDescription: Eastern Front German
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.24/flamesofwar.1.2.24.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.25/flamesofwar.1.2.25.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
