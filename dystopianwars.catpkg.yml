@@ -6,25 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 07 Apr 2024 07:28:29 GMT
+      LastModified: Thu, 11 Apr 2024 18:18:22 GMT
     properties:
       tag_name: 3.20.20
       name: 3.20.20 Sultanate / Union 3.06 Update
-      published_at: 2024-04-07T07:27:58.0000000+00:00
+      published_at: 2024-04-11T18:17:58.0000000+00:00
   catpkg:
-    properties:
-      name: dystopianwars
-      description: Dystopian Wars
-      battleScribeVersion: "2.03"
-      version: 3.20.20
-      lastUpdated: 2024-04-01T09:28:29.0000000+00:00
-      lastUpdateDescription: 3.20.20 Sultanate / Union 3.06 Update
-      indexUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.latest.bsi
-      repositoryUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/dystopianwars/releases/latest/download/dystopianwars.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dystopianwars/releases/download/3.20.20/dystopianwars.3.20.20.bsr
-      githubUrl: https://github.com/BSData/dystopianwars
-      feedUrl: https://github.com/BSData/dystopianwars/releases.atom
-      bugTrackerUrl: https://github.com/BSData/dystopianwars/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/dystopianwars
+    apiResponseError:
+      code: 404
 
