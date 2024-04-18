@@ -2,8 +2,10 @@ location:
   github: BSData/halo-ground-command
 cache:
   repo:
+    apiHeaders:
+      LastModified: Thu, 18 Apr 2024 09:40:09 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Mon, 18 Sep 2017 18:39:38 GMT

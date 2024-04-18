@@ -2,8 +2,10 @@ location:
   github: BSData/warpath-firefight
 cache:
   repo:
+    apiHeaders:
+      LastModified: Thu, 18 Apr 2024 09:42:57 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Wed, 20 Sep 2017 08:25:24 GMT
