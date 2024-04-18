@@ -2,8 +2,10 @@ location:
   github: BSData/hobbit
 cache:
   repo:
+    apiHeaders:
+      LastModified: Thu, 18 Apr 2024 11:11:14 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Sun, 05 Mar 2017 17:44:50 GMT

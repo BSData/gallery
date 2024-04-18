@@ -2,8 +2,10 @@ location:
   github: BSData/dropzone-commander
 cache:
   repo:
+    apiHeaders:
+      LastModified: Thu, 18 Apr 2024 11:11:49 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Fri, 05 Jan 2018 19:53:45 GMT
