@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 12 Apr 2024 21:56:27 GMT
+      LastModified: Sat, 20 Apr 2024 11:48:06 GMT
     properties:
-      tag_name: v.1.2.2
-      name: v.1.2.2
-      published_at: 2024-04-12T21:55:52.0000000+00:00
+      tag_name: v.1.2.3
+      name: v.1.2.3
+      published_at: 2024-04-20T11:47:46.0000000+00:00
   catpkg:
     properties:
       name: argatoria
       description: Argatoria
       battleScribeVersion: "2.03"
-      version: v.1.2.2
-      lastUpdated: 2024-04-12T21:53:46.0000000+00:00
-      lastUpdateDescription: v.1.2.2
+      version: v.1.2.3
+      lastUpdated: 2024-04-20T11:46:34.0000000+00:00
+      lastUpdateDescription: v.1.2.3
       indexUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.latest.bsi
       repositoryUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/argatoria/releases/download/v.1.2.2/argatoria.v.1.2.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/argatoria/releases/download/v.1.2.3/argatoria.v.1.2.3.bsr
       githubUrl: https://github.com/BSData/argatoria
       feedUrl: https://github.com/BSData/argatoria/releases.atom
       bugTrackerUrl: https://github.com/BSData/argatoria/issues
