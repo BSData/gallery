@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 15 Mar 2024 18:57:21 GMT
+      LastModified: Wed, 24 Apr 2024 06:51:49 GMT
     properties:
-      tag_name: v3.3.51
-      name: Zondara's Gravebreakers
-      published_at: 2024-03-15T18:56:08.0000000+00:00
+      tag_name: v3.3.52
+      name: 'Battlescroll: Impending Vermindoom'
+      published_at: 2024-04-24T06:50:44.0000000+00:00
   catpkg:
     properties:
       name: warhammer-age-of-sigmar
       description: 'Warhammer: Age of Sigmar'
       battleScribeVersion: "2.03"
-      version: v3.3.51
-      lastUpdated: 2024-03-15T18:54:55.0000000+00:00
-      lastUpdateDescription: Zondara's Gravebreakers
+      version: v3.3.52
+      lastUpdated: 2024-04-24T06:49:56.0000000+00:00
+      lastUpdateDescription: 'Battlescroll: Impending Vermindoom'
       indexUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.latest.bsi
       repositoryUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/latest/download/warhammer-age-of-sigmar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.51/warhammer-age-of-sigmar.v3.3.51.bsr
+      repositoryBsrUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases/download/v3.3.52/warhammer-age-of-sigmar.v3.3.52.bsr
       githubUrl: https://github.com/BSData/warhammer-age-of-sigmar
       feedUrl: https://github.com/BSData/warhammer-age-of-sigmar/releases.atom
       bugTrackerUrl: https://github.com/BSData/warhammer-age-of-sigmar/issues
