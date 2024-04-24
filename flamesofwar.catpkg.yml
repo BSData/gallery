@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 24 Apr 2024 01:04:15 GMT
+      LastModified: Wed, 24 Apr 2024 01:05:04 GMT
     properties:
       tag_name: 1.2.27
       name: 'Bagration: Axis-Allies File Fixes'
       published_at: 2024-04-24T01:04:15.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: flamesofwar
+      description: Flames of War
+      battleScribeVersion: "2.03"
+      version: 1.2.27
+      lastUpdated: 2024-04-23T20:38:29.0000000+00:00
+      lastUpdateDescription: 'Bagration: Axis-Allies File Fixes'
+      indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
+      repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.27/flamesofwar.1.2.27.bsr
+      githubUrl: https://github.com/BSData/flamesofwar
+      feedUrl: https://github.com/BSData/flamesofwar/releases.atom
+      bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/flamesofwar
 
