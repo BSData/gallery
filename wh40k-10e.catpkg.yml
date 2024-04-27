@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 10 Apr 2024 08:52:25 GMT
+      LastModified: Sat, 27 Apr 2024 05:05:10 GMT
     properties:
-      tag_name: v10.2.5
-      name: It's been a while, but we're still here.
-      published_at: 2024-04-10T08:50:28.0000000+00:00
+      tag_name: v10.2.6
+      name: Oh lawd, he comin
+      published_at: 2024-04-27T05:04:25.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.2.5
-      lastUpdated: 2024-04-10T08:46:38.0000000+00:00
-      lastUpdateDescription: It's been a while, but we're still here.
+      version: v10.2.6
+      lastUpdated: 2024-04-26T23:51:18.0000000+00:00
+      lastUpdateDescription: Oh lawd, he comin
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.2.5/wh40k-10e.v10.2.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.2.6/wh40k-10e.v10.2.6.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
