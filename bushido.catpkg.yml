@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 17 Apr 2024 16:04:54 GMT
+      LastModified: Tue, 30 Apr 2024 09:43:57 GMT
     properties:
-      tag_name: v2403.2
-      name: Oh Brother...hood Edition
-      published_at: 2024-04-17T16:04:17.0000000+00:00
+      tag_name: v2404
+      name: Technically April Edition
+      published_at: 2024-04-30T09:43:07.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2403.2
-      lastUpdated: 2024-04-17T13:55:45.0000000+00:00
-      lastUpdateDescription: Oh Brother...hood Edition
+      version: v2404
+      lastUpdated: 2024-04-30T09:40:49.0000000+00:00
+      lastUpdateDescription: Technically April Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2403.2/bushido.v2403.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2404/bushido.v2404.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
