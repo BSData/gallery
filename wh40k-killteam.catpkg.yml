@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 26 Apr 2024 22:40:40 GMT
+      LastModified: Thu, 02 May 2024 23:52:48 GMT
     properties:
-      tag_name: v4.0.5
-      name: Got to pay the troll toll
-      published_at: 2024-04-26T22:39:42.0000000+00:00
+      tag_name: v4.0.6
+      name: Get a grip on boolean logic
+      published_at: 2024-05-02T23:51:58.0000000+00:00
   catpkg:
     properties:
       name: wh40k-killteam
       description: 'Warhammer 40,000: Kill Team'
       battleScribeVersion: "2.03"
-      version: v4.0.5
-      lastUpdated: 2024-04-26T22:28:20.0000000+00:00
-      lastUpdateDescription: Got to pay the troll toll
+      version: v4.0.6
+      lastUpdated: 2024-05-02T23:47:58.0000000+00:00
+      lastUpdateDescription: Get a grip on boolean logic
       indexUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v4.0.5/wh40k-killteam.v4.0.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v4.0.6/wh40k-killteam.v4.0.6.bsr
       githubUrl: https://github.com/BSData/wh40k-killteam
       feedUrl: https://github.com/BSData/wh40k-killteam/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-killteam/issues
