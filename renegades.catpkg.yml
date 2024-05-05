@@ -1,0 +1,30 @@
+location:
+  github: StaffanBoffins/renegades
+cache:
+  repo:
+    properties:
+      archived: false
+  latestRelease:
+    apiHeaders:
+      LastModified: Sun, 05 May 2024 16:10:33 GMT
+    properties:
+      tag_name: v3.0
+      name: Renegades v3
+      published_at: 2024-05-05T16:09:53.0000000+00:00
+  catpkg:
+    properties:
+      name: renegades
+      description: BattleScribe gamesystem and dataset for Renegades.
+      battleScribeVersion: "2.03"
+      version: v3.0
+      lastUpdated: 2024-05-05T16:03:13.0000000+00:00
+      lastUpdateDescription: Renegades v3
+      indexUrl: https://github.com/StaffanBoffins/renegades/releases/latest/download/renegades.latest.bsi
+      repositoryUrl: https://github.com/StaffanBoffins/renegades/releases/latest/download/renegades.catpkg.json
+      repositoryGzipUrl: https://github.com/StaffanBoffins/renegades/releases/latest/download/renegades.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/StaffanBoffins/renegades/releases/download/v3.0/renegades.v3.0.bsr
+      githubUrl: https://github.com/StaffanBoffins/renegades
+      feedUrl: https://github.com/StaffanBoffins/renegades/releases.atom
+      bugTrackerUrl: https://github.com/StaffanBoffins/renegades/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/renegades
+
