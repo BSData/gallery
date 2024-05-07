@@ -6,10 +6,10 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 07 May 2024 07:53:27 GMT
+      LastModified: Tue, 07 May 2024 08:38:51 GMT
     properties:
       tag_name: v3.0
-      name: Renegades v3
+      name: Renegades
       published_at: 2024-05-05T16:09:53.0000000+00:00
   catpkg:
     properties:
@@ -18,7 +18,7 @@ cache:
       battleScribeVersion: "2.03"
       version: v3.0
       lastUpdated: 2024-05-05T16:03:13.0000000+00:00
-      lastUpdateDescription: Renegades v3
+      lastUpdateDescription: Renegades
       indexUrl: https://github.com/StaffanBoffins/renegades/releases/latest/download/renegades.latest.bsi
       repositoryUrl: https://github.com/StaffanBoffins/renegades/releases/latest/download/renegades.catpkg.json
       repositoryGzipUrl: https://github.com/StaffanBoffins/renegades/releases/latest/download/renegades.catpkg.json.gz
