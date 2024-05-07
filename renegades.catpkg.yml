@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 05 May 2024 16:10:33 GMT
+      LastModified: Tue, 07 May 2024 07:53:27 GMT
     properties:
       tag_name: v3.0
       name: Renegades v3
@@ -14,7 +14,7 @@ cache:
   catpkg:
     properties:
       name: renegades
-      description: BattleScribe gamesystem and dataset for Renegades.
+      description: Renegades v3
       battleScribeVersion: "2.03"
       version: v3.0
       lastUpdated: 2024-05-05T16:03:13.0000000+00:00
