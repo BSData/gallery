@@ -6,7 +6,7 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 07 May 2024 08:38:51 GMT
+      LastModified: Sat, 11 May 2024 06:06:50 GMT
     properties:
       tag_name: v3.0
       name: Renegades
