@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 11 May 2024 10:08:46 GMT
+      LastModified: Sun, 12 May 2024 10:56:45 GMT
     properties:
-      tag_name: v10.2.8
-      name: For The Moderately Improved Good!
-      published_at: 2024-05-11T10:07:51.0000000+00:00
+      tag_name: v10.2.9
+      name: Krootier Kroot for all your Krooty needs
+      published_at: 2024-05-12T10:56:02.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.2.8
-      lastUpdated: 2024-05-10T18:54:55.0000000+00:00
-      lastUpdateDescription: For The Moderately Improved Good!
+      version: v10.2.9
+      lastUpdated: 2024-05-11T23:21:31.0000000+00:00
+      lastUpdateDescription: Krootier Kroot for all your Krooty needs
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.2.8/wh40k-10e.v10.2.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.2.9/wh40k-10e.v10.2.9.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
