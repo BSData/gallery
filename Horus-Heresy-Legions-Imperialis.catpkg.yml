@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 16 May 2024 05:48:59 GMT
+      LastModified: Wed, 22 May 2024 19:03:52 GMT
     properties:
-      tag_name: v1.1.8
-      name: Demolisher Dracosan transport size
-      published_at: 2024-05-16T05:48:22.0000000+00:00
+      tag_name: v1.1.9
+      name: Demolisher Dracosan limitations are now less limiting
+      published_at: 2024-05-22T19:03:32.0000000+00:00
   catpkg:
     properties:
       name: Horus-Heresy-Legions-Imperialis
       description: 'Horus Heresy: Legions Imperialis'
       battleScribeVersion: "2.03"
-      version: v1.1.8
-      lastUpdated: 2024-05-16T05:45:50.0000000+00:00
-      lastUpdateDescription: Demolisher Dracosan transport size
+      version: v1.1.9
+      lastUpdated: 2024-05-22T19:02:08.0000000+00:00
+      lastUpdateDescription: Demolisher Dracosan limitations are now less limiting
       indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.1.8/Horus-Heresy-Legions-Imperialis.v1.1.8.bsr
+      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.1.9/Horus-Heresy-Legions-Imperialis.v1.1.9.bsr
       githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
       feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
