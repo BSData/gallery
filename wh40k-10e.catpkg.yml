@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 25 May 2024 06:22:36 GMT
+      LastModified: Sun, 26 May 2024 17:31:21 GMT
     properties:
-      tag_name: v10.2.10
-      name: Let the galaxy burn!
-      published_at: 2024-05-25T06:21:49.0000000+00:00
+      tag_name: v10.2.11
+      name: New, improved Galaxy Burning now available!
+      published_at: 2024-05-26T17:30:41.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.2.10
-      lastUpdated: 2024-05-24T22:55:51.0000000+00:00
-      lastUpdateDescription: Let the galaxy burn!
+      version: v10.2.11
+      lastUpdated: 2024-05-26T17:29:07.0000000+00:00
+      lastUpdateDescription: New, improved Galaxy Burning now available!
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.2.10/wh40k-10e.v10.2.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.2.11/wh40k-10e.v10.2.11.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
