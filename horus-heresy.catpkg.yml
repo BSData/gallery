@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 28 Mar 2024 17:02:34 GMT
+      LastModified: Tue, 28 May 2024 14:30:45 GMT
     properties:
-      tag_name: v18.4.0
-      name: Some small fixes, make centurion a model.
-      published_at: 2024-03-28T17:01:37.0000000+00:00
+      tag_name: v19.0.0
+      name: BLACKSHIELDS and LEGIONES AUXILIA (btw switch to New Recruit)
+      published_at: 2024-05-28T14:29:46.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v18.4.0
-      lastUpdated: 2024-03-28T14:14:23.0000000+00:00
-      lastUpdateDescription: Some small fixes, make centurion a model.
+      version: v19.0.0
+      lastUpdated: 2024-05-28T14:21:43.0000000+00:00
+      lastUpdateDescription: BLACKSHIELDS and LEGIONES AUXILIA (btw switch to New Recruit)
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v18.4.0/horus-heresy.v18.4.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v19.0.0/horus-heresy.v19.0.0.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
