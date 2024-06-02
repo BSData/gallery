@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 21 Nov 2023 16:29:08 GMT
+      LastModified: Sun, 02 Jun 2024 05:16:29 GMT
     properties:
-      tag_name: v2.5.7
-      name: Nov23-Bug Fixes
-      published_at: 2023-11-21T16:28:08.0000000+00:00
+      tag_name: v2.5.8
+      name: Dragon Emperor points
+      published_at: 2024-06-02T05:15:51.0000000+00:00
   catpkg:
     properties:
       name: middle-earth
       description: Middle-earth™
       battleScribeVersion: "2.03"
-      version: v2.5.7
-      lastUpdated: 2023-11-21T16:26:39.0000000+00:00
-      lastUpdateDescription: Nov23-Bug Fixes
+      version: v2.5.8
+      lastUpdated: 2024-06-02T05:15:07.0000000+00:00
+      lastUpdateDescription: Dragon Emperor points
       indexUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.latest.bsi
       repositoryUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/middle-earth/releases/latest/download/middle-earth.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/v2.5.7/middle-earth.v2.5.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/middle-earth/releases/download/v2.5.8/middle-earth.v2.5.8.bsr
       githubUrl: https://github.com/BSData/middle-earth
       feedUrl: https://github.com/BSData/middle-earth/releases.atom
       bugTrackerUrl: https://github.com/BSData/middle-earth/issues
