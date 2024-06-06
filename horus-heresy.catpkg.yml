@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 31 May 2024 20:05:48 GMT
+      LastModified: Thu, 06 Jun 2024 18:23:50 GMT
     properties:
-      tag_name: v19.0.3
-      name: Added rules for Hibou Khan
-      published_at: 2024-05-31T20:05:13.0000000+00:00
+      tag_name: v19.0.4
+      name: Lots of little fixes
+      published_at: 2024-06-06T18:22:55.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v19.0.3
-      lastUpdated: 2024-05-31T20:03:34.0000000+00:00
-      lastUpdateDescription: Added rules for Hibou Khan
+      version: v19.0.4
+      lastUpdated: 2024-06-06T18:16:19.0000000+00:00
+      lastUpdateDescription: Lots of little fixes
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v19.0.3/horus-heresy.v19.0.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v19.0.4/horus-heresy.v19.0.4.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
