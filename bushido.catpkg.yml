@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 24 Jun 2024 14:43:11 GMT
+      LastModified: Mon, 01 Jul 2024 09:29:41 GMT
     properties:
-      tag_name: v2406
-      name: Curtain Call Edition
-      published_at: 2024-06-24T14:42:40.0000000+00:00
+      tag_name: v2407
+      name: Deeply Impactful Edition
+      published_at: 2024-07-01T09:29:09.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2406
-      lastUpdated: 2024-06-24T14:38:22.0000000+00:00
-      lastUpdateDescription: Curtain Call Edition
+      version: v2407
+      lastUpdated: 2024-07-01T09:10:22.0000000+00:00
+      lastUpdateDescription: Deeply Impactful Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2406/bushido.v2406.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2407/bushido.v2407.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
