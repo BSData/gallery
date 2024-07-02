@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 20 Jul 2022 02:10:55 GMT
+      LastModified: Tue, 02 Jul 2024 07:44:06 GMT
     properties:
-      tag_name: v5.10.0
-      name: changes from errata and faq v1.0 july 2022
-      published_at: 2022-07-20T02:09:53.0000000+00:00
+      tag_name: v5.11.0
+      name: bug fixes, new faction, forge fathers review
+      published_at: 2024-07-02T07:43:27.0000000+00:00
   catpkg:
     properties:
       name: deadzone
       description: Deadzone by Mantic Games
       battleScribeVersion: "2.03"
-      version: v5.10.0
-      lastUpdated: 2022-07-20T02:08:31.0000000+00:00
-      lastUpdateDescription: changes from errata and faq v1.0 july 2022
+      version: v5.11.0
+      lastUpdated: 2024-07-02T07:42:00.0000000+00:00
+      lastUpdateDescription: bug fixes, new faction, forge fathers review
       indexUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.latest.bsi
       repositoryUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/deadzone/releases/latest/download/deadzone.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/deadzone/releases/download/v5.10.0/deadzone.v5.10.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/deadzone/releases/download/v5.11.0/deadzone.v5.11.0.bsr
       githubUrl: https://github.com/BSData/deadzone
       feedUrl: https://github.com/BSData/deadzone/releases.atom
       bugTrackerUrl: https://github.com/BSData/deadzone/issues
