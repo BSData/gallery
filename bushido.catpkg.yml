@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 02 Jul 2024 08:39:46 GMT
+      LastModified: Thu, 04 Jul 2024 23:04:48 GMT
     properties:
-      tag_name: v2407.2
-      name: Deeply Impactful Edition tepidfix
-      published_at: 2024-07-02T08:39:05.0000000+00:00
+      tag_name: v2407.3
+      name: Deeply Impactful Edition heraldfix
+      published_at: 2024-07-04T23:04:05.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2407.2
-      lastUpdated: 2024-07-02T08:35:49.0000000+00:00
-      lastUpdateDescription: Deeply Impactful Edition tepidfix
+      version: v2407.3
+      lastUpdated: 2024-07-04T22:59:24.0000000+00:00
+      lastUpdateDescription: Deeply Impactful Edition heraldfix
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2407.2/bushido.v2407.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2407.3/bushido.v2407.3.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
