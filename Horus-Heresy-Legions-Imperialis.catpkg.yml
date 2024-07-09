@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 07 Jun 2024 09:42:42 GMT
+      LastModified: Tue, 09 Jul 2024 17:58:54 GMT
     properties:
-      tag_name: v1.1.10
-      name: Achy Breaky Points
-      published_at: 2024-06-07T09:42:17.0000000+00:00
+      tag_name: v1.1.11
+      name: Transport limitations fixes
+      published_at: 2024-07-09T17:58:13.0000000+00:00
   catpkg:
     properties:
       name: Horus-Heresy-Legions-Imperialis
       description: 'Horus Heresy: Legions Imperialis'
       battleScribeVersion: "2.03"
-      version: v1.1.10
-      lastUpdated: 2024-06-06T10:44:24.0000000+00:00
-      lastUpdateDescription: Achy Breaky Points
+      version: v1.1.11
+      lastUpdated: 2024-07-09T17:57:09.0000000+00:00
+      lastUpdateDescription: Transport limitations fixes
       indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.1.10/Horus-Heresy-Legions-Imperialis.v1.1.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.1.11/Horus-Heresy-Legions-Imperialis.v1.1.11.bsr
       githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
       feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
