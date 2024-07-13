@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 09 Jul 2024 01:28:14 GMT
+      LastModified: Sat, 13 Jul 2024 13:09:57 GMT
     properties:
-      tag_name: v1.44
-      name: v1.44
-      published_at: 2024-07-09T01:27:35.0000000+00:00
+      tag_name: v1.45
+      name: v1.45
+      published_at: 2024-07-13T13:09:06.0000000+00:00
   catpkg:
     properties:
       name: Warhammer-40k-3rd-Edition
       description: Warhammer-40k-3rd-Edition
       battleScribeVersion: "2.03"
-      version: v1.44
-      lastUpdated: 2024-07-09T01:26:57.0000000+00:00
-      lastUpdateDescription: v1.44
+      version: v1.45
+      lastUpdated: 2024-07-13T13:08:22.0000000+00:00
+      lastUpdateDescription: v1.45
       indexUrl: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/releases/latest/download/Warhammer-40k-3rd-Edition.latest.bsi
       repositoryUrl: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/releases/latest/download/Warhammer-40k-3rd-Edition.catpkg.json
       repositoryGzipUrl: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/releases/latest/download/Warhammer-40k-3rd-Edition.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/releases/download/v1.44/Warhammer-40k-3rd-Edition.v1.44.bsr
+      repositoryBsrUrl: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/releases/download/v1.45/Warhammer-40k-3rd-Edition.v1.45.bsr
       githubUrl: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition
       feedUrl: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/releases.atom
       bugTrackerUrl: https://github.com/ksnyder1986/Warhammer-40k-3rd-Edition/issues
