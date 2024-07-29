@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 22 Jul 2024 10:29:35 GMT
+      LastModified: Mon, 29 Jul 2024 15:17:14 GMT
     properties:
-      tag_name: v10.3.2
-      name: Probably time for another release.
-      published_at: 2024-07-22T10:28:40.0000000+00:00
+      tag_name: v10.3.3
+      name: You can stop telling us Krieg are broken now
+      published_at: 2024-07-29T15:16:18.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.3.2
-      lastUpdated: 2024-07-21T15:08:16.0000000+00:00
-      lastUpdateDescription: Probably time for another release.
+      version: v10.3.3
+      lastUpdated: 2024-07-26T06:57:06.0000000+00:00
+      lastUpdateDescription: You can stop telling us Krieg are broken now
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.3.2/wh40k-10e.v10.3.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.3.3/wh40k-10e.v10.3.3.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
