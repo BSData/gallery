@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 05 Jul 2024 20:14:06 GMT
+      LastModified: Thu, 01 Aug 2024 11:36:20 GMT
     properties:
-      tag_name: v2407.4
-      name: Schroedinger Edition
-      published_at: 2024-07-05T20:13:41.0000000+00:00
+      tag_name: v2408
+      name: Go Awoken Edition
+      published_at: 2024-08-01T11:35:45.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2407.4
-      lastUpdated: 2024-07-05T20:08:58.0000000+00:00
-      lastUpdateDescription: Schroedinger Edition
+      version: v2408
+      lastUpdated: 2024-08-01T11:33:29.0000000+00:00
+      lastUpdateDescription: Go Awoken Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2407.4/bushido.v2407.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2408/bushido.v2408.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
