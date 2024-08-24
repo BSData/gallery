@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 17 Aug 2024 06:17:56 GMT
+      LastModified: Sat, 24 Aug 2024 09:33:13 GMT
     properties:
-      tag_name: v10.3.4
-      name: Just a whole bunch of fixes
-      published_at: 2024-08-17T06:16:59.0000000+00:00
+      tag_name: v10.3.5
+      name: A ruthless dedication to the Emperor
+      published_at: 2024-08-24T09:32:29.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.3.4
-      lastUpdated: 2024-08-17T01:21:32.0000000+00:00
-      lastUpdateDescription: Just a whole bunch of fixes
+      version: v10.3.5
+      lastUpdated: 2024-08-23T09:30:08.0000000+00:00
+      lastUpdateDescription: A ruthless dedication to the Emperor
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.3.4/wh40k-10e.v10.3.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.3.5/wh40k-10e.v10.3.5.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
