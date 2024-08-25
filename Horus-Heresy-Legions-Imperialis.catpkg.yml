@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 05 Aug 2024 11:32:37 GMT
+      LastModified: Sun, 25 Aug 2024 15:42:51 GMT
     properties:
-      tag_name: v1.1.12
-      name: Break Point unhide fix
-      published_at: 2024-08-05T11:32:18.0000000+00:00
+      tag_name: v1.2.0
+      name: The Devastation of Tallarn
+      published_at: 2024-08-25T15:42:31.0000000+00:00
   catpkg:
     properties:
       name: Horus-Heresy-Legions-Imperialis
       description: 'Horus Heresy: Legions Imperialis'
       battleScribeVersion: "2.03"
-      version: v1.1.12
-      lastUpdated: 2024-08-05T11:31:07.0000000+00:00
-      lastUpdateDescription: Break Point unhide fix
+      version: v1.2.0
+      lastUpdated: 2024-08-25T15:41:02.0000000+00:00
+      lastUpdateDescription: The Devastation of Tallarn
       indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.1.12/Horus-Heresy-Legions-Imperialis.v1.1.12.bsr
+      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.2.0/Horus-Heresy-Legions-Imperialis.v1.2.0.bsr
       githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
       feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
