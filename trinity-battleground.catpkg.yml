@@ -2,10 +2,8 @@ location:
   github: BSData/trinity-battleground
 cache:
   repo:
-    apiHeaders:
-      LastModified: Sat, 28 Jan 2023 11:56:38 GMT
-    properties:
-      archived: true
+    apiRequestError:
+      exception: Connection timed out (api.github.com:443)
   latestRelease:
     apiHeaders:
       LastModified: Fri, 14 Dec 2018 05:43:57 GMT
