@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 27 May 2024 20:23:52 GMT
+      LastModified: Mon, 09 Sep 2024 13:11:34 GMT
     properties:
-      tag_name: 1.2.28
-      name: Late-War Leviathans
-      published_at: 2024-05-27T20:23:18.0000000+00:00
+      tag_name: 1.2.29
+      name: Format overhaul - Afrika Corps
+      published_at: 2024-09-09T13:10:11.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: 1.2.28
-      lastUpdated: 2024-05-27T20:10:00.0000000+00:00
-      lastUpdateDescription: Late-War Leviathans
+      version: 1.2.29
+      lastUpdated: 2024-09-09T13:04:23.0000000+00:00
+      lastUpdateDescription: Format overhaul - Afrika Corps
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.28/flamesofwar.1.2.28.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/1.2.29/flamesofwar.1.2.29.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
