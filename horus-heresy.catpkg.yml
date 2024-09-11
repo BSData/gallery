@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 04 Sep 2024 22:14:34 GMT
+      LastModified: Wed, 11 Sep 2024 10:07:02 GMT
     properties:
-      tag_name: v19.0.10
-      name: 'Selection of minor fixes:'
-      published_at: 2024-09-04T22:13:49.0000000+00:00
+      tag_name: v19.0.11
+      name: 'Fixed:'
+      published_at: 2024-09-11T10:06:12.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v19.0.10
-      lastUpdated: 2024-09-04T21:44:05.0000000+00:00
-      lastUpdateDescription: 'Selection of minor fixes:'
+      version: v19.0.11
+      lastUpdated: 2024-09-11T10:02:02.0000000+00:00
+      lastUpdateDescription: 'Fixed:'
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v19.0.10/horus-heresy.v19.0.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v19.0.11/horus-heresy.v19.0.11.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
