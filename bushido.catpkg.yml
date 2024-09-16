@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 09 Aug 2024 11:29:18 GMT
+      LastModified: Mon, 16 Sep 2024 14:37:35 GMT
     properties:
-      tag_name: v2408.2
-      name: Go Awoken Edition
-      published_at: 2024-08-09T11:28:45.0000000+00:00
+      tag_name: v2409
+      name: Pick a Pocket or Two Edition
+      published_at: 2024-09-16T14:37:04.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2408.2
-      lastUpdated: 2024-08-09T07:47:09.0000000+00:00
-      lastUpdateDescription: Go Awoken Edition
+      version: v2409
+      lastUpdated: 2024-09-16T14:33:35.0000000+00:00
+      lastUpdateDescription: Pick a Pocket or Two Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2408.2/bushido.v2408.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2409/bushido.v2409.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
