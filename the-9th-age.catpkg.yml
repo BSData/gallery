@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 13 Sep 2024 12:16:05 GMT
+      LastModified: Mon, 16 Sep 2024 12:08:42 GMT
     properties:
-      tag_name: "2024.16"
-      name: Vermin Swarm added
-      published_at: 2024-09-13T12:15:27.0000000+00:00
+      tag_name: "2024.17"
+      name: Daemon Legions
+      published_at: 2024-09-16T12:08:01.0000000+00:00
   catpkg:
     properties:
       name: The-9th-Age
       description: 'Fantasy Battles: The 9th Age'
       battleScribeVersion: "2.03"
-      version: "2024.16"
-      lastUpdated: 2024-09-13T12:14:08.0000000+00:00
-      lastUpdateDescription: Vermin Swarm added
+      version: "2024.17"
+      lastUpdated: 2024-09-16T12:05:48.0000000+00:00
+      lastUpdateDescription: Daemon Legions
       indexUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.latest.bsi
       repositoryUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/The-9th-Age/releases/latest/download/The-9th-Age.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2024.16/The-9th-Age.2024.16.bsr
+      repositoryBsrUrl: https://github.com/BSData/The-9th-Age/releases/download/2024.17/The-9th-Age.2024.17.bsr
       githubUrl: https://github.com/BSData/The-9th-Age
       feedUrl: https://github.com/BSData/The-9th-Age/releases.atom
       bugTrackerUrl: https://github.com/BSData/The-9th-Age/issues
