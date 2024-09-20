@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 11 Sep 2024 10:07:02 GMT
+      LastModified: Fri, 20 Sep 2024 18:36:32 GMT
     properties:
-      tag_name: v19.0.11
-      name: 'Fixed:'
-      published_at: 2024-09-11T10:06:12.0000000+00:00
+      tag_name: v19.1.0
+      name: Mars Attacks!
+      published_at: 2024-09-20T18:35:34.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v19.0.11
-      lastUpdated: 2024-09-11T10:02:02.0000000+00:00
-      lastUpdateDescription: 'Fixed:'
+      version: v19.1.0
+      lastUpdated: 2024-09-20T18:27:46.0000000+00:00
+      lastUpdateDescription: Mars Attacks!
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v19.0.11/horus-heresy.v19.0.11.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v19.1.0/horus-heresy.v19.1.0.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
