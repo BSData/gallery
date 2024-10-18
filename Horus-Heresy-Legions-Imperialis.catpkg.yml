@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 12 Oct 2024 14:16:54 GMT
+      LastModified: Fri, 18 Oct 2024 11:52:04 GMT
     properties:
-      tag_name: v1.2.4
-      name: Land Raider multimelta limits
-      published_at: 2024-10-12T14:16:20.0000000+00:00
+      tag_name: v1.2.5
+      name: Legate Commander max in roster
+      published_at: 2024-10-18T11:51:43.0000000+00:00
   catpkg:
     properties:
       name: Horus-Heresy-Legions-Imperialis
       description: 'Horus Heresy: Legions Imperialis'
       battleScribeVersion: "2.03"
-      version: v1.2.4
-      lastUpdated: 2024-10-12T14:15:03.0000000+00:00
-      lastUpdateDescription: Land Raider multimelta limits
+      version: v1.2.5
+      lastUpdated: 2024-10-18T11:49:40.0000000+00:00
+      lastUpdateDescription: Legate Commander max in roster
       indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.2.4/Horus-Heresy-Legions-Imperialis.v1.2.4.bsr
+      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.2.5/Horus-Heresy-Legions-Imperialis.v1.2.5.bsr
       githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
       feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
