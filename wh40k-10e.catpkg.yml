@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 20 Oct 2024 21:57:27 GMT
+      LastModified: Tue, 22 Oct 2024 02:35:06 GMT
     properties:
-      tag_name: v10.3.12
-      name: I forgot Erads! Now Blood for the Blood Eradicators!
-      published_at: 2024-10-20T21:56:43.0000000+00:00
+      tag_name: v10.3.13
+      name: Bloody bugs!
+      published_at: 2024-10-22T02:34:16.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.3.12
-      lastUpdated: 2024-10-20T21:55:41.0000000+00:00
-      lastUpdateDescription: I forgot Erads! Now Blood for the Blood Eradicators!
+      version: v10.3.13
+      lastUpdated: 2024-10-22T02:31:54.0000000+00:00
+      lastUpdateDescription: Bloody bugs!
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.3.12/wh40k-10e.v10.3.12.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.3.13/wh40k-10e.v10.3.13.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
