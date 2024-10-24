@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 22 Oct 2024 02:35:06 GMT
+      LastModified: Thu, 24 Oct 2024 01:14:02 GMT
     properties:
-      tag_name: v10.3.13
-      name: Bloody bugs!
-      published_at: 2024-10-22T02:34:16.0000000+00:00
+      tag_name: v10.3.14
+      name: Finally Death Company!
+      published_at: 2024-10-24T01:13:05.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.3.13
-      lastUpdated: 2024-10-22T02:31:54.0000000+00:00
-      lastUpdateDescription: Bloody bugs!
+      version: v10.3.14
+      lastUpdated: 2024-10-24T01:11:31.0000000+00:00
+      lastUpdateDescription: Finally Death Company!
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.3.13/wh40k-10e.v10.3.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.3.14/wh40k-10e.v10.3.14.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
