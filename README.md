@@ -7,7 +7,7 @@ The gallery can be visually browsed at [gallery.bsdata.net](https://gallery.bsda
 
 ### BattleScribe
 
-This distribution channel works on BattleScribe for PCs and Android, but not iOS.
+This distribution channel works easily on BattleScribe for PCs and Android, slightly more complicated on iOS.
 
 To try out this new data distribution system with BattleScribe, you need to copy the following URL:
 
@@ -22,6 +22,9 @@ and paste it into an **Add repository source** field. Depending on your device:
 - Android
   
   ![instruction to add repo source on Android](docs/images/android-add-repo-source.png)
+
+- iOS
+You have to manipulate the repositories.xml file, which BattleScribe uses to fetch repository data. It can be found by opening the Files app and navigating to BattleScribe > settings > repositories.xml. repositorySourceUrl holds a URL that needs to be replaced by the URL given above. This way BattleScribe will no longer be able to read from the original repository, but this one instead.
 
 ## Adding new repository
 
