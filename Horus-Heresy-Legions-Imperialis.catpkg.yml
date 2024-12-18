@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 15 Dec 2024 11:05:10 GMT
+      LastModified: Wed, 18 Dec 2024 18:16:50 GMT
     properties:
-      tag_name: v1.2.13
-      name: quad launcher AP
-      published_at: 2024-12-15T11:04:46.0000000+00:00
+      tag_name: v1.2.14
+      name: Knight Gallant fix
+      published_at: 2024-12-18T18:16:15.0000000+00:00
   catpkg:
     properties:
       name: Horus-Heresy-Legions-Imperialis
       description: 'Horus Heresy: Legions Imperialis'
       battleScribeVersion: "2.03"
-      version: v1.2.13
-      lastUpdated: 2024-12-15T11:03:56.0000000+00:00
-      lastUpdateDescription: quad launcher AP
+      version: v1.2.14
+      lastUpdated: 2024-12-18T18:14:02.0000000+00:00
+      lastUpdateDescription: Knight Gallant fix
       indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.2.13/Horus-Heresy-Legions-Imperialis.v1.2.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.2.14/Horus-Heresy-Legions-Imperialis.v1.2.14.bsr
       githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
       feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
