@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 22 Dec 2024 10:52:00 GMT
+      LastModified: Sun, 22 Dec 2024 15:23:21 GMT
     properties:
-      tag_name: v10.4.3
-      name: Improved wagering
-      published_at: 2024-12-22T10:51:13.0000000+00:00
+      tag_name: v10.4.4
+      name: WRATHFUL PROCESSION!!!
+      published_at: 2024-12-22T15:22:26.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.4.3
-      lastUpdated: 2024-12-22T09:56:38.0000000+00:00
-      lastUpdateDescription: Improved wagering
+      version: v10.4.4
+      lastUpdated: 2024-12-22T15:21:17.0000000+00:00
+      lastUpdateDescription: WRATHFUL PROCESSION!!!
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.3/wh40k-10e.v10.4.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.4/wh40k-10e.v10.4.4.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
