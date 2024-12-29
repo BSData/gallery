@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 28 Dec 2024 19:26:02 GMT
+      LastModified: Sun, 29 Dec 2024 22:15:21 GMT
     properties:
-      tag_name: v10.4.5
-      name: Grotmas is over!
-      published_at: 2024-12-28T19:24:55.0000000+00:00
+      tag_name: v10.4.6
+      name: Angelic bugs
+      published_at: 2024-12-29T22:14:33.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.4.5
-      lastUpdated: 2024-12-28T19:23:11.0000000+00:00
-      lastUpdateDescription: Grotmas is over!
+      version: v10.4.6
+      lastUpdated: 2024-12-29T22:10:33.0000000+00:00
+      lastUpdateDescription: Angelic bugs
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.5/wh40k-10e.v10.4.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.6/wh40k-10e.v10.4.6.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
