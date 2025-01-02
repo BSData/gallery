@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 29 Oct 2024 12:39:26 GMT
+      LastModified: Thu, 02 Jan 2025 13:11:35 GMT
     properties:
-      tag_name: v2410
-      name: Hanaween Edition
-      published_at: 2024-10-29T12:38:38.0000000+00:00
+      tag_name: v2501
+      name: New Year Edition
+      published_at: 2025-01-02T13:10:27.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2410
-      lastUpdated: 2024-10-29T12:35:27.0000000+00:00
-      lastUpdateDescription: Hanaween Edition
+      version: v2501
+      lastUpdated: 2025-01-02T13:07:02.0000000+00:00
+      lastUpdateDescription: New Year Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2410/bushido.v2410.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2501/bushido.v2501.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
