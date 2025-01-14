@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 13 Jan 2025 14:20:52 GMT
+      LastModified: Tue, 14 Jan 2025 10:53:16 GMT
     properties:
-      tag_name: v2501.2
-      name: Upon Reflection Edition
-      published_at: 2025-01-13T14:20:22.0000000+00:00
+      tag_name: v2501.3
+      name: Su'pah Tru'pah Edition
+      published_at: 2025-01-14T10:52:46.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2501.2
-      lastUpdated: 2025-01-13T14:18:59.0000000+00:00
-      lastUpdateDescription: Upon Reflection Edition
+      version: v2501.3
+      lastUpdated: 2025-01-14T10:50:29.0000000+00:00
+      lastUpdateDescription: Su'pah Tru'pah Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2501.2/bushido.v2501.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2501.3/bushido.v2501.3.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
