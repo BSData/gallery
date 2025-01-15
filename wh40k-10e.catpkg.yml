@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 11 Jan 2025 14:41:29 GMT
+      LastModified: Wed, 15 Jan 2025 21:36:45 GMT
     properties:
-      tag_name: v10.4.9
-      name: Purge the Unclean!
-      published_at: 2025-01-11T14:40:34.0000000+00:00
+      tag_name: v10.4.10
+      name: 2025-01-15 FAQs
+      published_at: 2025-01-15T21:35:50.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.4.9
-      lastUpdated: 2025-01-10T20:19:24.0000000+00:00
-      lastUpdateDescription: Purge the Unclean!
+      version: v10.4.10
+      lastUpdated: 2025-01-15T21:09:57.0000000+00:00
+      lastUpdateDescription: 2025-01-15 FAQs
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.9/wh40k-10e.v10.4.9.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.10/wh40k-10e.v10.4.10.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
