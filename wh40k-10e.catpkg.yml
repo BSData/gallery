@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 27 Jan 2025 12:06:55 GMT
+      LastModified: Tue, 28 Jan 2025 06:25:36 GMT
     properties:
-      tag_name: v10.4.12
-      name: Crusade subforce limit hidden fixes
-      published_at: 2025-01-27T12:06:10.0000000+00:00
+      tag_name: v10.4.13
+      name: Bug fixes
+      published_at: 2025-01-28T06:24:48.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.4.12
-      lastUpdated: 2025-01-27T10:10:42.0000000+00:00
-      lastUpdateDescription: Crusade subforce limit hidden fixes
+      version: v10.4.13
+      lastUpdated: 2025-01-28T06:23:15.0000000+00:00
+      lastUpdateDescription: Bug fixes
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.12/wh40k-10e.v10.4.12.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.13/wh40k-10e.v10.4.13.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
