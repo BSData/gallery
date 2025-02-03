@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 28 Jan 2025 06:25:36 GMT
+      LastModified: Mon, 03 Feb 2025 21:57:08 GMT
     properties:
-      tag_name: v10.4.13
-      name: Bug fixes
-      published_at: 2025-01-28T06:24:48.0000000+00:00
+      tag_name: v10.4.14
+      name: Next time it'll be the Aeldari Codex
+      published_at: 2025-02-03T21:56:22.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.4.13
-      lastUpdated: 2025-01-28T06:23:15.0000000+00:00
-      lastUpdateDescription: Bug fixes
+      version: v10.4.14
+      lastUpdated: 2025-02-03T21:54:37.0000000+00:00
+      lastUpdateDescription: Next time it'll be the Aeldari Codex
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.13/wh40k-10e.v10.4.13.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.14/wh40k-10e.v10.4.14.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
