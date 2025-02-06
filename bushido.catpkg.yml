@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 31 Jan 2025 12:00:52 GMT
+      LastModified: Thu, 06 Feb 2025 15:15:14 GMT
     properties:
-      tag_name: v2501.6
-      name: Yuno Who is Missing Edition
-      published_at: 2025-01-31T12:00:16.0000000+00:00
+      tag_name: v2502
+      name: A Wild Erratata Appears Edition
+      published_at: 2025-02-06T15:14:44.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2501.6
-      lastUpdated: 2025-01-31T11:57:35.0000000+00:00
-      lastUpdateDescription: Yuno Who is Missing Edition
+      version: v2502
+      lastUpdated: 2025-02-06T15:07:20.0000000+00:00
+      lastUpdateDescription: A Wild Erratata Appears Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2501.6/bushido.v2501.6.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2502/bushido.v2502.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
