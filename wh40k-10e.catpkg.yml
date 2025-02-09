@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 09 Feb 2025 15:55:30 GMT
+      LastModified: Sun, 09 Feb 2025 20:44:30 GMT
     properties:
-      tag_name: v10.4.15
-      name: Spaces elves are back to (re)conquer the galaxy!!
-      published_at: 2025-02-09T15:54:42.0000000+00:00
+      tag_name: v10.4.16
+      name: Iyanden have been on a bug hunt - many have been purged...
+      published_at: 2025-02-09T20:43:52.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.4.15
-      lastUpdated: 2025-02-08T23:21:37.0000000+00:00
-      lastUpdateDescription: Spaces elves are back to (re)conquer the galaxy!!
+      version: v10.4.16
+      lastUpdated: 2025-02-09T20:37:13.0000000+00:00
+      lastUpdateDescription: Iyanden have been on a bug hunt - many have been purged...
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.15/wh40k-10e.v10.4.15.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.16/wh40k-10e.v10.4.16.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
