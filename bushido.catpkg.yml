@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 07 Feb 2025 13:19:09 GMT
+      LastModified: Tue, 11 Feb 2025 20:34:11 GMT
     properties:
-      tag_name: v2502.3
+      tag_name: v2502.4
       name: A Wild Erratata Appears Edition
-      published_at: 2025-02-07T13:18:38.0000000+00:00
+      published_at: 2025-02-11T20:33:36.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2502.3
-      lastUpdated: 2025-02-07T13:17:45.0000000+00:00
+      version: v2502.4
+      lastUpdated: 2025-02-11T20:30:55.0000000+00:00
       lastUpdateDescription: A Wild Erratata Appears Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2502.3/bushido.v2502.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2502.4/bushido.v2502.4.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
