@@ -6,12 +6,25 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 15 Feb 2025 20:19:48 GMT
+      LastModified: Sat, 15 Feb 2025 20:20:35 GMT
     properties:
       tag_name: v10.4.19
       name: Death Company have worked out how to use pistols
       published_at: 2025-02-15T20:19:48.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    properties:
+      name: wh40k-10e
+      description: 'Warhammer 40,000: 10th Edition'
+      battleScribeVersion: "2.03"
+      version: v10.4.19
+      lastUpdated: 2025-02-15T20:18:26.0000000+00:00
+      lastUpdateDescription: Death Company have worked out how to use pistols
+      indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
+      repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.19/wh40k-10e.v10.4.19.bsr
+      githubUrl: https://github.com/BSData/wh40k-10e
+      feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
+      bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-10e
 
