@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 17 Feb 2025 06:28:21 GMT
+      LastModified: Wed, 19 Feb 2025 22:05:37 GMT
     properties:
-      tag_name: v10.4.20
-      name: Death Company have worked out how to use pistols _simultaneously_
-      published_at: 2025-02-17T06:27:26.0000000+00:00
+      tag_name: v10.4.21
+      name: Aeldari Legends are back from the cold, likely they have brought ~bugs~ Features with them, tread carefully, be gentle...
+      published_at: 2025-02-19T22:04:51.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.4.20
-      lastUpdated: 2025-02-17T06:23:23.0000000+00:00
-      lastUpdateDescription: Death Company have worked out how to use pistols _simultaneously_
+      version: v10.4.21
+      lastUpdated: 2025-02-19T21:54:51.0000000+00:00
+      lastUpdateDescription: Aeldari Legends are back from the cold, likely they have brought ~bugs~ Features with them, tread carefully, be gentle...
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.20/wh40k-10e.v10.4.20.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.21/wh40k-10e.v10.4.21.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
