@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 22 Feb 2025 16:05:42 GMT
+      LastModified: Mon, 24 Feb 2025 14:01:45 GMT
     properties:
-      tag_name: v10.4.23
-      name: Forgot some Guard bits and bobs
-      published_at: 2025-02-22T16:04:52.0000000+00:00
+      tag_name: v10.4.27
+      name: And another one...
+      published_at: 2025-02-24T14:00:56.0000000+00:00
   catpkg:
     properties:
       name: wh40k-10e
       description: 'Warhammer 40,000: 10th Edition'
       battleScribeVersion: "2.03"
-      version: v10.4.23
-      lastUpdated: 2025-02-22T16:03:48.0000000+00:00
-      lastUpdateDescription: Forgot some Guard bits and bobs
+      version: v10.4.27
+      lastUpdated: 2025-02-24T14:00:05.0000000+00:00
+      lastUpdateDescription: And another one...
       indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.23/wh40k-10e.v10.4.23.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.27/wh40k-10e.v10.4.27.bsr
       githubUrl: https://github.com/BSData/wh40k-10e
       feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
