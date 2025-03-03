@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 02 Mar 2025 22:52:09 GMT
+      LastModified: Mon, 03 Mar 2025 18:50:17 GMT
     properties:
-      tag_name: v1.5
-      name: Fixed bugs reported
-      published_at: 2025-03-02T22:51:34.0000000+00:00
+      tag_name: v1.5.2
+      name: Vet point/hidden fixes
+      published_at: 2025-03-03T18:49:38.0000000+00:00
   catpkg:
     properties:
       name: wh40k-2nd-edition
       description: 'Warhammer 40,000: 2nd Edition'
       battleScribeVersion: "2.03"
-      version: v1.5
-      lastUpdated: 2025-03-02T22:50:25.0000000+00:00
-      lastUpdateDescription: Fixed bugs reported
+      version: v1.5.2
+      lastUpdated: 2025-03-03T18:48:53.0000000+00:00
+      lastUpdateDescription: Vet point/hidden fixes
       indexUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-2nd-edition/releases/download/v1.5/wh40k-2nd-edition.v1.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-2nd-edition/releases/download/v1.5.2/wh40k-2nd-edition.v1.5.2.bsr
       githubUrl: https://github.com/BSData/wh40k-2nd-edition
       feedUrl: https://github.com/BSData/wh40k-2nd-edition/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-2nd-edition/issues
