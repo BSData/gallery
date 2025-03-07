@@ -6,25 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 24 Feb 2025 14:01:45 GMT
+      LastModified: Fri, 07 Mar 2025 09:10:35 GMT
     properties:
-      tag_name: v10.4.27
-      name: And another one...
-      published_at: 2025-02-24T14:00:56.0000000+00:00
+      tag_name: v10.4.28
+      name: Crushing some bugs, with style...
+      published_at: 2025-03-07T09:10:35.0000000+00:00
   catpkg:
-    properties:
-      name: wh40k-10e
-      description: 'Warhammer 40,000: 10th Edition'
-      battleScribeVersion: "2.03"
-      version: v10.4.27
-      lastUpdated: 2025-02-24T14:00:05.0000000+00:00
-      lastUpdateDescription: And another one...
-      indexUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi
-      repositoryUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-10e/releases/download/v10.4.27/wh40k-10e.v10.4.27.bsr
-      githubUrl: https://github.com/BSData/wh40k-10e
-      feedUrl: https://github.com/BSData/wh40k-10e/releases.atom
-      bugTrackerUrl: https://github.com/BSData/wh40k-10e/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-10e
+    apiResponseError:
+      code: 404
 
