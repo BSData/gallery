@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 07 Mar 2025 09:10:35 GMT
+      LastModified: Mon, 10 Mar 2025 18:37:44 GMT
     properties:
-      tag_name: v10.4.28
-      name: Crushing some bugs, with style...
-      published_at: 2025-03-07T09:10:35.0000000+00:00
+      tag_name: v10.4.29
+      name: If you build it, it might work.
+      published_at: 2025-03-10T18:37:44.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
