@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 15 Mar 2025 17:07:05 GMT
+      LastModified: Sun, 16 Mar 2025 12:43:50 GMT
     properties:
-      tag_name: v10.5.0
-      name: March 2025 Balance Dataslate and MFM update
-      published_at: 2025-03-15T17:07:05.0000000+00:00
+      tag_name: v10.5.1
+      name: First lot of post-dataslate bug fixes.
+      published_at: 2025-03-16T12:43:50.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
