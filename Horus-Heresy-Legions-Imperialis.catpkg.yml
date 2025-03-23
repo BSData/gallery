@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 08 Mar 2025 19:58:19 GMT
+      LastModified: Sun, 23 Mar 2025 15:13:38 GMT
     properties:
-      tag_name: v1.2.19
-      name: Bug fixes
-      published_at: 2025-03-08T19:57:51.0000000+00:00
+      tag_name: v1.2.20
+      name: Bug fixes and Legion selector re-ordering
+      published_at: 2025-03-23T15:13:10.0000000+00:00
   catpkg:
     properties:
       name: Horus-Heresy-Legions-Imperialis
       description: 'Horus Heresy: Legions Imperialis'
       battleScribeVersion: "2.03"
-      version: v1.2.19
-      lastUpdated: 2025-03-08T19:50:14.0000000+00:00
-      lastUpdateDescription: Bug fixes
+      version: v1.2.20
+      lastUpdated: 2025-03-23T15:11:55.0000000+00:00
+      lastUpdateDescription: Bug fixes and Legion selector re-ordering
       indexUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.latest.bsi
       repositoryUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/latest/download/Horus-Heresy-Legions-Imperialis.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.2.19/Horus-Heresy-Legions-Imperialis.v1.2.19.bsr
+      repositoryBsrUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases/download/v1.2.20/Horus-Heresy-Legions-Imperialis.v1.2.20.bsr
       githubUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis
       feedUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/releases.atom
       bugTrackerUrl: https://github.com/BSData/Horus-Heresy-Legions-Imperialis/issues
