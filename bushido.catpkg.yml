@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 14 Apr 2025 10:19:43 GMT
+      LastModified: Mon, 14 Apr 2025 15:17:32 GMT
     properties:
-      tag_name: v2504.3
+      tag_name: v2504.4
       name: Unload the Toad Edition
-      published_at: 2025-04-14T10:19:10.0000000+00:00
+      published_at: 2025-04-14T15:16:59.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2504.3
-      lastUpdated: 2025-04-14T10:16:15.0000000+00:00
+      version: v2504.4
+      lastUpdated: 2025-04-14T15:15:36.0000000+00:00
       lastUpdateDescription: Unload the Toad Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2504.3/bushido.v2504.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2504.4/bushido.v2504.4.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
