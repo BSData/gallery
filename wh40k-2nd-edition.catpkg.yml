@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 05 Mar 2025 04:12:55 GMT
+      LastModified: Mon, 14 Apr 2025 21:51:42 GMT
     properties:
-      tag_name: v1.5.3
-      name: Ork Warphead minders fix
-      published_at: 2025-03-05T04:12:29.0000000+00:00
+      tag_name: v1.5.4
+      name: Ork Nob fixes
+      published_at: 2025-04-14T21:51:08.0000000+00:00
   catpkg:
     properties:
       name: wh40k-2nd-edition
       description: 'Warhammer 40,000: 2nd Edition'
       battleScribeVersion: "2.03"
-      version: v1.5.3
-      lastUpdated: 2025-03-05T04:11:42.0000000+00:00
-      lastUpdateDescription: Ork Warphead minders fix
+      version: v1.5.4
+      lastUpdated: 2025-04-14T21:48:59.0000000+00:00
+      lastUpdateDescription: Ork Nob fixes
       indexUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-2nd-edition/releases/latest/download/wh40k-2nd-edition.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-2nd-edition/releases/download/v1.5.3/wh40k-2nd-edition.v1.5.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-2nd-edition/releases/download/v1.5.4/wh40k-2nd-edition.v1.5.4.bsr
       githubUrl: https://github.com/BSData/wh40k-2nd-edition
       feedUrl: https://github.com/BSData/wh40k-2nd-edition/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-2nd-edition/issues
