@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 21 Apr 2025 07:10:47 GMT
+      LastModified: Mon, 21 Apr 2025 18:47:42 GMT
     properties:
-      tag_name: v19.10.0
-      name: Daemons. Daemons everywhere!
-      published_at: 2025-04-21T07:10:07.0000000+00:00
+      tag_name: v20.0.0
+      name: Warsmith Dominus from Warhammer Community
+      published_at: 2025-04-21T18:46:58.0000000+00:00
   catpkg:
     properties:
       name: horus-heresy
       description: Horus Heresy
       battleScribeVersion: "2.03"
-      version: v19.10.0
-      lastUpdated: 2025-04-21T07:07:32.0000000+00:00
-      lastUpdateDescription: Daemons. Daemons everywhere!
+      version: v20.0.0
+      lastUpdated: 2025-04-21T18:45:13.0000000+00:00
+      lastUpdateDescription: Warsmith Dominus from Warhammer Community
       indexUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.latest.bsi
       repositoryUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/horus-heresy/releases/latest/download/horus-heresy.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v19.10.0/horus-heresy.v19.10.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/horus-heresy/releases/download/v20.0.0/horus-heresy.v20.0.0.bsr
       githubUrl: https://github.com/BSData/horus-heresy
       feedUrl: https://github.com/BSData/horus-heresy/releases.atom
       bugTrackerUrl: https://github.com/BSData/horus-heresy/issues
