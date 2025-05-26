@@ -2,8 +2,8 @@ location:
   github: BSData/warhammer-armies-project
 cache:
   repo:
-    properties:
-      archived: false
+    apiResponseError:
+      code: 504
   latestRelease:
     apiHeaders:
       LastModified: Sat, 06 Jul 2024 15:07:03 GMT
