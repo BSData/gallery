@@ -2,8 +2,8 @@ location:
   github: BSData/punkapocalyptic
 cache:
   repo:
-    apiRequestError:
-      exception: An error occurred while sending the request.
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sat, 08 Apr 2023 05:47:45 GMT
