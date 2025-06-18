@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 16 Jun 2025 10:19:01 GMT
+      LastModified: Wed, 18 Jun 2025 19:23:06 GMT
     properties:
-      tag_name: v2506
+      tag_name: v2506.0.2
       name: Wretched Ring Unlean Edition
-      published_at: 2025-06-16T10:18:28.0000000+00:00
+      published_at: 2025-06-18T19:22:33.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2506
-      lastUpdated: 2025-06-16T10:04:40.0000000+00:00
+      version: v2506.0.2
+      lastUpdated: 2025-06-18T19:04:06.0000000+00:00
       lastUpdateDescription: Wretched Ring Unlean Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2506/bushido.v2506.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2506.0.2/bushido.v2506.0.2.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
