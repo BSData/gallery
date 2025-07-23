@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 10 Apr 2023 17:11:51 GMT
+      LastModified: Wed, 23 Jul 2025 00:10:56 GMT
     properties:
-      tag_name: v2.5.12
-      name: tyrabuds are special
-      published_at: 2023-04-10T17:10:56.0000000+00:00
+      tag_name: v2.5.13
+      name: Multiple updates focused on Imperium and Space Marines
+      published_at: 2025-07-23T00:10:25.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.5.12
-      lastUpdated: 2023-02-22T21:45:46.0000000+00:00
-      lastUpdateDescription: tyrabuds are special
+      version: v2.5.13
+      lastUpdated: 2025-07-23T00:00:47.0000000+00:00
+      lastUpdateDescription: Multiple updates focused on Imperium and Space Marines
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.12/battlefleetgothic.v2.5.12.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.13/battlefleetgothic.v2.5.13.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
