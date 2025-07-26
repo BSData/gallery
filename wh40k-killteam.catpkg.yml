@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 25 Jul 2025 03:30:10 GMT
+      LastModified: Fri, 25 Jul 2025 22:39:39 GMT
     properties:
-      tag_name: v5.2.23
-      name: Not creative today
-      published_at: 2025-07-25T03:29:01.0000000+00:00
+      tag_name: v5.2.24
+      name: Hierotek Circle - Counteract Strike
+      published_at: 2025-07-25T22:38:28.0000000+00:00
   catpkg:
     properties:
       name: wh40k-killteam
       description: 'Warhammer 40,000: Kill Team'
       battleScribeVersion: "2.03"
-      version: v5.2.23
-      lastUpdated: 2025-07-25T03:09:51.0000000+00:00
-      lastUpdateDescription: Not creative today
+      version: v5.2.24
+      lastUpdated: 2025-07-25T22:36:57.0000000+00:00
+      lastUpdateDescription: Hierotek Circle - Counteract Strike
       indexUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.latest.bsi
       repositoryUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/wh40k-killteam/releases/latest/download/wh40k-killteam.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v5.2.23/wh40k-killteam.v5.2.23.bsr
+      repositoryBsrUrl: https://github.com/BSData/wh40k-killteam/releases/download/v5.2.24/wh40k-killteam.v5.2.24.bsr
       githubUrl: https://github.com/BSData/wh40k-killteam
       feedUrl: https://github.com/BSData/wh40k-killteam/releases.atom
       bugTrackerUrl: https://github.com/BSData/wh40k-killteam/issues
