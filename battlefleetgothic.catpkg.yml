@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 23 Jul 2025 15:00:11 GMT
+      LastModified: Wed, 06 Aug 2025 16:38:36 GMT
     properties:
-      tag_name: v2.5.14
-      name: 'Widespread updates covering a number of issues.  Can be read here: https://github.com/BSData/battlefleetgothic/commit/f69681aa5d086bb66a9831ef258f199638e611d2'
-      published_at: 2025-07-23T14:59:46.0000000+00:00
+      tag_name: v2.5.15
+      name: Started implementing background improvements and added the Chaos God ships.
+      published_at: 2025-08-06T16:38:09.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.5.14
-      lastUpdated: 2025-07-23T14:44:53.0000000+00:00
-      lastUpdateDescription: 'Widespread updates covering a number of issues.  Can be read here: https://github.com/BSData/battlefleetgothic/commit/f69681aa5d086bb66a9831ef258f199638e611d2'
+      version: v2.5.15
+      lastUpdated: 2025-08-06T16:36:50.0000000+00:00
+      lastUpdateDescription: Started implementing background improvements and added the Chaos God ships.
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.14/battlefleetgothic.v2.5.14.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.15/battlefleetgothic.v2.5.15.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
