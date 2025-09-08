@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 22 Apr 2025 17:29:32 GMT
+      LastModified: Mon, 08 Sep 2025 20:53:37 GMT
     properties:
-      tag_name: v1.2.30
-      name: Mid-War Wrapped; onward to Late-War!
-      published_at: 2025-04-22T17:28:47.0000000+00:00
+      tag_name: v1.2.31
+      name: Pacific 1st Wave; US & Japan
+      published_at: 2025-09-08T20:52:45.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: v1.2.30
-      lastUpdated: 2025-04-22T17:20:36.0000000+00:00
-      lastUpdateDescription: Mid-War Wrapped; onward to Late-War!
+      version: v1.2.31
+      lastUpdated: 2025-09-08T20:51:30.0000000+00:00
+      lastUpdateDescription: Pacific 1st Wave; US & Japan
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/v1.2.30/flamesofwar.v1.2.30.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/v1.2.31/flamesofwar.v1.2.31.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
