@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 04 Sep 2025 18:42:32 GMT
+      LastModified: Mon, 15 Sep 2025 21:52:05 GMT
     properties:
-      tag_name: v1.6
-      name: Stompa!
-      published_at: 2025-09-04T18:42:32.0000000+00:00
+      tag_name: v1.6.6
+      name: Hearthguard
+      published_at: 2025-09-15T21:52:05.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
