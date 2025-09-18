@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 15 Sep 2025 21:52:05 GMT
+      LastModified: Thu, 18 Sep 2025 18:20:44 GMT
     properties:
-      tag_name: v1.6.6
-      name: Hearthguard
-      published_at: 2025-09-15T21:52:05.0000000+00:00
+      tag_name: v1.6.7
+      name: warp spider fix
+      published_at: 2025-09-18T18:20:44.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
