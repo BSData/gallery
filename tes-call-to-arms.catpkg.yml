@@ -12,19 +12,6 @@ cache:
       name: v2.2.3 bugfixes
       published_at: 2024-04-26T05:53:25.0000000+00:00
   catpkg:
-    properties:
-      name: tes-call-to-arms
-      description: 'Elder Scrolls: Call To Arms'
-      battleScribeVersion: "2.03"
-      version: v2.2.3
-      lastUpdated: 2024-04-26T05:50:34.0000000+00:00
-      lastUpdateDescription: v2.2.3 bugfixes
-      indexUrl: https://github.com/BSData/tes-call-to-arms/releases/latest/download/tes-call-to-arms.latest.bsi
-      repositoryUrl: https://github.com/BSData/tes-call-to-arms/releases/latest/download/tes-call-to-arms.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/tes-call-to-arms/releases/latest/download/tes-call-to-arms.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/tes-call-to-arms/releases/download/v2.2.3/tes-call-to-arms.v2.2.3.bsr
-      githubUrl: https://github.com/BSData/tes-call-to-arms
-      feedUrl: https://github.com/BSData/tes-call-to-arms/releases.atom
-      bugTrackerUrl: https://github.com/BSData/tes-call-to-arms/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/tes-call-to-arms
+    apiRequestError:
+      exception: The SSL connection could not be established, see inner exception.
 
