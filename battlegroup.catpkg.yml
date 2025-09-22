@@ -12,6 +12,19 @@ cache:
       name: Overlord BtB Ost Platoon bugfix
       published_at: 2024-06-26T16:15:44.0000000+00:00
   catpkg:
-    apiRequestError:
-      exception: The SSL connection could not be established, see inner exception.
+    properties:
+      name: battlegroup
+      description: Battlegroup
+      battleScribeVersion: "2.03"
+      version: v1.8.0
+      lastUpdated: 2024-06-26T16:13:35.0000000+00:00
+      lastUpdateDescription: Overlord BtB Ost Platoon bugfix
+      indexUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.latest.bsi
+      repositoryUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/battlegroup/releases/latest/download/battlegroup.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/battlegroup/releases/download/v1.8.0/battlegroup.v1.8.0.bsr
+      githubUrl: https://github.com/BSData/battlegroup
+      feedUrl: https://github.com/BSData/battlegroup/releases.atom
+      bugTrackerUrl: https://github.com/BSData/battlegroup/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/battlegroup
 

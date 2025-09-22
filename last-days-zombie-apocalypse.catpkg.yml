@@ -12,6 +12,19 @@ cache:
       name: Campaign system added
       published_at: 2020-04-29T14:21:16.0000000+00:00
   catpkg:
-    apiRequestError:
-      exception: The SSL connection could not be established, see inner exception.
+    properties:
+      name: last-days-zombie-apocalypse
+      description: 'Last Days: Zombie Apocalypse'
+      battleScribeVersion: "2.03"
+      version: V3.0.0
+      lastUpdated: 2020-04-29T14:18:55.0000000+00:00
+      lastUpdateDescription: Campaign system added
+      indexUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases/latest/download/last-days-zombie-apocalypse.latest.bsi
+      repositoryUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases/latest/download/last-days-zombie-apocalypse.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases/latest/download/last-days-zombie-apocalypse.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases/download/V3.0.0/last-days-zombie-apocalypse.V3.0.0.bsr
+      githubUrl: https://github.com/BSData/last-days-zombie-apocalypse
+      feedUrl: https://github.com/BSData/last-days-zombie-apocalypse/releases.atom
+      bugTrackerUrl: https://github.com/BSData/last-days-zombie-apocalypse/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/last-days-zombie-apocalypse
 

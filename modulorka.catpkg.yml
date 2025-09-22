@@ -12,6 +12,19 @@ cache:
       name: GET TO DA CHOPPA!
       published_at: 2023-12-21T03:06:28.0000000+00:00
   catpkg:
-    apiRequestError:
-      exception: The SSL connection could not be established, see inner exception.
+    properties:
+      name: modulorka
+      description: Modulorka
+      battleScribeVersion: "2.03"
+      version: v0.1.23
+      lastUpdated: 2023-12-21T03:05:39.0000000+00:00
+      lastUpdateDescription: GET TO DA CHOPPA!
+      indexUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.latest.bsi
+      repositoryUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/modulorka/releases/latest/download/modulorka.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/modulorka/releases/download/v0.1.23/modulorka.v0.1.23.bsr
+      githubUrl: https://github.com/BSData/modulorka
+      feedUrl: https://github.com/BSData/modulorka/releases.atom
+      bugTrackerUrl: https://github.com/BSData/modulorka/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/modulorka
 
