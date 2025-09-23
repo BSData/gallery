@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 22 Sep 2025 17:17:16 GMT
+      LastModified: Tue, 23 Sep 2025 02:39:07 GMT
     properties:
-      tag_name: v1.6.8
-      name: Squat fixes
-      published_at: 2025-09-22T17:17:16.0000000+00:00
+      tag_name: v1.6.9
+      name: BA Vet fix
+      published_at: 2025-09-23T02:39:07.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
