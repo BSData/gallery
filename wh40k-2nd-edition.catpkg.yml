@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 23 Sep 2025 18:09:14 GMT
+      LastModified: Wed, 24 Sep 2025 04:54:08 GMT
     properties:
-      tag_name: v1.7
-      name: Daemon weapon added for chaos
-      published_at: 2025-09-23T18:09:14.0000000+00:00
+      tag_name: v1.7.1
+      name: Chaos Lord sorc fix
+      published_at: 2025-09-24T04:54:08.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
