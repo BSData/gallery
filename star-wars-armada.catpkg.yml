@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 23 Jan 2025 22:31:30 GMT
+      LastModified: Wed, 08 Oct 2025 21:56:58 GMT
     properties:
-      tag_name: 1.7.7
-      name: 21/01/25 Errata changes
-      published_at: 2025-01-23T22:30:58.0000000+00:00
+      tag_name: 1.7.8
+      name: 08/10/25 Typo fixed in GAR
+      published_at: 2025-10-08T21:56:30.0000000+00:00
   catpkg:
     properties:
       name: star-wars-armada
       description: 'Star Wars: Armada'
       battleScribeVersion: "2.03"
-      version: 1.7.7
-      lastUpdated: 2025-01-23T22:29:17.0000000+00:00
-      lastUpdateDescription: 21/01/25 Errata changes
+      version: 1.7.8
+      lastUpdated: 2025-10-08T21:49:56.0000000+00:00
+      lastUpdateDescription: 08/10/25 Typo fixed in GAR
       indexUrl: https://github.com/BSData/star-wars-armada/releases/latest/download/star-wars-armada.latest.bsi
       repositoryUrl: https://github.com/BSData/star-wars-armada/releases/latest/download/star-wars-armada.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/star-wars-armada/releases/latest/download/star-wars-armada.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/star-wars-armada/releases/download/1.7.7/star-wars-armada.1.7.7.bsr
+      repositoryBsrUrl: https://github.com/BSData/star-wars-armada/releases/download/1.7.8/star-wars-armada.1.7.8.bsr
       githubUrl: https://github.com/BSData/star-wars-armada
       feedUrl: https://github.com/BSData/star-wars-armada/releases.atom
       bugTrackerUrl: https://github.com/BSData/star-wars-armada/issues
