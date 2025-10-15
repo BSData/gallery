@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 24 Sep 2025 04:54:08 GMT
+      LastModified: Wed, 15 Oct 2025 20:16:29 GMT
     properties:
-      tag_name: v1.7.1
-      name: Chaos Lord sorc fix
-      published_at: 2025-09-24T04:54:08.0000000+00:00
+      tag_name: v1.7.5
+      name: Tyrants claw..
+      published_at: 2025-10-15T20:16:29.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
