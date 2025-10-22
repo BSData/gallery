@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 17 Sep 2025 17:55:50 GMT
+      LastModified: Wed, 22 Oct 2025 10:00:56 GMT
     properties:
-      tag_name: v1.2.32
-      name: 'Pacific 2nd Wave: UK & ANZAC'
-      published_at: 2025-09-17T17:55:01.0000000+00:00
+      tag_name: v1.2.33
+      name: Behold a Pale Maus; Late-War Leviathans v1 released ~
+      published_at: 2025-10-22T09:59:53.0000000+00:00
   catpkg:
     properties:
       name: flamesofwar
       description: Flames of War
       battleScribeVersion: "2.03"
-      version: v1.2.32
-      lastUpdated: 2025-09-17T17:53:26.0000000+00:00
-      lastUpdateDescription: 'Pacific 2nd Wave: UK & ANZAC'
+      version: v1.2.33
+      lastUpdated: 2025-10-22T09:57:40.0000000+00:00
+      lastUpdateDescription: Behold a Pale Maus; Late-War Leviathans v1 released ~
       indexUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.latest.bsi
       repositoryUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/flamesofwar/releases/latest/download/flamesofwar.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/v1.2.32/flamesofwar.v1.2.32.bsr
+      repositoryBsrUrl: https://github.com/BSData/flamesofwar/releases/download/v1.2.33/flamesofwar.v1.2.33.bsr
       githubUrl: https://github.com/BSData/flamesofwar
       feedUrl: https://github.com/BSData/flamesofwar/releases.atom
       bugTrackerUrl: https://github.com/BSData/flamesofwar/issues
