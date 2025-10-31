@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 12 Oct 2025 19:17:50 GMT
+      LastModified: Fri, 31 Oct 2025 11:07:08 GMT
     properties:
-      tag_name: v2510.2
-      name: Tsunami Edition
-      published_at: 2025-10-12T19:17:08.0000000+00:00
+      tag_name: v2511
+      name: Spooky Edition
+      published_at: 2025-10-31T11:06:31.0000000+00:00
   catpkg:
     properties:
       name: bushido
       description: Bushido
       battleScribeVersion: "2.03"
-      version: v2510.2
-      lastUpdated: 2025-10-12T19:14:46.0000000+00:00
-      lastUpdateDescription: Tsunami Edition
+      version: v2511
+      lastUpdated: 2025-10-31T11:05:32.0000000+00:00
+      lastUpdateDescription: Spooky Edition
       indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
       repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2510.2/bushido.v2510.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2511/bushido.v2511.bsr
       githubUrl: https://github.com/BSData/bushido
       feedUrl: https://github.com/BSData/bushido/releases.atom
       bugTrackerUrl: https://github.com/BSData/bushido/issues
