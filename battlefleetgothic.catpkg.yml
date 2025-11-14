@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 14 Oct 2025 23:17:38 GMT
+      LastModified: Fri, 14 Nov 2025 15:20:26 GMT
     properties:
-      tag_name: v2.5.19
-      name: Purging unofficial Chaos entries
-      published_at: 2025-10-14T23:17:00.0000000+00:00
+      tag_name: v2.5.20
+      name: Fixed missing Chaos ships and other small fixes
+      published_at: 2025-11-14T15:19:53.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.5.19
-      lastUpdated: 2025-10-14T23:04:42.0000000+00:00
-      lastUpdateDescription: Purging unofficial Chaos entries
+      version: v2.5.20
+      lastUpdated: 2025-11-14T15:18:45.0000000+00:00
+      lastUpdateDescription: Fixed missing Chaos ships and other small fixes
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.19/battlefleetgothic.v2.5.19.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.20/battlefleetgothic.v2.5.20.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
