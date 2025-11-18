@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 13 Nov 2025 22:58:53 GMT
+      LastModified: Tue, 18 Nov 2025 22:06:32 GMT
     properties:
-      tag_name: v1.8
-      name: Update to points percentages display and bug fixin
-      published_at: 2025-11-13T22:58:53.0000000+00:00
+      tag_name: v1.8.1
+      name: Bug fix to points system
+      published_at: 2025-11-18T22:06:32.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
