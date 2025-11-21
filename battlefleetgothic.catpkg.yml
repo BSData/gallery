@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 16 Nov 2025 04:26:38 GMT
+      LastModified: Fri, 21 Nov 2025 20:28:44 GMT
     properties:
-      tag_name: v2.5.21
-      name: Conqueror removed, SM escorts tweaked for Armageddon Imp Navy.
-      published_at: 2025-11-16T04:26:01.0000000+00:00
+      tag_name: v2.5.22
+      name: Imp Navy escorts fixed
+      published_at: 2025-11-21T20:28:16.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.5.21
-      lastUpdated: 2025-11-16T04:25:00.0000000+00:00
-      lastUpdateDescription: Conqueror removed, SM escorts tweaked for Armageddon Imp Navy.
+      version: v2.5.22
+      lastUpdated: 2025-11-21T20:27:17.0000000+00:00
+      lastUpdateDescription: Imp Navy escorts fixed
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.21/battlefleetgothic.v2.5.21.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.22/battlefleetgothic.v2.5.22.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
