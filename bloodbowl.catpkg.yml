@@ -12,6 +12,19 @@ cache:
       name: The End is Looming
       published_at: 2025-10-23T21:07:36.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 503
+    properties:
+      name: bloodbowl
+      description: Blood Bowl
+      battleScribeVersion: "2.03"
+      version: v3.9.3
+      lastUpdated: 2025-10-23T20:49:43.0000000+00:00
+      lastUpdateDescription: The End is Looming
+      indexUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.latest.bsi
+      repositoryUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/bloodbowl/releases/latest/download/bloodbowl.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/bloodbowl/releases/download/v3.9.3/bloodbowl.v3.9.3.bsr
+      githubUrl: https://github.com/BSData/bloodbowl
+      feedUrl: https://github.com/BSData/bloodbowl/releases.atom
+      bugTrackerUrl: https://github.com/BSData/bloodbowl/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/bloodbowl
 
