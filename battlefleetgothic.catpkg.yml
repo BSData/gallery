@@ -12,6 +12,19 @@ cache:
       name: Imp Navy escorts fixed
       published_at: 2025-11-21T20:28:16.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 503
+    properties:
+      name: battlefleetgothic
+      description: Battlefleet Gothic
+      battleScribeVersion: "2.03"
+      version: v2.5.22
+      lastUpdated: 2025-11-21T20:27:17.0000000+00:00
+      lastUpdateDescription: Imp Navy escorts fixed
+      indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
+      repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.22/battlefleetgothic.v2.5.22.bsr
+      githubUrl: https://github.com/BSData/battlefleetgothic
+      feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
+      bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/battlefleetgothic
 
