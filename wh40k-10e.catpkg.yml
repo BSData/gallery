@@ -2,8 +2,8 @@ location:
   github: BSData/wh40k-10e
 cache:
   repo:
-    apiRequestError:
-      exception: Connection refused (api.github.com:443)
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Mon, 17 Mar 2025 21:17:10 GMT
