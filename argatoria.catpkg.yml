@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 18 Dec 2025 21:31:07 GMT
+      LastModified: Fri, 19 Dec 2025 19:26:45 GMT
     properties:
-      tag_name: v2.0.3
-      name: ' Added marauders rule and competitive play bases count '
-      published_at: 2025-12-18T21:30:25.0000000+00:00
+      tag_name: v2.0.4
+      name: Prayers
+      published_at: 2025-12-19T19:26:12.0000000+00:00
   catpkg:
     properties:
       name: argatoria
       description: Argatoria
       battleScribeVersion: "2.03"
-      version: v2.0.3
-      lastUpdated: 2025-12-18T21:29:37.0000000+00:00
-      lastUpdateDescription: ' Added marauders rule and competitive play bases count '
+      version: v2.0.4
+      lastUpdated: 2025-12-19T19:25:46.0000000+00:00
+      lastUpdateDescription: Prayers
       indexUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.latest.bsi
       repositoryUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/argatoria/releases/download/v2.0.3/argatoria.v2.0.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/argatoria/releases/download/v2.0.4/argatoria.v2.0.4.bsr
       githubUrl: https://github.com/BSData/argatoria
       feedUrl: https://github.com/BSData/argatoria/releases.atom
       bugTrackerUrl: https://github.com/BSData/argatoria/issues
