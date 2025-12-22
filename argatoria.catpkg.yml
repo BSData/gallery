@@ -12,19 +12,6 @@ cache:
       name: Prayers
       published_at: 2025-12-19T19:26:12.0000000+00:00
   catpkg:
-    properties:
-      name: argatoria
-      description: Argatoria
-      battleScribeVersion: "2.03"
-      version: v2.0.4
-      lastUpdated: 2025-12-19T19:25:46.0000000+00:00
-      lastUpdateDescription: Prayers
-      indexUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.latest.bsi
-      repositoryUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/argatoria/releases/download/v2.0.4/argatoria.v2.0.4.bsr
-      githubUrl: https://github.com/BSData/argatoria
-      feedUrl: https://github.com/BSData/argatoria/releases.atom
-      bugTrackerUrl: https://github.com/BSData/argatoria/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/argatoria
+    apiRequestError:
+      exception: An error occurred while sending the request.
 
