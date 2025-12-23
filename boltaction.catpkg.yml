@@ -12,6 +12,19 @@ cache:
       name: Added Slovakia, added Sardinian Grenadiers
       published_at: 2024-02-05T16:36:38.0000000+00:00
   catpkg:
-    apiRequestError:
-      exception: An error occurred while sending the request.
+    properties:
+      name: boltaction
+      description: Bolt Action
+      battleScribeVersion: "2.03"
+      version: 6.5.0
+      lastUpdated: 2024-02-05T16:34:28.0000000+00:00
+      lastUpdateDescription: Added Slovakia, added Sardinian Grenadiers
+      indexUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.latest.bsi
+      repositoryUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/boltaction/releases/latest/download/boltaction.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/boltaction/releases/download/6.5.0/boltaction.6.5.0.bsr
+      githubUrl: https://github.com/BSData/boltaction
+      feedUrl: https://github.com/BSData/boltaction/releases.atom
+      bugTrackerUrl: https://github.com/BSData/boltaction/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/boltaction
 
