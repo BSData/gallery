@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 02 Jan 2026 17:28:26 GMT
+      LastModified: Tue, 06 Jan 2026 02:16:33 GMT
     properties:
-      tag_name: v1.8.3
-      name: Wolf Pred - point update
-      published_at: 2026-01-02T17:28:26.0000000+00:00
+      tag_name: v1.9
+      name: Additional units / fixes
+      published_at: 2026-01-06T02:16:33.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
