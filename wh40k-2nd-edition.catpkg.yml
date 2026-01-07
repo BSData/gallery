@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 06 Jan 2026 02:16:33 GMT
+      LastModified: Wed, 07 Jan 2026 01:46:16 GMT
     properties:
-      tag_name: v1.9
-      name: Additional units / fixes
-      published_at: 2026-01-06T02:16:33.0000000+00:00
+      tag_name: v1.9.2
+      name: Marine Teleporting fix
+      published_at: 2026-01-07T01:46:16.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
