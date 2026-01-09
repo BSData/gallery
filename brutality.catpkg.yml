@@ -5,7 +5,7 @@ cache:
     properties:
       archived: false
   latestRelease:
-    apiRequestError:
-      exception: Connection refused (api.github.com:443)
+    apiResponseError:
+      code: 404
   catpkg: {}
 

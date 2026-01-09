@@ -5,7 +5,26 @@ cache:
     properties:
       archived: false
   latestRelease:
-    apiRequestError:
-      exception: Connection refused (api.github.com:443)
-  catpkg: {}
+    apiHeaders:
+      LastModified: Wed, 05 Nov 2025 11:51:52 GMT
+    properties:
+      tag_name: v2511.3
+      name: Spooky Edition
+      published_at: 2025-11-05T11:51:11.0000000+00:00
+  catpkg:
+    properties:
+      name: bushido
+      description: Bushido
+      battleScribeVersion: "2.03"
+      version: v2511.3
+      lastUpdated: 2025-11-05T11:46:09.0000000+00:00
+      lastUpdateDescription: Spooky Edition
+      indexUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.latest.bsi
+      repositoryUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/bushido/releases/latest/download/bushido.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/bushido/releases/download/v2511.3/bushido.v2511.3.bsr
+      githubUrl: https://github.com/BSData/bushido
+      feedUrl: https://github.com/BSData/bushido/releases.atom
+      bugTrackerUrl: https://github.com/BSData/bushido/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/bushido
 
