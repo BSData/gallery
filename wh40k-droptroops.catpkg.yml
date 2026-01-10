@@ -2,8 +2,8 @@ location:
   github: brendanmint/wh40k-droptroops
 cache:
   repo:
-    apiResponseError:
-      code: 504
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sat, 09 Mar 2024 19:37:12 GMT
