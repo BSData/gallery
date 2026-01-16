@@ -2,8 +2,8 @@ location:
   github: BSData/blood-steel
 cache:
   repo:
-    apiRequestError:
-      exception: Connection refused (api.github.com:443)
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Thu, 14 Jul 2022 18:17:01 GMT
