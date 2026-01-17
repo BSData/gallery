@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 26 Jun 2025 07:23:00 GMT
+      LastModified: Sat, 17 Jan 2026 08:30:16 GMT
     properties:
-      tag_name: v9.93.3
-      name: Bellator Magno does not have ardex
-      published_at: 2025-06-26T07:22:29.0000000+00:00
+      tag_name: v9.93.5
+      name: remove tracking gyros on engines where it does not make sense
+      published_at: 2026-01-17T08:29:46.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: v9.93.3
-      lastUpdated: 2025-06-25T09:08:52.0000000+00:00
-      lastUpdateDescription: Bellator Magno does not have ardex
+      version: v9.93.5
+      lastUpdated: 2026-01-17T08:26:03.0000000+00:00
+      lastUpdateDescription: remove tracking gyros on engines where it does not make sense
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.93.3/adeptus-titanicus.v9.93.3.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.93.5/adeptus-titanicus.v9.93.5.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
