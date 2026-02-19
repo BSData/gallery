@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 19 Feb 2026 00:17:01 GMT
+      LastModified: Thu, 19 Feb 2026 16:54:55 GMT
     properties:
-      tag_name: v2602.5
+      tag_name: v2602.6
       name: Consequences of Balance Edition
-      published_at: 2026-02-19T00:16:14.0000000+00:00
+      published_at: 2026-02-19T16:54:55.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
