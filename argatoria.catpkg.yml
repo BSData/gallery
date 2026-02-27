@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 06 Feb 2026 20:56:29 GMT
+      LastModified: Fri, 27 Feb 2026 17:13:03 GMT
     properties:
-      tag_name: v2.0.5
-      name: Fixed Truhlaks on fallen ogars for Lord Necromancer. Fixed Banner of Wolf Brotherhood
-      published_at: 2026-02-06T20:55:45.0000000+00:00
+      tag_name: v2.2.0
+      name: Rulebook Ver. 2.2
+      published_at: 2026-02-27T17:12:23.0000000+00:00
   catpkg:
     properties:
       name: argatoria
       description: Argatoria
       battleScribeVersion: "2.03"
-      version: v2.0.5
-      lastUpdated: 2026-02-06T20:54:26.0000000+00:00
-      lastUpdateDescription: Fixed Truhlaks on fallen ogars for Lord Necromancer. Fixed Banner of Wolf Brotherhood
+      version: v2.2.0
+      lastUpdated: 2026-02-27T17:10:56.0000000+00:00
+      lastUpdateDescription: Rulebook Ver. 2.2
       indexUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.latest.bsi
       repositoryUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/argatoria/releases/latest/download/argatoria.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/argatoria/releases/download/v2.0.5/argatoria.v2.0.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/argatoria/releases/download/v2.2.0/argatoria.v2.2.0.bsr
       githubUrl: https://github.com/BSData/argatoria
       feedUrl: https://github.com/BSData/argatoria/releases.atom
       bugTrackerUrl: https://github.com/BSData/argatoria/issues
