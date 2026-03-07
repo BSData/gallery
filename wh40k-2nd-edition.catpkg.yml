@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 19 Jan 2026 19:31:14 GMT
+      LastModified: Fri, 06 Mar 2026 22:38:11 GMT
     properties:
-      tag_name: v1.9.4
-      name: Squat wargear fixes
-      published_at: 2026-01-19T19:31:14.0000000+00:00
+      tag_name: v1.9.5
+      name: Bug fixes
+      published_at: 2026-03-06T22:38:11.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
