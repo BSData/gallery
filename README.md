@@ -50,6 +50,10 @@ location:
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed instructions.
 
+## Architecture
+
+See [docs/architecture.md](docs/architecture.md) for a detailed description of how the workflows operate, including a data flow diagram.
+
 ## Repository Structure
 
 ```
