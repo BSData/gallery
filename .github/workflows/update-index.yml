@@ -13,7 +13,6 @@ on:
 env:
   GALLERY_JSON: bsdata.catpkg-gallery.json
   RELEASE_TAG: index-v1
-  ENABLE_GHPAGES_UPDATE: false
 jobs:
   update-index:
     runs-on: ubuntu-latest
@@ -22,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
-          path: master
+          path: main
 
       - name: Checkout index
         uses: actions/checkout@v4
@@ -30,23 +29,24 @@ jobs:
           ref: index
           path: index
 
-      - uses: ./master/.github/actions/install-yaml
+      - uses: ./main/.github/actions/install-yaml
 
       - name: Compile index
-        uses: Amadevus/pwsh-script@v2
         id: compile
-        with:
-          script: |
-            $ErrorActionPreference = 'Stop'
-            $args = @{
-              IndexPath = Resolve-Path ./index
-              RegistryPath = Resolve-Path ./master/registry
-              GalleryJsonPath = $env:GALLERY_JSON
-              Token = $github.token
-            }
-            ./master/.github/scripts/Update-IndexCache.ps1 @args -Verbose
-            # save master's SHA to associate branches
-            "master-sha: $env:GITHUB_SHA" > index/master-sha.yml
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $args = @{
+            IndexPath = Resolve-Path ./index
+            RegistryPath = Resolve-Path ./main/registry
+            GalleryJsonPath = $env:GALLERY_JSON
+            Token = $env:GITHUB_TOKEN
+          }
+          ./main/.github/scripts/Update-IndexCache.ps1 @args -Verbose
+          # save main's SHA to associate branches
+          "main-sha: $env:GITHUB_SHA" > index/main-sha.yml
 
       - name: Upload gallery-json as workflow artifact
         if: success() || failure()
@@ -57,29 +57,29 @@ jobs:
         continue-on-error: true
 
       - name: Format index commit message
-        uses: Amadevus/pwsh-script@v2
         id: format_index_msg
-        with:
-          script: |
-            Set-Location ./index
-            # get list of changed files
-            $pkgids = @((git status --porcelain | % { $_.Substring(3) } | Split-Path -Leaf) -replace '\.catpkg\.yml$','')
-            if ($pkgids.Length -eq 0) {
-              Write-Host 'No changes in the index' -ForegroundColor Green
-              return
-            }
-            # create commit message
-            $summary = if ($pkgids.Length -eq 1) {
-              $pkgids
-            } else {
-              "{0} (+{1} more)" -f $pkgids[0],($pkgids.Length - 1)
-            }
-            $message = @"
-            Changed: $summary
+        shell: pwsh
+        run: |
+          Set-Location ./index
+          # get list of changed files
+          $pkgids = @((git status --porcelain | % { $_.Substring(3) } | Split-Path -Leaf) -replace '\.catpkg\.yml$','')
+          if ($pkgids.Length -eq 0) {
+            Write-Host 'No changes in the index' -ForegroundColor Green
+            "result=" >> $env:GITHUB_OUTPUT
+            return
+          }
+          # create commit message
+          $summary = if ($pkgids.Length -eq 1) {
+            $pkgids
+          } else {
+            "{0} (+{1} more)" -f $pkgids[0],($pkgids.Length - 1)
+          }
+          $message = @"
+          Changed: $summary
 
-            $($pkgids -join "`n")
-            "@
-            return $message
+          $($pkgids -join "`n")
+          "@
+          "result=$message" >> $env:GITHUB_OUTPUT
 
       - name: Push index changes
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -124,39 +124,3 @@ jobs:
             })
             console.log('Done');
             return upload;
-
-      - name: Checkout gh-pages
-        if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          path: gh-pages
-
-      - name: Update dataindex
-        if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
-        uses: Amadevus/pwsh-script@v2
-        id: update
-        env:
-          COMPILE_RESULT: ${{ needs.update-index.outputs.compile_result }}
-        with:
-          script: |
-            $ErrorActionPreference = 'Stop'
-            $compileResult = $env:COMPILE_RESULT | ConvertFrom-Json
-            $owner, $repo = $github.repository -split '/'
-            $subpath = "dataindex"
-            $args = @{
-              IndexPath = Resolve-Path ./index
-              DataPath = Resolve-Path (New-Item "./gh-pages/$subpath" -ItemType Directory -Force)
-              DataBaseUrl = "https://$owner.github.io/$repo/$subpath"
-              GalleryJsonPath = $env:GALLERY_JSON
-              ChangedIndexPath = $compileResult.changed_index_paths
-              Token = $github.token
-            }
-            ./master/.github/scripts/Update-GhPagesData.ps1 @args -Verbose
-
-      - name: Push gh-pages changes
-        if: steps.push-index.outputs.changes_detected == 'true' && env.ENABLE_GHPAGES_UPDATE == 'true'
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: ":robot: update data index"
-          repository: gh-pages

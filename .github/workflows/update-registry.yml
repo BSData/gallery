@@ -4,7 +4,7 @@ on:
     - cron: "0 9 * * *" # at 9:00
   push:
     branches:
-      - master
+      - main
     paths:
       - ".github/workflows/update-registry.yml"
       - ".github/scripts/**"
@@ -13,47 +13,50 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout master
+      - name: Checkout main
         uses: actions/checkout@v4
 
       - uses: ./.github/actions/install-yaml
 
       - name: Update registry entries
-        uses: Amadevus/pwsh-script@v2
         id: update
-        with:
-          script: |
-            $ErrorActionPreference = 'Stop'
-            $args = @{
-              RegistryPath = Resolve-Path ./registry
-              Token = $github.token
-            }
-            ./.github/scripts/Update-Registry.ps1 @args -Verbose
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $args = @{
+            RegistryPath = Resolve-Path ./registry
+            Token = $env:GITHUB_TOKEN
+          }
+          $result = ./.github/scripts/Update-Registry.ps1 @args -Verbose
+          "result=$($result | ConvertTo-Json -Compress -Depth 5)" >> $env:GITHUB_OUTPUT
 
       - name: Format PR text
-        uses: Amadevus/pwsh-script@v2
         id: formatting
+        shell: pwsh
         env:
           UPDATE_JSON: ${{ steps.update.outputs.result }}
-        with:
-          script: |
-            $repos = $env:UPDATE_JSON | ConvertFrom-Json
-            $adds = $repos.add | Where-Object { $_ } | ForEach-Object { "- add $($_.html_url)`n" }
-            $dels = $repos.del | Where-Object { $_ } | ForEach-Object { "- rem $($_.html_url) *($($_.reason))*`n" }
-            @{
-              count = $repos.count
-              pr_body_repo_list = -join @($adds + $dels)
-            }
+        run: |
+          $repos = $env:UPDATE_JSON | ConvertFrom-Json
+          $adds = $repos.add | Where-Object { $_ } | ForEach-Object { "- add $($_.html_url)`n" }
+          $dels = $repos.del | Where-Object { $_ } | ForEach-Object { "- rem $($_.html_url) *($($_.reason))*`n" }
+          $count = $repos.count
+          $pr_body_repo_list = -join @($adds + $dels)
+          "count=$count" >> $env:GITHUB_OUTPUT
+          "pr_body_repo_list<<EOF" >> $env:GITHUB_OUTPUT
+          $pr_body_repo_list >> $env:GITHUB_OUTPUT
+          "EOF" >> $env:GITHUB_OUTPUT
 
       - name: Create PR with registry updates
         uses: peter-evans/create-pull-request@v8
         with:
-          commit-message: ":robot: Update ${{ fromJSON(steps.formatting.outputs.result).count }} registry entries"
+          commit-message: ":robot: Update ${{ steps.formatting.outputs.count }} registry entries"
           branch: bot/registry-update
           delete-branch: true
           title: "🤖 Update registry entries"
           body: |
             Updated repositories:
-            ${{ fromJSON(steps.formatting.outputs.result).pr_body_repo_list }}
+            ${{ steps.formatting.outputs.pr_body_repo_list }}
 
             [Workflow run](https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }})

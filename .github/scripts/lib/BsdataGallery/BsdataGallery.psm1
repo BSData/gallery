@@ -86,7 +86,7 @@ function Get-GHApiUpdatedResult {
       Headers                 = & {
         $requestHeaders = @{ }
         if ($Token) {
-          $requestHeaders['Authorization'] = "token $Token"
+          $requestHeaders['Authorization'] = "Bearer $Token"
         }
         if ($LastModified) {
           $requestHeaders['If-Modified-Since'] = $LastModified
@@ -172,7 +172,7 @@ function Get-UpdatedCache {
     [string]$Token,
 
     [Parameter()]
-    [string]$DisableLastModifiedCaching
+    [switch]$DisableLastModifiedCaching
   )
 
   # prepare result object
@@ -289,7 +289,7 @@ function Update-BsdataGalleryIndex {
     [string]$Token,
 
     [Parameter()]
-    [string]$DisableLastModifiedCaching
+    [switch]$DisableLastModifiedCaching
   )
 
   # read registry entries

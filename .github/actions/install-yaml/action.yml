@@ -5,5 +5,5 @@ runs:
   steps:
     - run: |
         Import-Module powershell-yaml -ErrorAction:Ignore
-        || Install-Module powershell-yaml -RequiredVersion 0.4.2 -Force
+        || Install-Module powershell-yaml -RequiredVersion 0.4.7 -Force
       shell: pwsh

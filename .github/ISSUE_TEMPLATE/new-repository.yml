@@ -1,0 +1,22 @@
+name: New Repository Request
+description: Request adding a new BattleScribe data repository to the gallery
+title: "Add repository: "
+labels: ["new-repository"]
+body:
+  - type: input
+    id: repo-url
+    attributes:
+      label: Repository URL
+      description: Full GitHub URL of the repository to add
+      placeholder: "https://github.com/owner/repo-name"
+    validations:
+      required: true
+  - type: checkboxes
+    id: prerequisites
+    attributes:
+      label: Prerequisites
+      options:
+        - label: Repository is publicly accessible
+          required: true
+        - label: Repository has the `battlescribe-data` topic
+        - label: Repository has a published release with a `.catpkg.json` asset

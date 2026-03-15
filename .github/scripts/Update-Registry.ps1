@@ -4,15 +4,16 @@ param (
   [string] $RegistryPath,
 
   [Parameter()]
-  [string] $Token
+  [string] $Token,
+
+  [Parameter()]
+  [string] $ParentOrgName = 'BSData'
 )
 
 #Requires -Version 7
 #Requires -Module powershell-yaml
 
-$parentOrgName = 'BSData'
-
-$query = "topic:battlescribe-data+org:$parentOrgName"
+$query = "topic:battlescribe-data+org:$ParentOrgName"
 $apiRepoSearchArgs = @{
   Method        = 'GET'
   Uri           = "https://api.github.com/search/repositories?q=$query"
@@ -22,7 +23,7 @@ $apiRepoSearchArgs = @{
   }
 }
 if ($Token) {
-  $apiRepoSearchArgs.Headers['Authorization'] = "token $token"
+  $apiRepoSearchArgs.Headers['Authorization'] = "Bearer $Token"
 }
 $apiRepoSearchResult = Invoke-RestMethod @apiRepoSearchArgs
 $repositories = @($apiRepoSearchResult.items | Sort-Object full_name)
@@ -57,7 +58,7 @@ $reposNoLongerExisting = $regEntries | Where-Object {
     # we've got it in API response, so it surely exists
     return $false
   }
-  if ($reponame -match "^$parentOrgName/" -and $reponame -notin $orgRepoNames) {
+  if ($reponame -match "^$ParentOrgName/" -and $reponame -notin $orgRepoNames) {
     # we've not got it in API response and it's from requested org,
     # so it doesn't meet search criteria (e.g. no 'battlescribe-data' topic)
     $_.del_reason = "not found in org repos query results"
@@ -68,7 +69,7 @@ $reposNoLongerExisting = $regEntries | Where-Object {
     Uri                = "https://api.github.com/repos/$reponame"
     StatusCodeVariable = 'status'
     SkipHttpErrorCheck = $true
-    Headers            = ($Token ? @{ Authorization = "token $Token" } : @{})
+    Headers            = ($Token ? @{ Authorization = "Bearer $Token" } : @{})
   }
   $null = Invoke-RestMethod @apiRepoGetArgs
   $notFound = $status -eq 404

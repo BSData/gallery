@@ -12,18 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/install-yaml
       - name: Validate registry
-        uses: Amadevus/pwsh-script@v2
-        with:
-          script: |
-            $ErrorActionPreference = 'Continue'
-            $entries = @()
-            if ($github.base_ref) {
-              # we are in a pull request, let's only check changed entries
-              $baseRefBranch = 'refs/heads/base'
-              git fetch --depth=1 origin "+$($github.base_ref):$baseRefBranch" | Out-Host
-              # get a list of files changed in PR
-              $entries = git diff-tree --no-commit-id --name-only -r HEAD $baseRefBranch
-              Write-Host "Changed files:"
-              $entries | Out-Host
-            }
-            ./.github/scripts/Validate-Registry.ps1 -Entries $entries -Token $github.token
+        shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          $ErrorActionPreference = 'Continue'
+          $entries = @()
+          if ($env:GITHUB_BASE_REF) {
+            # we are in a pull request, let's only check changed entries
+            $baseRefBranch = 'refs/heads/base'
+            git fetch --depth=1 origin "+$($env:GITHUB_BASE_REF):$baseRefBranch" | Out-Host
+            # get a list of files changed in PR
+            $entries = git diff-tree --no-commit-id --name-only -r HEAD $baseRefBranch
+            Write-Host "Changed files:"
+            $entries | Out-Host
+          }
+          ./.github/scripts/Validate-Registry.ps1 -Entries $entries -Token $env:GITHUB_TOKEN
