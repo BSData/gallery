@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 28 Mar 2026 14:17:49 GMT
+      LastModified: Sun, 29 Mar 2026 09:36:16 GMT
     properties:
-      tag_name: v1.14.2
-      name: Added new ships from UCM 260327 update
-      published_at: 2026-03-28T14:17:20.0000000+00:00
+      tag_name: v1.14.3
+      name: Fix UCM Siam Elapid turrets, Shaltari Feature Carrier handling
+      published_at: 2026-03-29T09:35:51.0000000+00:00
   catpkg:
     properties:
       name: dropfleet-commander-2024
       description: Dropfleet Commander (2024)
       battleScribeVersion: "2.03"
-      version: v1.14.2
-      lastUpdated: 2026-03-28T14:16:38.0000000+00:00
-      lastUpdateDescription: Added new ships from UCM 260327 update
+      version: v1.14.3
+      lastUpdated: 2026-03-29T09:31:30.0000000+00:00
+      lastUpdateDescription: Fix UCM Siam Elapid turrets, Shaltari Feature Carrier handling
       indexUrl: https://github.com/BSData/dropfleet-commander-2024/releases/latest/download/dropfleet-commander-2024.latest.bsi
       repositoryUrl: https://github.com/BSData/dropfleet-commander-2024/releases/latest/download/dropfleet-commander-2024.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dropfleet-commander-2024/releases/latest/download/dropfleet-commander-2024.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dropfleet-commander-2024/releases/download/v1.14.2/dropfleet-commander-2024.v1.14.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/dropfleet-commander-2024/releases/download/v1.14.3/dropfleet-commander-2024.v1.14.3.bsr
       githubUrl: https://github.com/BSData/dropfleet-commander-2024
       feedUrl: https://github.com/BSData/dropfleet-commander-2024/releases.atom
       bugTrackerUrl: https://github.com/BSData/dropfleet-commander-2024/issues
