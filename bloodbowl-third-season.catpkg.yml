@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 25 Feb 2026 21:10:22 GMT
+      LastModified: Mon, 30 Mar 2026 22:16:01 GMT
     properties:
-      tag_name: v.0.2.0
-      name: It's a slow brew
-      published_at: 2026-02-25T21:09:35.0000000+00:00
+      tag_name: v.0.3.0
+      name: High Elfs are out of the bag
+      published_at: 2026-03-30T22:15:20.0000000+00:00
   catpkg:
     properties:
       name: bloodbowl-third-season
       description: Blood Bowl - Third Season
       battleScribeVersion: "2.03"
-      version: v.0.2.0
-      lastUpdated: 2026-02-25T20:54:31.0000000+00:00
-      lastUpdateDescription: It's a slow brew
+      version: v.0.3.0
+      lastUpdated: 2026-03-21T23:09:13.0000000+00:00
+      lastUpdateDescription: High Elfs are out of the bag
       indexUrl: https://github.com/BSData/bloodbowl-third-season/releases/latest/download/bloodbowl-third-season.latest.bsi
       repositoryUrl: https://github.com/BSData/bloodbowl-third-season/releases/latest/download/bloodbowl-third-season.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/bloodbowl-third-season/releases/latest/download/bloodbowl-third-season.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/bloodbowl-third-season/releases/download/v.0.2.0/bloodbowl-third-season.v.0.2.0.bsr
+      repositoryBsrUrl: https://github.com/BSData/bloodbowl-third-season/releases/download/v.0.3.0/bloodbowl-third-season.v.0.3.0.bsr
       githubUrl: https://github.com/BSData/bloodbowl-third-season
       feedUrl: https://github.com/BSData/bloodbowl-third-season/releases.atom
       bugTrackerUrl: https://github.com/BSData/bloodbowl-third-season/issues
