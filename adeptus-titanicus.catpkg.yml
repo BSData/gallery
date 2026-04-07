@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 17 Jan 2026 08:30:16 GMT
+      LastModified: Tue, 07 Apr 2026 06:08:26 GMT
     properties:
-      tag_name: v9.93.5
-      name: remove tracking gyros on engines where it does not make sense
-      published_at: 2026-01-17T08:29:46.0000000+00:00
+      tag_name: v9.93.6
+      name: Fix stratagem point for Fuelled by Hatred
+      published_at: 2026-04-07T06:07:57.0000000+00:00
   catpkg:
     properties:
       name: adeptus-titanicus
       description: Adeptus Titanicus
       battleScribeVersion: "2.03"
-      version: v9.93.5
-      lastUpdated: 2026-01-17T08:26:03.0000000+00:00
-      lastUpdateDescription: remove tracking gyros on engines where it does not make sense
+      version: v9.93.6
+      lastUpdated: 2026-04-07T06:03:00.0000000+00:00
+      lastUpdateDescription: Fix stratagem point for Fuelled by Hatred
       indexUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.latest.bsi
       repositoryUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/adeptus-titanicus/releases/latest/download/adeptus-titanicus.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.93.5/adeptus-titanicus.v9.93.5.bsr
+      repositoryBsrUrl: https://github.com/BSData/adeptus-titanicus/releases/download/v9.93.6/adeptus-titanicus.v9.93.6.bsr
       githubUrl: https://github.com/BSData/adeptus-titanicus
       feedUrl: https://github.com/BSData/adeptus-titanicus/releases.atom
       bugTrackerUrl: https://github.com/BSData/adeptus-titanicus/issues
