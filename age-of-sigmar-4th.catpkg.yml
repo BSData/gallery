@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 25 Feb 2026 20:38:24 GMT
+      LastModified: Sat, 07 Feb 2026 20:13:28 GMT
     properties:
-      tag_name: battletome.dot/battletome.lrl
-      name: 'Battletome: Disciples of Tzeentch + Battletome: Lumineth Realm-lords'
-      published_at: 2026-02-25T20:38:24.0000000+00:00
+      tag_name: battletome.mon
+      name: 'Battletome: Maggotkin of Nurgle'
+      published_at: 2026-02-07T20:13:28.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
