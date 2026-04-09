@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 07 Feb 2026 20:13:28 GMT
+      LastModified: Thu, 09 Apr 2026 19:13:49 GMT
     properties:
-      tag_name: battletome.mon
-      name: 'Battletome: Maggotkin of Nurgle'
-      published_at: 2026-02-07T20:13:28.0000000+00:00
+      tag_name: battlescroll-2026-03
+      name: Battlescroll 2026 March
+      published_at: 2026-04-09T19:13:49.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
