@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 09 Apr 2026 19:13:49 GMT
+      LastModified: Wed, 15 Apr 2026 21:43:20 GMT
     properties:
-      tag_name: battlescroll-2026-03
-      name: Battlescroll 2026 March
-      published_at: 2026-04-09T19:13:49.0000000+00:00
+      tag_name: battletome.dok/battletome.syl
+      name: 'Battletome: Daughters of Khaine + Battletome: Sylvaneth'
+      published_at: 2026-04-15T21:43:20.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
