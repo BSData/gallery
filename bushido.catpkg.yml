@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 16 Mar 2026 23:17:36 GMT
+      LastModified: Thu, 16 Apr 2026 13:44:57 GMT
     properties:
-      tag_name: v2602.8
-      name: Consequences of Balance Edition
-      published_at: 2026-03-16T23:17:36.0000000+00:00
+      tag_name: v2604
+      name: Jungle Love Edition
+      published_at: 2026-04-16T13:44:57.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
