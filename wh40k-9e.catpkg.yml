@@ -14,19 +14,6 @@ cache:
       name: Final Release of 9th Edition
       published_at: 2023-10-19T14:10:11.0000000+00:00
   catpkg:
-    properties:
-      name: wh40k-9e
-      description: Warhammer 40,000 - 9th Edition
-      battleScribeVersion: "2.03"
-      version: v9.8.0
-      lastUpdated: 2023-10-19T14:08:09.0000000+00:00
-      lastUpdateDescription: Final Release of 9th Edition
-      indexUrl: https://github.com/BSData/wh40k-9e/releases/latest/download/wh40k-9e.latest.bsi
-      repositoryUrl: https://github.com/BSData/wh40k-9e/releases/latest/download/wh40k-9e.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/wh40k-9e/releases/latest/download/wh40k-9e.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/wh40k-9e/releases/download/v9.8.0/wh40k-9e.v9.8.0.bsr
-      githubUrl: https://github.com/BSData/wh40k-9e
-      feedUrl: https://github.com/BSData/wh40k-9e/releases.atom
-      bugTrackerUrl: https://github.com/BSData/wh40k-9e/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/wh40k-9e
+    apiResponseError:
+      code: 504
 
