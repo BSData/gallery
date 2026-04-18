@@ -12,19 +12,6 @@ cache:
       name: 'fixes #307'
       published_at: 2026-03-24T17:43:16.0000000+00:00
   catpkg:
-    properties:
-      name: battlefleetgothic
-      description: Battlefleet Gothic
-      battleScribeVersion: "2.03"
-      version: v2.5.26
-      lastUpdated: 2026-03-24T17:37:52.0000000+00:00
-      lastUpdateDescription: 'fixes #307'
-      indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
-      repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.26/battlefleetgothic.v2.5.26.bsr
-      githubUrl: https://github.com/BSData/battlefleetgothic
-      feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
-      bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/battlefleetgothic
+    apiResponseError:
+      code: 504
 
