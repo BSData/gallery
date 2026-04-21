@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 18 Apr 2026 20:32:36 GMT
+      LastModified: Tue, 21 Apr 2026 14:23:26 GMT
     properties:
-      tag_name: v2604.2
+      tag_name: v2604.3
       name: Jungle Love Edition
-      published_at: 2026-04-18T20:32:36.0000000+00:00
+      published_at: 2026-04-21T14:23:26.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
