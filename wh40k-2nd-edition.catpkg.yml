@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 06 Mar 2026 22:38:11 GMT
+      LastModified: Mon, 11 May 2026 19:19:56 GMT
     properties:
-      tag_name: v1.9.5
-      name: Bug fixes
-      published_at: 2026-03-06T22:38:11.0000000+00:00
+      tag_name: v1.9.7
+      name: Blood axe boys - missing assault weapons
+      published_at: 2026-05-11T19:19:56.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
