@@ -2,8 +2,10 @@ location:
   github: BSData/blood-bowl-2016
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 22:10:09 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Sun, 18 Jul 2021 06:43:50 GMT

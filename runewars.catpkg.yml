@@ -2,8 +2,10 @@ location:
   github: BSData/runewars
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 22:06:32 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Sun, 22 Nov 2020 06:31:21 GMT

@@ -2,8 +2,10 @@ location:
   github: BSData/monsterpocalypse
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 22:00:59 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Sat, 13 Apr 2019 13:47:48 GMT

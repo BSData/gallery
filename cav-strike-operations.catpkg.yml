@@ -2,8 +2,10 @@ location:
   github: BSData/cav-strike-operations
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 22:00:21 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Wed, 26 Jun 2019 05:09:41 GMT

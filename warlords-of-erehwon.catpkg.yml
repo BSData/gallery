@@ -2,8 +2,10 @@ location:
   github: BSData/warlords-of-erehwon
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 21:58:20 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Mon, 24 Feb 2020 10:28:07 GMT

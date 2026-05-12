@@ -2,8 +2,10 @@ location:
   github: BSData/relicblade
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 22:03:44 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Thu, 25 Jun 2020 07:30:54 GMT

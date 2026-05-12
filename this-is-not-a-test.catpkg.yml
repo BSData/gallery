@@ -2,8 +2,10 @@ location:
   github: BSData/this-is-not-a-test
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 22:01:23 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Sat, 07 Mar 2020 20:11:01 GMT

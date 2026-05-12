@@ -2,8 +2,8 @@ location:
   github: BSData/barons-war
 cache:
   repo:
-    properties:
-      archived: false
+    apiResponseError:
+      code: 404
   latestRelease:
     apiResponseError:
       code: 404

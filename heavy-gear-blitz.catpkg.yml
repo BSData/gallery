@@ -2,8 +2,10 @@ location:
   github: BSData/heavy-gear-blitz
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 22:04:07 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Wed, 12 Aug 2020 21:01:04 GMT

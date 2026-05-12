@@ -2,8 +2,10 @@ location:
   github: BSData/warcaster-neo-mechanika
 cache:
   repo:
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 22:11:42 GMT
     properties:
-      archived: false
+      archived: true
   latestRelease:
     apiHeaders:
       LastModified: Wed, 15 Sep 2021 13:22:39 GMT
