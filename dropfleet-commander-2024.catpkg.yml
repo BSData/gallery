@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 04 May 2026 12:46:20 GMT
+      LastModified: Wed, 13 May 2026 08:59:52 GMT
     properties:
-      tag_name: v1.15.10
-      name: Fix PHR Seleucus weapon validation + rename Venice UCM Battlenet
-      published_at: 2026-05-04T12:45:48.0000000+00:00
+      tag_name: v1.15.11
+      name: Add missing Provenance launch
+      published_at: 2026-05-13T08:59:17.0000000+00:00
   catpkg:
     properties:
       name: dropfleet-commander-2024
       description: Dropfleet Commander (2024)
       battleScribeVersion: "2.03"
-      version: v1.15.10
-      lastUpdated: 2026-05-04T12:44:44.0000000+00:00
-      lastUpdateDescription: Fix PHR Seleucus weapon validation + rename Venice UCM Battlenet
+      version: v1.15.11
+      lastUpdated: 2026-05-13T08:56:24.0000000+00:00
+      lastUpdateDescription: Add missing Provenance launch
       indexUrl: https://github.com/BSData/dropfleet-commander-2024/releases/latest/download/dropfleet-commander-2024.latest.bsi
       repositoryUrl: https://github.com/BSData/dropfleet-commander-2024/releases/latest/download/dropfleet-commander-2024.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/dropfleet-commander-2024/releases/latest/download/dropfleet-commander-2024.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dropfleet-commander-2024/releases/download/v1.15.10/dropfleet-commander-2024.v1.15.10.bsr
+      repositoryBsrUrl: https://github.com/BSData/dropfleet-commander-2024/releases/download/v1.15.11/dropfleet-commander-2024.v1.15.11.bsr
       githubUrl: https://github.com/BSData/dropfleet-commander-2024
       feedUrl: https://github.com/BSData/dropfleet-commander-2024/releases.atom
       bugTrackerUrl: https://github.com/BSData/dropfleet-commander-2024/issues
