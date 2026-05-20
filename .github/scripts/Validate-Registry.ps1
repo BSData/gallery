@@ -29,27 +29,16 @@ if ($env:GITHUB_ACTIONS -ne 'true') {
   function LogError($Message, $File) {
     Write-Error "$File`: $Message"
   }
-  function FormatFileRef($props, $msg) {
-    $file = $props['file']
-    $line = $props['line']
-    $col = $props['col']
-    $value = ''
-    if ($file) {
-      $position = $line ? $col ? "($line,$col)" : "($line)" : '';
-      $value += "${file}${position}: "
-    }
-    return $value + $message
-  }
 }
 else {
   function LogDebug($Message) {
-    Write-ActionDebug $Message
+    Write-Host "::debug::$Message"
   }
   function LogWarning($Message, $File) {
-    Write-ActionWarning $Message $File
+    Write-Host "::warning file=$File::$Message"
   }
   function LogError($Message, $File) {
-    Write-ActionError $Message $File
+    Write-Host "::error file=$File::$Message"
   }
 }
 
@@ -82,9 +71,8 @@ Get-ChildItem $entriesDir *.catpkg.yml | Sort-Object Name | ForEach-Object {
     StatusCodeVariable = 'status'
     SkipHttpErrorCheck = $true
     Headers            = @{
-      # preview api for 'topics'
-      Accept = 'application/vnd.github.mercy-preview+json'
-    } + ($Token ? @{ Authorization = "token $Token" } : @{} )
+      Accept = 'application/vnd.github.v3+json'
+    } + ($Token ? @{ Authorization = "Bearer $Token" } : @{} )
   }
   $apiRepo = Invoke-RestMethod @apiRepoArgs
   if ($status -ne 200) {
@@ -106,7 +94,7 @@ Get-ChildItem $entriesDir *.catpkg.yml | Sort-Object Name | ForEach-Object {
     Uri                = "$apiUrl/contents/.github/workflows"
     StatusCodeVariable = 'status'
     SkipHttpErrorCheck = $true
-    Headers            = ($Token ? @{ Authorization = "token $Token" } : @{} )
+    Headers            = ($Token ? @{ Authorization = "Bearer $Token" } : @{} )
   }
   $workflows = Invoke-RestMethod @getWorkflowsArgs
   $addWorkflowsSuggestion = @"
