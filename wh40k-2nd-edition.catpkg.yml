@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 11 May 2026 19:19:56 GMT
+      LastModified: Thu, 28 May 2026 03:51:15 GMT
     properties:
-      tag_name: v1.9.7
-      name: Blood axe boys - missing assault weapons
-      published_at: 2026-05-11T19:19:56.0000000+00:00
+      tag_name: v1.9.8
+      name: Squat and Ork fixes
+      published_at: 2026-05-28T03:51:15.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
