@@ -6,25 +6,12 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 31 May 2026 16:14:18 GMT
+      LastModified: Tue, 02 Jun 2026 17:53:45 GMT
     properties:
-      tag_name: v1.15.17
-      name: Fix Bioficer Sierra having extra Decon Blasters
-      published_at: 2026-05-31T16:13:47.0000000+00:00
+      tag_name: v1.15.18
+      name: Add Ex-7 Packet Runner
+      published_at: 2026-06-02T17:53:45.0000000+00:00
   catpkg:
-    properties:
-      name: dropfleet-commander-2024
-      description: Dropfleet Commander (2024)
-      battleScribeVersion: "2.03"
-      version: v1.15.17
-      lastUpdated: 2026-05-31T16:13:11.0000000+00:00
-      lastUpdateDescription: Fix Bioficer Sierra having extra Decon Blasters
-      indexUrl: https://github.com/BSData/dropfleet-commander-2024/releases/latest/download/dropfleet-commander-2024.latest.bsi
-      repositoryUrl: https://github.com/BSData/dropfleet-commander-2024/releases/latest/download/dropfleet-commander-2024.catpkg.json
-      repositoryGzipUrl: https://github.com/BSData/dropfleet-commander-2024/releases/latest/download/dropfleet-commander-2024.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/dropfleet-commander-2024/releases/download/v1.15.17/dropfleet-commander-2024.v1.15.17.bsr
-      githubUrl: https://github.com/BSData/dropfleet-commander-2024
-      feedUrl: https://github.com/BSData/dropfleet-commander-2024/releases.atom
-      bugTrackerUrl: https://github.com/BSData/dropfleet-commander-2024/issues
-      reportBugUrl: http://battlescribedata.appspot.com/#/repo/dropfleet-commander-2024
+    apiResponseError:
+      code: 404
 
