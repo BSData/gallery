@@ -13,5 +13,5 @@ cache:
       published_at: 2026-06-02T17:53:45.0000000+00:00
   catpkg:
     apiResponseError:
-      code: 404
+      code: 504
 
