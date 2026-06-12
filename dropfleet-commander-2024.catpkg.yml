@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 02 Jun 2026 17:53:45 GMT
+      LastModified: Fri, 12 Jun 2026 19:18:37 GMT
     properties:
-      tag_name: v1.15.18
-      name: Add Ex-7 Packet Runner
-      published_at: 2026-06-02T17:53:45.0000000+00:00
+      tag_name: v1.15.19
+      name: Fix Bioficer Oblivian Barge selection adding M-Type Barge instead
+      published_at: 2026-06-12T19:18:37.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
