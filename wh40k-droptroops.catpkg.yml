@@ -2,8 +2,8 @@ location:
   github: brendanmint/wh40k-droptroops
 cache:
   repo:
-    apiRequestError:
-      exception: 'Cannot convert argument "value", with value: "System.String[]", for "AddSeconds" to type "System.Double": "Cannot convert the "System.String[]" value of type "System.String[]" to type "System.Double"."'
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Sat, 09 Mar 2024 19:37:12 GMT
