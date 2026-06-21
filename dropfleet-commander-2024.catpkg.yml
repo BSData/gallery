@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 12 Jun 2026 19:18:37 GMT
+      LastModified: Sun, 21 Jun 2026 22:18:00 GMT
     properties:
-      tag_name: v1.15.19
-      name: Fix Bioficer Oblivian Barge selection adding M-Type Barge instead
-      published_at: 2026-06-12T19:18:37.0000000+00:00
+      tag_name: v1.15.20
+      name: Deep Space Tracking and Black Nano Drone fixes
+      published_at: 2026-06-21T22:18:00.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
