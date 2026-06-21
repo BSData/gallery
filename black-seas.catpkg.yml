@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 08 Jun 2026 09:52:55 GMT
+      LastModified: Sun, 21 Jun 2026 00:08:31 GMT
     properties:
-      tag_name: 1.2.10
-      name: Minor tweak to Tonnant special rules
-      published_at: 2026-06-08T09:52:55.0000000+00:00
+      tag_name: v1.2.11
+      name: Applying recent fixes to Russia
+      published_at: 2026-06-21T00:08:31.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
