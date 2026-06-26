@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 21 Jun 2026 22:18:00 GMT
+      LastModified: Fri, 26 Jun 2026 14:09:05 GMT
     properties:
-      tag_name: v1.15.20
-      name: Deep Space Tracking and Black Nano Drone fixes
-      published_at: 2026-06-21T22:18:00.0000000+00:00
+      tag_name: v1.15.21
+      name: Add PHR Avram Bei (260626 update)
+      published_at: 2026-06-26T14:09:05.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
