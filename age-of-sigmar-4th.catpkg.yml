@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 21 May 2026 22:18:13 GMT
+      LastModified: Sat, 27 Jun 2026 02:33:09 GMT
     properties:
-      tag_name: battletome.dok/battletome.syl
-      name: 'Battletome: Daughters of Khaine + Battletome: Sylvaneth'
-      published_at: 2026-05-21T22:18:13.0000000+00:00
+      tag_name: battletome.cos
+      name: 'Battletome: Cities Of Sigmar'
+      published_at: 2026-06-27T02:33:09.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
