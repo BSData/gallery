@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 27 Jun 2026 02:33:09 GMT
+      LastModified: Thu, 21 May 2026 22:17:12 GMT
     properties:
-      tag_name: battletome.cos
-      name: 'Battletome: Cities Of Sigmar'
-      published_at: 2026-06-27T02:33:09.0000000+00:00
+      tag_name: battletome.obr
+      name: 'Battletome: Ossiarch Bonereapers'
+      published_at: 2026-04-15T21:43:20.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
