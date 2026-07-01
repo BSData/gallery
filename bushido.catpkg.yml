@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 08 Jun 2026 10:15:09 GMT
+      LastModified: Wed, 01 Jul 2026 08:34:10 GMT
     properties:
-      tag_name: v2606
-      name: Foxy Edition
-      published_at: 2026-06-08T10:15:09.0000000+00:00
+      tag_name: v2607
+      name: Phycodurus Eques Edition
+      published_at: 2026-07-01T08:34:10.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
