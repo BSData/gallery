@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 01 Jul 2026 22:24:48 GMT
+      LastModified: Sat, 04 Jul 2026 10:47:36 GMT
     properties:
-      tag_name: v1.16.4
-      name: Add Argonaut, misc updates
-      published_at: 2026-07-01T22:24:48.0000000+00:00
+      tag_name: v1.16.5
+      name: Fix Argonaut group size limit
+      published_at: 2026-07-04T10:47:36.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
