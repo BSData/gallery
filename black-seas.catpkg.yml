@@ -2,16 +2,10 @@ location:
   github: BSData/black-seas
 cache:
   repo:
-    properties:
-      archived: false
-  latestRelease:
-    apiHeaders:
-      LastModified: Mon, 22 Jun 2026 16:57:36 GMT
-    properties:
-      tag_name: v1.2.13
-      name: Fixing typo
-      published_at: 2026-06-22T16:57:36.0000000+00:00
-  catpkg:
     apiResponseError:
-      code: 404
+      code: 503
+  latestRelease:
+    apiResponseError:
+      code: 503
+  catpkg: {}
 

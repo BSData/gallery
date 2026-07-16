@@ -2,16 +2,10 @@ location:
   github: BSData/mordheim
 cache:
   repo:
-    properties:
-      archived: false
-  latestRelease:
-    apiHeaders:
-      LastModified: Sat, 20 Jun 2026 22:31:59 GMT
-    properties:
-      tag_name: v0.6.2
-      name: Test
-      published_at: 2026-06-20T22:31:59.0000000+00:00
-  catpkg:
     apiResponseError:
-      code: 404
+      code: 503
+  latestRelease:
+    apiResponseError:
+      code: 503
+  catpkg: {}
 

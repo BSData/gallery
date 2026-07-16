@@ -2,16 +2,10 @@ location:
   github: BSData/bushido
 cache:
   repo:
-    properties:
-      archived: false
-  latestRelease:
-    apiHeaders:
-      LastModified: Wed, 15 Jul 2026 14:15:35 GMT
-    properties:
-      tag_name: v2607.1
-      name: Phycodurus Eques Edition
-      published_at: 2026-07-15T14:15:35.0000000+00:00
-  catpkg:
     apiResponseError:
-      code: 404
+      code: 503
+  latestRelease:
+    apiResponseError:
+      code: 503
+  catpkg: {}
 
