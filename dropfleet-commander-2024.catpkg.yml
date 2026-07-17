@@ -2,10 +2,16 @@ location:
   github: BSData/dropfleet-commander-2024
 cache:
   repo:
-    apiResponseError:
-      code: 503
+    properties:
+      archived: false
   latestRelease:
+    apiHeaders:
+      LastModified: Sat, 04 Jul 2026 10:47:36 GMT
+    properties:
+      tag_name: v1.16.5
+      name: Fix Argonaut group size limit
+      published_at: 2026-07-04T10:47:36.0000000+00:00
+  catpkg:
     apiResponseError:
-      code: 503
-  catpkg: {}
+      code: 404
 

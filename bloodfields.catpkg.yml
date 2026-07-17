@@ -2,10 +2,10 @@ location:
   github: BSData/bloodfields
 cache:
   repo:
-    apiResponseError:
-      code: 503
+    properties:
+      archived: false
   latestRelease:
     apiResponseError:
-      code: 503
+      code: 404
   catpkg: {}
 

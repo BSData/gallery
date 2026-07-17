@@ -2,8 +2,8 @@ location:
   github: BSData/wh40k-2nd-edition
 cache:
   repo:
-    apiResponseError:
-      code: 503
+    properties:
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Tue, 30 Jun 2026 16:44:40 GMT

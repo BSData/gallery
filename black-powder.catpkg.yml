@@ -2,10 +2,12 @@ location:
   github: BSData/black-powder
 cache:
   repo:
-    apiResponseError:
-      code: 503
+    apiHeaders:
+      LastModified: Tue, 12 May 2026 22:12:47 GMT
+    properties:
+      archived: true
   latestRelease:
     apiResponseError:
-      code: 503
+      code: 404
   catpkg: {}
 
