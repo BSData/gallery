@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 15 Jul 2026 14:15:35 GMT
+      LastModified: Mon, 20 Jul 2026 20:58:39 GMT
     properties:
-      tag_name: v2607.1
+      tag_name: v2607.2
       name: Phycodurus Eques Edition
-      published_at: 2026-07-15T14:15:35.0000000+00:00
+      published_at: 2026-07-20T20:58:39.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
