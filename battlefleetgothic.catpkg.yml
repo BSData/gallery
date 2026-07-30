@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 21 Apr 2026 19:04:56 GMT
+      LastModified: Thu, 30 Jul 2026 01:28:53 GMT
     properties:
-      tag_name: v2.5.28
-      name: 'Fixes #305'
-      published_at: 2026-04-21T19:04:21.0000000+00:00
+      tag_name: v2.5.29
+      name: Adjusted some points, fixed Bakka Turret issue and related tweaks
+      published_at: 2026-07-30T01:28:10.0000000+00:00
   catpkg:
     properties:
       name: battlefleetgothic
       description: Battlefleet Gothic
       battleScribeVersion: "2.03"
-      version: v2.5.28
-      lastUpdated: 2026-04-21T19:03:35.0000000+00:00
-      lastUpdateDescription: 'Fixes #305'
+      version: v2.5.29
+      lastUpdated: 2026-07-30T01:25:35.0000000+00:00
+      lastUpdateDescription: Adjusted some points, fixed Bakka Turret issue and related tweaks
       indexUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.latest.bsi
       repositoryUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/battlefleetgothic/releases/latest/download/battlefleetgothic.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.28/battlefleetgothic.v2.5.28.bsr
+      repositoryBsrUrl: https://github.com/BSData/battlefleetgothic/releases/download/v2.5.29/battlefleetgothic.v2.5.29.bsr
       githubUrl: https://github.com/BSData/battlefleetgothic
       feedUrl: https://github.com/BSData/battlefleetgothic/releases.atom
       bugTrackerUrl: https://github.com/BSData/battlefleetgothic/issues
