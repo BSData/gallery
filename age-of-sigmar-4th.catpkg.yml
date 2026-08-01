@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 31 Jul 2026 12:19:04 GMT
+      LastModified: Thu, 21 May 2026 22:17:12 GMT
     properties:
-      tag_name: battletome.hos
-      name: 'Battletome: Hedonites of Slaanesh'
-      published_at: 2026-07-31T12:19:04.0000000+00:00
+      tag_name: battletome.obr
+      name: 'Battletome: Ossiarch Bonereapers'
+      published_at: 2026-04-15T21:43:20.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
