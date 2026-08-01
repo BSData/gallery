@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 21 May 2026 22:17:12 GMT
+      LastModified: Sat, 01 Aug 2026 13:40:23 GMT
     properties:
-      tag_name: battletome.obr
-      name: 'Battletome: Ossiarch Bonereapers'
-      published_at: 2026-04-15T21:43:20.0000000+00:00
+      tag_name: battlescroll-2026-06
+      name: Battlescroll 2026 June
+      published_at: 2026-08-01T13:40:23.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
