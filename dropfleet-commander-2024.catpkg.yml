@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 04 Jul 2026 10:47:36 GMT
+      LastModified: Sat, 01 Aug 2026 22:55:54 GMT
     properties:
-      tag_name: v1.16.5
-      name: Fix Argonaut group size limit
-      published_at: 2026-07-04T10:47:36.0000000+00:00
+      tag_name: v1.17.0
+      name: Resistance + Shaltari 260731, Civilian 260801
+      published_at: 2026-08-01T22:55:54.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
