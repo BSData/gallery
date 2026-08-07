@@ -6,23 +6,23 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Tue, 07 Apr 2026 22:42:34 GMT
+      LastModified: Thu, 06 Aug 2026 23:45:16 GMT
     properties:
-      tag_name: v1.13.2
-      name: Fixed the legio selection list not being collapsible
-      published_at: 2026-04-07T22:42:08.0000000+00:00
+      tag_name: v1.13.3
+      name: New weapons and fixes!
+      published_at: 2026-08-06T23:44:31.0000000+00:00
   catpkg:
     properties:
       name: at-2018
       description: Adeptus Titanicus 2018
       battleScribeVersion: 
-      version: v1.13.2
-      lastUpdated: 2026-04-07T22:41:07.0000000+00:00
-      lastUpdateDescription: Fixed the legio selection list not being collapsible
+      version: v1.13.3
+      lastUpdated: 2026-08-06T21:41:54.0000000+00:00
+      lastUpdateDescription: New weapons and fixes!
       indexUrl: https://github.com/BSData/at-2018/releases/latest/download/at-2018.latest.bsi
       repositoryUrl: https://github.com/BSData/at-2018/releases/latest/download/at-2018.catpkg.json
       repositoryGzipUrl: https://github.com/BSData/at-2018/releases/latest/download/at-2018.catpkg.json.gz
-      repositoryBsrUrl: https://github.com/BSData/at-2018/releases/download/v1.13.2/at-2018.v1.13.2.bsr
+      repositoryBsrUrl: https://github.com/BSData/at-2018/releases/download/v1.13.3/at-2018.v1.13.3.bsr
       githubUrl: https://github.com/BSData/at-2018
       feedUrl: https://github.com/BSData/at-2018/releases.atom
       bugTrackerUrl: https://github.com/BSData/at-2018/issues
