@@ -12,6 +12,19 @@ cache:
       name: In the Midst of the End of Empires
       published_at: 2023-07-11T02:22:00.0000000+00:00
   catpkg:
-    apiRequestError:
-      exception: An error occurred while sending the request.
+    properties:
+      name: blood-and-valor
+      description: Blood & Valor
+      battleScribeVersion: "2.03"
+      version: v1.3
+      lastUpdated: 2023-07-11T02:19:56.0000000+00:00
+      lastUpdateDescription: In the Midst of the End of Empires
+      indexUrl: https://github.com/BSData/blood-and-valor/releases/latest/download/blood-and-valor.latest.bsi
+      repositoryUrl: https://github.com/BSData/blood-and-valor/releases/latest/download/blood-and-valor.catpkg.json
+      repositoryGzipUrl: https://github.com/BSData/blood-and-valor/releases/latest/download/blood-and-valor.catpkg.json.gz
+      repositoryBsrUrl: https://github.com/BSData/blood-and-valor/releases/download/v1.3/blood-and-valor.v1.3.bsr
+      githubUrl: https://github.com/BSData/blood-and-valor
+      feedUrl: https://github.com/BSData/blood-and-valor/releases.atom
+      bugTrackerUrl: https://github.com/BSData/blood-and-valor/issues
+      reportBugUrl: http://battlescribedata.appspot.com/#/repo/blood-and-valor
 
