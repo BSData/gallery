@@ -12,6 +12,6 @@ cache:
       name: Chronopia - Pre-rulebook release
       published_at: 2023-01-04T21:33:55.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    apiRequestError:
+      exception: An error occurred while sending the request.
 

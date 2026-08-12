@@ -12,6 +12,6 @@ cache:
       name: Fixing typo
       published_at: 2026-06-22T16:57:36.0000000+00:00
   catpkg:
-    apiResponseError:
-      code: 404
+    apiRequestError:
+      exception: An error occurred while sending the request.
 
