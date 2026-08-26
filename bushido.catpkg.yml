@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sun, 16 Aug 2026 19:39:15 GMT
+      LastModified: Wed, 26 Aug 2026 16:35:55 GMT
     properties:
-      tag_name: v2608.1
+      tag_name: v2608.2
       name: André 3000 Edition
-      published_at: 2026-08-16T19:39:15.0000000+00:00
+      published_at: 2026-08-26T16:35:55.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
