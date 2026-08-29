@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Wed, 19 Aug 2026 22:55:56 GMT
+      LastModified: Fri, 28 Aug 2026 18:38:23 GMT
     properties:
-      tag_name: v1.9.99
-      name: Updates and bugs!
-      published_at: 2026-08-19T22:55:56.0000000+00:00
+      tag_name: v2.0
+      name: Ultramarines Update & More
+      published_at: 2026-08-28T18:38:23.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
