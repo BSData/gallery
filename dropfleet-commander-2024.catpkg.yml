@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 28 Aug 2026 23:23:27 GMT
+      LastModified: Sat, 29 Aug 2026 18:06:58 GMT
     properties:
-      tag_name: v1.17.4
-      name: Regenerate-3 alias, Civ/PHR/UCM dates
-      published_at: 2026-08-28T23:23:27.0000000+00:00
+      tag_name: v1.17.5
+      name: Add Bioficer Hypershredder and Hypersummoner stations
+      published_at: 2026-08-29T18:06:58.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
