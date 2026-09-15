@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 11 Sep 2026 23:06:12 GMT
+      LastModified: Tue, 15 Sep 2026 01:22:04 GMT
     properties:
-      tag_name: v2.1
-      name: Legion of the Damned list
-      published_at: 2026-09-11T23:06:12.0000000+00:00
+      tag_name: v2.2
+      name: Legion of The Damned - Full list done
+      published_at: 2026-09-15T01:22:04.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
