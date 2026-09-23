@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Sat, 01 Aug 2026 13:40:23 GMT
+      LastModified: Wed, 23 Sep 2026 13:01:31 GMT
     properties:
-      tag_name: battlescroll-2026-06
-      name: Battlescroll 2026 June
-      published_at: 2026-08-01T13:40:23.0000000+00:00
+      tag_name: battletome.om
+      name: 'Battletome: Ogor Mawtribes'
+      published_at: 2026-09-23T13:01:31.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
