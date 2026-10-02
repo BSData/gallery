@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Thu, 01 Oct 2026 10:53:29 GMT
+      LastModified: Fri, 02 Oct 2026 13:34:28 GMT
     properties:
-      tag_name: v1.18.1
-      name: 'Civilian 261001 update: PSC Interdictor'
-      published_at: 2026-10-01T10:53:29.0000000+00:00
+      tag_name: v1.18.2
+      name: Prevent Argonaut increasing Admiral cap
+      published_at: 2026-10-02T13:34:28.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
