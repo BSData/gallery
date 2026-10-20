@@ -3,7 +3,7 @@ location:
 cache:
   repo:
     apiHeaders:
-      LastModified: Tue, 18 Aug 2026 15:23:31 GMT
+      LastModified: Tue, 20 Oct 2026 21:40:04 GMT
     properties:
       archived: true
   latestRelease:
