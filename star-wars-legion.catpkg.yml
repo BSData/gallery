@@ -2,10 +2,8 @@ location:
   github: BSData/star-wars-legion
 cache:
   repo:
-    apiHeaders:
-      LastModified: Tue, 12 May 2026 22:14:22 GMT
     properties:
-      archived: true
+      archived: false
   latestRelease:
     apiHeaders:
       LastModified: Tue, 07 Dec 2021 04:41:12 GMT
