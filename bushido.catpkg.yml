@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Mon, 26 Oct 2026 12:32:35 GMT
+      LastModified: Wed, 28 Oct 2026 10:57:34 GMT
     properties:
-      tag_name: v2610
+      tag_name: v2610.1
       name: Kujaku Edition
-      published_at: 2026-10-26T12:32:35.0000000+00:00
+      published_at: 2026-10-28T10:57:34.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
