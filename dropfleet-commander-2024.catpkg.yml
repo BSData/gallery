@@ -6,11 +6,11 @@ cache:
       archived: false
   latestRelease:
     apiHeaders:
-      LastModified: Fri, 02 Oct 2026 23:12:08 GMT
+      LastModified: Fri, 30 Oct 2026 15:57:07 GMT
     properties:
-      tag_name: v1.18.3
-      name: Fix group limits for Reconquest games of 4001+ points
-      published_at: 2026-10-02T23:12:08.0000000+00:00
+      tag_name: v1.18.4
+      name: Resistance and Scourge 261030 update
+      published_at: 2026-10-30T15:57:07.0000000+00:00
   catpkg:
     apiResponseError:
       code: 404
